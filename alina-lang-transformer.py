@@ -2,6 +2,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime
 import os
+import pytz
 
 url = "https://translations.telegram.org/eliteng/android/export"
 formatters = ["formatterMonthYear", "formatterStats12H", "formatterStats24H", "formatterBannedUntil12H",
@@ -30,7 +31,8 @@ for file in os.listdir():
     if nameTemplate in file:
         os.remove(file)
 
-now = datetime.now().strftime("%d-%m-%Y_%H-%M-%S")
+moscow_tz = pytz.timezone('Europe/Moscow')
+now = datetime.now(moscow_tz).strftime("%d-%m-%Y_%H-%M-%S")
 filename = f"{nameTemplate}_{now}.xml"
 tree = ET.ElementTree(root)
 tree.write(filename)
