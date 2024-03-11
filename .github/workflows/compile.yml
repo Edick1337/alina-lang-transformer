@@ -2,8 +2,8 @@ name: Compile
 
 on:
  workflow_dispatch:
-    schedule:
-      - cron: '01 21 * * *'
+ schedule:
+ - cron: '01 21 * * *'
 
 jobs:
  compile_script:
