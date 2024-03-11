@@ -1,9 +1,9 @@
 name: Weekly Compile
 
 on:
- workflow_dispatch:
  schedule:
     - cron: '* * * * *' # This runs the workflow every minute.
+ workflow_dispatch:
 
 jobs:
  compile_script:
