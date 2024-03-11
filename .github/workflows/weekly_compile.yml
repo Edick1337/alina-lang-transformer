@@ -21,10 +21,10 @@ jobs:
     - name: Run script
       run: python alina-lang-transformer.py
 
-    - name: Commit and push new XML file
-      run: |
-        git config --local user.name "GitHub Actions"
-        git config --local user.email "actions@github.com"
-        git add .
-        git commit -m "Update XML file"
-        git push
+  #  - name: Commit and push new XML file
+  #    run: |
+  #      git config --local user.name "GitHub Actions"
+  #      git config --local user.email "actions@github.com"
+  #      git add .
+  #      git commit -m "Update XML file"
+  #      git push
