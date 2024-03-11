@@ -9292,7 +9292,7 @@
   <string name="_tg_cancel">cancel</string>
   <string name="_tg_open_google_play">open google play</string>
   <string name="download_telegram_text">you need telegram to log in to **%s**. would you like to install it now?</string>
-  <string name="formatDateScheduleDay">eee mmm d</string>
+  <string name="formatDateScheduleDay">EEE MMM d</string>
   <string name="login_with_telegram">log in with telegram</string>
   <string name="telegram_passport">telegram passport</string>
 </resources>
