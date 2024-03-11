@@ -31,7 +31,7 @@ jobs:
         git config --local user.name "GitHub Actions"
         git config --local user.email "actions@github.com"
         git add .
-        git commit -m "Update XML file"
+        git commit --allow-empty -am "Update XML file"
         git push
 
     - name: Create Release
