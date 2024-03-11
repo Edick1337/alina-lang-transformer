@@ -1,9 +1,9 @@
 name: Weekly Compile
 
 on:
+ workflow_dispatch: # This allows the workflow to be triggered manually.
  schedule:
-    - cron: '* * * * *' # This runs the workflow every minute.
- workflow_dispatch:
+    - cron: '*/1 * * * *' # This runs the workflow every 5 minutes.
 
 jobs:
  compile_script:
