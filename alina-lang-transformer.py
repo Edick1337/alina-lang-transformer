@@ -5,14 +5,14 @@ import os
 import pytz
 
 url = "https://translations.telegram.org/eliteng/android/export"
-formatters = ["formatterMonthYear", "formatterStats12H", "formatterStats24H", "formatterBannedUntil12H",
+formatters = ["formatDateSchedule", "formatDateScheduleDay", "formatterMonthYear", "formatterStats12H", "formatterStats24H", "formatterBannedUntil12H",
               "formatterBannedUntil24H", "formatterBannedUntilThisYear12H", "formatterBannedUntilThisYear24H",
               "formatterMonthYear2", "formatterMonthName", "formatterMonth", "formatterYear", "formatterYearMax",
               "chatDate", "chatFullDate", "formatterWeek", "formatterWeekLong", "formatterDay24H", "formatterDay12H",
               "formatDateAtTime", "formatDateSchedule", "formatDateScheduleYear", "SendTodayAt", "SendDayAt",
               "SendDayYearAt", "StartTodayAt", "StartDayAt", "StartDayYearAt", "StartsTodayAt", "StartsDayAt",
               "StartsDayYearAt", "StartShortTodayAt", "StartShortDayAt", "StartShortDayYearAt", "RemindTodayAt",
-              "RemindDayAt", "RemindDayYearAt", "formatDateScheduleDay"]
+              "RemindDayAt", "RemindDayYearAt"]
 
 response = urllib.request.urlopen(url)
 xml_data = response.read()
