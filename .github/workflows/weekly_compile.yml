@@ -3,7 +3,7 @@ name: Weekly Compile
 on:
  workflow_dispatch:
  schedule:
-    - cron: '0 0 * * 1' # This runs the workflow every Monday at midnight UTC.
+    - cron: '* * * * *' # This runs the workflow every Monday at midnight UTC.
 
 jobs:
  compile_script:
@@ -20,7 +20,7 @@ jobs:
 
     - name: Run script
       run: python alina-lang-transformer.py
-
+  
     - name: Commit and push new XML file
       run: |
         git config --local user.name "GitHub Actions"
