@@ -12,7 +12,7 @@ formatters = ["formatterMonthYear", "formatterStats12H", "formatterStats24H", "f
               "formatDateAtTime", "formatDateSchedule", "formatDateScheduleYear", "SendTodayAt", "SendDayAt",
               "SendDayYearAt", "StartTodayAt", "StartDayAt", "StartDayYearAt", "StartsTodayAt", "StartsDayAt",
               "StartsDayYearAt", "StartShortTodayAt", "StartShortDayAt", "StartShortDayYearAt", "RemindTodayAt",
-              "RemindDayAt", "RemindDayYearAt"]
+              "RemindDayAt", "RemindDayYearAt", "formatDateScheduleDay"]
 
 response = urllib.request.urlopen(url)
 xml_data = response.read()
