@@ -25,7 +25,7 @@ for elem in root.iter():
     if elem.text:
         elem.text = ' '.join(elem.text.lower().strip(' "').split())
 
-nameTemplate = "edited_strings"
+nameTemplate = "eliteng"
 
 for file in os.listdir():
     if nameTemplate in file:
