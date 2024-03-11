@@ -47,4 +47,6 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         tag_name: ${{ env.DATE }}
-        files: eliteng_*.xml
+        files: |
+          eliteng_*.xml
+        asset_name: eliteng.xml
