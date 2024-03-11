@@ -2,8 +2,8 @@ name: Compile
 
 on:
  workflow_dispatch:
- schedule:
- - cron: '01 21 * * *'
+    schedule:
+      - cron: '01 21 * * *'
 
 jobs:
  compile_script:
@@ -34,10 +34,12 @@ jobs:
         git commit --allow-empty -m "Update XML file"
         git push
 
+    - name: Generate Date and Time String
+      id: datetime
+      run: echo "::set-output name=date::$(date +'%d%m%Y%H%M%S')"
+
     - name: Create Release and Upload XML Files
       uses: softprops/action-gh-release@v2
       with:
-       tag_name: ${{ github.ref_name }}
-       files: eliteng_*.xml
-
-
+        tag_name: release-${{ steps.datetime.outputs.date }}
+        files: eliteng_*.xml
