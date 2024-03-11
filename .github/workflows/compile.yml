@@ -31,17 +31,12 @@ jobs:
         git config --local user.name "GitHub Actions"
         git config --local user.email "actions@github.com"
         git add .
-        git commit --allow-empty -am "Update XML file"
+        git commit -m "Update XML file"
         git push
 
-    - name: Create Release
-      uses: elgohr/Github-Release-Action@v5
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Create Release and Upload XML Files
+      uses: softprops/action-gh-release@v2
+      if: startsWith(github.ref, 'refs/tags/')
       with:
-        title: Release ${{ github.ref }}
-        body: |
-          Changes in this Release
-          - XML file updated
-        draft: false
-        prerelease: false
+        files: |
+          eliteng-*.xml
