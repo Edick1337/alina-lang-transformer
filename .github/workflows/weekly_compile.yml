@@ -1,9 +1,9 @@
 name: Weekly Compile
 
 on:
+ workflow_dispatch:
  schedule:
     - cron: '0 0 * * 1' # This runs the workflow every Monday at midnight UTC.
- workflow_dispatch:
 
 jobs:
  compile_script:
@@ -18,12 +18,8 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-
     - name: Run script
-      run: alina-lang-transformer.py
+      run: python alina-lang-transformer.py
 
     - name: Commit and push new XML file
       run: |
