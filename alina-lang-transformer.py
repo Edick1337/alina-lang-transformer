@@ -32,7 +32,7 @@ for file in os.listdir():
         os.remove(file)
 
 moscow_tz = pytz.timezone('Europe/Moscow')
-now = datetime.now(moscow_tz).strftime("%d-%m-%Y_%H-%M-%S")
+now = datetime.now(moscow_tz).strftime("%d-%m-%Y")
 filename = f"{nameTemplate}_{now}.xml"
 tree = ET.ElementTree(root)
 tree.write(filename)
