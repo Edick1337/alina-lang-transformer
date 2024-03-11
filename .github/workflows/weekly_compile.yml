@@ -22,7 +22,7 @@ jobs:
         python -m pip install --upgrade pip
 
     - name: Run script
-      run: python your_script.py
+      run: alina-lang-transformer.py
 
     - name: Commit and push new XML file
       run: |
