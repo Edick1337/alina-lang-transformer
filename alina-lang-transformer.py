@@ -22,7 +22,7 @@ formatters = [
     "StartShortDayYearAt",
     "RemindTodayAt",
     "RemindDayAt",
-    "RemindDayYearAt",
+    "RemindDayYearAt"
 ]
 
 response = urllib.request.urlopen(url)
