@@ -5,7 +5,7 @@ import os
 import pytz
 
 url = "https://translations.telegram.org/eliteng/android/export"
-formatters = [
+exclusions = [
     "chatDate",
     "chatFullDate",
     "SendTodayAt",
@@ -34,19 +34,19 @@ for elem in root.iter():
     name_attr = elem.attrib.get("name")
     if name_attr is None:
         continue
-    if name_attr in formatters or name_attr.startswith("format"):
+    if name_attr in exclusions or name_attr.startswith("format"):
         continue
     if elem.text:
         elem.text = " ".join(elem.text.lower().strip(' "').split())
 
-nameTemplate = "eliteng"
+name_template = "eliteng"
 
 for file in os.listdir():
-    if nameTemplate in file:
+    if name_template in file:
         os.remove(file)
 
 moscow_tz = pytz.timezone("Europe/Moscow")
 now = datetime.now(moscow_tz).strftime("%d-%m-%Y")
-filename = f"{nameTemplate}_{now}.xml"
+filename = f"{name_template}_{now}.xml"
 tree = ET.ElementTree(root)
 tree.write(filename)
