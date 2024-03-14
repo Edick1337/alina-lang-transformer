@@ -1,4 +1,5 @@
-<resources><string name="AppName">club cyberia</string>
+<resources>
+    <string name="AppName">club cyberia</string>
     <string name="AppNameBeta">destroy the wired</string>
     <string name="LanguageName">english</string>
     <string name="English">english</string>
@@ -5521,10 +5522,10 @@
     <string name="AccDescrSpeedSlider">choose speed</string>
     <string name="AccDescrCaptureStory">capture story</string>
     
-    <string name="formatterBoostExpired">mmm dd, yyyy</string>
-    <string name="formatterGiveawayCard">dd mmm yyyy</string>
-    <string name="formatterGiveawayMonthDay">mmmm dd</string>
-    <string name="formatterGiveawayMonthDayYear">mmmm dd, yyyy</string>
+    <string name="formatterBoostExpired">MMM dd, yyyy</string>
+    <string name="formatterGiveawayCard">dd MMM yyyy</string>
+    <string name="formatterGiveawayMonthDay">MMMM dd</string>
+    <string name="formatterGiveawayMonthDayYear">MMMM dd, yyyy</string>
     <string name="formatterMonthYear">MMMM yyyy</string>
     <string name="formatterStats12H">MMM dd yyyy, h:mm a</string>
     <string name="formatterStats24H">MMM dd yyyy, HH:mm</string>
