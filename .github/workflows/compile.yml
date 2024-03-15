@@ -45,9 +45,10 @@ jobs:
 
     - name: Rename XML file
       run: |
+        FILE_NAME=$(ls eliteng_*.xml | head -n 1)
         mv "$FILE_NAME" eliteng.xml
 
-    - name: Create Release and Upload XML Files
+    - name: Create Release and Upload XML File
       uses: softprops/action-gh-release@v2
       with:
         tag_name: ${{ env.DATE }}
