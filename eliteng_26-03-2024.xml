@@ -754,7 +754,7 @@
     <string name="SelectFromGallery">select from gallery</string>
     <string name="ChooseFromSearch">search web</string>
     <string name="Statistics">statistics</string>
-    <string name="StatisticsAndBoosts">statistics and boosts</string>
+    <string name="StatisticsAndBoosts">statistics</string>
     <string name="AddBot">add bot</string>
     <string name="AddBotAdmin">add bot as admin</string>
     <string name="AddBotAdminAlert">add bot as admin?</string>
