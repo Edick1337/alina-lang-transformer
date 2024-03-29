@@ -414,7 +414,7 @@
     <string name="ImportHeader">import messages and media to...</string>
     <string name="ImportHeaderContacts">or choose one of your contacts</string>
     <string name="DiscardSelectionAlertTitle">discard selection</string>
-    <string name="DiscardSelectionAlertMessage">do you want to close the attach menu?</string>
+    <string name="DiscardSelectionAlertMessage">do you want to close the attachment menu?</string>
     
     <string name="EditWidget">edit widget</string>
     <string name="EditWidgetContactsInfo">display shortcuts to your most important chats for quick access.\n\nif nobody is selected, your most frequent contacts will be shown in this widget.</string>
@@ -6156,7 +6156,7 @@
     <string name="RemoveAds">remove ads</string>
     <string name="AboutRevenueSharingAds">about these ads</string>
     <string name="ReportAd">report ad</string>
-    <string name="ReportAdLearnMore">learn more about our [ad policies and guidelines.](https://ads.telegram.org/guidelines)</string>
+    <string name="ReportAdLearnMore">learn more about our [ad policies and guidelines](https://ads.telegram.org/guidelines).</string>
     <string name="AdReported">we will review this ad to ensure it matches our **ad policies and guidelines.**</string>
     <string name="AdHidden">you will no longer see ads from telegram.</string>
     <string name="BioLimitTitle">bio</string>
@@ -8496,8 +8496,8 @@
     <string name="BusinessHoursCopied">business hours copied</string>
     <string name="BusinessLocationCopied">business address copied</string>
     <string name="BusinessInReplies">in %1$s</string>
-    <string name="BusinessIntro">intro</string>
-    <string name="BusinessIntroHeader">customize your intro</string>
+    <string name="BusinessIntro">start page</string>
+    <string name="BusinessIntroHeader">customize your start page</string>
     <string name="BusinessIntroTitleHint">enter title</string>
     <string name="BusinessIntroMessageHint">enter message</string>
     <string name="BusinessIntroSticker">choose sticker</string>
@@ -8615,8 +8615,8 @@
     <string name="EditProfileBirthdayRemove">remove date of birth</string>
     <string name="EditProfileBirthdayAdd">add</string>
     <string name="EditProfileBirthdayInfoContacts">only your contacts can see your birthday. **change &gt;**</string>
-    <string name="EditProfileBirthdayInfo">choose who can see your birthday in **settings.**</string>
-    <string name="EditProfileBirthdayInfoRemove">**remove date of birth.**</string>
+    <string name="EditProfileBirthdayInfo">choose who can see your birthday in **settings**.</string>
+    <string name="EditProfileBirthdayInfoRemove">**remove date of birth**.</string>
     <string name="EditProfileBirthdayTitle">date of birth</string>
     <string name="EditProfileBirthdayButton">save</string>
     <string name="ProfileBirthdayValue">%1$s</string>
@@ -8626,8 +8626,8 @@
     <string name="ProfileBirthday">date of birth</string>
     <string name="ProfileBirthdayToday">birthday today</string>
     <string name="PrivacyBirthday">date of birth</string>
-    <string name="PrivacyBirthdayTitle">who can see my birthday?</string>
-    <string name="PrivacyBirthdayInfo">you can restrict who can see you birthday with granular precision.</string>
+    <string name="PrivacyBirthdayTitle">who can see my date of birth?</string>
+    <string name="PrivacyBirthdayInfo">you can restrict who can see your date of birth with granular precision.</string>
     <string name="PrivacyBirthdayInfo3">you can add users or entire groups as exception that will override the settings above.</string>
     <string name="PrivacyBirthdaySet">you haven&#8217;t entered your date of birth yet.\n**add my birthday &gt;**</string>
     <string name="PrivacyBirthdaySetDone">date of birth added.</string>
