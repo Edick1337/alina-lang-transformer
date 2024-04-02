@@ -1129,7 +1129,7 @@
     <string name="SponsoredMessageAlertTitle">sponsored messages</string>
     <string name="SponsoredMessageAlertText">unlike other apps, telegram never uses your private data to target ads. no user data is mined or analyzed to display ads, and every user viewing a channel on telegram sees the same sponsored message. we believe that everyone has the right to privacy, and technological platforms should respect that.</string>
     <string name="SponsoredMessageAlertLearnMore">learn more</string>
-    <string name="SponsoredMessageAlertLearnMoreUrl">https://promote.telegram.org</string>
+    <string name="SponsoredMessageAlertLearnMoreUrl">https://ads.telegram.org</string>
     <string name="RevenueSharingAdsAlertSubtitle">telegram ads are very different from ads on other platforms. ads such as this one:</string>
     <string name="RevenueSharingAdsInfo1Title">respect your privacy</string>
     <string name="RevenueSharingAdsInfo1Subtitle">ads on telegram do not use your personal information and are based on the channel in which you see them.</string>
@@ -6158,7 +6158,7 @@
     <string name="AboutRevenueSharingAds">about these ads</string>
     <string name="ReportAd">report ad</string>
     <string name="ReportAdLearnMore">learn more about our [ad policies and guidelines](https://ads.telegram.org/guidelines).</string>
-    <string name="AdReported">we will review this ad to ensure it matches our **ad policies and guidelines.**</string>
+    <string name="AdReported">we will review this ad to ensure it matches our **ad policies and guidelines**.</string>
     <string name="AdHidden">you will no longer see ads from telegram.</string>
     <string name="BioLimitTitle">bio</string>
     <string name="BioLimitSubtitle">add more characters and use links in your bio</string>
@@ -8433,7 +8433,7 @@
     <string name="BusinessRecipientsRemoveExcludeMessage">are you sure you want to remove \"%s\" from excluding list?</string>
     <string name="BusinessRecipientsRemoveIncludeTitle">remove recipient</string>
     <string name="BusinessRecipientsRemoveIncludeMessage">are you sure you want to remove \"%s\" from including list?</string>
-    <string name="BusinessGreetRecipientsInfo">select chats or entire chat categories for sending a greeting message.</string>
+    <string name="BusinessGreetRecipientsInfo">select chats or entire chat categories for sending greeting messages.</string>
     <string name="BusinessGreetPeriod">period of no activity</string>
     <string name="BusinessGreetPeriodInfo">choose how many days should pass after your last interaction with a recipient to send them a greeting in response to their message.</string>
     <string name="BusinessAway">away message</string>
@@ -8469,7 +8469,7 @@
     <string name="BusinessAwayEnter">add away message</string>
     <string name="BusinessRepliesIntroTitle">new quick reply</string>
     <string name="BusinessRepliesIntro1">enter a message below that will be sent in chat when you type \"/**%s**\".</string>
-    <string name="BusinessRepliesIntro2">you can access quick replies in any chat by typing \"/\" or using attachment menu.</string>
+    <string name="BusinessRepliesIntro2">you can access quick replies in any chat by typing \"/\" or using the attachment menu.</string>
     <string name="BusinessRepliesEnter">add quick reply</string>
     <string name="BusinessRepliesLimit_other">limit of **%d** messages reached.</string>
     <string name="BusinessRepliesToastLimit_other">limit of **%d** messages reached.</string>
@@ -8505,7 +8505,7 @@
     <string name="BusinessIntroStickerRandom">random</string>
     <string name="BusinessIntroInfo">you can customize the message people see before they start a chat with you.</string>
     <string name="BusinessIntroReset">reset to default</string>
-    <string name="BusinessIntroUnsavedChanges">you have changed your intro message. apply changes?</string>
+    <string name="BusinessIntroUnsavedChanges">you have changed your start page. apply changes?</string>
     <string name="BusinessLink">link to chat</string>
     <string name="BusinessLinks">links to chat</string>
     <string name="BusinessLinksInfo">give your customers short links that start a chat with you &#8212; and suggest the first message from them to you.</string>
@@ -8524,7 +8524,7 @@
     <string name="BusinessLinksDeleteMessage">are you sure you want to delete this chat link?</string>
     <string name="BusinessLinkDeleted">chat link deleted.</string>
     <string name="BusinessLinkDiscardChangesTitle">discard changes</string>
-    <string name="BusinessLinkDiscardChangesMessage">you have unsaved changes to preset message, do you want to discard it?</string>
+    <string name="BusinessLinkDiscardChangesMessage">you have unsaved changes to preset message, do you want to discard them?</string>
     <string name="NoClicks">no clicks</string>
     <string name="Clicks_zero">%d clicks</string>
     <string name="Clicks_one">%d click</string>
@@ -8539,7 +8539,7 @@
     <string name="TimezoneHeader">select your time zone</string>
     <string name="FilterExistingChats">existing chats</string>
     <string name="FilterNewChats">new chats</string>
-    <string name="MessageBizBot">only you can see that this message is sent by **bot**.</string>
+    <string name="MessageBizBot">only you can see that this message is sent by a **bot**.</string>
     <string name="FragmentUsernameTitle">**%s** is a collectible username that belongs to</string>
     <string name="FragmentUsernameMessage">this username was bought on **fragment** on %1$s for **%2$s** %3$s</string>
     <string name="FragmentUsernameOpen">learn more</string>
@@ -8590,12 +8590,12 @@
     <string name="BotAllowBiometryTitle">allow biometry</string>
     <string name="BotAllowBiometryMessage">do you want to allow **%s** to use biometry?</string>
     <string name="DownloadSpeedLimited">download speed limited</string>
-    <string name="DownloadSpeedLimitedMessage">subscribe to **telegram premium** and increase download speeds %d times.</string>
+    <string name="DownloadSpeedLimitedMessage">subscribe to **telegram premium** to increase download speeds %d times.</string>
     <string name="UploadSpeedLimited">upload speed limited</string>
-    <string name="UploadSpeedLimitedMessage">subscribe to **telegram premium** and increase upload speeds %d times.</string>
+    <string name="UploadSpeedLimitedMessage">subscribe to **telegram premium** to increase upload speeds %d times.</string>
     <string name="PrivacyBiometryBotsButton">bots with biometry access</string>
     <string name="PrivacyBiometryBots">bots with biometry</string>
-    <string name="PrivacyBiometryBotsInfo">web-apps can request permission for fingerprint check.</string>
+    <string name="PrivacyBiometryBotsInfo">web apps can request permission for fingerprint check.</string>
     <string name="GreetingHow">%s added the message above for all empty chats **how?**</string>
     <string name="GreetingHowSticker">%s set the sticker above for all empty chats **how?**</string>
     <string name="EditInfo">edit info</string>
@@ -8607,7 +8607,7 @@
     <string name="EditProfileChannel">your channel</string>
     <string name="EditProfileChannelTitle">personal channel</string>
     <string name="EditProfileChannelSelect">select your channel</string>
-    <string name="EditProfileChannelHide">hide personal channel</string>
+    <string name="EditProfileChannelHide">hide channel</string>
     <string name="EditProfileChannelAdd">add</string>
     <string name="EditProfileChannelStartNew">start a channel</string>
     <string name="EditProfileChannelSet">personal channel added.</string>
@@ -8652,7 +8652,7 @@
     <string name="PrivacyPremiumText">all telegram premium subscribers</string>
     <string name="PrivacyPremiumAnd">premium &amp; %s</string>
     <string name="BizBotStatusManages">bot manages this chat</string>
-    <string name="BizBotStatusStopped">bot stopped</string>
+    <string name="BizBotStatusStopped">bot paused</string>
     <string name="BizBotStart">start</string>
     <string name="BizBotStop">stop</string>
     <string name="BizBotManage">manage bot</string>
