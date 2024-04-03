@@ -2538,6 +2538,9 @@
     
     <string name="SegmentationUndoCutOut">undo cut</string>
     
+    
+    
+    
     <string name="PasteFromClipboard">paste from clipboard</string>
     <string name="ProxySettings">proxy settings</string>
     <string name="ProxyDetails">proxy details</string>
@@ -8622,6 +8625,7 @@
     <string name="EditProfileBirthdayInfoRemove">**remove date of birth**.</string>
     <string name="EditProfileBirthdayTitle">date of birth</string>
     <string name="EditProfileBirthdayButton">save</string>
+    <string name="ProfileChannel">channel</string>
     <string name="ProfileBirthdayValue">%1$s</string>
     <string name="ProfileBirthdayValueYear_other">%2$s (%1$d years old)</string>
     <string name="ProfileBirthdayTodayValue">&#127874; %1$s</string>
