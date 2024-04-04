@@ -7533,7 +7533,7 @@
     <string name="BoostingGiveawayShortStatusEnded">this giveaway has ended.</string>
     <string name="BoostingCongratulations">congratulations!</string>
     <string name="BoostingReceivedGiftFrom">you\'ve received a gift\nfrom **%s**.</string>
-    <string name="BoostingReceivedGiftNoName">you\'ve received a gift.</string>
+    <string name="BoostingReceivedGiftNoName">you received a gift.</string>
     <string name="BoostingReceivedGiftDuration">your gift is a **telegram premium**\nsubscription for %s.</string>
     <string name="BoostingUnclaimedPrize">unclaimed prize</string>
     <string name="BoostingYouHaveUnclaimedPrize">you have an unclaimed prize from a giveaway by **%s**.</string>
@@ -8216,7 +8216,7 @@
     <string name="ChannelWallpaperInfo">upload your own background image for the channel.</string>
     <string name="GroupWallpaperInfo">upload your own background image for the group.</string>
     <string name="ChannelWallpaper2Info">set a wallpaper that will be visible for everyone reading your channel.</string>
-    <string name="GroupWallpaper2Info">set a wallpaper that will be visible for everyone reading your group.</string>
+    <string name="GroupWallpaper2Info">set a wallpaper that will be visible for everyone viewing your group.</string>
     <string name="ReadMore">read more</string>
     <string name="RepostedToProfile">message reposted to your profile.</string>
     <string name="RepostedToChannelProfile">message reposted to **%s**.</string>
@@ -8491,7 +8491,7 @@
     <string name="BusinessRepliesNewTitle">new quick reply</string>
     <string name="BusinessRepliesNewMessage">add a shortcut for your reply.</string>
     <string name="BusinessRepliesEditTitle">edit shortcut</string>
-    <string name="BusinessRepliesEditMessage">edit a name for a shortcut.</string>
+    <string name="BusinessRepliesEditMessage">change the name of your shortcut.</string>
     <string name="BusinessRepliesNamePlaceholder">shortcut</string>
     <string name="BusinessRepliesNameBusy">this shortcut already exists.</string>
     <string name="BusinessRepliesSearch">search replies</string>
