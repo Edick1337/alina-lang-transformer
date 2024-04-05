@@ -1113,9 +1113,9 @@
     <string name="OpenChannel">view channel</string>
     <string name="OpenMessage">view message</string>
     <string name="OpenBot">open bot</string>
-    <string name="SponsoredMessage">sponsored</string>
+    <string name="SponsoredMessage">ad</string>
     <string name="SponsoredMessageRecommended">recommended</string>
-    <string name="SponsoredMessage2">sponsored</string>
+    <string name="SponsoredMessage2">ad</string>
     <string name="SponsoredMessage2Recommended">recommended</string>
     <string name="SponsoredMessageAd">ad</string>
     <string name="SponsoredMessageAdWhatIsThis">what\'s this?</string>
