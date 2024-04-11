@@ -1937,14 +1937,14 @@
     <string name="RemoveManyMasksCount_few">remove %1$d masks</string>
     <string name="RemoveManyMasksCount_many">remove %1$d masks</string>
     <string name="RemoveManyMasksCount_other">remove %1$d masks</string>
-    
-    
-    
-    
-    
+    <string name="EditSticker">edit sticker</string>
+    <string name="EditStickers">edit stickers</string>
+    <string name="DeleteSticker">delete sticker</string>
+    <string name="NewStickerPack">new sticker pack</string>
+    <string name="EditStickerPack">edit sticker pack</string>
     <string name="AddMasks">add masks</string>
     <string name="AddToStickers">add to stickers</string>
-    
+    <string name="AddToStickerPack">add to sticker pack</string>
     <string name="AddToFavorites">add to favorites</string>
     <string name="AddedToFavorites">sticker added to favorites.</string>
     <string name="RemovedFromFavorites">sticker was removed from favorites</string>
@@ -1960,14 +1960,15 @@
     <string name="AddToMasks">add to masks</string>
     <string name="AddStickersNotFound">stickers not found</string>
     <string name="AddEmojiNotFound">emoji pack not found.</string>
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="StickersCreateNewSticker">create a new sticker</string>
+    <string name="StickersReplaceSticker">replace sticker</string>
+    <string name="StickersAddAnExistingSticker">add an existing sticker</string>
+    <string name="StickersDeleteStickerSetTitle">delete sticker set</string>
+    <string name="StickersDeleteStickerSetDescription">this will delete the sticker set for all users.</string>
+    <string name="StickersSetEmojiForSticker">set emoji that corresponds to your sticker</string>
+    <string name="StickersChooseNameForStickerPack">choose a name for your pack.</string>
+    <string name="StickersStickerAddedToSetToast">sticker added to %1$s sticker set.</string>
+    <string name="StickersStickerEditedInSetToast">sticker edited in %1$s sticker set.</string>
     <string name="StickersRemoved">stickers removed</string>
     <string name="StickersRemovedInfo">%1$s is no longer in your stickers.</string>
     <string name="MasksRemoved">masks removed.</string>
@@ -1998,9 +1999,9 @@
     <string name="AddEmojiMultipleInstalledInfo_few">%1$d packs have been added to your emoji.</string>
     <string name="AddEmojiMultipleInstalledInfo_many">%1$d packs have been added to your emoji.</string>
     <string name="AddEmojiMultipleInstalledInfo_other">%1$d packs have been added to your emoji.</string>
-    
-    
-    
+    <string name="StickersDeleteForEveryone">delete for everyone</string>
+    <string name="StickersCheckStickersBotForMoreOptions">check **@stickers** bot for more options</string>
+    <string name="StickersRemoveForMe">remove for me</string>
     <string name="StickersHide">archive</string>
     <string name="StickersShare">share</string>
     <string name="StickersCopy">copy link</string>
@@ -2267,7 +2268,7 @@
     <string name="ChangeChatBackground">change chat wallpaper</string>
     <string name="ChangeUserNameColor">change name color</string>
     <string name="ChangeChannelNameColor2">appearance</string>
-    <string name="ChangeGroupAppearance">appearance &amp; emoji</string>
+    <string name="ChangeGroupAppearance">appearance</string>
     <string name="ChatBackground">chat wallpaper</string>
     <string name="ResetChatBackgrounds">reset chat wallpapers</string>
     <string name="ResetChatBackgroundsInfo">remove all uploaded wallpapers and restore the pre-installed ones.</string>
@@ -2445,7 +2446,7 @@
     <string name="SaveToGallerySettings">save to gallery</string>
     <string name="SoundMuted">sound muted</string>
     <string name="EditName">edit name</string>
-    <string name="EditProfileColor">edit profile color</string>
+    <string name="ProfileColorEdit">change profile color</string>
     <string name="NotificationsCustomize">customize</string>
     <string name="NotificationsCustom">custom</string>
     <string name="NotificationsEnableCustom">enable custom notifications</string>
@@ -2533,14 +2534,15 @@
     <string name="ChooseYourLanguageOther">other</string>
     <string name="Paste">paste</string>
     <string name="Flip">flip</string>
-    
+    <string name="SegmentationTabToCrop">tap on an object to crop it</string>
     <string name="SegmentationCutOut">cut out</string>
-    
+    <string name="SegmentationCutObject">cut an object</string>
     <string name="SegmentationUndoCutOut">undo cut</string>
-    
-    
-    
-    
+    <string name="SegmentationUndo">undo</string>
+    <string name="SegmentationOutline">add outline</string>
+    <string name="SegmentationErase">erase</string>
+    <string name="SegmentationRestore">restore</string>
+    <string name="EditPack">edit</string>
     <string name="PasteFromClipboard">paste from clipboard</string>
     <string name="ProxySettings">proxy settings</string>
     <string name="ProxyDetails">proxy details</string>
@@ -2596,6 +2598,7 @@
     <string name="NotificationsGroups">groups</string>
     <string name="NotificationsChannels">channels</string>
     <string name="NotificationsStories">stories</string>
+    <string name="NotificationsReactions">reactions</string>
     <string name="NotificationsExceptionsAlert">please note that **%1$s** are listed as exceptions and won\'t be affected by this change.</string>
     <string name="NotificationsExceptionsSingleAlert">please note that **%1$s** is listed as an exception and won\'t be affected by this change.</string>
     <string name="ViewExceptions">view exceptions</string>
@@ -5620,6 +5623,8 @@
     <string name="ReleaseToGoNextFolder">release to go to the next unread folder</string>
     <string name="SwipeToGoNextArchive">pull up to go to archived channels</string>
     <string name="ReleaseToGoNextArchive">release to go to archived channels</string>
+    <string name="SwipeToGoNextRecommendedChannel">pull up to go to next channel</string>
+    <string name="ReleaseToGoNextRecommendedChannel">release to go to next channel</string>
 
     <string name="SwipeToGoNextChannelEnd">you have no unread channels</string>
     <string name="FavoriteStickersShort">favorites</string>
@@ -5863,6 +5868,7 @@
     <string name="NobodyViewed">nobody viewed</string>
     <string name="QrCode">qr code</string>
 
+    <string name="PushReactHidden">new reaction to your message</string>
     <string name="PushReactText">%2$s to your \"%3$s\</string>
     <string name="PushReactNoText">%2$s to your message</string>
     <string name="PushReactPhoto">%2$s to your photo</string>
@@ -5895,6 +5901,8 @@
     <string name="PushChatReactGame">%3$s to your game</string>
     <string name="PushChatReactInvoice">%3$s to your invoice</string>
     <string name="PushChatReactGif">%3$s to your gif</string>
+    <string name="PushReactStory">%2$s to your story</string>
+    <string name="PushReactStoryHidden">new reaction to your story</string>
     <string name="BlurInChat">blur in chat</string>
 
     <string name="AllowBackgroundActivity">allow background activity</string>
@@ -5961,6 +5969,7 @@
     <string name="NotificationsSoundGroup">group sound</string>
     <string name="NotificationsSoundChannels">channel sound</string>
     <string name="NotificationsSoundStories">story sound</string>
+    <string name="NotificationsSoundReactions">reactions sound</string>
     <string name="TooLongError">too long</string>
     <string name="TooLargeError">too large</string>
     <string name="InvalidFormatError">invalid format</string>
@@ -7022,8 +7031,9 @@
     <string name="RightNow">just now</string>
     <string name="ExpiredStory">expired story</string>
     <string name="ProfileStories">posts</string>
+    <string name="ProfileArchivedStories">archived posts</string>
     <string name="ReactionSent">message sent.</string>
-    <string name="ProfileMyStories">my stories</string>
+    <string name="MyProfile">my profile</string>
     <string name="ProfileMyStoriesTab">posted</string>
     <string name="ProfileMyStoriesCount_zero">%d posted stories</string>
     <string name="ProfileMyStoriesCount_one">%d posted story</string>
@@ -7150,6 +7160,7 @@
     <string name="CloseFriends">close friends</string>
     <string name="VideoConvertFail">failed to process video file.</string>
     <string name="PreparingVideo">preparing video&#8230;</string>
+    <string name="PreparingSticker">preparing sticker&#8230;</string>
     <string name="NoStoriesTitle">no posted stories</string>
     <string name="NoPublicStoriesTitle2">no posts yet&#8230;</string>
     <string name="NoStoriesSubtitle2">publish photos and videos to display on your profile page</string>
@@ -7449,6 +7460,10 @@
     <string name="ReactionUpdateReactionsBtn">update reactions</string>
     <string name="ReactionLevelRequiredBtn_one">level %1$d required</string>
     <string name="ReactionLevelRequiredBtn_other">level %1$d required</string>
+    <string name="MaximumReactionsHeader">maximum number of reactions</string>
+    <string name="MaximumReactionsValue_one">%d reaction per post</string>
+    <string name="MaximumReactionsValue_other">%d reactions per post</string>
+    <string name="MaximumReactionsInfo">limit the number of different reactions that can be added to a post, including already published ones.</string>
     <string name="ReactionReachLvlForReactionShort_one">your channel needs to reach level **%2$d** to add **%1$d** custom emoji as reactions.</string>
     <string name="ReactionReachLvlForReactionShort_other">your channel needs to reach level **%2$d** to add **%1$d** custom emoji as reactions.</string>
     <string name="ReactionReachLvlForReaction_one">your channel needs to reach level **%2$d** to add **%1$d** custom emoji as reactions.\n\nask your **premium** subscribers to boost your channel with this link:</string>
@@ -8464,6 +8479,12 @@
     <string name="BusinessLocationUnsavedChanges">you have changed the business location. apply changes?</string>
     <string name="BusinessLocationClearTitle">remove location</string>
     <string name="BusinessLocationClearMessage">are you sure you want to remove business location?</string>
+    <string name="BusinessHoursClearTitle">remove hours</string>
+    <string name="BusinessHoursClearMessage">are you sure you want to remove business opening hours?</string>
+    <string name="BirthdayClearTitle">remove date of birth</string>
+    <string name="BirthdayClearMessage">are you sure you want to remove date of birth from your profile?</string>
+    <string name="ProfileChannelClearTitle">remove channel</string>
+    <string name="ProfileChannelClearMessage">are you sure you want to remove channel from your profile?</string>
     <string name="BusinessGreetingIntroTitle">new greeting message</string>
     <string name="BusinessGreetingIntro">create greetings that will be automatically sent to new customers.</string>
     <string name="BusinessGreetingEnter">add a greeting</string>
@@ -8625,6 +8646,8 @@
     <string name="EditProfileBirthdayInfoRemove">**remove date of birth**.</string>
     <string name="EditProfileBirthdayTitle">date of birth</string>
     <string name="EditProfileBirthdayButton">save</string>
+    <string name="EditProfileHours">change opening hours</string>
+    <string name="EditProfileLocation">change location</string>
     <string name="ProfileChannel">channel</string>
     <string name="ProfileBirthdayValue">%1$s</string>
     <string name="ProfileBirthdayValueYear_other">%2$s (%1$d years old)</string>
@@ -8677,6 +8700,66 @@
     <string name="InviteBlockedTitle">invite via link</string>
     <string name="InviteBlockedOneMessage">you can send an invite link to the group in a private message instead.</string>
     <string name="InviteBlockedManyMessage">you can send these people an invite link to the group in a private message instead.</string>
+    <string name="ProfilePhoneEdit">replace number</string>
+    <string name="ProfileCopyUsername">copy username</string>
+    <string name="ProfileUsernameEdit">change username</string>
+    <string name="ProfileUsernameSet">set username</string>
+    <string name="ProfileEditBio">edit bio</string>
+    <string name="ProfileHoursCopy">copy hours</string>
+    <string name="ProfileHoursEdit">edit hours</string>
+    <string name="ProfileHoursRemove">remove</string>
+    <string name="ProfileLocationCopy">copy address</string>
+    <string name="ProfileLocationView">view location</string>
+    <string name="ProfileLocationMaps">open in maps</string>
+    <string name="ProfileLocationEdit">change location</string>
+    <string name="ProfileLocationRemove">remove</string>
+    <string name="ProfileBirthdayChange">change</string>
+    <string name="ProfileCopyLink">copy link to profile</string>
+    <string name="ProfileChannelCopy">copy link</string>
+    <string name="ProfileChannelChange">change channel</string>
+    <string name="ShowAdsTitle">ads in channels</string>
+    <string name="ShowAds">do not hide ads</string>
+    <string name="ShowAdsInfo">as a premium subscriber, you don&#8217;t see any ads on telegram, but you can turn them on, for example, to view your own ads that you launched on the **telegram ad platform &gt;**</string>
+    <string name="ChannelsTab">channels</string>
+    <string name="StoriesDeleted_one">%d story deleted</string>
+    <string name="StoriesDeleted_other">%d stories deleted</string>
+    <string name="GraceTitle">&#9888;&#65039; your premium subscription is expiring!</string>
+    <string name="GraceMessage">don&#8217;t lose access to exclusive features.</string>
+    <string name="GraceSuggestionTitle">access to telegram premium is expiring!</string>
+    <string name="GraceSuggestionMessage">&#9888;&#65039; unfortunately, your latest payment didn&#8217;t come through. to keep your access to exclusive features, please renew the subscription.</string>
+    <string name="GraceSuggestionButton">restore subscription</string>
+    <string name="SearchMyChannels">channels you joined</string>
+    <string name="SearchRecommendedChannels">recommended channels</string>
+    <string name="SearchChannels">channels</string>
+    <string name="OpenStickerSet">view stickers</string>
+    <string name="OpenEmojiSet">view emoji</string>
+    <string name="StoriesPinned_one">story pinned</string>
+    <string name="StoriesPinned_other">%d stories pinned</string>
+    <string name="StoriesUnpinned_one">story unpinned.</string>
+    <string name="StoriesUnpinned_other">%d stories unpinned.</string>
+    <string name="StoriesPinnedText_one">now it will be always shown on the top.</string>
+    <string name="StoriesPinnedText_other">now they will be always shown on the top.</string>
+    <string name="StoriesPinLimit_other">you can&#8217;t pin more than %d posts.</string>
+    <string name="NotificationReactions">reactions</string>
+    <string name="NotificationReactionsMessages">messages</string>
+    <string name="NotificationReactionsStories">stories</string>
+    <string name="NotifyMeAbout">notify me about&#8230;</string>
+    <string name="NotifyMeAboutPrivate">new messages in private chats</string>
+    <string name="NotifyMeAboutNewStories">new stories</string>
+    <string name="NotifyMeAboutImportantStories">important stories</string>
+    <string name="NotifyMeAboutGroups">new messages in groups</string>
+    <string name="NotifyMeAboutChannels">new messages in channels</string>
+    <string name="NotifyMeAboutMessagesReactions">reactions to my messages</string>
+    <string name="NotifyMeAboutStoriesReactions">reactions to my stories</string>
+    <string name="NotifyFromContacts">from my contacts</string>
+    <string name="NotifyFromEveryone">from everyone</string>
+    <string name="NotifyFromNobody">off</string>
+    <string name="NotifyMoreOptions">more options</string>
+    <string name="NotifyLessOptions">less options</string>
+    <string name="NotifyAboutReactionsFrom">notify about reactions from</string>
+    <string name="NotifyAboutReactionsFromContacts">my contacts</string>
+    <string name="NotifyAboutReactionsFromEveryone">everyone</string>
+    <string name="StickerCreateEmpty">create</string>
 
   
 
@@ -9124,6 +9207,7 @@
   <string name="DiceInfo">send a &#127922; emoji to any chat to get a random number from telegram.</string>
   <string name="DiscussionChannelGroupSetHelp">a link to **%1$s** is shown to all subscribers in the bottom panel.</string>
   <string name="DiscussionChannelHelp">select a group chat for discussion that will be displayed in your channel.</string>
+  <string name="EditProfileColor">edit profile color</string>
   <string name="EmailPasswordConfirmText">please follow these steps to complete two-step verification setup:\n\n1. check your email (don\'t forget the spam folder)\n%1$s\n\n2. click on the validation link.</string>
   <string name="EmojiBigSize">draw single big emoji</string>
   <string name="EnableProxyAlert">are you sure you want to enable this proxy?</string>
@@ -9202,6 +9286,10 @@
   <string name="Likes_many">%d likes</string>
   <string name="LocalDatabaseClear">clear cached text messages?</string>
   <string name="LocationNotifiationButton">notify me within %1$s</string>
+  <string name="MaximumReactionsValue_zero">%d reactions per post</string>
+  <string name="MaximumReactionsValue_two">%d reactions per post</string>
+  <string name="MaximumReactionsValue_few">%d reactions per post</string>
+  <string name="MaximumReactionsValue_many">%d reactions per post</string>
   <string name="MembersCount">%1$d of %2$d selected</string>
   <string name="MessageContainsEmojiPacks_zero">this message contains emoji from **%d packs**.</string>
   <string name="MessageContainsEmojiPacks_one" />
@@ -9278,6 +9366,7 @@
   <string name="ProfileBirthdayValueYear_two">%2$s (%1$d years old)</string>
   <string name="ProfileBirthdayValueYear_few">%2$s (%1$d years old)</string>
   <string name="ProfileBirthdayValueYear_many">%2$s (%1$d years old)</string>
+  <string name="ProfileMyStories">my stories</string>
   <string name="ProfileStoriesArchiveCount_two">%d archived stories</string>
   <string name="PsaInfo_psa">this is an official message from the ceo of telegram regarding the ongoing conflict.</string>
   <string name="PsaMessageInfo_psa">this is an official message from the ceo of telegram regarding the ongoing conflict.</string>
@@ -9429,7 +9518,28 @@
   <string name="StopLiveLocationAlertToUser">stop sharing your live location with %1$s?</string>
   <string name="StoragePathFree">%1$s free</string>
   <string name="StoragePathFreeValue">%1$s free, %2$s</string>
+  <string name="StoriesDeleted_zero">%d stories deleted</string>
+  <string name="StoriesDeleted_two">%d stories deleted</string>
+  <string name="StoriesDeleted_few">%d stories deleted</string>
+  <string name="StoriesDeleted_many">%d stories deleted</string>
+  <string name="StoriesPinLimit_zero">you can&#8217;t pin more than %d posts.</string>
+  <string name="StoriesPinLimit_one" />
+  <string name="StoriesPinLimit_two">you can&#8217;t pin more than %d posts.</string>
+  <string name="StoriesPinLimit_few">you can&#8217;t pin more than %d posts.</string>
+  <string name="StoriesPinLimit_many">you can&#8217;t pin more than %d posts.</string>
+  <string name="StoriesPinned_zero">%d stories pinned</string>
+  <string name="StoriesPinned_two">%d stories pinned</string>
+  <string name="StoriesPinned_few">%d stories pinned</string>
+  <string name="StoriesPinned_many">%d stories pinned</string>
+  <string name="StoriesPinnedText_zero">now they will be always shown on the top.</string>
+  <string name="StoriesPinnedText_two">now they will be always shown on the top.</string>
+  <string name="StoriesPinnedText_few">now they will be always shown on the top.</string>
+  <string name="StoriesPinnedText_many">now they will be always shown on the top.</string>
   <string name="StoriesPremiumHint">posting stories is currently available only to subscribers of **telegram premium**.</string>
+  <string name="StoriesUnpinned_zero">%d stories unpinned.</string>
+  <string name="StoriesUnpinned_two">%d stories unpinned.</string>
+  <string name="StoriesUnpinned_few">%d stories unpinned.</string>
+  <string name="StoriesUnpinned_many">%d stories unpinned.</string>
   <string name="StoryKeepGroupInfo_two">keep this story on the group page even after it expires in %d hours.</string>
   <string name="StoryKeepGroupInfo_few">keep this story on the group page even after it expires in %d hours.</string>
   <string name="StoryKeepGroupInfo_many">keep this story on the group page even after it expires in %d hours.</string>
