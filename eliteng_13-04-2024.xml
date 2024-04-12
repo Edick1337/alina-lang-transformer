@@ -294,7 +294,7 @@
     <string name="SetAsEmojiStatusInfo">emoji status set.</string>
     <string name="RemoveStatus">remove status</string>
     <string name="RemoveStatusInfo">emoji status removed.</string>
-    <string name="ViewPackPreview">view pack</string>
+    <string name="ViewPackPreview">view sticker set</string>
     <string name="PinToTop">pin to top</string>
     <string name="PinToTopLimitReached2">sorry, you can only pin %1$s to the top in the main list. more chats can be pinned in chat folders and your archive.</string>
     <string name="PinFolderLimitReached">sorry, you can\'t pin any more chats to the top.</string>
@@ -1940,11 +1940,11 @@
     <string name="EditSticker">edit sticker</string>
     <string name="EditStickers">edit stickers</string>
     <string name="DeleteSticker">delete sticker</string>
-    <string name="NewStickerPack">new sticker pack</string>
-    <string name="EditStickerPack">edit sticker pack</string>
+    <string name="NewStickerPack">new sticker set</string>
+    <string name="EditStickerPack">edit sticker set</string>
     <string name="AddMasks">add masks</string>
     <string name="AddToStickers">add to stickers</string>
-    <string name="AddToStickerPack">add to sticker pack</string>
+    <string name="AddToStickerPack">add to sticker set</string>
     <string name="AddToFavorites">add to favorites</string>
     <string name="AddedToFavorites">sticker added to favorites.</string>
     <string name="RemovedFromFavorites">sticker was removed from favorites</string>
@@ -1965,9 +1965,9 @@
     <string name="StickersAddAnExistingSticker">add an existing sticker</string>
     <string name="StickersDeleteStickerSetTitle">delete sticker set</string>
     <string name="StickersDeleteStickerSetDescription">this will delete the sticker set for all users.</string>
-    <string name="StickersSetEmojiForSticker">set emoji that corresponds to your sticker</string>
-    <string name="StickersChooseNameForStickerPack">choose a name for your pack.</string>
-    <string name="StickersStickerAddedToSetToast">sticker added to %1$s sticker set.</string>
+    <string name="StickersSetEmojiForSticker">choose emojis that match your sticker</string>
+    <string name="StickersChooseNameForStickerPack">choose a name for your set.</string>
+    <string name="StickersStickerAddedToSetToast">sticker added to the %1$s sticker set.</string>
     <string name="StickersStickerEditedInSetToast">sticker edited in %1$s sticker set.</string>
     <string name="StickersRemoved">stickers removed</string>
     <string name="StickersRemovedInfo">%1$s is no longer in your stickers.</string>
@@ -2000,7 +2000,7 @@
     <string name="AddEmojiMultipleInstalledInfo_many">%1$d packs have been added to your emoji.</string>
     <string name="AddEmojiMultipleInstalledInfo_other">%1$d packs have been added to your emoji.</string>
     <string name="StickersDeleteForEveryone">delete for everyone</string>
-    <string name="StickersCheckStickersBotForMoreOptions">check **@stickers** bot for more options</string>
+    <string name="StickersCheckStickersBotForMoreOptions">check the **@stickers** bot for more options</string>
     <string name="StickersRemoveForMe">remove for me</string>
     <string name="StickersHide">archive</string>
     <string name="StickersShare">share</string>
@@ -2536,7 +2536,7 @@
     <string name="Flip">flip</string>
     <string name="SegmentationTabToCrop">tap on an object to crop it</string>
     <string name="SegmentationCutOut">cut out</string>
-    <string name="SegmentationCutObject">cut an object</string>
+    <string name="SegmentationCutObject">cut out an object</string>
     <string name="SegmentationUndoCutOut">undo cut</string>
     <string name="SegmentationUndo">undo</string>
     <string name="SegmentationOutline">add outline</string>
@@ -6719,9 +6719,9 @@
     <string name="LitePowerSaver">save power on low battery</string>
     <string name="LitePowerSaverInfo">automatically switch to low power usage when your system is in battery saving mode.</string>
     <string name="DynamicPackOrder">dynamic pack order</string>
-    <string name="DynamicPackOrderInfo">automatically place recently used sticker packs above others.</string>
+    <string name="DynamicPackOrderInfo">automatically place recently used sticker sets above others.</string>
     <string name="DynamicPackOrderOff">dynamic order off</string>
-    <string name="DynamicPackOrderOffInfo">sticker packs will no longer be rearranged when you send a sticker.</string>
+    <string name="DynamicPackOrderOffInfo">sticker sets will no longer be rearranged when you send a sticker.</string>
     <string name="InviteRestrictedUsersOne">**%s** restricts adding them to groups. you can send them an invite link instead.</string>
     <string name="InviteRestrictedUsers_one">**%d user** restricts adding them to groups. you can send them an invite link instead.</string>
     <string name="InviteRestrictedUsers_two">**%d users** restrict adding them to groups. you can send them an invite link instead.</string>
@@ -8484,7 +8484,7 @@
     <string name="BirthdayClearTitle">remove date of birth</string>
     <string name="BirthdayClearMessage">are you sure you want to remove date of birth from your profile?</string>
     <string name="ProfileChannelClearTitle">remove channel</string>
-    <string name="ProfileChannelClearMessage">are you sure you want to remove channel from your profile?</string>
+    <string name="ProfileChannelClearMessage">are you sure you want to remove the channel from your profile?</string>
     <string name="BusinessGreetingIntroTitle">new greeting message</string>
     <string name="BusinessGreetingIntro">create greetings that will be automatically sent to new customers.</string>
     <string name="BusinessGreetingEnter">add a greeting</string>
@@ -8755,7 +8755,7 @@
     <string name="NotifyFromEveryone">from everyone</string>
     <string name="NotifyFromNobody">off</string>
     <string name="NotifyMoreOptions">more options</string>
-    <string name="NotifyLessOptions">less options</string>
+    <string name="NotifyLessOptions">fewer options</string>
     <string name="NotifyAboutReactionsFrom">notify about reactions from</string>
     <string name="NotifyAboutReactionsFromContacts">my contacts</string>
     <string name="NotifyAboutReactionsFromEveryone">everyone</string>
@@ -9512,7 +9512,7 @@
   <string name="SponsoredMessageInfoDescription4">sponsored messages are currently in test mode. once they are fully launched and allow telegram to cover its basic costs, we will start sharing ad revenue with the owners of public channels in which sponsored messages are displayed.\n\nonline ads should no longer be synonymous with abuse of user privacy. let us redefine how a tech company should operate &#8211; together.</string>
   <string name="SponsoredMessageInfoDescriptionLink">unlike other apps, telegram never uses your private data to target ads. **learn more in the privacy policy**</string>
   <string name="StealthMode">stealth mode</string>
-  <string name="StickersNameInfo">manage your sticker packs, emoji and reactions.</string>
+  <string name="StickersNameInfo">manage your sticker sets, emoji and reactions.</string>
   <string name="StopLiveLocationAlertAll">are you sure you want to stop sharing your live location?</string>
   <string name="StopLiveLocationAlertToGroup">are you sure you want to stop sharing live location with %1$s?</string>
   <string name="StopLiveLocationAlertToUser">stop sharing your live location with %1$s?</string>
