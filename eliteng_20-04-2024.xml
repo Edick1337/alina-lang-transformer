@@ -678,6 +678,12 @@
     <string name="UserRemovedBy">removed by %1$s</string>
     <string name="UserRestrictions">user permissions</string>
     <string name="UserRestrictionsCanDo">what can this user do?</string>
+    
+    
+    
+    
+    
+    
     <string name="UserRestrictionsRead">read messages</string>
     <string name="UserRestrictionsSend">send messages</string>
     <string name="UserRestrictionsSendPollsShort">send polls</string>
@@ -881,8 +887,8 @@
     <string name="EventLogAllEvents">all actions</string>
     <string name="EventLogSelectedEvents">selected actions</string>
     <string name="EventLogAllAdmins">all admins</string>
-    <string name="EventLogEmpty">**no recent actions**\n\nno notable actions taken by the members and admins of this group in the last 48 hours.</string>
-    <string name="EventLogEmptyChannel">**no recent actions**\n\nno notable actions taken\nby the admins of this channel\nin the last 48 hours.</string>
+    
+    
     <string name="EventLogEmptySearch">**no actions found**\n\nno recent actions that match your query\nwere found.</string>
     <string name="EventLogEmptyTextSearch">no recent actions that contain \'**%1$s**\' were found.</string>
     <string name="EventLogInfoTitle">what are recent actions?</string>
@@ -915,6 +921,10 @@
     <string name="EventLogStopPoll">un1 stopped this poll:</string>
     <string name="EventLogStopQuiz">un1 stopped the quiz:</string>
     <string name="EventLogDeletedMessages">un1 deleted this message:</string>
+    
+    
+    
+    
     <string name="EventLogChangedLocation">un1 changed the group location to \"%1$s\</string>
     <string name="EventLogRemovedLocation">un1 removed the group location</string>
     <string name="EventLogChangedOwnership">transferred ownership to %1$s</string>
@@ -982,6 +992,16 @@
     <string name="EventLogFilterEditedMessages">edited messages</string>
     <string name="EventLogFilterPinnedMessages">pinned messages</string>
     <string name="EventLogFilterLeavingMembers">members leaving</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <string name="EventLogFilterCalls">video chats</string>
     <string name="EventLogFilterInvites">invite links</string>
     <string name="EventLogToggledSlowmodeOn">un1 set the slow mode timer to %1$s</string>
@@ -1258,7 +1278,10 @@
     <string name="PinMessageAlertChannel">do you want to pin this message in this channel?</string>
     <string name="PinMessageAlertChat">do you want to pin this message to the top of the chat?</string>
     <string name="UnpinMessageAlert">are you sure you want to unpin this message for everyone?</string>
-    <string name="DeleteBanUser">fuck user</string>
+    
+    
+    
+    
     <string name="DeleteReportSpam">report spam</string>
     <string name="TranslateMessage">translate</string>
     <string name="HideTranslation">hide translation</string>
@@ -1267,6 +1290,38 @@
     <string name="TranslationFailedAlert1">translation failed. try again later.</string>
     <string name="TranslationFailedAlert2">translation failed.</string>
     <string name="DeleteAllFrom">delete all from %1$s</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <string name="ClearRecentEmojiTitle">clear recent emoji</string>
     <string name="ClearRecentEmojiText">do you want to clear all your recent emoji?</string>
     <string name="ClearRecentEmojiStatusesTitle">clear recent statuses</string>
@@ -2703,6 +2758,7 @@
     <string name="LocalStickersCache">stickers &amp; emoji</string>
     <string name="LocalProfilePhotosCache">profile photos</string>
     <string name="LocalMiscellaneousCache">miscellaneous</string>
+    <string name="LocalLogsCache">logs</string>
     <string name="LocalPhotoCache">photos</string>
     <string name="LocalAudioCache">voice messages</string>
     <string name="LocalVideoCache">videos</string>
@@ -3127,6 +3183,8 @@
     <string name="SendLiveLocation">share my live location for...</string>
     <string name="SendLiveLocationMenu">share my live location</string>
     <string name="StopLiveLocation">stop sharing location</string>
+    
+    
     <string name="StopLiveLocationAlertToTitle">stop location sharing</string>
     <string name="StopLiveLocationAlertToUserText">do you want to stop sharing your live location with **%1$s**?</string>
     <string name="StopLiveLocationAlertToGroupText">do you want to stop sharing your live location with **%1$s**?</string>
@@ -3147,6 +3205,7 @@
     <string name="SendLiveLocationFor15m">for 15 minutes</string>
     <string name="SendLiveLocationFor1h">for 1 hour</string>
     <string name="SendLiveLocationFor8h">for 8 hours</string>
+    
     <string name="LocationUpdated">updated</string>
     <string name="LocationUpdatedFormatted">updated %1$s</string>
     <string name="LocationUpdatedJustNow">updated just now</string>
@@ -3156,6 +3215,8 @@
     <string name="AttachLiveLocationIsSharingChats">%1$s sharing with %2$s</string>
     <string name="StopAllLocationSharings">stop all</string>
     <string name="SharingLiveLocationTitle">you are sharing your live location with %1$s</string>
+    
+    
     <string name="LiveLocationAlertPrivate">choose for how long %1$s will see your accurate location, including when the app is closed.</string>
     <string name="LiveLocationAlertGroup">choose for how long people in this chat will see your accurate location, including when the app is closed.</string>
     <string name="GpsDisabledAlertTitle">enable gps</string>
@@ -3739,6 +3800,8 @@
     <string name="Call">call</string>
     <string name="VideoCall">video call</string>
     <string name="Copy">copy</string>
+    
+    
     <string name="Rename">rename</string>
     <string name="Delete">delete</string>
     <string name="Start">start</string>
@@ -8220,6 +8283,8 @@
     <string name="GroupEmojiPack">group emoji pack</string>
     <string name="GroupEmoji">group emoji</string>
     <string name="GroupEmojiPackInfo">choose an emoji pack that will be available to all members within the group.</string>
+    
+    
     <string name="ChannelEmojiStatus">channel emoji status</string>
     <string name="GroupEmojiStatus">group emoji status</string>
     <string name="ChannelEmojiStatusInfo">choose a status that will be shown next to the channel\'s name.</string>
@@ -8578,36 +8643,37 @@
     <string name="MonetizationInfoFeature1Name">telegram ads</string>
     <string name="MonetizationInfoFeature1Text">telegram can display ads in your channel.</string>
     <string name="MonetizationInfoFeature2Name">50:50 revenue split</string>
-    <string name="MonetizationInfoFeature2Text">you can receive 50% of the ad revenue in ton.</string>
+    <string name="MonetizationInfoFeature2Text">you can receive 50% of the ad revenue as rewards in ton.</string>
     <string name="MonetizationInfoFeature3Name">flexible withdrawals</string>
     <string name="MonetizationInfoFeature3Text">you can withdraw your ton any time.</string>
     <string name="MonetizationInfoTONTitle">what is &#128142; ton?</string>
     <string name="MonetizationInfoTONText">**ton** is a blockchain platform and cryptocurrency that telegram uses for its high speed and low commissions on transactions.</string>
     <string name="MonetizationInfoTONLink">https://telegram.org/blog/monetization-for-channels</string>
-    <string name="MonetizationInfo">telegram shares %1$d%% of the revenue from ads displayed in your channel. **learn more &gt;**</string>
+    <string name="MonetizationInfo">telegram shares %1$d%% of the revenue from ads displayed in your channel as rewards. **learn more &gt;**</string>
     <string name="MonetizationBalance">available balance</string>
     <string name="MonetizationBalanceInfo">you can collect your reward using fragment, a third-party platform used by advertisers to pay for ads. **learn more &gt;**</string>
+    
     <string name="MonetizationBalanceInfoNotAvailable">in the coming weeks you will be able to collect your reward using fragment, a third-party platform used by advertisers to pay ads. **learn more &gt;**</string>
     <string name="MonetizationTransactions">transaction history</string>
     <string name="MonetizationMoreTransactions_one">show %d more transaction</string>
     <string name="MonetizationMoreTransactions_other">show %d more transactions</string>
     <string name="MonetizationSwitchOff">switch off ads</string>
     <string name="MonetizationSwitchOffInfo">you will not be eligible for any rewards if you switch off ads.</string>
-    <string name="MonetizationOverview">proceeds overview</string>
+    <string name="MonetizationOverview">rewards overview</string>
     <string name="MonetizationOverviewAvailable">balance available to withdraw</string>
-    <string name="MonetizationOverviewLastWithdrawal">proceeds since last withdrawal</string>
-    <string name="MonetizationOverviewTotal">total lifetime proceeds</string>
+    <string name="MonetizationOverviewLastWithdrawal">rewards since last withdrawal</string>
+    <string name="MonetizationOverviewTotal">total lifetime rewards</string>
     <string name="MonetizationTransactionWithdraw">withdrawal via fragment</string>
-    <string name="MonetizationTransactionProceed">proceeds from ads</string>
+    <string name="MonetizationTransactionProceed">rewards from ads</string>
     <string name="MonetizationTransactionRefund">refund</string>
     <string name="MonetizationTransactionPending">pending</string>
     <string name="MonetizationTransactionNotCompleted">not completed</string>
     <string name="MonetizationTransactionDetailWithdraw">balance withdrawal</string>
     <string name="MonetizationTransactionDetailWithdrawButton">view in blockchain explorer</string>
-    <string name="MonetizationTransactionDetailProceed">proceeds from ads displayed in</string>
+    <string name="MonetizationTransactionDetailProceed">rewards from ads displayed in</string>
     <string name="MonetizationTransactionDetailRefund">refunded back</string>
     <string name="MonetizationGraphImpressions">ad impressions</string>
-    <string name="MonetizationGraphRevenue">ad revenue</string>
+    <string name="MonetizationGraphRevenue">ad rewards</string>
     <string name="MonetizationWithdraw">withdraw via fragment</string>
     <string name="MonetizationChartInTON">%s in ton</string>
     <string name="MonetizationChartInUSD">%s in usd</string>
@@ -8760,10 +8826,42 @@
     <string name="NotifyAboutReactionsFromContacts">my contacts</string>
     <string name="NotifyAboutReactionsFromEveryone">everyone</string>
     <string name="StickerCreateEmpty">create</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
   
 
   <string name="AllowReadSms">allow telegram to receive sms so that we can automatically enter your code for you.</string>
+  <string name="DeleteBanUser">fuck user</string>
   <string name="PermissionStorage">telegram needs access to your storage so that you can send and save photos, videos, music and other documents.</string>
   <string name="SendContactTo">send contact to %1$s?</string>
   <string name="SendContactToGroup">send contact to %1$s?</string>
@@ -9212,6 +9310,8 @@
   <string name="EmojiBigSize">draw single big emoji</string>
   <string name="EnableProxyAlert">are you sure you want to enable this proxy?</string>
   <string name="EnableProxyAlert2">you can change your proxy server later in settings &gt; data and storage.</string>
+  <string name="EventLogEmpty">**no recent actions**\n\nno notable actions taken by the members and admins of this group in the last 48 hours.</string>
+  <string name="EventLogEmptyChannel">**no recent actions**\n\nno notable actions taken\nby the admins of this channel\nin the last 48 hours.</string>
   <string name="ExceptionShort_zero">%d exceptions</string>
   <string name="FilterInviteChats_zero">includes %d chats</string>
   <string name="FilterInviteHeader_zero">anyone with this link can add **%2$s** folder and the **%1$d** chats selected below.</string>
