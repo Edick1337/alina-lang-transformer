@@ -8806,7 +8806,7 @@
     <string name="GraceSuggestionMessage">&#9888;&#65039; unfortunately, your latest payment didn&#8217;t come through. to keep your access to exclusive features, please renew the subscription.</string>
     <string name="GraceSuggestionButton">restore subscription</string>
     <string name="SearchMyChannels">channels you joined</string>
-    <string name="SearchRecommendedChannels">recommended channels</string>
+    <string name="SearchRecommendedChannels">similar channels</string>
     <string name="SearchChannels">channels</string>
     <string name="OpenStickerSet">view stickers</string>
     <string name="OpenEmojiSet">view emoji</string>
@@ -8862,7 +8862,7 @@
     <string name="BackEnteringCode">&lt; back to entering the code</string>
     <string name="ReturnEnteringSMS">return to entering the code &gt;</string>
     <string name="ReturnEnteringWord">return to entering the word &gt;</string>
-    <string name="ReturnEnteringPhrase">return to entering the word &gt;</string>
+    <string name="ReturnEnteringPhrase">return to entering the phrase &gt;</string>
     <string name="SmsAvailableIn2">you can request another\nsms in %1$d:%2$02d</string>
     <string name="CallAvailableIn2">telegram can call you in %1$d:%2$02d</string>
     <string name="ForwardedFrom">forwarded from</string>
