@@ -9581,7 +9581,7 @@
   <string name="SmsJobsErrorHintTitle">some sms were not sent successfully</string>
   <string name="SmsJobsMenu">sms statistics</string>
   <string name="SmsJobsPremiumHintMessage">help telegram send sms codes and get a free premium subscription.</string>
-  <string name="SmsJobsPremiumHintTitle">premium subscription **for free**</string>
+  <string name="SmsJobsPremiumHintTitle">telegram premium **for free**</string>
   <string name="SmsLastGiftLink">last gift link receipt</string>
   <string name="SmsNoSimMessage">insert a sim card into the device and come back to **sms statistics**.</string>
   <string name="SmsNoSimTitle">no sim card</string>
@@ -9592,7 +9592,7 @@
   <string name="SmsPermissionTextSMSSettings">to join the **premium for sms** program, please allow telegram to send out sms from your device.\n\ntap settings &gt; permissions, and turn **sms** on.</string>
   <string name="SmsPremiumActivated">premium for sms activated!</string>
   <string name="SmsPremiumActivatedText">telegram will now try to use your device to automatically send sms codes in your country (**%s**).</string>
-  <string name="SmsPremiumActivatedText2">check **sms statistics** in the left-side menu to see how many sms have been sent or change settings for this program.</string>
+  <string name="SmsPremiumActivatedText2">check **sms statistics** in the left-side menu to see how many sms have been sent or to change your settings for this program.</string>
   <string name="SmsPremiumActivatedTextUnknown">telegram will now try to use your device to automatically send sms codes in your country.</string>
   <string name="SmsPremiumBenefits">benefits of premium</string>
   <string name="SmsRemaining">sms remaining</string>
@@ -9624,7 +9624,7 @@
   <string name="SmsSubscribeFeature1Message_many">let telegram use your phone to send %d login sms per month.</string>
   <string name="SmsSubscribeFeature1Message_other">let telegram use your phone to send %d login sms per month.</string>
   <string name="SmsSubscribeFeature1Title">help send login sms</string>
-  <string name="SmsSubscribeFeature2Message">receive 1-month **premium subscription** each month.</string>
+  <string name="SmsSubscribeFeature2Message">receive a 1-month **premium subscription** each month.</string>
   <string name="SmsSubscribeFeature2Title">get telegram premium</string>
   <string name="SmsSubscribeFeature3Message">send gift links granting premium subscriptions to your friends.</string>
   <string name="SmsSubscribeFeature3Title">share premium with friends</string>
