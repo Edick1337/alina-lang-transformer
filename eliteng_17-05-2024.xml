@@ -9591,9 +9591,9 @@
   <string name="SmsPermissionTextSMSPhoneSettings">to join the **premium for sms** program, please allow telegram to send out sms and read phone sim card info.\n\ntap settings &gt; permissions, and turn **sms** and **phone** permissions on.</string>
   <string name="SmsPermissionTextSMSSettings">to join the **premium for sms** program, please allow telegram to send out sms from your device.\n\ntap settings &gt; permissions, and turn **sms** on.</string>
   <string name="SmsPremiumActivated">premium for sms activated!</string>
-  <string name="SmsPremiumActivatedText">telegram will now try to use your device to automatically send sms codes in your country (**%s**).</string>
+  <string name="SmsPremiumActivatedText">telegram will now try to use your device to send sms codes, words and phrases in your country (**%s**).</string>
   <string name="SmsPremiumActivatedText2">check **sms statistics** in the left-side menu to see how many sms have been sent or to change your settings for this program.</string>
-  <string name="SmsPremiumActivatedTextUnknown">telegram will now try to use your device to automatically send sms codes in your country.</string>
+  <string name="SmsPremiumActivatedTextUnknown">telegram will now try to use your device to send sms codes, words and phrases in your country.</string>
   <string name="SmsPremiumBenefits">benefits of premium</string>
   <string name="SmsRemaining">sms remaining</string>
   <string name="SmsSelectSim">select sim card</string>
@@ -9602,7 +9602,7 @@
   <string name="SmsStatusDone">all %d sms sent!</string>
   <string name="SmsStatusDoneSubtitle">telegram premium gift-code is sent for you to activate.</string>
   <string name="SmsStatusFirst">premium for sms</string>
-  <string name="SmsStatusFirstSubtitle">help telegram send sms login codes and get **telegram premium** gift links.</string>
+  <string name="SmsStatusFirstSubtitle">help telegram send sms login codes, words and phrases and get **telegram premium** gift links.</string>
   <string name="SmsStatusNoPermission">access required</string>
   <string name="SmsStatusNoPermissionSubtitle">to join this program, please allow telegram to send sms in your phone\'s settings.</string>
   <string name="SmsStatusNoSim">insert a sim card</string>
