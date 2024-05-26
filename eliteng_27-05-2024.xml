@@ -3294,7 +3294,7 @@
     <string name="TaggedMessages_one">%1$d message</string>
     <string name="TaggedMessages_other">%1$d messages</string>
     <string name="SearchAsList">show as list</string>
-    <string name="SearchAsChat">show in chat</string>
+    <string name="SearchAsChat">show as chat</string>
     <string name="Gallery">gallery</string>
     <string name="AllPhotos">all pic</string>
     <string name="AllMedia">all media</string>
