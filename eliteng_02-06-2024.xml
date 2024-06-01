@@ -1502,7 +1502,7 @@
     <string name="VideoQualityIsTooLow">video quality is too low to change compression settings.</string>
     <string name="TextSelectionHint">hold a **word**, then move the cursor to select more text to quote or copy.</string>
     <string name="CardNumberCopied">card number copied to clipboard.</string>
-    <string name="CopyCardNumber">copy</string>
+    <string name="CopyCardNumber">copy card</string>
     <string name="DiceInfo2">send a **:dice:** emoji to any chat to roll a die.</string>
     <string name="DartInfo">send a **:dart:** emoji to try your luck.</string>
     <string name="DiceEmojiInfo">send a %1$s emoji to try your luck.</string>
