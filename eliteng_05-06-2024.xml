@@ -8895,7 +8895,7 @@
     <string name="Confirm">confirm</string>
     <string name="MenuTelegramStars">your stars</string>
     <string name="TelegramStars">telegram stars</string>
-    <string name="TelegramStarsInfo">buy stars to unlock content and service\nin miniapps on telegram.</string>
+    <string name="TelegramStarsInfo">buy stars to unlock content and services\nin miniapps on telegram.</string>
     <string name="TelegramStarsChoose">choose package</string>
     <string name="StarsCount_one">%d star</string>
     <string name="StarsCount_other">%d stars</string>
