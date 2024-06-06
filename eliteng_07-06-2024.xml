@@ -8900,7 +8900,7 @@
     <string name="StarsCount_one">%d star</string>
     <string name="StarsCount_other">%d stars</string>
     <string name="StarsTOS">by proceeding and purchasing stars, you agree with the **terms and conditions**.</string>
-    <string name="StarsTOSLink">https://telegram.org/tos</string>
+    <string name="StarsTOSLink">https://telegram.org/tos/stars</string>
     <string name="StarsBalance">balance</string>
     <string name="StarsTransactionsAll">all transactions</string>
     <string name="StarsTransactionsIncoming">incoming</string>
