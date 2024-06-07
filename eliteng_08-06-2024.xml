@@ -8950,7 +8950,7 @@
     <string name="StarsTransactionDate">date</string>
     <string name="StarsTransactionTOS">review the **terms of service** for stars.</string>
     <string name="StarsNotAvailableTitle">not available</string>
-    <string name="StarsNotAvailableText">sorry, no star purchases are available from your country.</string>
+    <string name="StarsNotAvailableText">sorry, purchasing stars is not available in your country.</string>
     <string name="StarsRefunded">refund</string>
 
   
