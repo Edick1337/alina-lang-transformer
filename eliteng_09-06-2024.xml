@@ -8886,7 +8886,11 @@
     <string name="AnimatedEffectPremium">subscribe to **telegram premium** to add this animated effect.</string>
     <string name="StickerEffects">effects from stickers</string>
     <string name="NumberNotOnTelegram">this number is not on telegram</string>
+    <string name="NoUsernameFound2">this user doesn&#8217;t exist on telegram</string>
     <string name="ViewProfile">view profile &gt;</string>
+    <string name="ViewGroupProfile">view group info &gt;</string>
+    <string name="ViewChannelProfile">view channel info &gt;</string>
+    <string name="ViewChannel">view channel</string>
     <string name="UnlockToUse">unlock to use telegram</string>
     <string name="UsePIN">use pin</string>
     <string name="EnterPINorFingerprint">enter your pin or use a fingerprint</string>
@@ -8952,6 +8956,8 @@
     <string name="StarsNotAvailableTitle">not available</string>
     <string name="StarsNotAvailableText">sorry, purchasing stars is not available in your country.</string>
     <string name="StarsRefunded">refund</string>
+    <string name="ChromeCrashTitle">aw, snap!</string>
+    <string name="ChromeCrashMessage">something went wrong while displaying this webpage.\n\nif it occurs frequently, consider updating **android webview**.</string>
 
   
 
