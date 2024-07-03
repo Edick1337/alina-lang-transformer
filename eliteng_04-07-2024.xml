@@ -8689,7 +8689,7 @@
     <string name="MonetizationInfo">telegram shares %1$d%% of the revenue from ads displayed in your channel as rewards. **learn more &gt;**</string>
     <string name="MonetizationBalance">available reward</string>
     <string name="MonetizationBalanceInfo">you can collect your reward using fragment, a third-party platform used by advertisers to pay for ads. **learn more &gt;**</string>
-    <string name="MonetizationProceedsInfo">funds from your total balance become available for spending on ads and rewards 21 days after they are earned.</string>
+    <string name="MonetizationProceedsInfo">funds from your total balance can be used for ads or withdrawn as rewards 21 days after they are earned.</string>
     <string name="MonetizationProceedsInfoLink">https://telegram.org/tos/content-creator-rewards</string>
     
     
@@ -9022,6 +9022,10 @@
     <string name="BotStarsWithdrawInfoLink">https://telegram.org/privacy</string>
     <string name="BotStarsButtonWithdrawUntil">withdraw via fragment</string>
     <string name="BotStarsButtonWithdrawAll">withdraw all via fragment</string>
+    
+    
+    
+    
     <string name="BotStarsWithdrawPlaceholder">enter amount to withdraw</string>
     <string name="BotStarsButtonWithdraw_one">withdraw &#11088;&#65039;%d via fragment</string>
     <string name="BotStarsButtonWithdraw_other">withdraw &#11088;&#65039;%d via fragment</string>
@@ -9065,8 +9069,10 @@
     <string name="StarsConfirmPurchaseMedia_Photos_other">**%d photos**</string>
     <string name="StarsConfirmPurchaseMedia_Videos_one">**%s video**</string>
     <string name="StarsConfirmPurchaseMedia_Videos_other">**%s videos**</string>
-    <string name="StarsConfirmPurchaseMediaOne">do you want to unlock %2$s in **%3$s** for **%1$d stars**?</string>
-    <string name="StarsConfirmPurchaseMediaTwo">do you want to unlock %2$s and %3$s in **%4$s** for **%1$d stars**?</string>
+    <string name="StarsConfirmPurchaseMediaOne2_one">do you want to unlock %2$s in **%3$s** for **%1$d star**?</string>
+    <string name="StarsConfirmPurchaseMediaOne2_other">do you want to unlock %2$s in **%3$s** for **%1$d stars**?</string>
+    <string name="StarsConfirmPurchaseMediaTwo2_one">do you want to unlock %2$s and %3$s in **%4$s** for **%1$d star**?</string>
+    <string name="StarsConfirmPurchaseMediaTwo2_other">do you want to unlock %2$s and %3$s in **%4$s** for **%1$d stars**?</string>
     <string name="AttachPaidMedia">&#11088;&#65039; %s</string>
 
   
@@ -9919,6 +9925,16 @@
   <string name="StarsConfirmPurchaseButton_many">confirm and pay &#11088;&#65039; %d stars</string>
   <string name="StarsConfirmPurchaseMedia1">do you want to unlock %1$s in **%2$s** for **%3$s**?</string>
   <string name="StarsConfirmPurchaseMedia2">do you want to unlock %1$s and %2$s in **%3$s** for **%4$s**?</string>
+  <string name="StarsConfirmPurchaseMediaOne">do you want to unlock %2$s in **%3$s** for **%1$d stars**?</string>
+  <string name="StarsConfirmPurchaseMediaOne2_zero">do you want to unlock %2$s in **%3$s** for **%1$d stars**?</string>
+  <string name="StarsConfirmPurchaseMediaOne2_two">do you want to unlock %2$s in **%3$s** for **%1$d stars**?</string>
+  <string name="StarsConfirmPurchaseMediaOne2_few">do you want to unlock %2$s in **%3$s** for **%1$d stars**?</string>
+  <string name="StarsConfirmPurchaseMediaOne2_many">do you want to unlock %2$s in **%3$s** for **%1$d stars**?</string>
+  <string name="StarsConfirmPurchaseMediaTwo">do you want to unlock %2$s and %3$s in **%4$s** for **%1$d stars**?</string>
+  <string name="StarsConfirmPurchaseMediaTwo2_zero">do you want to unlock %2$s and %3$s in **%4$s** for **%1$d stars**?</string>
+  <string name="StarsConfirmPurchaseMediaTwo2_two">do you want to unlock %2$s and %3$s in **%4$s** for **%1$d stars**?</string>
+  <string name="StarsConfirmPurchaseMediaTwo2_few">do you want to unlock %2$s and %3$s in **%4$s** for **%1$d stars**?</string>
+  <string name="StarsConfirmPurchaseMediaTwo2_many">do you want to unlock %2$s and %3$s in **%4$s** for **%1$d stars**?</string>
   <string name="StarsConfirmPurchaseMedia_Photos_zero">**%d photos**</string>
   <string name="StarsConfirmPurchaseMedia_Photos_two">**%d photos**</string>
   <string name="StarsConfirmPurchaseMedia_Photos_few">**%d photos**</string>
