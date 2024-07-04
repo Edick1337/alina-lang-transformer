@@ -8689,7 +8689,7 @@
     <string name="MonetizationInfo">telegram shares %1$d%% of the revenue from ads displayed in your channel as rewards. **learn more &gt;**</string>
     <string name="MonetizationBalance">available reward</string>
     <string name="MonetizationBalanceInfo">you can collect your reward using fragment, a third-party platform used by advertisers to pay for ads. **learn more &gt;**</string>
-    <string name="MonetizationProceedsInfo">funds from your total balance can be used for ads or withdrawn as rewards 21 days after they are earned.</string>
+    <string name="MonetizationProceedsInfo">stars from your total balance can be used for ads or withdrawn as rewards 21 days after they are earned.</string>
     <string name="MonetizationProceedsInfoLink">https://telegram.org/tos/content-creator-rewards</string>
     
     
