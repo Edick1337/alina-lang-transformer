@@ -758,6 +758,7 @@
     <string name="TypeLocationGroup">public link</string>
     <string name="TypeLocationGroupEdit">tap to add a public link</string>
     <string name="ChoosePhoto">choose pic</string>
+    <string name="ChoosePhotoForSticker">create a sticker from a photo</string>
     <string name="AddImage">add image</string>
     <string name="ChoosePhotoOrVideo">choose photo or video</string>
     <string name="AddPhoto">set profile photo</string>
@@ -8944,7 +8945,7 @@
     <string name="EnterPIN">enter your pin</string>
     <string name="AppLocked">telegram locked</string>
     <string name="Confirm">confirm</string>
-    <string name="MenuTelegramStars">your stars</string>
+    <string name="MenuTelegramStars">my stars</string>
     <string name="TelegramStars">telegram stars</string>
     <string name="TelegramStarsInfo">buy stars to unlock content and services\nin miniapps on telegram.</string>
     <string name="TelegramStarsChoose">choose package</string>
@@ -8980,6 +8981,8 @@
     <string name="StarsNeededTitle_one">%d star needed</string>
     <string name="StarsNeededTitle_other">%d stars needed</string>
     <string name="StarsNeededText">buy **stars** and use them on **%s** and other miniapps.</string>
+    
+    
     <string name="CaptionAbove">move caption up</string>
     <string name="CaptionBelow">move caption down</string>
     <string name="AddFactCheck">add fact check</string>
@@ -9245,6 +9248,47 @@
     <string name="WebNoSearchedHistory">no search results</string>
     <string name="WebNoBookmarks">no bookmarks found</string>
     <string name="WebForward">go forward</string>
+    <string name="BotPrivacyPolicy">privacy policy</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
   
 
