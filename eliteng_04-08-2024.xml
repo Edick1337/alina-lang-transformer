@@ -9056,7 +9056,7 @@
     <string name="PaintBringToFront">to front</string>
     <string name="HashtagStoriesFound_one">%d story found</string>
     <string name="HashtagStoriesFound_other">%d stories found</string>
-    <string name="HashtagStoriesFoundSubtitle">view stories with #%s</string>
+    <string name="HashtagStoriesFoundSubtitle">view stories with %s</string>
     <string name="StoryLinkLimitTitle">limit reached</string>
     <string name="StoryLinkLimitMessage_other">you can&#8217;t add more than %d links to a story.</string>
     <string name="BotStarsWithdrawalToast">next withdrawal will be available in **%s**.</string>
