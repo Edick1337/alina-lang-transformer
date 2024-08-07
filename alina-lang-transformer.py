@@ -47,11 +47,11 @@ for file in os.listdir():
 
 moscow_tz = pytz.timezone("Europe/Moscow")
 now = datetime.now(moscow_tz).strftime("%d-%m-%Y")
-file_name = f"{language_name}_{now}.xml"
+file_name = f"{language_name}.xml"
 tree = ET.ElementTree(root)
 tree.write(file_name)
 
 env_file = os.getenv('GITHUB_ENV')
 latest_link = f"https://github.com/Edick1337/alina-lang-transformer/releases/latest/download/{file_name}"
 with open(env_file, "w") as myfile:
-    myfile.write(f"DATE={now}\nLANGUAGE_NAME={language_name}\nFILE_NAME={filename}\nLATEST_LINK={latest_link}")
+    myfile.write(f"DATE={now}\nLANGUAGE_NAME={language_name}\nFILE_NAME={file_name}\nLATEST_LINK={latest_link}")
