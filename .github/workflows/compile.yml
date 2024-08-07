@@ -31,7 +31,7 @@ jobs:
         git config --local user.name "GitHub Actions"
         git config --local user.email "actions@github.com"
         git add .
-        git commit --allow-empty -m "Update XML file"
+        git commit --allow-empty -m "Update XML file | Lowercase English"
         git fetch origin main
         git merge origin/main
         git push
