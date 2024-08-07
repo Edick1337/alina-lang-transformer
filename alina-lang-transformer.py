@@ -50,3 +50,7 @@ now = datetime.now(moscow_tz).strftime("%d-%m-%Y")
 filename = f"{language_name}_{now}.xml"
 tree = ET.ElementTree(root)
 tree.write(filename)
+
+env_file = os.getenv('GITHUB_ENV')
+with open(env_file, "w") as myfile:
+    myfile.write(f"FILE_NAME={filename}")
