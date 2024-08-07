@@ -53,5 +53,5 @@ tree.write(filename)
 
 env_file = os.getenv('GITHUB_ENV')
 with open(env_file, "w") as myfile:
-    myfile.write(f"DATE={now}\n")
+    myfile.write(f"LANGUAGE_NAME={language_name}\n")
     myfile.write(f"FILE_NAME={filename}")
