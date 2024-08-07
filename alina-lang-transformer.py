@@ -4,7 +4,9 @@ from datetime import datetime
 import os
 import pytz
 
-url = "https://translations.telegram.org/eliteng/android/export"
+language_name = "aboba13453"
+url = f"https://translations.telegram.org/{language_name}/android/export"
+
 exclusions = [
     "chatDate",
     "chatFullDate",
@@ -39,14 +41,12 @@ for elem in root.iter():
     if elem.text:
         elem.text = " ".join(elem.text.lower().strip(' "').split())
 
-name_template = "eliteng"
-
 for file in os.listdir():
-    if name_template in file:
+    if language_name in file:
         os.remove(file)
 
 moscow_tz = pytz.timezone("Europe/Moscow")
 now = datetime.now(moscow_tz).strftime("%d-%m-%Y")
-filename = f"{name_template}_{now}.xml"
+filename = f"{language_name}_{now}.xml"
 tree = ET.ElementTree(root)
 tree.write(filename)
