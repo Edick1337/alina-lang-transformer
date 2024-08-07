@@ -41,3 +41,4 @@ jobs:
       with:
         tag_name: ${{ env.DATE }}
         files: ${{ env.FILE_NAME }}
+        body: ${{ env.LATEST_LINK }}
