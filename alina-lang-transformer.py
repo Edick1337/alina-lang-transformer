@@ -52,5 +52,6 @@ tree = ET.ElementTree(root)
 tree.write(filename)
 
 env_file = os.getenv('GITHUB_ENV')
+latest_link = f"https://github.com/Edick1337/alina-lang-transformer/releases/latest/download/{language_name}"
 with open(env_file, "w") as myfile:
-    myfile.write(f"DATE={now}\nLANGUAGE_NAME={language_name}\nFILE_NAME={filename}")
+    myfile.write(f"DATE={now}\nLANGUAGE_NAME={language_name}\nFILE_NAME={filename}\nLATEST_LINK={latest_link}")
