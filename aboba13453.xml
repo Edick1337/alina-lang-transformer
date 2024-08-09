@@ -9036,7 +9036,7 @@
     <string name="StoryOpenLink">open link &gt;</string>
     <string name="BotStarsOverview">proceeds overview</string>
     <string name="BotStarsOverviewAvailableBalance">available balance</string>
-    <string name="BotStarsOverviewTotalBalance">lifetime rewards</string>
+    <string name="BotStarsOverviewTotalBalance">total balance</string>
     <string name="BotStarsOverviewTotalProceeds">total lifetime proceeds</string>
     <string name="BotStarsAvailableBalance">available balance</string>
     <string name="BotStarsOverviewInfo">stars from your total balance can be used for ads or withdrawn as rewards 21 days after they are earned.</string>
