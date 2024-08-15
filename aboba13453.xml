@@ -8978,6 +8978,7 @@
     <string name="StarsNeededTextReactions">buy **stars** to send paid reactions to **%s** and other channels.</string>
     <string name="StarsNeededTextLink">buy **stars** to keep your channel subscriptions.</string>
     <string name="StarsNeededTextLink_subs">buy **stars** to keep your channel subscriptions.</string>
+    
     <string name="CaptionAbove">move caption up</string>
     <string name="CaptionBelow">move caption down</string>
     <string name="AddFactCheck">add fact check</string>
@@ -9336,6 +9337,7 @@
     <string name="StarsSubscriptionCancelledToastText">you will still have access to the channel until **%s**.</string>
     <string name="StarsSubscriptionRenewedToast">subscription renewed</string>
     <string name="StarsSubscriptionRenewedToastText">you renewed your subscription to **%s**.</string>
+    
 
   
 
