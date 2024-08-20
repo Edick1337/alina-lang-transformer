@@ -7494,7 +7494,7 @@
     <string name="ArchivePeerStories">hide stories</string>
     <string name="UnarchiveStories">unhide stories</string>
     <string name="StoryPremiumFormatting">subscribe to **telegram premium** to add links and formatting to your story captions.</string>
-    <string name="StoryPremiumWidgets2_other">subscribe to **telegram premium** to add up to %d reactions and tags to a story.</string>
+    <string name="StoryPremiumWidgets2_other">subscribe to **telegram premium** to add up to %d reaction stickers to a story.</string>
     <string name="CaptionPremiumTitle">maximum length reached</string>
     <string name="CaptionPremiumSubtitle_other">increase this limit **%1$dx** to **%2$s** characters by subscribing to __telegram premium__.</string>
     <string name="ExpiredViewsStubPremiumDescription">to unlock viewer lists for expired and posted stories, subscribe to **telegram premium**.</string>
@@ -10361,11 +10361,11 @@
   <string name="StoryNotification4_zero">posted by %2$s, %3$s and %1$d more</string>
   <string name="StoryNotification4_one" />
   <string name="StoryPremiumWidgets">subscribe to **telegram premium** to add up to 5 reaction stickers to a story.</string>
-  <string name="StoryPremiumWidgets2_zero">subscribe to **telegram premium** to add up to %d reactions and tags to a story.</string>
+  <string name="StoryPremiumWidgets2_zero">subscribe to **telegram premium** to add up to %d reaction stickers to a story.</string>
   <string name="StoryPremiumWidgets2_one" />
-  <string name="StoryPremiumWidgets2_two">subscribe to **telegram premium** to add up to %d reactions and tags to a story.</string>
-  <string name="StoryPremiumWidgets2_few">subscribe to **telegram premium** to add up to %d reactions and tags to a story.</string>
-  <string name="StoryPremiumWidgets2_many">subscribe to **telegram premium** to add up to %d reactions and tags to a story.</string>
+  <string name="StoryPremiumWidgets2_two">subscribe to **telegram premium** to add up to %d reaction stickers to a story.</string>
+  <string name="StoryPremiumWidgets2_few">subscribe to **telegram premium** to add up to %d reaction stickers to a story.</string>
+  <string name="StoryPremiumWidgets2_many">subscribe to **telegram premium** to add up to %d reaction stickers to a story.</string>
   <string name="StoryReactionsWidgetLimit">you can\'t add more than 5 reaction stickers to a story.</string>
   <string name="StoryReactionsWidgetLimit2_zero">you can&#8217;t add more than %d reaction stickers to a story.</string>
   <string name="StoryReactionsWidgetLimit2_one" />
