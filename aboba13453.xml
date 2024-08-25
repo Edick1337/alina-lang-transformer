@@ -8684,7 +8684,7 @@
     <string name="MonetizationBalanceInfo">you can collect your reward using fragment, a third-party platform used by advertisers to pay for ads. **learn more &gt;**</string>
     <string name="MonetizationProceedsStarsInfo">stars from your total balance can be used for ads or withdrawn as rewards 21 days after they are earned.</string>
     <string name="MonetizationProceedsStarsInfoLink">https://telegram.org/tos/stars/</string>
-    <string name="MonetizationProceedsTONInfo">ton from your total balance can be used for ads or withdrawn as rewards 3 days after they are earned.</string>
+    <string name="MonetizationProceedsTONInfo">ton from your total balance can be used for ads or withdrawn as rewards 3 days after they are earned. you cannot withdraw less than 10 ton.</string>
     <string name="MonetizationProceedsTONInfoLink">https://telegram.org/tos/content-creator-rewards</string>
     <string name="MonetizationProceedsStarsTONInfo">stars and ton from your total balance can be used for ads or withdrawn as rewards 21 and 3 days respectively after they are earned.</string>
     <string name="MonetizationProceedsStarsTONInfoLink">https://telegram.org/tos/content-creator-rewards</string>
