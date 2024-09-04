@@ -4881,7 +4881,7 @@
     <string name="MessageContainsEmojiPacks_other">this message contains emoji from **%d packs**.</string>
     <string name="MessageContainsReactionsPack">emoji from %s pack were used as reactions.</string>
     <string name="MessageContainsReactionsPacks_other">emoji from **%d packs** were used as reactions.</string>
-    <string name="MessageContainsReactionPack">this reaction is an emoji from %s pack.</string>
+    <string name="MessageContainsReactionPack">this reaction is from %s emoji pack.</string>
     <string name="SendMessageAsTitle">send message as...</string>
     <string name="OpenChannelPost">view post</string>
     <string name="SavingContentTitle">content protection</string>
@@ -6424,8 +6424,8 @@
     <string name="BoostingGiveawayServiceUndistributed_other">%d undistributed links codes were forwarded to channel administrators.</string>
     <string name="BoostingGiveawayServiceUndistributedGroup_one">%d undistributed link code was forwarded to group administrators.</string>
     <string name="BoostingGiveawayServiceUndistributedGroup_other">%d undistributed link codes were forwarded to group administrators.</string>
-    <string name="BoostingStarsGiveawayServiceUndistributed_one">%d undistributed place were forwarded to channel administrators.</string>
-    <string name="BoostingStarsGiveawayServiceUndistributed_other">%d undistributed places were forwarded to channel administrators.</string>
+    <string name="BoostingStarsGiveawayServiceUndistributed_one">%d undistributed prize was forwarded to channel administrators.</string>
+    <string name="BoostingStarsGiveawayServiceUndistributed_other">%d undistributed prizes were forwarded to channel administrators.</string>
     <string name="BoostingStarsGiveawayServiceUndistributedGroup_one">%d undistributed star was forwarded to group administrators.</string>
     <string name="BoostingStarsGiveawayServiceUndistributedGroup_other">%d undistributed stars were forwarded to group administrators.</string>
     <string name="BoostingBoostsGroupByUserServiceMsg">%s boosted the group</string>
@@ -8664,10 +8664,10 @@
   <string name="BoostingStarsGiveawayResultsMsgAllWinnersReceivedLinks_two">all winners received a total of %d stars.</string>
   <string name="BoostingStarsGiveawayResultsMsgAllWinnersReceivedLinks_few">all winners received a total of %d stars.</string>
   <string name="BoostingStarsGiveawayResultsMsgAllWinnersReceivedLinks_many">all winners received a total of %d stars.</string>
-  <string name="BoostingStarsGiveawayServiceUndistributed_zero">%d undistributed places were forwarded to channel administrators.</string>
-  <string name="BoostingStarsGiveawayServiceUndistributed_two">%d undistributed places were forwarded to channel administrators.</string>
-  <string name="BoostingStarsGiveawayServiceUndistributed_few">%d undistributed places were forwarded to channel administrators.</string>
-  <string name="BoostingStarsGiveawayServiceUndistributed_many">%d undistributed places were forwarded to channel administrators.</string>
+  <string name="BoostingStarsGiveawayServiceUndistributed_zero">%d undistributed prizes were forwarded to channel administrators.</string>
+  <string name="BoostingStarsGiveawayServiceUndistributed_two">%d undistributed prizes were forwarded to channel administrators.</string>
+  <string name="BoostingStarsGiveawayServiceUndistributed_few">%d undistributed prizes were forwarded to channel administrators.</string>
+  <string name="BoostingStarsGiveawayServiceUndistributed_many">%d undistributed prizes were forwarded to channel administrators.</string>
   <string name="BoostingStarsGiveawayServiceUndistributedGroup_zero">%d undistributed stars were forwarded to group administrators.</string>
   <string name="BoostingStarsGiveawayServiceUndistributedGroup_two">%d undistributed stars were forwarded to group administrators.</string>
   <string name="BoostingStarsGiveawayServiceUndistributedGroup_few">%d undistributed stars were forwarded to group administrators.</string>
