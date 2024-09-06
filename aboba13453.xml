@@ -1483,11 +1483,13 @@
     
     <string name="NotificationMessageGiftCode">%1$s sent you a gift code for %2$s of telegram premium</string>
     <string name="NotificationMessageGiveaway">%1$s sent you a giveaway of %2$sx %3$sm premium subscriptions</string>
-    <string name="NotificationMessageStarsGiveaway">%1$s sent you a giveaway of %3$s stars among %2$s winners</string>
+    <string name="NotificationMessageStarsGiveaway2">%1$s sent you a giveaway of %3$s stars %2$s</string>
     <string name="NotificationMessageChannelGiveaway">%1$s posted a giveaway of %2$sx %3$sm premium subscriptions</string>
-    <string name="NotificationMessageChannelStarsGiveaway">%1$s posted a giveaway of %3$s stars among %2$s winners</string>
+    <string name="NotificationMessageChannelStarsGiveaway2">%1$s posted a giveaway of %3$s stars %2$s</string>
     <string name="NotificationMessageChatGiveaway">%1$s sent a giveaway of %3$sx %4$sm premium subscriptions to the group %2$s</string>
-    <string name="NotificationMessageChatStarsGiveaway">%1$s sent a giveaway of %4$s stars among %3$s winners to the group %2$s</string>
+    <string name="NotificationMessageChatStarsGiveaway2">%1$s sent a giveaway of %4$s stars %3$s to the group %2$s</string>
+    <string name="AmongWinners_one">among %d winner</string>
+    <string name="AmongWinners_other">among %d winners</string>
     <string name="NotificationPinnedGiveaway">%1$s pinned a giveaway</string>
     <string name="NotificationReactGiveaway">%1$s reacted %2$s to your giveaway</string>
     <string name="NotificationChatReactGiveaway">%1$s reacted %3$s in group %2$s to your giveaway</string>
@@ -2112,6 +2114,8 @@
     <string name="InAppVibrate">in-app vibrate</string>
     <string name="Vibrate">vibrate</string>
     <string name="InAppPreview">in-app preview</string>
+    <string name="InAppPopup">in-app pop on screen</string>
+    <string name="InAppPopupInfo">show pop-up notifications while in app.</string>
     <string name="Reset">reset</string>
     <string name="ResetAllNotifications">reset all notifications</string>
     <string name="UndoAllCustom">undo all custom notification settings for your contacts, groups and channels.</string>
@@ -6469,8 +6473,8 @@
     <string name="BoostingShowMoreBoosts_other">show %1$d more boosts</string>
     <string name="BoostingUnclaimed">unclaimed</string>
     <string name="BoostingToBeDistributed">to be distributed</string>
-    
-    
+    <string name="BoostingBoostStars_one">%d star</string>
+    <string name="BoostingBoostStars_other">%d stars</string>
     <string name="BoostingShortMonths">%1$dm</string>
     <string name="BoostingStarsExpires">expires on %s</string>
     <string name="BoostingExpires">boost expires on %s</string>
@@ -8141,6 +8145,10 @@
   <string name="AltNavigationEnable">enable alternative navigation</string>
   <string name="AlwaysAllowPlaceholder">always allow...</string>
   <string name="AlwaysShareWithPlaceholder">always share with users...</string>
+  <string name="AmongWinners_zero">among %d winners</string>
+  <string name="AmongWinners_two">among %d winners</string>
+  <string name="AmongWinners_few">among %d winners</string>
+  <string name="AmongWinners_many">among %d winners</string>
   <string name="AndMoreTyping_zero">and %1$d more are typing</string>
   <string name="AndMoreTyping_two">and %1$d more are typing</string>
   <string name="AndMoreTyping_few">and %1$d more are typing</string>
@@ -8287,6 +8295,10 @@
   <string name="BoostStories_few">**%d** stories</string>
   <string name="BoostStories_many">**%d** stories</string>
   <string name="BoostingAddChannel">add channel</string>
+  <string name="BoostingBoostStars_zero">%d stars</string>
+  <string name="BoostingBoostStars_two">%d stars</string>
+  <string name="BoostingBoostStars_few">%d stars</string>
+  <string name="BoostingBoostStars_many">%d stars</string>
   <string name="BoostingBoostsChannelByUserServiceMsgCount_zero">%2$s boosted the channel %1$d times</string>
   <string name="BoostingBoostsChannelByUserServiceMsgCount_one" />
   <string name="BoostingBoostsChannelByUserServiceMsgCount_two">%2$s boosted the channel %1$d times</string>
@@ -9620,6 +9632,8 @@
   <string name="NotificationChatMessagePaidMedia_two">%2$s posted a paid post in %3$s group for %1$d stars</string>
   <string name="NotificationChatMessagePaidMedia_few">%2$s posted a paid post in %3$s group for %1$d stars</string>
   <string name="NotificationChatMessagePaidMedia_many">%2$s posted a paid post in %3$s group for %1$d stars</string>
+  <string name="NotificationMessageChannelStarsGiveaway">%1$s posted a giveaway of %3$s stars among %2$s winners</string>
+  <string name="NotificationMessageChatStarsGiveaway">%1$s sent a giveaway of %4$s stars among %3$s winners to the group %2$s</string>
   <string name="NotificationMessageContact">%1$s shared a contact with you</string>
   <string name="NotificationMessageGroupContact">%1$s shared a contact in the group %2$s</string>
   <string name="NotificationMessageGroupPoll">%1$s sent a poll to %2$s</string>
@@ -9628,6 +9642,7 @@
   <string name="NotificationMessagePaidMedia_few">%2$s sent you a paid post for %1$d stars</string>
   <string name="NotificationMessagePaidMedia_many">%2$s sent you a paid post for %1$d stars</string>
   <string name="NotificationMessagePoll">%1$s sent you a poll</string>
+  <string name="NotificationMessageStarsGiveaway">%1$s sent you a giveaway of %3$s stars among %2$s winners</string>
   <string name="NotificationPaidMedia_zero">%1$d &#11088;&#65039; media</string>
   <string name="NotificationPaidMedia_two">%1$d &#11088;&#65039; media</string>
   <string name="NotificationPaidMedia_few">%1$d &#11088;&#65039; media</string>
