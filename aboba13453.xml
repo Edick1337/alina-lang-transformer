@@ -3782,7 +3782,7 @@
     <string name="PermissionDrawAboveOtherApps">telegram needs access to draw above other apps to play videos in picture-in-picture mode.</string>
     <string name="PermissionDrawAboveOtherAppsGroupCall">overlay mode lets you use push-to-talk and see who is talking even when you are outside of telegram.</string>
     <string name="PermissionOpenSettings">settings</string>
-    <string name="PermissionXiaomiLockscreen">please allow telegram to be shown on the lock screen so that calls can work properly.</string>
+    <string name="PermissionXiaomiLockscreen">please allow telegram to be shown on the lock screen so that you can receive calls when your device is locked.</string>
     <string name="PermissionBackgroundLocation">to share your live location in this chat, telegram needs access to your location all the time, including while the app is in the background.\n\nwe will access your location only for the duration you choose, and you can stop sharing it any time. we won\'t use your location for any purpose other than sharing it in this chat.</string>
     <string name="PermissionDrawAboveOtherAppsTitle">picture-in-picture</string>
     <string name="PermissionDrawAboveOtherAppsGroupCallTitle">video chat overlay</string>
