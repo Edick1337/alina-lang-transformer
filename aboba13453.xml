@@ -313,6 +313,7 @@
     <string name="NotificationsPermissionAlert2">know when you are mentioned in groups</string>
     <string name="NotificationsPermissionAlert3">mute specific chats and types of chats</string>
     <string name="NotificationsPermissionContinue">continue</string>
+    <string name="NotificationsPermissionSettings">open settings</string>
     <string name="YourContacts">your contacts on telegram</string>
     <string name="ConnectingYourContacts">connecting your contacts...</string>
     <string name="ArchiveHintHeader1">this is your archive</string>
@@ -3783,6 +3784,7 @@
     <string name="PermissionDrawAboveOtherAppsGroupCall">overlay mode lets you use push-to-talk and see who is talking even when you are outside of telegram.</string>
     <string name="PermissionOpenSettings">settings</string>
     <string name="PermissionXiaomiLockscreen">please allow telegram to be shown on the lock screen so that you can receive calls when your device is locked.</string>
+    <string name="PermissionFSILockscreen">please allow telegram to be shown on the lock screen so that you can receive calls when your device is locked.</string>
     <string name="PermissionBackgroundLocation">to share your live location in this chat, telegram needs access to your location all the time, including while the app is in the background.\n\nwe will access your location only for the duration you choose, and you can stop sharing it any time. we won\'t use your location for any purpose other than sharing it in this chat.</string>
     <string name="PermissionDrawAboveOtherAppsTitle">picture-in-picture</string>
     <string name="PermissionDrawAboveOtherAppsGroupCallTitle">video chat overlay</string>
@@ -6444,7 +6446,6 @@
     <string name="BoostingBoostsCountTitle_other">%d boosts</string>
     <string name="BoostingSubscriptionsCountPlural_one">%2$s subscription</string>
     <string name="BoostingSubscriptionsCountPlural_other">%2$s subscriptions</string>
-    <string name="BoostingStarsPrepaidGiveawayTitle">prepaid giveaway</string>
     <string name="BoostingStarsCountPlural_one">%1$d star</string>
     <string name="BoostingStarsCountPlural_other">%1$d stars</string>
     <string name="BoostingTelegramPremiumCountPlural_one">%1$d telegram premium</string>
@@ -7954,7 +7955,8 @@
     <string name="StarsSubscriptionExpiredInfo">your subscription expired on %s.</string>
     <string name="StarsSubscriptionRefulfill">join channel</string>
     <string name="StarsSubscriptionRefulfillInfo">you left the channel, but can still return until %s.</string>
-    <string name="StarsSubscriptionExpiredHintTitle">&#11088;&#65039;%1$d stars needed for %2$s</string>
+    <string name="StarsSubscriptionExpiredHintTitle2_one">&#11088;&#65039;%1$d star needed for %2$s</string>
+    <string name="StarsSubscriptionExpiredHintTitle2_other">&#11088;&#65039;%1$d stars needed for %2$s</string>
     <string name="StarsSubscriptionExpiredHintText">insufficient funds to cover your subscription.</string>
     <string name="StarsParticipantSubscription">subscriber</string>
     <string name="StarsParticipantSubscriptionApproxMonth">appx. %1$s per month</string>
@@ -8688,6 +8690,7 @@
   <string name="BoostingStarsGiveawayServiceWinnersSelected_two">%1$d winners of the giveaway were randomly selected by telegram.</string>
   <string name="BoostingStarsGiveawayServiceWinnersSelected_few">%1$d winners of the giveaway were randomly selected by telegram.</string>
   <string name="BoostingStarsGiveawayServiceWinnersSelected_many">%1$d winners of the giveaway were randomly selected by telegram.</string>
+  <string name="BoostingStarsPrepaidGiveawayTitle">prepaid giveaway</string>
   <string name="BoostingStarsPreparedGiveawaySubscriptionsPlural_zero">%1$d stars</string>
   <string name="BoostingStarsPreparedGiveawaySubscriptionsPlural_two">%1$d stars</string>
   <string name="BoostingStarsPreparedGiveawaySubscriptionsPlural_few">%1$d stars</string>
@@ -10236,6 +10239,11 @@
   <string name="StarsSubscriptionCompletedText_two">%1$d stars transferred to **%2$s**.</string>
   <string name="StarsSubscriptionCompletedText_few">%1$d stars transferred to **%2$s**.</string>
   <string name="StarsSubscriptionCompletedText_many">%1$d stars transferred to **%2$s**.</string>
+  <string name="StarsSubscriptionExpiredHintTitle">&#11088;&#65039;%1$d stars needed for %2$s</string>
+  <string name="StarsSubscriptionExpiredHintTitle2_zero">&#11088;&#65039;%1$d stars needed for %2$s</string>
+  <string name="StarsSubscriptionExpiredHintTitle2_two">&#11088;&#65039;%1$d stars needed for %2$s</string>
+  <string name="StarsSubscriptionExpiredHintTitle2_few">&#11088;&#65039;%1$d stars needed for %2$s</string>
+  <string name="StarsSubscriptionExpiredHintTitle2_many">&#11088;&#65039;%1$d stars needed for %2$s</string>
   <string name="StartVoipChannelAlertText">do you want to start a live stream in this channel?</string>
   <string name="StartVoipChatAlertText">start a video chat in this group?</string>
   <string name="StealthMode">stealth mode</string>
