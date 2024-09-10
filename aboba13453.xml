@@ -7969,7 +7969,7 @@
     <string name="StarsSentText_one">you reacted with **%d** star.</string>
     <string name="StarsSentText_other">you reacted with **%d** stars.</string>
     <string name="StarsSentUndo">undo</string>
-    <string name="StarsReactionTitle">star reaction</string>
+    <string name="StarsReactionTitle">react with stars</string>
     <string name="StarsReactionText">choose how many stars you want to send to **%s** to support this post.</string>
     <string name="StarsReactionTextSent_one">you sent **%1$d** star to support this post.</string>
     <string name="StarsReactionTextSent_other">you sent **%1$d** stars to support this post.</string>
