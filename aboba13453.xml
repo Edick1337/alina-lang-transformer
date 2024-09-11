@@ -1310,6 +1310,7 @@
     <string name="DeleteForUser">also delete for %1$s</string>
     <string name="DeleteForAll">delete for all members</string>
     <string name="TextCopied">text copied to clipboard.</string>
+    
     <string name="CodeCopied">code copied to clipboard</string>
     <string name="HoldToAudioOnly">hold to record audio.</string>
     <string name="HoldToAudio">hold to record audio. tap to switch to video.</string>
@@ -3717,6 +3718,7 @@
     <string name="AreYouSureDeleteFewMessagesMega">are you sure you want to delete these messages for everyone?</string>
     <string name="DeleteMessagesOption">unsend my messages</string>
     <string name="DeleteMessagesOptionAlso">also delete for %1$s</string>
+    
     <string name="ClearHistoryOptionAlso">also clear history for %1$s</string>
     <string name="SendMessageTitle">send message</string>
     <string name="SendMessagesToGroupText">do you want to send this message to **%1$s**?</string>
@@ -6094,6 +6096,8 @@
     <string name="StorySavedSubtitle">posted stories can be viewed by others on your profile until you remove them.</string>
     <string name="StoryArchived_one">%d story removed from your profile</string>
     <string name="StoryArchived_other">%d stories removed from your profile</string>
+    
+    
     <string name="OpenLink">open link</string>
     <string name="StorySharedToEveryone">this story is now shown to everyone.</string>
     <string name="StorySharedToCloseFriends">this story is now shown to your close friends.</string>
@@ -8013,6 +8017,30 @@
     <string name="BoostReasonGiveaway">giveaway</string>
     <string name="BoostDate">date</string>
     <string name="BoostUntil">until</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
   
 
