@@ -536,8 +536,9 @@
     <string name="ActionCreateChannel">channel created</string>
     <string name="ActionGiftInbound">un1 sent you a gift for **un2**</string>
     <string name="ActionGiftOutbound">you have sent a gift for **un2**</string>
-    <string name="ActionGiftPremiumTitle">telegram premium</string>
-    <string name="ActionGiftPremiumSubtitle">for %1$s</string>
+    
+    
+    
     <string name="ActionGiftPremiumView">view</string>
     <string name="ActionStarGiveawayPrizeTitle">congratulations!</string>
     <string name="ActionStarGiveawayPrize_one">you won a prize in a giveaway organized by **un1**.\n\nyour prize is **%d star**.</string>
@@ -654,6 +655,7 @@
     <string name="EditAdminCantEdit">you can\'t edit the rights of this admin.</string>
     <string name="EditCantEditPermissions">you cannot change this permission.</string>
     <string name="EditCantEditPermissionsPublic">this permission is not available in public groups.</string>
+    <string name="EditCantEditPermissionsDiscussion">this permission is not available in discussion groups.</string>
     <string name="UserRemovedBy">removed by %1$s</string>
     <string name="UserRestrictions">user permissions</string>
     <string name="UserRestrictionsCanDo">what can this user do?</string>
@@ -1159,6 +1161,7 @@
     <string name="UnsupportedAttachment">unsupported attachment</string>
     <string name="SetTimer">set self-destruct timer</string>
     <string name="ServiceNotifications">service notifications</string>
+    <string name="VerifyCodesNotifications">verification codes</string>
     <string name="GettingLinkInfo">getting link info...</string>
     <string name="OpenInBrowser">open in...</string>
     <string name="OpenInExternalApp">open in...</string>
@@ -1310,7 +1313,7 @@
     <string name="DeleteForUser">also delete for %1$s</string>
     <string name="DeleteForAll">delete for all members</string>
     <string name="TextCopied">text copied to clipboard.</string>
-    
+    <string name="ExactTextCopied">\"%s\" copied to clipboard</string>
     <string name="CodeCopied">code copied to clipboard</string>
     <string name="HoldToAudioOnly">hold to record audio.</string>
     <string name="HoldToAudio">hold to record audio. tap to switch to video.</string>
@@ -1446,6 +1449,7 @@
     <string name="ViewThread">view thread</string>
     <string name="ChooseDate">choose date</string>
     <string name="RepliesChatInfo">this chat helps you keep track of replies to your comments in channels.</string>
+    <string name="VerifyChatInfo">this chat is used to receive verification codes from third-party services.</string>
     <string name="ChannelPostDeleted">sorry, this post has been removed from the discussion group.</string>
     <string name="UnpinAllMessages">unpin all messages</string>
     <string name="HidePinnedMessages">hide pinned messages</string>
@@ -1503,6 +1507,8 @@
     <string name="NotificationMessageScheduled">&#128197; you: %1$s</string>
     <string name="NotificationMessageScheduledName">&#128197; you</string>
     <string name="NotificationMessageText">%1$s: %2$s</string>
+    <string name="NotificationMessageStarGift_one">%2$s sent you a gift worth of %1$d star</string>
+    <string name="NotificationMessageStarGift_other">%2$s sent you a gift worth of %1$d stars</string>
     <string name="NotificationMessageFew">%1$s sent you %2$s</string>
     <string name="NotificationMessageAlbum">%1$s sent you an album</string>
     <string name="NotificationMessageForwardFew">%1$s forwarded you %2$s</string>
@@ -3001,6 +3007,9 @@
     <string name="ProximityAlertSetInfoGroup2">we will notify you once someone is within %1$s from you.</string>
     <string name="ProximityAlertCancelled">proximity alert canceled</string>
     
+    <string name="Quality">quality</string>
+    <string name="QualityAuto">auto</string>
+    <string name="QualityOriginal">original</string>
     <string name="Speed">speed</string>
     <string name="SpeedSlow">slow</string>
     <string name="SpeedVerySlow">very slow</string>
@@ -3422,6 +3431,7 @@
     <string name="SyncContactsDeleteText">this will remove your contacts from the telegram servers.\n\nif \'**sync contacts**\' is enabled, your current phonebook will be re-synced.</string>
     
     <string name="SendingVideo">sending video...</string>
+    <string name="ConvertingVideo">converting video...</string>
     <string name="SendingGif">sending gif...</string>
     
     <string name="Bot">bot</string>
@@ -3718,7 +3728,7 @@
     <string name="AreYouSureDeleteFewMessagesMega">are you sure you want to delete these messages for everyone?</string>
     <string name="DeleteMessagesOption">unsend my messages</string>
     <string name="DeleteMessagesOptionAlso">also delete for %1$s</string>
-    
+    <string name="DeleteMessagesForBothSidesWherePossible">delete for both sides where possible</string>
     <string name="ClearHistoryOptionAlso">also clear history for %1$s</string>
     <string name="SendMessageTitle">send message</string>
     <string name="SendMessagesToGroupText">do you want to send this message to **%1$s**?</string>
@@ -4068,6 +4078,8 @@
     <string name="VoipChannelLeaveAlertEndChat">end live stream</string>
     <string name="VoipChannelViewVoiceChat">view live stream</string>
     <string name="VoipChannelVoiceChat">live stream</string>
+    <string name="VoipChannelLabelLive">live</string>
+    <string name="VoipChannelWatching">watching</string>
     <string name="VoipChannelScheduledVoiceChat">scheduled live stream</string>
     <string name="VoipChannelOpenVoiceChat">open live stream</string>
     <string name="VoipChannelJoinAnonymousAdmin">sorry, you can\'t join live streams as an anonymous administrator.</string>
@@ -4140,7 +4152,13 @@
     <string name="VoipGroupSoundUnmuted">video chat sound unmuted.</string>
     <string name="VoipGroupStart2">members of this group will be notified once you start the video chat.</string>
     <string name="VoipChannelStart2">subscribers of this channel will be notified once you start the live stream.</string>
+    <string name="VoipStreamStart">to stream video with another app,\nenter the server url and stream key\nin your streaming app.</string>
     <string name="VoipChatDisplayedAs">you will be displayed as:</string>
+    <string name="VoipChatStreamSettings">stream settings</string>
+    <string name="VoipChatStreamWithAnotherApp">you can also stream with **another app &gt;**</string>
+    <string name="VoipChatStreamWithAnotherAppDescription">once you start broadcasting in your streaming app, tap start streaming below.</string>
+    <string name="VoipChatStreamServerUrl">server url</string>
+    <string name="VoipChatStreamKey">stream key</string>
     <string name="VoipGroupStartVoiceChat">start video chat</string>
     <string name="VoipGroupScheduleVoiceChat">schedule video chat</string>
     <string name="VoipChannelJoinVoiceChatUrl">join live stream</string>
@@ -4148,6 +4166,7 @@
     <string name="VoipChannelSoundMuted">live stream sound muted.</string>
     <string name="VoipChannelSoundUnmuted">live stream sound unmuted.</string>
     <string name="VoipChannelStartVoiceChat">start live stream</string>
+    <string name="VoipChannelStartStreaming">start streaming</string>
     <string name="VoipChannelScheduleVoiceChat">schedule live stream</string>
     <string name="VoipGroupStartNow">start now</string>
     <string name="VoipGroupSetReminder">set reminder</string>
@@ -4377,6 +4396,8 @@
     <string name="Months_other">%1$d months</string>
     <string name="GiftMonths_one">%1$d-month</string>
     <string name="GiftMonths_other">%1$d-months</string>
+    <string name="Gift2Months_one">%1$d-month</string>
+    <string name="Gift2Months_other">%1$d-months</string>
     <string name="PrepaidGiveawayMonths_one">%1$d-month</string>
     <string name="PrepaidGiveawayMonths_other">%1$d-month</string>
     <string name="BoldMonths_one">**%1$d** month</string>
@@ -5005,6 +5026,7 @@
     <string name="PushChatReactGif">%3$s to your gif</string>
     <string name="PushReactStory">%2$s to your story</string>
     <string name="PushReactStoryHidden">new reaction to your story</string>
+    <string name="PushReactStoryHiddenSender">story reaction</string>
     <string name="BlurInChat">blur in chat</string>
 
     <string name="AllowBackgroundActivity">allow background activity</string>
@@ -5180,6 +5202,8 @@
     <string name="GiftPremiumListFeaturesAndTerms">you can review the list of features and more details about telegram premium *here*.</string>
     <string name="GiftPremium">gift premium</string>
     <string name="GiftPremiumGifting">gift premium</string>
+    <string name="SendAGift">send a gift</string>
+    <string name="ProfileSendAGift">send a gift</string>
     <string name="GiftPremiumActivateForFree">activate for free</string>
     <string name="GiftPremiumActivateErrorTitle">you already have telegram premium</string>
     <string name="GiftPremiumActivateErrorText">you can activate this gift code after %1$s or **send the link** to a friend.</string>
@@ -5210,6 +5234,7 @@
     <string name="GiftPremiumWhatsIncluded">what\'s included</string>
     <string name="GiftPremiumEventAdsTitle">eid mubarak! &#10024;</string>
     <string name="GiftTelegramPremiumTitle">gift telegram premium</string>
+    <string name="GiftTelegramPremiumOrStarsTitle">gift premium or stars</string>
     <string name="GiftTelegramPremiumDescription">give **%1$s** access to exclusive features with **telegram premium**.</string>
     <string name="TelegramPremium">telegram premium</string>
     <string name="TelegramPremiumSubtitle">go **beyond the limits** and **unlock dozens of exclusive** features by subscribing to **telegram premium**.</string>
@@ -6096,8 +6121,8 @@
     <string name="StorySavedSubtitle">posted stories can be viewed by others on your profile until you remove them.</string>
     <string name="StoryArchived_one">%d story removed from your profile</string>
     <string name="StoryArchived_other">%d stories removed from your profile</string>
-    
-    
+    <string name="FoundStories_one">%d story</string>
+    <string name="FoundStories_other">%d stories</string>
     <string name="OpenLink">open link</string>
     <string name="StorySharedToEveryone">this story is now shown to everyone.</string>
     <string name="StorySharedToCloseFriends">this story is now shown to your close friends.</string>
@@ -7447,9 +7472,9 @@
     <string name="BirthdaySetupMessage">let your contacts know when you&#8217;re celebrating</string>
     <string name="BirthdaySetupLater">you can always set your birthday in profile settings.</string>
     <string name="BirthdayTodaySingleTitle">it&#8217;s %s&#8217;s **birthday** today! &#127874;</string>
-    <string name="BirthdayTodaySingleMessage">gift them telegram premium.</string>
+    <string name="BirthdayTodaySingleMessage2">send them a gift.</string>
     <string name="BirthdayTodayMultipleTitle_other">%d contacts have **birthdays** today! &#127874;</string>
-    <string name="BirthdayTodayMultipleMessage">gift them telegram premium.</string>
+    <string name="BirthdayTodayMultipleMessage2">send them a gift.</string>
     <string name="BirthdayToday">&#127874; birthday today</string>
     <string name="BirthdayYesterday">birthday yesterday</string>
     <string name="BirthdayTomorrow">birthday tomorrow</string>
@@ -7605,7 +7630,7 @@
     <string name="SensitiveContentSettingsToast">you can update the visibility of sensitive media in **chat settings &gt; show 18+ content**</string>
     <string name="MenuTelegramStars">my stars</string>
     <string name="TelegramStars">telegram stars</string>
-    <string name="TelegramStarsInfo">buy stars to unlock content and services\nin miniapps on telegram.</string>
+    <string name="TelegramStarsInfo2">buy stars to unlock content and services\nin mini apps on telegram. **more about stars &gt;**</string>
     <string name="TelegramStarsChoose">choose package</string>
     <string name="TelegramStarsGift">gift stars to friends</string>
     <string name="StarsCount_one">%d star</string>
@@ -7617,6 +7642,7 @@
     <string name="StarsTransactionsIncoming">incoming</string>
     <string name="StarsTransactionsOutgoing">outgoing</string>
     <string name="StarsTransactionInApp">in-app purchase</string>
+    <string name="StarsTransactionHidden">hidden user</string>
     <string name="StarsTransactionUnknown">unknown user</string>
     <string name="StarsTransactionUnknownLink">https://fragment.com/stars</string>
     <string name="StarsTransactionBot">stars top-up bot</string>
@@ -7638,10 +7664,11 @@
     <string name="StarsConfirmPurchaseButton_other">confirm and pay &#11088;&#65039; %d stars</string>
     <string name="StarsNeededTitle_one">%d star needed</string>
     <string name="StarsNeededTitle_other">%d stars needed</string>
-    <string name="StarsNeededText">buy **stars** and use them on **%s** and other miniapps.</string>
+    <string name="StarsNeededText">buy **stars** and use them in **%s** and other mini apps.</string>
     <string name="StarsNeededTextBuySubscription">buy **stars** and subscribe to **%s** and other channels.</string>
     <string name="StarsNeededTextKeepSubscription">buy **stars** to keep your subscription to **%s**.</string>
     <string name="StarsNeededTextReactions">buy **stars** to send paid reactions to **%s** and other channels.</string>
+    <string name="StarsNeededTextGift">buy **stars** to send gifts to **%s** and other contacts.</string>
     <string name="StarsNeededTextLink">buy **stars** to keep your channel subscriptions.</string>
     <string name="StarsNeededTextLink_subs">buy **stars** to keep your channel subscriptions.</string>
     <string name="StarsNeededTextLink_subadvance12">buy **stars** to keep your subscriptions active for the next 12 months.</string>
@@ -7882,7 +7909,7 @@
     <string name="BrowserSettingsCookiesClear">clear cookies</string>
     <string name="BrowserSettingsCacheClearText">are you sure you want to clear browser cache%s?</string>
     <string name="BrowserSettingsCookiesClearText">are you sure you want to clear browser cookies%s?\n\nthis may log you out from some websites.</string>
-    <string name="BrowserSettingsCookiesInfo">delete all cookies and cache from the telegram in-app browser and miniapps.</string>
+    <string name="BrowserSettingsCookiesInfo">delete all cookies and cache from the telegram in-app browser and mini apps.</string>
     <string name="BrowserSettingsHistoryShow">view history</string>
     <string name="BrowserSettingsHistoryClear">clear history</string>
     <string name="BrowserSettingsHistoryPages_one">%d page</string>
@@ -8017,30 +8044,116 @@
     <string name="BoostReasonGiveaway">giveaway</string>
     <string name="BoostDate">date</string>
     <string name="BoostUntil">until</string>
+    <string name="Gift2User">gift %s</string>
+    <string name="Gift2Premium">gift premium</string>
+    <string name="Gift2PremiumInfo">give **%s** access to exclusive features with telegram premium.</string>
+    <string name="Gift2PremiumInfoLink">see features &gt;</string>
+    <string name="Gift2Stars">gift stars</string>
+    <string name="Gift2StarsInfo">give **%s** gifts that can be kept on the profile or converted to stars.</string>
+    <string name="Gift2StarsInfoLink">what are stars &gt;</string>
+    <string name="Gift2Title">send a gift</string>
+    <string name="Gift2Message">enter message</string>
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="Gift2Hide">hide my name</string>
+    <string name="Gift2HideInfo">you can hide your name and message from visitors to %1$s`s profile. %1$s will still see your name and message.</string>
+    <string name="Gift2Send_one">send a gift for &#11088;&#65039;%d</string>
+    <string name="Gift2Send_other">send a gift for &#11088;&#65039;%d</string>
+    <string name="Gift2SendPremium">send a gift for %s</string>
+    <string name="Gift2ActionTitle">gift from</string>
+    <string name="Gift2ActionTitleInAnonymous">%s received a gift!</string>
+    <string name="Gift2ActionTitleAnonymous">you received a gift!</string>
+    <string name="Gift2ActionInfo_one">display this gift on your page or convert it to %d star.</string>
+    <string name="Gift2ActionInfo_other">display this gift on your page or convert it to %d stars.</string>
+    <string name="Gift2ActionSavedInfo">you kept this gift on your page.</string>
+    <string name="Gift2ActionConvertedInfo_one">you converted this gift to %d star.</string>
+    <string name="Gift2ActionConvertedInfo_other">you converted this gift to %d stars.</string>
+    <string name="Gift2ActionOutInfo_one">**%2$s** can display this gift on their page or convert it to %1$d star.</string>
+    <string name="Gift2ActionOutInfo_other">**%2$s** can display this gift on their page or convert it to %1$d stars.</string>
+    <string name="Gift2StarsCount_one">%d star</string>
+    <string name="Gift2StarsCount_other">%d stars</string>
+    <string name="ProfileGifts">gifts</string>
+    <string name="ProfileGiftsInfo">these gifts were sent to you by other users.\ntap on a gift to convert it to stars or change its privacy settings.</string>
+    <string name="ProfileGiftsCount_one">%d gift</string>
+    <string name="ProfileGiftsCount_other">%d gifts</string>
+    <string name="ProfileGiftsSend">send gifts to friends</string>
+    <string name="Gift2TabAll">all gifts</string>
+    <string name="Gift2TabLimited">limited</string>
+    <string name="Gift2LimitedRibbon">limited</string>
+    <string name="Gift2Limited1OfRibbon">1 of %s</string>
+    <string name="StarsGiftCompleted">gift sent!</string>
+    <string name="StarsGiftCompletedText_one">you spent **%1$d** star from your balance.</string>
+    <string name="StarsGiftCompletedText_other">you spent **%1$d** stars from your balance.</string>
+    <string name="Gift2TitleSent">sent gift</string>
+    <string name="Gift2TitleProfile">gift</string>
+    <string name="Gift2TitleReceived">received gift</string>
+    <string name="TelegramPremiumShort">premium</string>
+    <string name="Gift2Info_one">you can keep this gift in your profile or convert it to **%d** star.</string>
+    <string name="Gift2Info_other">you can keep this gift in your profile or convert it to **%d** stars.</string>
+    <string name="Gift2InfoOut_one">%2$s can keep this gift in profile or convert it to **%1$d** star.</string>
+    <string name="Gift2InfoOut_other">%2$s can keep this gift in profile or convert it to **%1$d** stars.</string>
+    <string name="Gift2InfoConverted_one">you converted this gift to **%d** star.</string>
+    <string name="Gift2InfoConverted_other">you converted this gift to **%d** stars.</string>
+    <string name="Gift2InfoPinned">you kept this gift in your profile.</string>
+    <string name="Gift2InfoOutConverted_one">%2$s converted this gift to **%d** star.</string>
+    <string name="Gift2InfoOutConverted_other">%2$s converted this gift to **%d** stars.</string>
+    <string name="Gift2InfoOutPinned">%1$s kept this gift in their profile.</string>
+    <string name="Gift2SenderHidden">only you can see the sender&#700;s name.</string>
+    <string name="Gift2ProfileVisible">this gift is visible to visitors of your page.</string>
+    <string name="Gift2ProfileInvisible">this gift is hidden. only you can see it.</string>
+    <string name="Gift2More">**more about stars &gt;**</string>
+    <string name="Gift2From">from</string>
+    <string name="Gift2To">to</string>
+    <string name="Gift2Availability">availability</string>
+    <string name="Gift2Availability3Value">%1$d of %2$s left</string>
+    <string name="Gift2Availability2ValueNone_one">none of %1$d left</string>
+    <string name="Gift2Availability2ValueNone_other">none of %1$d left</string>
+    <string name="Gift2ProfileMakeVisible">display on my page</string>
+    <string name="Gift2ProfileMakeInvisible">hide from my page</string>
+    <string name="Gift2ToBalance_one">convert to %d star</string>
+    <string name="Gift2ToBalance_other">convert to %d stars</string>
+    <string name="Gift2ConvertTitle">convert gift to stars</string>
+    <string name="Gift2ConvertText">do you want to convert this gift from **%1$s** to **%2$s**?\n\nthis action cannot be undone. this will permanently destroy the gift.</string>
+    <string name="Gift2ConvertStars_one">%d star</string>
+    <string name="Gift2ConvertStars_other">%d stars</string>
+    <string name="Gift2ConvertButton">convert</string>
+    <string name="ExplainStarsTitle">what are stars?</string>
+    <string name="ExplainStarsTitle2">telegram stars allow users to:</string>
+    <string name="ExplainStarsFeature1Title">send gifts to friends</string>
+    <string name="ExplainStarsFeature1Text">give your friends gifts that can be kept on their profiles or converted to stars.</string>
+    <string name="ExplainStarsFeature2Title">use stars in mini apps</string>
+    <string name="ExplainStarsFeature2Text">buy additional content and services in telegram mini apps. **see examples &gt;**</string>
+    <string name="ExplainStarsFeature3Title">unlock content in channels</string>
+    <string name="ExplainStarsFeature3Text">get access to paid content and services in telegram channels.</string>
+    <string name="ExplainStarsFeature4Title">send star reactions</string>
+    <string name="ExplainStarsFeature4Text">support your favorite channels by sending star reactions to their posts.</string>
+    <string name="ExplainStarsButton">got it</string>
+    <string name="Gift2MadePublicTitle">gift shown</string>
+    <string name="Gift2MadePublic">gift is now visible in **your profile**.</string>
+    <string name="Gift2MadePrivateTitle">gift hidden</string>
+    <string name="Gift2MadePrivate">gift is now hidden in **your profile**.</string>
+    <string name="Gift2ConvertedTitle">converted gift</string>
+    <string name="Gift2Converted_one">%d star was sent to your balance</string>
+    <string name="Gift2Converted_other">%d star were sent to your balance</string>
+    <string name="ReportStory">report story</string>
+    <string name="Report2">report</string>
+    <string name="Report2Comment">add comment</string>
+    <string name="Report2CommentOptional">add comment (optional)</string>
+    <string name="Report2CommentInfo">please help us by telling what is wrong with the message you have selected.</string>
+    <string name="Report2CommentInfoUser">please help us by telling what is wrong with the user you have selected.</string>
+    <string name="Report2CommentInfoGroup">please help us by telling what is wrong with the group you have selected.</string>
+    <string name="Report2CommentInfoChannel">please help us by telling what is wrong with the channel you have selected.</string>
+    <string name="Report2Send">send report</string>
+    <string name="Reported2">telegram moderators will review your report. thank you!</string>
+    <string name="Gift2TransactionRefundedSent">refunded sent gift</string>
+    <string name="Gift2TransactionRefundedConverted">refunded converted gift</string>
+    <string name="Gift2TransactionConverted">converted gift</string>
+    <string name="Gift2TransactionSent">gift</string>
+    <string name="Gift2Notification_one">sent a gift worth of %d star</string>
+    <string name="Gift2Notification_other">sent a gift worth of %d stars</string>
+    <string name="YourStarsBalance">your balance</string>
+    <string name="StarsBuy">buy stars</string>
+    <string name="StarsBuyMore">buy more stars</string>
 
   
 
@@ -8090,6 +8203,9 @@
   <string name="ActionDeletedInviteLink">un1 deleted the invite link %1$s</string>
   <string name="ActionEditedInviteLink">un1 edited invite link %1$s to %2$s</string>
   <string name="ActionEditedInviteLinkToSame">un1 edited invite link %1$s</string>
+  <string name="ActionGift2Received">you received a gift for **un2**</string>
+  <string name="ActionGiftPremiumSubtitle">for %1$s</string>
+  <string name="ActionGiftPremiumTitle">telegram premium</string>
   <string name="ActionGiftStarsTitle_zero">%d stars</string>
   <string name="ActionGiftStarsTitle_two">%d stars</string>
   <string name="ActionGiftStarsTitle_few">%d stars</string>
@@ -8238,11 +8354,13 @@
   <string name="Bans_two">%1$d restrictions</string>
   <string name="Bans_few">%1$d restrictions</string>
   <string name="Bans_many">%1$d restrictions</string>
+  <string name="BirthdayTodayMultipleMessage">gift them telegram premium.</string>
   <string name="BirthdayTodayMultipleTitle_zero">%d contacts have **birthdays** today! &#127874;</string>
   <string name="BirthdayTodayMultipleTitle_one" />
   <string name="BirthdayTodayMultipleTitle_two">%d contacts have **birthdays** today! &#127874;</string>
   <string name="BirthdayTodayMultipleTitle_few">%d contacts have **birthdays** today! &#127874;</string>
   <string name="BirthdayTodayMultipleTitle_many">%d contacts have **birthdays** today! &#127874;</string>
+  <string name="BirthdayTodaySingleMessage">gift them telegram premium.</string>
   <string name="BlockedUsersCount_zero">%1$d blocked users</string>
   <string name="BlockedUsersCount_two">%1$d blocked users</string>
   <string name="BlockedUsersCount_few">%1$d blocked users</string>
@@ -9283,6 +9401,10 @@
   <string name="ForwardedVideo_few">%1$d forwarded videos</string>
   <string name="ForwardedVideo_many">%1$d forwarded videos</string>
   <string name="ForwardingFromNameAndMessage">%s: %s</string>
+  <string name="FoundStories_zero">%d stories</string>
+  <string name="FoundStories_two">%d stories</string>
+  <string name="FoundStories_few">%d stories</string>
+  <string name="FoundStories_many">%d stories</string>
   <string name="FromCamera">from camera</string>
   <string name="FromChats_zero">from %1$d chats</string>
   <string name="FromChats_two">from %1$d chats</string>
@@ -9306,6 +9428,67 @@
   <string name="GifCaption">gif caption</string>
   <string name="GifSavedToDownloadsHint">gif saved to downloads.</string>
   <string name="GifsTab">gifs</string>
+  <string name="Gift2ActionConvertedInfo_zero">you converted this gift to %d stars.</string>
+  <string name="Gift2ActionConvertedInfo_two">you converted this gift to %d stars.</string>
+  <string name="Gift2ActionConvertedInfo_few">you converted this gift to %d stars.</string>
+  <string name="Gift2ActionConvertedInfo_many">you converted this gift to %d stars.</string>
+  <string name="Gift2ActionInfo_zero">display this gift on your page or convert it to %d stars.</string>
+  <string name="Gift2ActionInfo_two">display this gift on your page or convert it to %d stars.</string>
+  <string name="Gift2ActionInfo_few">display this gift on your page or convert it to %d stars.</string>
+  <string name="Gift2ActionInfo_many">display this gift on your page or convert it to %d stars.</string>
+  <string name="Gift2ActionOutInfo_zero">**%2$s** can display this gift on their page or convert it to %1$d stars.</string>
+  <string name="Gift2ActionOutInfo_two">**%2$s** can display this gift on their page or convert it to %1$d stars.</string>
+  <string name="Gift2ActionOutInfo_few">**%2$s** can display this gift on their page or convert it to %1$d stars.</string>
+  <string name="Gift2ActionOutInfo_many">**%2$s** can display this gift on their page or convert it to %1$d stars.</string>
+  <string name="Gift2Availability2Value">%1$s of %2$s left</string>
+  <string name="Gift2Availability2ValueNone_zero">none of %1$d left</string>
+  <string name="Gift2Availability2ValueNone_two">none of %1$d left</string>
+  <string name="Gift2Availability2ValueNone_few">none of %1$d left</string>
+  <string name="Gift2Availability2ValueNone_many">none of %1$d left</string>
+  <string name="Gift2ConvertStars_zero">%d stars</string>
+  <string name="Gift2ConvertStars_two">%d stars</string>
+  <string name="Gift2ConvertStars_few">%d stars</string>
+  <string name="Gift2ConvertStars_many">%d stars</string>
+  <string name="Gift2Converted_zero">%d star were sent to your balance</string>
+  <string name="Gift2Converted_two">%d star were sent to your balance</string>
+  <string name="Gift2Converted_few">%d star were sent to your balance</string>
+  <string name="Gift2Converted_many">%d star were sent to your balance</string>
+  <string name="Gift2Info_zero">you can keep this gift in your profile or convert it to **%d** stars.</string>
+  <string name="Gift2Info_two">you can keep this gift in your profile or convert it to **%d** stars.</string>
+  <string name="Gift2Info_few">you can keep this gift in your profile or convert it to **%d** stars.</string>
+  <string name="Gift2Info_many">you can keep this gift in your profile or convert it to **%d** stars.</string>
+  <string name="Gift2InfoConverted_zero">you converted this gift to **%d** stars.</string>
+  <string name="Gift2InfoConverted_two">you converted this gift to **%d** stars.</string>
+  <string name="Gift2InfoConverted_few">you converted this gift to **%d** stars.</string>
+  <string name="Gift2InfoConverted_many">you converted this gift to **%d** stars.</string>
+  <string name="Gift2InfoOut_zero">%2$s can keep this gift in profile or convert it to **%1$d** stars.</string>
+  <string name="Gift2InfoOut_two">%2$s can keep this gift in profile or convert it to **%1$d** stars.</string>
+  <string name="Gift2InfoOut_few">%2$s can keep this gift in profile or convert it to **%1$d** stars.</string>
+  <string name="Gift2InfoOut_many">%2$s can keep this gift in profile or convert it to **%1$d** stars.</string>
+  <string name="Gift2InfoOutConverted_zero">%2$s converted this gift to **%d** stars.</string>
+  <string name="Gift2InfoOutConverted_two">%2$s converted this gift to **%d** stars.</string>
+  <string name="Gift2InfoOutConverted_few">%2$s converted this gift to **%d** stars.</string>
+  <string name="Gift2InfoOutConverted_many">%2$s converted this gift to **%d** stars.</string>
+  <string name="Gift2Months_zero">%1$d-months</string>
+  <string name="Gift2Months_two">%1$d-months</string>
+  <string name="Gift2Months_few">%1$d-months</string>
+  <string name="Gift2Months_many">%1$d-months</string>
+  <string name="Gift2Notification_zero">sent a gift worth of %d stars</string>
+  <string name="Gift2Notification_two">sent a gift worth of %d stars</string>
+  <string name="Gift2Notification_few">sent a gift worth of %d stars</string>
+  <string name="Gift2Notification_many">sent a gift worth of %d stars</string>
+  <string name="Gift2Send_zero">send a gift for &#11088;&#65039;%d</string>
+  <string name="Gift2Send_two">send a gift for &#11088;&#65039;%d</string>
+  <string name="Gift2Send_few">send a gift for &#11088;&#65039;%d</string>
+  <string name="Gift2Send_many">send a gift for &#11088;&#65039;%d</string>
+  <string name="Gift2StarsCount_zero">%d stars</string>
+  <string name="Gift2StarsCount_two">%d stars</string>
+  <string name="Gift2StarsCount_few">%d stars</string>
+  <string name="Gift2StarsCount_many">%d stars</string>
+  <string name="Gift2ToBalance_zero">convert to %d stars</string>
+  <string name="Gift2ToBalance_two">convert to %d stars</string>
+  <string name="Gift2ToBalance_few">convert to %d stars</string>
+  <string name="Gift2ToBalance_many">convert to %d stars</string>
   <string name="GiftMonths_zero">%1$d-months</string>
   <string name="GiftMonths_two">%1$d-months</string>
   <string name="GiftMonths_few">%1$d-months</string>
@@ -9673,6 +9856,10 @@
   <string name="NotificationMessagePaidMedia_few">%2$s sent you a paid post for %1$d stars</string>
   <string name="NotificationMessagePaidMedia_many">%2$s sent you a paid post for %1$d stars</string>
   <string name="NotificationMessagePoll">%1$s sent you a poll</string>
+  <string name="NotificationMessageStarGift_zero">%2$s sent you a gift worth of %1$d stars</string>
+  <string name="NotificationMessageStarGift_two">%2$s sent you a gift worth of %1$d stars</string>
+  <string name="NotificationMessageStarGift_few">%2$s sent you a gift worth of %1$d stars</string>
+  <string name="NotificationMessageStarGift_many">%2$s sent you a gift worth of %1$d stars</string>
   <string name="NotificationMessageStarsGiveaway">%1$s sent you a giveaway of %3$s stars among %2$s winners</string>
   <string name="NotificationPaidMedia_zero">%1$d &#11088;&#65039; media</string>
   <string name="NotificationPaidMedia_two">%1$d &#11088;&#65039; media</string>
@@ -9890,6 +10077,10 @@
   <string name="ProfileBotPreviewEmptyText_two">upload up to %d screenshots and video demos for your mini app.</string>
   <string name="ProfileBotPreviewEmptyText_few">upload up to %d screenshots and video demos for your mini app.</string>
   <string name="ProfileBotPreviewEmptyText_many">upload up to %d screenshots and video demos for your mini app.</string>
+  <string name="ProfileGiftsCount_zero">%d gifts</string>
+  <string name="ProfileGiftsCount_two">%d gifts</string>
+  <string name="ProfileGiftsCount_few">%d gifts</string>
+  <string name="ProfileGiftsCount_many">%d gifts</string>
   <string name="ProfileMyStories">my stories</string>
   <string name="ProfileMyStoriesCount_zero">%d posted stories</string>
   <string name="ProfileMyStoriesCount_two">%d posted stories</string>
@@ -10226,6 +10417,10 @@
   <string name="StarsCount_two">%d stars</string>
   <string name="StarsCount_few">%d stars</string>
   <string name="StarsCount_many">%d stars</string>
+  <string name="StarsGiftCompletedText_zero">you spent **%1$d** stars from your balance.</string>
+  <string name="StarsGiftCompletedText_two">you spent **%1$d** stars from your balance.</string>
+  <string name="StarsGiftCompletedText_few">you spent **%1$d** stars from your balance.</string>
+  <string name="StarsGiftCompletedText_many">you spent **%1$d** stars from your balance.</string>
   <string name="StarsGiftSentPopupInfo_zero">**%1$d stars** sent as gift to %2$s.</string>
   <string name="StarsGiftSentPopupInfo_two">**%1$d stars** sent as gift to %2$s.</string>
   <string name="StarsGiftSentPopupInfo_few">**%1$d stars** sent as gift to %2$s.</string>
@@ -10461,6 +10656,7 @@
   <string name="TelegramPremiumCount">%1$d telegram premium</string>
   <string name="TelegramPremiumUserGiftedPremiumDialogTitle">**%1$s** has gifted you a %2$d-month subscription to telegram premium.</string>
   <string name="TelegramPremiumUserGiftedPremiumOutboundDialogTitle">you gifted **%1$s** a %2$d-month subscription to telegram premium.</string>
+  <string name="TelegramStarsInfo">buy stars to unlock content and services\nin mini apps on telegram.</string>
   <string name="TerminateSessionInfo">tap on a session to terminate.</string>
   <string name="TerminateSessionQuestion">terminate this session?</string>
   <string name="TerminateWebSessionQuestion">disconnect %1$s?</string>
