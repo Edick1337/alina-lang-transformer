@@ -5991,7 +5991,7 @@
     <string name="WallpaperNotification">set a new chat wallpaper</string>
     <string name="WallpaperSameNotification">set the same chat wallpaper</string>
     <string name="BotWebViewStartPermission">to launch this web app, you will connect to its website.</string>
-    <string name="BotWebViewStartPermissionLink">https://telegram.org/tos/stars</string>
+    <string name="BotWebViewStartPermissionLink">https://telegram.org/tos/mini-apps</string>
     <string name="MoreAboutThisBot">more about this bot</string>
     <string name="ChatThemeDaySwitchTooltip">tap to view this theme in day mode.</string>
     <string name="ChatThemeNightSwitchTooltip">tap to view this theme in night mode.</string>
