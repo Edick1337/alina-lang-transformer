@@ -8061,7 +8061,7 @@
     <string name="Gift2MessageOptional">enter message (optional)</string>
     <string name="Gift2MessagePremiumInfo">only %s will see your message.</string>
     <string name="Gift2Hide">hide my name</string>
-    <string name="Gift2HideInfo">you can hide your name and message from visitors to %1$s`s profile. %1$s will still see your name and message.</string>
+    <string name="Gift2HideInfo">you can hide your name and message from visitors to %1$s\'s profile. %1$s will still see your name and message.</string>
     <string name="Gift2Send_one">send a gift for &#11088;&#65039;%d</string>
     <string name="Gift2Send_other">send a gift for &#11088;&#65039;%d</string>
     <string name="Gift2SendPremium">send a gift for %s</string>
