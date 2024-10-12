@@ -3014,7 +3014,7 @@
     
     <string name="Quality">quality</string>
     <string name="QualityAuto">auto</string>
-    <string name="QualityOriginal">original</string>
+    <string name="QualitySource">source</string>
     <string name="Speed">speed</string>
     <string name="SpeedSlow">slow</string>
     <string name="SpeedVerySlow">very slow</string>
@@ -7948,9 +7948,9 @@
     <string name="BotPrivacyPolicy">privacy policy</string>
     <string name="RequireMonthlyFee">require monthly fee</string>
     <string name="RequireMonthlyFeePriceHint">star amount per month</string>
-    
+    <string name="RequireMonthlyFeePriceHintTest5Minutes">stars amount per 5 minutes</string>
     <string name="RequireMonthlyFeePrice">~%s/month</string>
-    
+    <string name="RequireMonthlyFeePriceTest5Minutes">~%s/5min</string>
     <string name="RequireMonthlyFeeInfo">charge a subscription fee from people who join your channel via this link.</string>
     <string name="RequireMonthlyFeeInfoLink">https://telegram.org/tos/stars</string>
     <string name="RequireMonthlyFeeInfoFrozen">to change the subscription fee, create a new invite link with a different price.</string>
@@ -8106,13 +8106,14 @@
     <string name="Gift2InfoOutPinned">%1$s kept this gift in their profile.</string>
     <string name="Gift2SenderHidden">only you can see the sender&#700;s name.</string>
     <string name="Gift2ProfileVisible">this gift is visible to visitors of your page.</string>
+    <string name="Gift2ProfileVisible2">this gift is visible to visitors of your page. **view &gt;**</string>
     <string name="Gift2ProfileInvisible">this gift is hidden. only you can see it.</string>
     <string name="Gift2More">**more about stars &gt;**</string>
     <string name="Gift2From">from</string>
     <string name="Gift2To">to</string>
     <string name="Gift2Availability">availability</string>
     <string name="Gift2Availability4Value_one">%1$d of %2$s left</string>
-    
+    <string name="Gift2Availability4Value_other">%1$d of %2$s left</string>
     <string name="Gift2Availability2ValueNone_one">none of %1$d left</string>
     <string name="Gift2Availability2ValueNone_other">none of %1$d left</string>
     <string name="Gift2ProfileMakeVisible">display on my page</string>
@@ -8120,10 +8121,12 @@
     <string name="Gift2ToBalance_one">convert to %d star</string>
     <string name="Gift2ToBalance_other">convert to %d stars</string>
     <string name="Gift2ConvertTitle">convert gift to stars</string>
-    <string name="Gift2ConvertText">do you want to convert this gift from **%1$s** to **%2$s**?\n\nthis action cannot be undone. this will permanently destroy the gift.</string>
+    <string name="Gift2ConvertText2_one">do you want to convert this gift from **%2$s** to **%3$s**?\n\nconversion is available for the next **%1$d day**.\n\nthis action cannot be undone. this will permanently destroy the gift.</string>
+    <string name="Gift2ConvertText2_other">do you want to convert this gift from **%2$s** to **%3$s**?\n\nconversion is available for the next **%1$d days**.\n\nthis action cannot be undone. this will permanently destroy the gift.</string>
     <string name="Gift2ConvertStars_one">%d star</string>
     <string name="Gift2ConvertStars_other">%d stars</string>
     <string name="Gift2ConvertButton">convert</string>
+    <string name="Gift2SoldOut">sold out</string>
     <string name="ExplainStarsTitle">what are stars?</string>
     <string name="ExplainStarsTitle2">telegram stars allow users to:</string>
     <string name="ExplainStarsFeature1Title">send gifts to friends</string>
@@ -8142,11 +8145,15 @@
     <string name="Gift2ConvertedTitle">converted gift</string>
     <string name="Gift2Converted_one">%d star was sent to your balance</string>
     <string name="Gift2Converted_other">%d star were sent to your balance</string>
+    <string name="Gift2SoldOutTitle">sold out!</string>
+    
+    
     <string name="ReportStory">report story</string>
     <string name="Report2">report</string>
     <string name="Report2Comment">add comment</string>
     <string name="Report2CommentOptional">add comment (optional)</string>
     <string name="Report2CommentInfo">please help us by telling what is wrong with the message you have selected.</string>
+    <string name="Report2CommentInfoMany">please help us by telling what is wrong with the message you have selected.</string>
     <string name="Report2CommentInfoUser">please help us by telling what is wrong with the user you have selected.</string>
     <string name="Report2CommentInfoGroup">please help us by telling what is wrong with the group you have selected.</string>
     <string name="Report2CommentInfoChannel">please help us by telling what is wrong with the channel you have selected.</string>
@@ -8162,6 +8169,15 @@
     <string name="StarsBuy">buy stars</string>
     <string name="StarsBuyMore">buy more stars</string>
     <string name="Gift2CaptionMore">more</string>
+    <string name="Gift2SoldOutSheetTitle">unavailable</string>
+    <string name="Gift2SoldOutSheetSubtitle">this gift has been sold out</string>
+    <string name="Gift2SoldOutSheetFirstSale">first sale</string>
+    <string name="Gift2SoldOutSheetLastSale">last sale</string>
+    <string name="Gift2SoldOutSheetValue">value</string>
+    <string name="Gift2Value">value</string>
+    <string name="Gift2ButtonSendGift">send a gift</string>
+    <string name="Gift2ButtonSell_one">sell for %d star</string>
+    <string name="Gift2ButtonSell_other">sell for %d stars</string>
 
   
 
@@ -9463,7 +9479,6 @@
   <string name="Gift2Availability4Value_two">%1$d of %2$s left</string>
   <string name="Gift2Availability4Value_few">%1$d of %2$s left</string>
   <string name="Gift2Availability4Value_many">%1$d of %2$s left</string>
-  <string name="Gift2Availability4Value_other">%1$d of %2$s left</string>
   <string name="Gift2AvailabilityLeft_zero">%d left</string>
   <string name="Gift2AvailabilityLeft_one">%d left</string>
   <string name="Gift2AvailabilityLeft_two">%d left</string>
@@ -9474,10 +9489,19 @@
   <string name="Gift2AvailabilitySold_two">%d sold</string>
   <string name="Gift2AvailabilitySold_few">%d sold</string>
   <string name="Gift2AvailabilitySold_many">%d sold</string>
+  <string name="Gift2ButtonSell_zero">sell for %d stars</string>
+  <string name="Gift2ButtonSell_two">sell for %d stars</string>
+  <string name="Gift2ButtonSell_few">sell for %d stars</string>
+  <string name="Gift2ButtonSell_many">sell for %d stars</string>
   <string name="Gift2ConvertStars_zero">%d stars</string>
   <string name="Gift2ConvertStars_two">%d stars</string>
   <string name="Gift2ConvertStars_few">%d stars</string>
   <string name="Gift2ConvertStars_many">%d stars</string>
+  <string name="Gift2ConvertText">do you want to convert this gift from **%1$s** to **%2$s**?\n\nthis action cannot be undone. this will permanently destroy the gift.</string>
+  <string name="Gift2ConvertText2_zero">do you want to convert this gift from **%2$s** to **%3$s**?\n\nconversion is available for the next **%1$d days**.\n\nthis action cannot be undone. this will permanently destroy the gift.</string>
+  <string name="Gift2ConvertText2_two">do you want to convert this gift from **%2$s** to **%3$s**?\n\nconversion is available for the next **%1$d days**.\n\nthis action cannot be undone. this will permanently destroy the gift.</string>
+  <string name="Gift2ConvertText2_few">do you want to convert this gift from **%2$s** to **%3$s**?\n\nconversion is available for the next **%1$d days**.\n\nthis action cannot be undone. this will permanently destroy the gift.</string>
+  <string name="Gift2ConvertText2_many">do you want to convert this gift from **%2$s** to **%3$s**?\n\nconversion is available for the next **%1$d days**.\n\nthis action cannot be undone. this will permanently destroy the gift.</string>
   <string name="Gift2Converted_zero">%d star were sent to your balance</string>
   <string name="Gift2Converted_two">%d star were sent to your balance</string>
   <string name="Gift2Converted_few">%d star were sent to your balance</string>
@@ -10140,6 +10164,7 @@
   <string name="PublicSharesCount_few">%1$s public shares</string>
   <string name="PublicSharesCount_many">%1$s public shares</string>
   <string name="QRCodePermissionNoCamera">telegram needs access to your camera so that you can scan qr codes.</string>
+  <string name="QualityOriginal">original</string>
   <string name="Question">question</string>
   <string name="QuickReplyCustom">custom message...</string>
   <string name="ReEnterYourPasscode">re-enter your new passcode</string>
