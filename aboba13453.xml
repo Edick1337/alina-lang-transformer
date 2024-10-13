@@ -6719,7 +6719,7 @@
     <string name="BoostingReassignBoostTextPluralWithLink_other">to boost **%2$s**, reassign a previous boost or %3$s to a friend to get **%1$d** additional boosts.</string>
     <string name="BoostingReassignBoostTextLink">**gift telegram premium**</string>
     <string name="BoostingPremiumChristmasSubTitle">celebrate with your family and friends by giving them telegram premium.</string>
-    <string name="BoostingPremiumChristmasToast">you can gift telegram premium later from settings</string>
+    <string name="BoostingPremiumChristmasToast">you can send gift to friends later from settings</string>
     <string name="BoostingRemoveBoostFrom">remove your boost from</string>
     <string name="BoostingAvailableIn">available in %1$s</string>
     <string name="BoostingDurationOfPremium">duration of premium subscriptions</string>
@@ -8114,8 +8114,8 @@
     <string name="Gift2Availability">availability</string>
     <string name="Gift2Availability4Value_one">%1$d of %2$s left</string>
     <string name="Gift2Availability4Value_other">%1$d of %2$s left</string>
-    <string name="Gift2Availability2ValueNone_one">none of %1$d left</string>
-    <string name="Gift2Availability2ValueNone_other">none of %1$d left</string>
+    <string name="Gift2Availability2ValueNone_one">0 of %1$d left</string>
+    <string name="Gift2Availability2ValueNone_other">0 of %1$d left</string>
     <string name="Gift2ProfileMakeVisible">display on my page</string>
     <string name="Gift2ProfileMakeInvisible">hide from my page</string>
     <string name="Gift2ToBalance_one">convert to %d star</string>
@@ -9470,10 +9470,10 @@
   <string name="Gift2ActionOutInfo_few">**%2$s** can display this gift on their page or convert it to %1$d stars.</string>
   <string name="Gift2ActionOutInfo_many">**%2$s** can display this gift on their page or convert it to %1$d stars.</string>
   <string name="Gift2Availability2Value">%1$s of %2$s left</string>
-  <string name="Gift2Availability2ValueNone_zero">none of %1$d left</string>
-  <string name="Gift2Availability2ValueNone_two">none of %1$d left</string>
-  <string name="Gift2Availability2ValueNone_few">none of %1$d left</string>
-  <string name="Gift2Availability2ValueNone_many">none of %1$d left</string>
+  <string name="Gift2Availability2ValueNone_zero">0 of %1$d left</string>
+  <string name="Gift2Availability2ValueNone_two">0 of %1$d left</string>
+  <string name="Gift2Availability2ValueNone_few">0 of %1$d left</string>
+  <string name="Gift2Availability2ValueNone_many">0 of %1$d left</string>
   <string name="Gift2Availability3Value">%1$d of %2$s left</string>
   <string name="Gift2Availability4Value_zero">%1$d of %2$s left</string>
   <string name="Gift2Availability4Value_two">%1$d of %2$s left</string>
