@@ -1129,7 +1129,7 @@
     <string name="ChatLocation">location</string>
     <string name="ChatDocument">file</string>
     <string name="NoMessages">no messages here yet...</string>
-    <string name="NoScheduledMessages">no scheduled messages here yet...</string>
+    <string name="NoScheduledMessages">no scheduled messages yet...</string>
     <string name="From">from</string>
     <string name="FromFormatted">from %1$s</string>
     <string name="SearchFrom">from:</string>
