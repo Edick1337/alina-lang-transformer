@@ -2188,7 +2188,7 @@
     <string name="FontSizePreviewReply">good morning! &#128075;</string>
     <string name="FontSizePreviewLine1">do you know what time it is?</string>
     <string name="FontSizePreviewLine2">it\'s morning in tokyo &#128526;</string>
-    <string name="BackgroundColorSinglePreviewLine1">press \'set\' to apply the wallpaper.</string>
+    <string name="BackgroundColorSinglePreviewLine1">press \'apply\' to set the wallpaper.</string>
     <string name="BackgroundColorSinglePreviewLine2">looks good</string>
     <string name="SearchByColor">search by color</string>
     <string name="SearchBackgrounds">search for images</string>
