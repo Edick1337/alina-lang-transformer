@@ -5970,6 +5970,8 @@
     <string name="BotEditIntro">edit intro</string>
     <string name="BotEditCommands">edit commands</string>
     <string name="BotBalance">balance</string>
+    
+    
     <string name="BotChangeSettings">change bot settings</string>
     <string name="BotManageInfo">use @botfather to manage this bot.</string>
     <string name="BotSetPublicLinkHeader">set public link</string>
@@ -7082,6 +7084,12 @@
     <string name="PmReadYesterdayAt">yesterday at %s</string>
     <string name="PmReadDateTimeAt">read %1$s at %2$s</string>
     <string name="PmReadUnknown">read time unknown</string>
+    
+    
+    
+    
+    
+    
     <string name="PrivacyLastSeenPremium">subscribe to telegram premium</string>
     <string name="PrivacyLastSeenPremiumInfo">if you subscribe to premium, you will see other users&#8217; last seen and read time even if you hid yours from them (unless they specifically restricted it).</string>
     <string name="PrivacyLastSeenPremiumForPremium">subscribed to telegram premium</string>
@@ -7663,8 +7671,8 @@
     <string name="StarsMediaPurchaseCompletedInfo_one">**%1$d star** transferred to **%2$s**.</string>
     <string name="StarsMediaPurchaseCompletedInfo_other">**%1$d stars** transferred to **%2$s**.</string>
     <string name="StarsConfirmPurchaseTitle">confirm your purchase</string>
-    <string name="StarsConfirmPurchaseText_one">do you want to buy \"**%2$s**\" in **%3$s** for **%1$d star**?</string>
-    <string name="StarsConfirmPurchaseText_other">do you want to buy \"**%2$s**\" in **%3$s** for **%1$d stars**?</string>
+    
+    
     <string name="StarsConfirmPurchaseButton_one">confirm and pay &#11088;&#65039; %d star</string>
     <string name="StarsConfirmPurchaseButton_other">confirm and pay &#11088;&#65039; %d stars</string>
     <string name="StarsNeededTitle_one">%d star needed</string>
@@ -7749,6 +7757,8 @@
     <string name="HashtagStoriesFound_one">%d story found</string>
     <string name="HashtagStoriesFound_other">%d stories found</string>
     <string name="HashtagStoriesFoundSubtitle">view stories with %s</string>
+    
+    
     <string name="StoryLinkLimitTitle">limit reached</string>
     <string name="StoryLinkLimitMessage_other">you can&#8217;t add more than %d links to a story.</string>
     <string name="BotStarsWithdrawalToast">next withdrawal will be available in **%s**.</string>
@@ -7871,6 +7881,8 @@
     <string name="SearchAppsExamples">examples</string>
     <string name="BotUsers_one">%d monthly user</string>
     <string name="BotUsers_other">%d monthly users</string>
+    
+    
     <string name="AppsClearSearch">app history</string>
     <string name="AppsClearSearchAlert">do you want to remove %s from your recent app history?</string>
     <string name="WebBookmark">bookmark</string>
@@ -8094,13 +8106,14 @@
     <string name="Gift2TitleProfile">gift</string>
     <string name="Gift2TitleReceived">received gift</string>
     <string name="TelegramPremiumShort">premium</string>
-    <string name="Gift2Info_one">you can keep this gift in your profile or convert it to **%d** star.</string>
-    <string name="Gift2Info_other">you can keep this gift in your profile or convert it to **%d** stars.</string>
+    
+    
+    <string name="Gift2Info2Expired_one">you can keep this %d star gift in your profile.</string>
+    <string name="Gift2Info2Expired_other">you can keep this %d stars gift in your profile.</string>
     <string name="Gift2InfoOut_one">%2$s can keep this gift in profile or convert it to **%1$d** star.</string>
     <string name="Gift2InfoOut_other">%2$s can keep this gift in profile or convert it to **%1$d** stars.</string>
     <string name="Gift2InfoConverted_one">you converted this gift to **%d** star.</string>
     <string name="Gift2InfoConverted_other">you converted this gift to **%d** stars.</string>
-    <string name="Gift2InfoPinned">you kept this gift in your profile.</string>
     <string name="Gift2InfoOutConverted_one">%2$s converted this gift to **%d** star.</string>
     <string name="Gift2InfoOutConverted_other">%2$s converted this gift to **%d** stars.</string>
     <string name="Gift2InfoOutPinned">%1$s kept this gift in their profile.</string>
@@ -8178,6 +8191,29 @@
     <string name="Gift2ButtonSendGift">send a gift</string>
     <string name="Gift2ButtonSell_one">sell for %d star</string>
     <string name="Gift2ButtonSell_other">sell for %d stars</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
 
   
 
@@ -9507,9 +9543,15 @@
   <string name="Gift2Converted_few">%d star were sent to your balance</string>
   <string name="Gift2Converted_many">%d star were sent to your balance</string>
   <string name="Gift2Info_zero">you can keep this gift in your profile or convert it to **%d** stars.</string>
+  <string name="Gift2Info_one">you can keep this gift in your profile or convert it to **%d** star.</string>
   <string name="Gift2Info_two">you can keep this gift in your profile or convert it to **%d** stars.</string>
   <string name="Gift2Info_few">you can keep this gift in your profile or convert it to **%d** stars.</string>
   <string name="Gift2Info_many">you can keep this gift in your profile or convert it to **%d** stars.</string>
+  <string name="Gift2Info_other">you can keep this gift in your profile or convert it to **%d** stars.</string>
+  <string name="Gift2Info2Expired_zero">you can keep this %d stars gift in your profile.</string>
+  <string name="Gift2Info2Expired_two">you can keep this %d stars gift in your profile.</string>
+  <string name="Gift2Info2Expired_few">you can keep this %d stars gift in your profile.</string>
+  <string name="Gift2Info2Expired_many">you can keep this %d stars gift in your profile.</string>
   <string name="Gift2InfoConverted_zero">you converted this gift to **%d** stars.</string>
   <string name="Gift2InfoConverted_two">you converted this gift to **%d** stars.</string>
   <string name="Gift2InfoConverted_few">you converted this gift to **%d** stars.</string>
@@ -9522,6 +9564,7 @@
   <string name="Gift2InfoOutConverted_two">%2$s converted this gift to **%d** stars.</string>
   <string name="Gift2InfoOutConverted_few">%2$s converted this gift to **%d** stars.</string>
   <string name="Gift2InfoOutConverted_many">%2$s converted this gift to **%d** stars.</string>
+  <string name="Gift2InfoPinned">you kept this gift in your profile.</string>
   <string name="Gift2Months_zero">%1$d-months</string>
   <string name="Gift2Months_two">%1$d-months</string>
   <string name="Gift2Months_few">%1$d-months</string>
@@ -10467,9 +10510,11 @@
   <string name="StarsConfirmPurchaseMedia_Videos_few">**%s videos**</string>
   <string name="StarsConfirmPurchaseMedia_Videos_many">**%s videos**</string>
   <string name="StarsConfirmPurchaseText_zero">do you want to buy \"**%2$s**\" in **%3$s** for **%1$d stars**?</string>
+  <string name="StarsConfirmPurchaseText_one">do you want to buy \"**%2$s**\" in **%3$s** for **%1$d star**?</string>
   <string name="StarsConfirmPurchaseText_two">do you want to buy \"**%2$s**\" in **%3$s** for **%1$d stars**?</string>
   <string name="StarsConfirmPurchaseText_few">do you want to buy \"**%2$s**\" in **%3$s** for **%1$d stars**?</string>
   <string name="StarsConfirmPurchaseText_many">do you want to buy \"**%2$s**\" in **%3$s** for **%1$d stars**?</string>
+  <string name="StarsConfirmPurchaseText_other">do you want to buy \"**%2$s**\" in **%3$s** for **%1$d stars**?</string>
   <string name="StarsCount_zero">%d stars</string>
   <string name="StarsCount_two">%d stars</string>
   <string name="StarsCount_few">%d stars</string>
