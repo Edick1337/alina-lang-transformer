@@ -573,7 +573,7 @@
     <string name="ChannelLinkInfo">anyone who has telegram installed will be able to join your channel by following this link.</string>
     <string name="ChannelAdminsInfo">you can add admins to help you manage your channel. press and hold to remove admins.</string>
     <string name="ChannelCantOpenPrivate">sorry, this chat is no longer accessible.</string>
-    <string name="ChannelCantOpenPrivate2">sorry, this channel is private.</string>
+    <string name="ChannelCantOpenPrivate2">this channel is unavailable.</string>
     <string name="ChannelCantOpenBannedByAdminTitle">can\'t access the chat</string>
     <string name="ChannelCantOpenBannedByAdmin">sorry, you can\'t access this chat because you were banned by an admin.</string>
     <string name="ChannelCantOpenBanned">unfortunately, you are banned from participating in public groups.</string>
