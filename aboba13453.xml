@@ -8165,8 +8165,8 @@
     <string name="Report2">report</string>
     <string name="Report2Comment">add comment</string>
     <string name="Report2CommentOptional">add comment (optional)</string>
-    <string name="Report2CommentInfo">please help us by telling what is wrong with the message you have selected.</string>
-    <string name="Report2CommentInfoMany">please help us by telling what is wrong with the message you have selected.</string>
+    <string name="Report2CommentInfo">please help us by telling what is wrong with the message you are reporting.</string>
+    <string name="Report2CommentInfoMany">please help us by telling what is wrong with the message you are reporting.</string>
     <string name="Report2CommentInfoUser">please help us by telling what is wrong with the user you have selected.</string>
     <string name="Report2CommentInfoGroup">please help us by telling what is wrong with the group you have selected.</string>
     <string name="Report2CommentInfoChannel">please help us by telling what is wrong with the channel you have selected.</string>
