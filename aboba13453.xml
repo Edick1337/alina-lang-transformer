@@ -861,7 +861,7 @@
     <string name="EventLogEditedMessages">un1 edited this message:</string>
     <string name="EventLogEditedCaption">un1 edited caption:</string>
     <string name="EventLogEditedMedia">un1 edited media:</string>
-    <string name="EventLogAddedMedia">un1 edited media:</string>
+    <string name="EventLogAddedMedia">un1 added media:</string>
     <string name="EventLogEditedMediaCaption">un1 edited media and caption:</string>
     <string name="EventLogOriginalMessages">original message</string>
     <string name="EventLogOriginalCaption">original caption</string>
@@ -8148,7 +8148,7 @@
     <string name="Gift2InfoOutConverted_one">%2$s converted this gift to **%d** star.</string>
     <string name="Gift2InfoOutConverted_other">%2$s converted this gift to **%d** stars.</string>
     <string name="Gift2InfoOutPinned">%1$s kept this gift in their profile.</string>
-    <string name="Gift2SenderHidden">only you can see the sender&#700;s name.</string>
+    <string name="Gift2SenderHidden">only you can see the sender\'s name.</string>
     <string name="Gift2ProfileVisible">this gift is visible to visitors of your page.</string>
     <string name="Gift2ProfileVisible2">this gift is visible to visitors of your page. **view &gt;**</string>
     <string name="Gift2ProfileInvisible">this gift is hidden. only you can see it.</string>
