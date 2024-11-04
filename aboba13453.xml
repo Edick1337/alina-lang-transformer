@@ -1105,9 +1105,15 @@
     <string name="RevenueSharingAdsInfo3Subtitle">you can turn off ads by subscribing to **telegram premium**, and level %1$s channels can remove them for their subscribers.</string>
     <string name="RevenueSharingAdsInfo3SubtitleBot">you can turn off ads by subscribing to **telegram premium**.</string>
     <string name="RevenueSharingAdsInfo4Title">can i launch an ad?</string>
+    <string name="RevenueSharingAdsInfo4TitleBot">can i launch an ad?</string>
     <string name="RevenueSharingAdsInfo4Subtitle2">anyone can create an ad to display in this channel &#8212; with minimal budgets. check out the **telegram ad platform** for details. %1$s</string>
     <string name="RevenueSharingAdsInfo4SubtitleLearnMore">**learn more &gt;**</string>
     <string name="RevenueSharingAdsAlertButton">understood</string>
+    <string name="RevenueSharingAdsInfo1TitleBot">respect your privacy</string>
+    <string name="RevenueSharingAdsInfo1SubtitleBot">ads on telegram do not use your personal information and are based on the bot in which you see them.</string>
+    <string name="RevenueSharingAdsInfo2TitleBot">help the bot creator</string>
+    <string name="RevenueSharingAdsInfo2SubtitleBot">50% of the revenue from telegram ads goes to the owner of the bot where they are displayed.</string>
+    <string name="RevenueSharingAdsInfo4Subtitle2Bot">anyone can create an ad to display in this bot &#8212; with minimal budgets. check out the **telegram ad platform** for details. %1$s</string>
     <string name="PromoteUrl">https://ads.telegram.org</string>
     <string name="InstantViewReference">reference</string>
     <string name="IsSendingGame">%1$s is playing a game...</string>
@@ -1172,6 +1178,9 @@
     <string name="OpenInExternalApp">open in...</string>
     <string name="PipMinimize">minimize</string>
     <string name="QualitySaveIn">save in %dp</string>
+    <string name="QualityCached">&#12539;cached</string>
+    <string name="VideoPlayerSpeed">speed</string>
+    <string name="VideoPlayerLoop">loop</string>
     <string name="SendAsFile">send as file</string>
     <string name="SendAsFiles">send as files</string>
     <string name="OpenUrlTitle">open link</string>
