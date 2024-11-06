@@ -8261,7 +8261,7 @@
     <string name="BotMonetizationOverviewTotal">total lifetime proceeds</string>
     <string name="BotMonetizationBalance">available balance</string>
     <string name="BotMonetizationTransactions">transactions</string>
-    <string name="BotMonetizationInfo">telegram shares %1$d%% of the revenue from ads displayed in your bot. **learn more &gt;**</string>
+    <string name="BotMonetizationInfo">telegram shares %1$d%% of the revenue from ads displayed in your bot as rewards. **learn more &gt;**</string>
     <string name="BotMonetizationProceedsTONInfo">ton from your total balance become available for spending on ads and rewards 3 days after they are earned.</string>
     <string name="BotMonetizationProceedsTONInfoLink">https://telegram.org/tos/content-creator-rewards</string>
     <string name="BotMonetizationBalanceInfo">you can collect your reward using fragment, a third-party platform used by advertisers to pay for ads. **learn more &gt;**</string>
@@ -8271,7 +8271,7 @@
     <string name="BotMonetizationInfoFeature1Name">telegram ads</string>
     <string name="BotMonetizationInfoFeature1Text">telegram can display ads in your bot.</string>
     <string name="BotMonetizationInfoFeature2Name">50:50 revenue split</string>
-    <string name="BotMonetizationInfoFeature2Text">you can receive 50% of the ad revenue in ton.</string>
+    <string name="BotMonetizationInfoFeature2Text">you can receive 50% of the ad revenue as rewards in ton.</string>
     <string name="BotMonetizationInfoFeature3Name">flexible withdrawals</string>
     <string name="BotMonetizationInfoFeature3Text">you can withdraw your ton any time.</string>
     <string name="BotMonetizationInfoTONTitle">what is &#128142; ton?</string>
