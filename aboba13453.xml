@@ -8280,7 +8280,7 @@
     <string name="HashtagSuggestion1Title">use %s</string>
     <string name="HashtagSuggestion1Text">searches posts from all channels</string>
     <string name="HashtagSuggestion2Title">use %s</string>
-    <string name="HashtagSuggestion2Text">searches only posts from your channel</string>
+    <string name="HashtagSuggestion2Text">searches only posts from this channel</string>
     <string name="VideoConversionDone">video published.</string>
     <string name="VideoConversionDoneView">view</string>
     <string name="SeekSpeedHint">swipe sideways to change speed</string>
