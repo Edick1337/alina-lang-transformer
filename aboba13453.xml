@@ -115,6 +115,7 @@
     <string name="PaymentTransactionMessage2">transfer **%1$s** to the %2$s bot for **%3$s**?</string>
     <string name="PaymentTransactionTotal">total</string>
     <string name="PaymentInvoiceLinkInvalid">invalid invoice</string>
+    <string name="PaymentInvoiceSubscriptionLinkAlreadyPaid">already subscribed!</string>
     <string name="PaymentInvoice">invoice</string>
     <string name="PaymentTestInvoice">test invoice</string>
     <string name="PaymentCheckoutPay">pay %1$s</string>
@@ -7736,8 +7737,11 @@
     <string name="StarsNeededTitle_one">%d star needed</string>
     <string name="StarsNeededTitle_other">%d stars needed</string>
     <string name="StarsNeededText">buy **stars** and use them in **%s** and other mini apps.</string>
+    <string name="StarsNeededBizText">buy **stars** and use them on **%s** and businesses.</string>
     <string name="StarsNeededTextBuySubscription">buy **stars** and subscribe to **%s** and other channels.</string>
     <string name="StarsNeededTextKeepSubscription">buy **stars** to keep your subscription to **%s**.</string>
+    <string name="StarsNeededTextKeepBotSubscription">buy **stars** to keep your subscription for **%s**.</string>
+    <string name="StarsNeededTextKeepBizSubscription">buy **stars** to keep your subscription for **%s**.</string>
     <string name="StarsNeededTextReactions">buy **stars** to send paid reactions to **%s** and other channels.</string>
     <string name="StarsNeededTextGift">buy **stars** to send gifts to **%s** and other contacts.</string>
     <string name="StarsNeededTextLink">buy **stars** to keep your channel subscriptions.</string>
@@ -8054,6 +8058,8 @@
     <string name="StarsSubscriptionExpires">expires on %s</string>
     <string name="StarsSubscriptionExpired">expired on %s</string>
     <string name="StarsSubscriptionStatusCancelled">canceled</string>
+    
+    
     <string name="StarsSubscriptionStatusExpired">expired</string>
     <string name="StarsSubscriptionTitle">subscription</string>
     <string name="StarsSubscriptionPrice">&#11088;&#65039;%1$d/month</string>
@@ -8067,6 +8073,8 @@
     <string name="StarsSubscriptionUntilExpires">expires</string>
     <string name="StarsSubscriptionUntilExpired">expired</string>
     <string name="StarsSubscriptionCancelledText">you have canceled your subscription.</string>
+    <string name="StarsSubscriptionBotCancelledText">bot has cancelled your subscription.</string>
+    <string name="StarsSubscriptionBusinessCancelledText">business has cancelled your subscription.</string>
     <string name="StarsSubscriptionRenew">renew subscription</string>
     <string name="StarsSubscriptionAgain">subscribe again</string>
     <string name="StarsSubscriptionCancel">cancel subscription</string>
@@ -8074,6 +8082,8 @@
     <string name="StarsSubscriptionExpiredInfo">your subscription expired on %s.</string>
     <string name="StarsSubscriptionRefulfill">join channel</string>
     <string name="StarsSubscriptionRefulfillInfo">you left the channel, but can still return until %s.</string>
+    <string name="StarsSubscriptionBotRefulfill">refulfill subscription</string>
+    <string name="StarsSubscriptionBotRefulfillInfo">you can still refulfill subscription back until %s.</string>
     <string name="StarsSubscriptionExpiredHintTitle2_one">&#11088;&#65039;%1$d star needed for %2$s</string>
     <string name="StarsSubscriptionExpiredHintTitle2_other">&#11088;&#65039;%1$d stars needed for %2$s</string>
     <string name="StarsSubscriptionExpiredHintText">insufficient funds to cover your subscription.</string>
@@ -8121,6 +8131,8 @@
     <string name="PeopleSubscriptionExpired_other">%d expired subscriptions</string>
     <string name="StarsSubscriptionCancelledToast">subscription canceled</string>
     <string name="StarsSubscriptionCancelledToastText">you will still have access to the channel until **%s**.</string>
+    <string name="StarsSubscriptionCancelledBotToastText">you will still have access to **%2$s** until **%1$s**.</string>
+    <string name="StarsSubscriptionCancelledBizToastText">you will still have access to **%2$s** until **%1$s**.</string>
     <string name="StarsSubscriptionRenewedToast">subscription renewed</string>
     <string name="StarsSubscriptionRenewedToastText">you renewed your subscription to **%s**.</string>
     <string name="StarsReactionsDisabled">star reactions were disabled on **%s**.</string>
@@ -8338,6 +8350,8 @@
     <string name="BotEmojiStatusSetRequestForDay_other">%d days</string>
     <string name="BotEmojiStatusPermissionRequest">**%1$s** requests access to set your **emoji status**. you will be able to revoke this access on the profile page of **%2$s**.</string>
     <string name="BotLocationPermissionRequest">**%1$s** requests access to your location. you will be able to revoke this access in the profile page of **%2$s**.</string>
+    <string name="BotEmojiStatusPermissionAllow">allow</string>
+    <string name="BotEmojiStatusPermissionDecline">decline</string>
     <string name="BotLocationPermissionAllow">allow</string>
     <string name="BotLocationPermissionDecline">decline</string>
     <string name="BotLocationPermissionSettings">settings</string>
@@ -8367,6 +8381,10 @@
     <string name="LiveStreamWillNotify">you will be notified when the live stream starts.</string>
     <string name="LiveStreamWillNotNotify">you will not be notified when the live stream starts.</string>
     <string name="BotOpen">open</string>
+    <string name="BotFileDownloading">downloading...</string>
+    <string name="BotFileDownloaded">file saved to downloads</string>
+    <string name="BotFileDownloadOpen">open</string>
+    <string name="BotFileDownloadCancel">cancel</string>
 
   
 
