@@ -8058,8 +8058,8 @@
     <string name="StarsSubscriptionExpires">expires on %s</string>
     <string name="StarsSubscriptionExpired">expired on %s</string>
     <string name="StarsSubscriptionStatusCancelled">canceled</string>
-    
-    
+    <string name="StarsSubscriptionStatusBotCancelled">canceled</string>
+    <string name="StarsSubscriptionStatusBizCancelled">canceled</string>
     <string name="StarsSubscriptionStatusExpired">expired</string>
     <string name="StarsSubscriptionTitle">subscription</string>
     <string name="StarsSubscriptionPrice">&#11088;&#65039;%1$d/month</string>
