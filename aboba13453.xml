@@ -1467,7 +1467,7 @@
     <string name="ViewThread">view thread</string>
     <string name="ChooseDate">choose date</string>
     <string name="RepliesChatInfo">this chat helps you keep track of replies to your comments in channels.</string>
-    <string name="VerifyChatInfo">this chat is used to receive verification codes from third-party services.</string>
+    <string name="VerifyChatInfo">third-party services, like websites and stores, can send verification codes to your phone number via telegram instead of sms. such codes will appear in this chat.\n\nif you didn\'t request any codes &#8212; don\'t worry! most likely, someone made a mistake when entering their number.</string>
     <string name="ChannelPostDeleted">sorry, this post has been removed from the discussion group.</string>
     <string name="UnpinAllMessages">unpin all messages</string>
     <string name="HidePinnedMessages">hide pinned messages</string>
