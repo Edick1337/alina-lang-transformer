@@ -84,8 +84,8 @@
     <string name="PaymentSuccessfullyPaidSubscriptionNoItem">you have just successfully transferred %1$s to %2$s until %3$s</string>
     <string name="PaymentSuccessfullyPaidRecurrent">you successfully transferred %1$s to %2$s for %3$s and allowed future recurring payments</string>
     <string name="PaymentSuccessfullyPaidNoItemRecurrent">you successfully transferred %1$s to %2$s and allowed future recurring payments</string>
-    <string name="PaymentSuccessfullyPaidMeSubscription">%1$s have transferred %2$s for %3$s subscription until %4$s</string>
-    <string name="PaymentSuccessfullyPaidMeNoItemSubscription">%1$s have transferred %2$s for subscription until %3$s</string>
+    <string name="PaymentSuccessfullyPaidMeSubscription">%1$s has transferred %2$s for %3$s subscription until %4$s</string>
+    <string name="PaymentSuccessfullyPaidMeNoItemSubscription">%1$s has transferred %2$s for subscription until %3$s</string>
     <string name="PaymentCheckout">checkout</string>
     <string name="PaymentShippingMethod">shipping methods</string>
     <string name="PaymentNoShippingMethod">sorry, it is not possible to deliver to your address.</string>
@@ -8436,7 +8436,7 @@
     <string name="AffiliateProgramStartInfo">by creating an affiliate program, you agree to the **terms and conditions** of affiliate programs.</string>
     <string name="AffiliateProgramStartInfoLink">https://telegram.org/privacy</string>
     <string name="AffiliateProgramStartAvailableIn">available in %s</string>
-    <string name="AffiliateProgramStartAlertText">once you start the affiliated program, you won\'t be able to decrease its commission or duration. you can only increase these parameters or end the program, which will disable all previously distributed referral links.</string>
+    <string name="AffiliateProgramStartAlertText">once you start the affiliate program, you won\'t be able to decrease its commission or duration. you can only increase these parameters or end the program, which will disable all previously distributed referral links.</string>
     <string name="AffiliateProgramStartAlertButton">start</string>
     <string name="AffiliateProgramUpdate">update affiliate program</string>
     <string name="AffiliateProgramUpdateInfo">by updating an affiliate program, you agree to the **terms and conditions** of affiliate programs.</string>
@@ -8473,9 +8473,9 @@
     <string name="ChannelAffiliateProgramJoinText_Years_other">%d years</string>
     <string name="ChannelAffiliateProgramJoinText_Lifetime">lifetime</string>
     <string name="ChannelAffiliateProgramJoinMonthlyUsers">monthly users</string>
-    <string name="ChannelAffiliateProgramJoinDailyRevenue">their average daily\nrevenue per user</string>
+    <string name="ChannelAffiliateProgramJoinDailyRevenue">app\'s average daily\nrevenue per user</string>
     <string name="ChannelAffiliateProgramJoinButton">join program</string>
-    <string name="ChannelAffiliateProgramJoinButtonInfo">by joining this program, you agree to the **terms and services** of affiliate programs.</string>
+    <string name="ChannelAffiliateProgramJoinButtonInfo">by joining this program, you agree to the **terms and conditions** of affiliate programs.</string>
     <string name="ChannelAffiliateProgramJoinButtonInfoLink">https://telegram.org/privacy</string>
     <string name="UserAffiliateProgramRowTitle">earn stars</string>
     <string name="UserAffiliateProgramRowText">distribute links to mini apps and earn a share of their revenue in stars.</string>
@@ -8490,8 +8490,8 @@
     <string name="ChannelAffiliateProgramLinkSendTo">commissions will be sent to:</string>
     <string name="ChannelAffiliateProgramLinkCopy">copy link</string>
     <string name="ChannelAffiliateProgramLinkOpenedNone">no one has opened %s through this link.</string>
-    <string name="ChannelAffiliateProgramLinkOpened_one">%s user has opened %s through this link.</string>
-    <string name="ChannelAffiliateProgramLinkOpened_other">%s users have opened %s through this link.</string>
+    <string name="ChannelAffiliateProgramLinkOpened_one">%1$d user has opened %2$s through this link.</string>
+    <string name="ChannelAffiliateProgramLinkOpened_other">%1$d users have opened %2$s through this link.</string>
     <string name="ChannelAffiliateProgramLinkRejoin">rejoin program</string>
     <string name="AffiliateProgramLinkCopiedTitle">link copied to clipboard</string>
     <string name="AffiliateProgramLinkCopiedText">share this link and earn **%1$s** of what people who use it spend in **%2$s**!</string>
@@ -9351,10 +9351,10 @@
   <string name="ChannelAffiliateProgramJoinText_Years_two">%d years</string>
   <string name="ChannelAffiliateProgramJoinText_Years_few">%d years</string>
   <string name="ChannelAffiliateProgramJoinText_Years_many">%d years</string>
-  <string name="ChannelAffiliateProgramLinkOpened_zero">%s users have opened %s through this link.</string>
-  <string name="ChannelAffiliateProgramLinkOpened_two">%s users have opened %s through this link.</string>
-  <string name="ChannelAffiliateProgramLinkOpened_few">%s users have opened %s through this link.</string>
-  <string name="ChannelAffiliateProgramLinkOpened_many">%s users have opened %s through this link.</string>
+  <string name="ChannelAffiliateProgramLinkOpened_zero">%1$d users have opened %2$s through this link.</string>
+  <string name="ChannelAffiliateProgramLinkOpened_two">%1$d users have opened %2$s through this link.</string>
+  <string name="ChannelAffiliateProgramLinkOpened_few">%1$d users have opened %2$s through this link.</string>
+  <string name="ChannelAffiliateProgramLinkOpened_many">%1$d users have opened %2$s through this link.</string>
   <string name="ChannelAlertCreate">create channel</string>
   <string name="ChannelAntiSpamForbidden_zero">aggressive filtering can be enabled only in groups with more than **%1$d members**.</string>
   <string name="ChannelAntiSpamForbidden_two">aggressive filtering can be enabled only in groups with more than **%1$d members**.</string>
