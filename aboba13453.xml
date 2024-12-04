@@ -8476,7 +8476,7 @@
     <string name="ChannelAffiliateProgramJoinDailyRevenue">app\'s average daily\nrevenue per user</string>
     <string name="ChannelAffiliateProgramJoinButton">join program</string>
     <string name="ChannelAffiliateProgramJoinButtonInfo">by joining this program, you agree to the **terms and conditions** of affiliate programs.</string>
-    <string name="ChannelAffiliateProgramJoinButtonInfoLink">https://telegram.org/privacy</string>
+    <string name="ChannelAffiliateProgramJoinButtonInfoLink">https://telegram.org/tos/affiliate-program</string>
     <string name="UserAffiliateProgramRowTitle">earn stars</string>
     <string name="UserAffiliateProgramRowText">distribute links to mini apps and earn a share of their revenue in stars.</string>
     <string name="ChannelAffiliateProgramRowTitle">earn stars</string>
@@ -8504,6 +8504,12 @@
     <string name="AffiliateLinkExpiredTitle">link expired</string>
     <string name="AffiliateLinkExpiredText">this link was part of an affiliate program, that has been terminated by the app owner.</string>
     <string name="StoryTimeline">timeline</string>
+    <string name="MoveCaptionUp">move caption up</string>
+    <string name="MovedCaptionUp">caption moved up</string>
+    <string name="MovedCaptionUpText">caption will be shown above the media</string>
+    <string name="MoveCaptionDown">move caption down</string>
+    <string name="MovedCaptionDown">caption moved down</string>
+    <string name="MovedCaptionDownText">caption will be shown below the media</string>
 
   
 
