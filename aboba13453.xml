@@ -986,8 +986,8 @@
     <string name="EventLogSwitchToGroup">un1 disabled topics</string>
     <string name="EventLogCreateTopic">un1 created topic un2</string>
     <string name="EventLogEditTopic">un1 changed topic name from un2 to un3</string>
-    <string name="EventLogClosedTopic">un1 closed topic un2</string>
-    <string name="EventLogReopenedTopic">un1 reopened topic un2</string>
+    <string name="EventLogClosedTopic">%s closed topic un2</string>
+    <string name="EventLogReopenedTopic">%s reopened topic un2</string>
     <string name="EventLogDeleteTopic">un1 deleted topic un2</string>
     <string name="EventLogPinTopic">un1 pinned topic un2</string>
     <string name="EventLogUnpinTopic">un1 unpinned topic un2</string>
@@ -5298,7 +5298,7 @@
     <string name="LimitReachedFavoriteGifsSubtitle">an older gif was replaced with this one. you can **increase the limit** to %d gifs.</string>
     <string name="LimitReachedFileSize">the document can&#8217;t be sent, because it is larger than **%1$s**. you can double this limit to **%2$s** per document by subscribing to **telegram premium**.</string>
     <string name="LimitReachedFileSizePremium">the document can\'t be sent, because it is larger than **%1$s**.</string>
-    <string name="LimitReachedFileSizeLocked">the document cant&#8217;t be sent, because it is larger than **%1$s**. we are working to let you increase this limit in the future.</string>
+    <string name="LimitReachedFileSizeLocked">the document can\'t be sent, because it is larger than **%1$s**. we are working to let you increase this limit in the future.</string>
     <string name="AboutPremiumTitle">about telegram premium</string>
     <string name="AboutPremiumDescription">while the free version of telegram already gives its users more than any other messaging application, **telegram premium** pushes its capabilities even further.</string>
     <string name="AboutPremiumDescription2">**telegram premium** is a paid option, because most premium features require additional expenses from telegram to third parties such as data center providers and server manufacturers. contributions from **telegram premium** users allow us to cover such costs and also help telegram stay free for everyone.</string>
@@ -8502,7 +8502,7 @@
     <string name="AffiliateProgramStartedTitle">affiliate program started</string>
     <string name="AffiliateProgramStartedText">any telegram user, channel owner or mini app developer can now join your program.</string>
     <string name="AffiliateLinkExpiredTitle">link expired</string>
-    <string name="AffiliateLinkExpiredText">this link was part of an affiliate program, that has been terminated by the app owner.</string>
+    <string name="AffiliateLinkExpiredText">this link was part of an affiliate program that has been terminated by the app owner.</string>
     <string name="StoryTimeline">timeline</string>
     <string name="MoveCaptionUp">move caption up</string>
     <string name="MovedCaptionUp">caption moved up</string>
