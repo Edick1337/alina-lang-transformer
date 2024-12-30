@@ -6783,7 +6783,7 @@
     <string name="BoostingReassignBoostTextPluralWithLink_one">to boost **%2$s**, reassign a previous boost or %3$s to a friend to get **%1$d** additional boost.</string>
     <string name="BoostingReassignBoostTextPluralWithLink_other">to boost **%2$s**, reassign a previous boost or %3$s to a friend to get **%1$d** additional boosts.</string>
     <string name="BoostingReassignBoostTextLink">**gift telegram premium**</string>
-    <string name="BoostingPremiumChristmasSubTitle">surprise them with gifts for christmas.</string>
+    <string name="BoostingPremiumChristmasSubTitle">surprise them with gifts for the new year.</string>
     <string name="BoostingPremiumChristmasToast">you can send gifts to friends later from settings</string>
     <string name="BoostingRemoveBoostFrom">remove your boost from</string>
     <string name="BoostingAvailableIn">available in %1$s</string>
@@ -8637,7 +8637,7 @@
     <string name="Gift2PriceUnique">unique</string>
     <string name="Gift2AttributeOriginalDetails">gifted by %1$s to %2$s on %3$s.</string>
     <string name="Gift2AttributeOriginalDetailsComment">gifted by %1$s to %2$s on %3$s with the comment: &#8220;%4$s&#8221;</string>
-    <string name="Gift2AttributeOriginalDetailsSelf">gifted saved by %1$s on %2$s.</string>
+    <string name="Gift2AttributeOriginalDetailsSelf">saved by %1$s on %2$s.</string>
     <string name="Gift2AttributeOriginalDetailsSelfComment">gifted by %1$s on %2$s with the comment: &#8220;%3$s&#8221;</string>
     <string name="Gift2AttributeOriginalDetailsNoSender">gifted to %1$s on %2$s.</string>
     <string name="Gift2AttributeOriginalDetailsNoSenderComment">gifted to %1$s on %2$s with the comment: &#8220;%3$s&#8221;</string>
