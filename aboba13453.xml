@@ -544,9 +544,9 @@
     <string name="ActionGiftInbound">un1 sent you a gift for **un2**</string>
     <string name="ActionGiftOutbound">you have sent a gift for **un2**</string>
     <string name="ActionGiftSelf">you bought a gift for **un2**</string>
-    <string name="ActionUniqueGiftUpgradeInbound">**un1** turned the gift from you to a unique collectible</string>
-    <string name="ActionUniqueGiftUpgradeOutbound">you turned the gift from **un1** to a unique collectible</string>
-    <string name="ActionUniqueGiftUpgradeSelf">you turned the gift to a unique collectible</string>
+    <string name="ActionUniqueGiftUpgradeInbound">**un1** turned the gift from you into a unique collectible</string>
+    <string name="ActionUniqueGiftUpgradeOutbound">you turned the gift from **un1** into a unique collectible</string>
+    <string name="ActionUniqueGiftUpgradeSelf">you turned the gift into a unique collectible</string>
     <string name="ActionUniqueGiftTransferInbound">**un1** transferred you a gift!</string>
     <string name="ActionUniqueGiftTransferOutbound">you transferred a gift to **un1**</string>
     <string name="ActionStarGiftInbound">%s sent you a gift</string>
