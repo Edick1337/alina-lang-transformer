@@ -8337,7 +8337,7 @@
     <string name="ExplainStarsTitle">what are stars?</string>
     <string name="ExplainStarsTitle2">telegram stars allow users to:</string>
     <string name="ExplainStarsFeature1Title">send gifts to friends</string>
-    <string name="ExplainStarsFeature1Text">give your friends gifts that can be kept on their profiles or converted to stars.</string>
+    <string name="ExplainStarsFeature1Text">give your friends gifts that can be added to their profiles or converted to stars.</string>
     <string name="ExplainStarsFeature2Title">use stars in mini apps</string>
     <string name="ExplainStarsFeature2Text">buy additional content and services in telegram mini apps. **see examples &gt;**</string>
     <string name="ExplainStarsFeature3Title">unlock content in channels</string>
@@ -10130,7 +10130,7 @@
   <string name="Gift2Notification_few">sent a gift worth of %d stars</string>
   <string name="Gift2Notification_many">sent a gift worth of %d stars</string>
   <string name="Gift2ProfileInvisible">this gift is hidden. only you can see it.</string>
-  <string name="Gift2ProfileVisible">this gift is visible to visitors of your page.</string>
+  <string name="Gift2ProfileVisible">this gift is visible on your profile.</string>
   <string name="Gift2ProfileVisible2">this gift is visible to visitors of your page. **view &gt;**</string>
   <string name="Gift2QuantityIssued1_zero">%d/</string>
   <string name="Gift2QuantityIssued1_one" />
