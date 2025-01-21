@@ -8217,7 +8217,7 @@
     <string name="Gift2Stars">gift stars</string>
     <string name="Gift2StarsInfo">give **%s** gifts that can be kept on the profile or converted to stars.</string>
     <string name="Gift2StarsSelf">buy a gift</string>
-    <string name="Gift2StarsSelfInfo1">buy yourself a gift to display on your page or reserve for later.</string>
+    <string name="Gift2StarsSelfInfo1">buy yourself a gift to add to your profile or reserve for later.</string>
     <string name="Gift2StarsSelfInfo2">limited-edition gifts upgraded to collectibles can be gifted to others later.</string>
     <string name="Gift2InfoInFreeUpgrade">upgrade this gift for free to turn it into a unique collectible.</string>
     <string name="Gift2InfoFreeUpgrade">%s can turn this gift into a unique collectible.</string>
@@ -8346,7 +8346,7 @@
     <string name="ExplainStarsFeature4Text">support your favorite channels by sending star reactions to their posts.</string>
     <string name="ExplainStarsButton">got it</string>
     <string name="Gift2MadePublicTitle">gift shown</string>
-    <string name="Gift2MadePublic">gift is now visible in **your profile**.</string>
+    <string name="Gift2MadePublic">this gift is now visible on **your profile**.</string>
     <string name="Gift2MadePrivateTitle">gift hidden</string>
     <string name="Gift2MadePrivate">gift is now hidden in **your profile**.</string>
     <string name="Gift2ConvertedTitle">converted gift</string>
@@ -8696,9 +8696,9 @@
     <string name="Gift2Myself">buy yourself a gift</string>
     <string name="Gift2TransferredTitle">gift transferred</string>
     <string name="Gift2TransferredText">you have successfully transferred **%1$s** to **%2$s**.</string>
-    <string name="Gift2SelfInfoUpgrade">you can display this gift on your page or turn it into a unique collectible and send to others.</string>
-    <string name="Gift2SelfInfoConvert_one">display this gift on your page or convert it to **%d star**.</string>
-    <string name="Gift2SelfInfoConvert_other">display this gift on your page or convert it to **%d stars**.</string>
+    <string name="Gift2SelfInfoUpgrade">you can add this gift to your profile or turn it into a unique collectible and send to others.</string>
+    <string name="Gift2SelfInfoConvert_one">add this gift to your profile or convert it to **%d star**.</string>
+    <string name="Gift2SelfInfoConvert_other">add this gift to your profile or convert it to **%d stars**.</string>
     
     
     <string name="Gift2SelfInfo">you can add this gift to your profile.</string>
@@ -10146,10 +10146,10 @@
   <string name="Gift2QuantityIssuedNone_two">none of %d left</string>
   <string name="Gift2QuantityIssuedNone_few">none of %d left</string>
   <string name="Gift2QuantityIssuedNone_many">none of %d left</string>
-  <string name="Gift2SelfInfoConvert_zero">display this gift on your page or convert it to **%d stars**.</string>
-  <string name="Gift2SelfInfoConvert_two">display this gift on your page or convert it to **%d stars**.</string>
-  <string name="Gift2SelfInfoConvert_few">display this gift on your page or convert it to **%d stars**.</string>
-  <string name="Gift2SelfInfoConvert_many">display this gift on your page or convert it to **%d stars**.</string>
+  <string name="Gift2SelfInfoConvert_zero">add this gift to your profile or convert it to **%d stars**.</string>
+  <string name="Gift2SelfInfoConvert_two">add this gift to your profile or convert it to **%d stars**.</string>
+  <string name="Gift2SelfInfoConvert_few">add this gift to your profile or convert it to **%d stars**.</string>
+  <string name="Gift2SelfInfoConvert_many">add this gift to your profile or convert it to **%d stars**.</string>
   <string name="Gift2Send_zero">send a gift for &#11088;&#65039;%d</string>
   <string name="Gift2Send_two">send a gift for &#11088;&#65039;%d</string>
   <string name="Gift2Send_few">send a gift for &#11088;&#65039;%d</string>
