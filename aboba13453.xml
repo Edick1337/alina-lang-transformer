@@ -544,10 +544,15 @@
     <string name="ActionGiftInbound">un1 sent you a gift for **un2**</string>
     <string name="ActionGiftOutbound">you have sent a gift for **un2**</string>
     <string name="ActionGiftSelf">you bought a gift for **un2**</string>
+    <string name="ActionGiftSomeone">someone sent you a gift!</string>
+    <string name="ActionGiftChannel_one">**un1** sent a gift to **un2** for %d star</string>
+    <string name="ActionGiftChannel_other">**un1** sent a gift to **un2** for %d stars</string>
     <string name="ActionUniqueGiftUpgradeInbound">**un1** turned the gift from you into a unique collectible</string>
+    <string name="ActionUniqueGiftUpgradeInboundChannel">**un1** turned the gift into a unique collectible</string>
     <string name="ActionUniqueGiftUpgradeOutbound">you turned the gift from **un1** into a unique collectible</string>
     <string name="ActionUniqueGiftUpgradeSelf">you turned the gift into a unique collectible</string>
     <string name="ActionUniqueGiftTransferInbound">**un1** transferred a gift to you!</string>
+    <string name="ActionUniqueGiftTransferService">**un1** transferred a gift to **un2**!</string>
     <string name="ActionUniqueGiftTransferOutbound">you transferred a gift to **un1**</string>
     <string name="ActionStarGiftInbound">%s sent you a gift</string>
     <string name="ActionStarGift">gift</string>
@@ -658,6 +663,12 @@
     <string name="EditAdminTransferAlertText2">logged in on this device more than **24 hours** ago.</string>
     <string name="EditAdminTransferAlertText3">please come back later.</string>
     <string name="EditAdminTransferSetPassword">set password</string>
+    <string name="Gift2TransferToTONAlertTitle">security check</string>
+    <string name="Gift2TransferToTONAlertText">you can transfer your gift to ton if you have:</string>
+    <string name="Gift2TransferToTONAlertText1">enabled **2-step verification** more than **7 days** ago.</string>
+    <string name="Gift2TransferToTONAlertText2">logged in on this device more than **24 hours** ago.</string>
+    <string name="Gift2TransferToTONAlertText3">please come back later.</string>
+    <string name="Gift2TransferToTONSetPassword">set password</string>
     <string name="EditAdminTransferReadyAlertText">this will transfer **full owner rights** for **%1$s** to **%2$s**. the new owner will be free to remove any of your admin privileges or even ban you.</string>
     <string name="EditAdminTransferChangeOwner">change owner</string>
     <string name="EditAdminTransferGroupToast">**%1$s** is now the owner of the group.</string>
@@ -3230,6 +3241,7 @@
     <string name="CheckPasswordBackToSettings">back to settings</string>
     <string name="PleaseEnterCurrentPasswordTransfer">please enter your password to complete the transfer.</string>
     <string name="PleaseEnterCurrentPasswordWithdraw">please enter your password to collect.</string>
+    <string name="PleaseEnterCurrentPasswordGiftTransfer">please enter your password to send **%s** to fragment.</string>
     <string name="PleaseEnterNewFirstPassword">enter a new password</string>
     <string name="PleaseReEnterPassword">re-enter your password</string>
     <string name="NewPassword">new password</string>
@@ -5273,6 +5285,7 @@
     <string name="GiftPremiumGifting">gift premium</string>
     <string name="SendAGift">send a gift</string>
     <string name="ProfileSendAGift">send a gift</string>
+    <string name="ProfileSendAGiftToChannel">send a gift</string>
     <string name="GiftPremiumActivateForFree">activate for free</string>
     <string name="GiftPremiumActivateErrorTitle">you already have telegram premium</string>
     <string name="GiftPremiumActivateErrorText">you can activate this gift code after %1$s or **send the link** to a friend.</string>
@@ -6896,6 +6909,7 @@
     <string name="ChannelNeedBoostsForReplyIconDescription">your channel needs to reach **level %d** to change channel link style icon. **premium** users can boost your channel with this link:</string>
     <string name="ChannelNeedBoostsForProfileIconDescription">your channel needs to reach **level %d** to change channel profile icon. **premium** users can boost your channel with this link:</string>
     <string name="ChannelNeedBoostsForEmojiStatusDescription">your channel needs to reach **level %d** to set channel emoji status. **premium** users can boost your channel with this link:</string>
+    <string name="ChannelNeedBoostsForWearCollectiblesDescription">your channel needs to reach **level %d** to wear collectibles. **premium** users can boost your channel with this link:</string>
     <string name="ChannelNeedBoostsForWallpaperDescription">your channel needs to reach **level %d** to change channel wallpaper. **premium** users can boost your channel with this link:</string>
     <string name="ChannelNeedBoostsForCustomWallpaperDescription">your channel needs to reach **level %d** to change channel wallpaper to custom photo. **premium** users can boost your channel with this link:</string>
     <string name="ChannelNeedBoostsDescription">your channel needs %s to enable posting stories.\n\nask your premium subscribers to boost your channel with this link:</string>
@@ -6909,6 +6923,7 @@
     <string name="GroupNeedBoostsForReplyIconDescription">your group needs to reach **level %d** to change group link style icon.\n\n**premium** users can boost your group with this link:</string>
     <string name="GroupNeedBoostsForProfileIconDescription">your group needs to reach **level %d** to change group profile icon.\n\n**premium** users can boost your group with this link:</string>
     <string name="GroupNeedBoostsForEmojiStatusDescription">your group needs to reach **level %d** to set group emoji status.\n\n**premium** users can boost your group with this link:</string>
+    <string name="GroupNeedBoostsForWearCollectiblesDescription">your group needs to reach **level %d** to wear collectibles. **premium** users can boost your group with this link:</string>
     <string name="GroupNeedBoostsForCustomEmojiPackDescription">your group needs to reach **level %d** to set group emoji pack. **premium** users can boost your group with this link:</string>
     <string name="GroupNeedBoostsForWallpaperDescription">your group needs to reach **level %d** to change group wallpaper. **premium** users can boost your group with this link:</string>
     <string name="GroupNeedBoostsForCustomWallpaperDescription">your group needs to reach **level %d** to change group wallpaper to custom photo. **premium** users can boost your group with this link:</string>
@@ -6931,6 +6946,7 @@
     <string name="BoostingEnableColor">enable colors</string>
     <string name="BoostingEnableProfileColor">unlock profile colors</string>
     <string name="BoostingEnableEmojiStatus">unlock emoji status</string>
+    <string name="BoostingEnableWearCollectibles">wear item</string>
     <string name="BoostingEnableGroupEmojiPack">unlock group emoji pack</string>
     <string name="BoostingEnableWallpaper">unlock wallpaper</string>
     <string name="BoostingEnableLinkIcon">unlock link icons</string>
@@ -6980,6 +6996,7 @@
     <string name="UserColorPreviewLinkTitle">link preview</string>
     <string name="UserColorPreviewLinkDescription">previews of links you send will also use this color.</string>
     <string name="UserColorApplyIcon">apply color and icon</string>
+    <string name="UserColorApplyCollectible">wear collectible</string>
     <string name="UserReplyIcon">add icons to replies</string>
     <string name="UserProfileIcon">add icons to profile</string>
     <string name="UserProfileHint">choose a color and a logo for your profile</string>
@@ -7790,6 +7807,7 @@
     <string name="StarsNeededTextKeepBizSubscription">buy **stars** to keep your subscription to **%s**.</string>
     <string name="StarsNeededTextReactions">buy **stars** to send paid reactions to **%s** and other channels.</string>
     <string name="StarsNeededTextGift">buy **stars** to send gifts to **%s** and other contacts.</string>
+    <string name="StarsNeededTextGiftChannel">buy **stars** to send gifts to **%s** and other channels.</string>
     <string name="StarsNeededTextGiftUpgrade">buy **stars** to upgrade your gifts.</string>
     <string name="StarsNeededTextGiftTransfer">buy **stars** to transfer your gifts.</string>
     <string name="StarsNeededTextLink">buy **stars** to keep your channel subscriptions.</string>
@@ -7821,6 +7839,7 @@
     <string name="StarsTransactionRecipient">from</string>
     <string name="StarsTransactionID">transaction id</string>
     <string name="StarsTransactionIDCopied">transaction id copied to clipboard</string>
+    <string name="WalletAddressCopied">wallet address is copied to clipboard</string>
     <string name="StarsTransactionDate">date</string>
     <string name="StarsTransactionFloodskipNumberName">messages</string>
     <string name="StarsTransactionFloodskipNumber_one">%d</string>
@@ -8151,6 +8170,7 @@
     <string name="StarsSentText_other">you reacted with **%d** stars.</string>
     <string name="StarsSentUndo">undo</string>
     <string name="StarsReactionTitle">react with stars</string>
+    
     <string name="StarsReactionText">choose how many stars you want to send to **%s** to support this post.</string>
     <string name="StarsReactionTextSent_one">you sent **%1$d** star to support this post.</string>
     <string name="StarsReactionTextSent_other">you sent **%1$d** stars to support this post.</string>
@@ -8218,7 +8238,9 @@
     <string name="Gift2StarsInfo">give **%s** gifts that can be kept on the profile or converted to stars.</string>
     <string name="Gift2StarsSelf">buy a gift</string>
     <string name="Gift2StarsSelfInfo1">buy yourself a gift to add to your profile or reserve for later.</string>
-    <string name="Gift2StarsSelfInfo2">limited-edition gifts upgraded to collectibles can be gifted to others later.</string>
+    <string name="Gift2StarsSelfInfo2">limited-edition gifts upgraded to collectibles can be gifted to others.</string>
+    
+    <string name="Gift2StarsChannelInfo">select a gift to show appreciation for **%s**.</string>
     <string name="Gift2InfoInFreeUpgrade">upgrade this gift for free to turn it into a unique collectible.</string>
     <string name="Gift2InfoFreeUpgrade">%s can turn this gift into a unique collectible.</string>
     <string name="Gift2StarsInfoLink">what are stars &gt;</string>
@@ -8230,10 +8252,12 @@
     <string name="Gift2MessagePremiumInfo">only %s will see your message.</string>
     <string name="Gift2Hide">hide my name</string>
     <string name="Gift2HideInfo">you can hide your name and message from visitors to %1$s\'s profile. %1$s will still see your name and message.</string>
+    <string name="Gift2HideChannelInfo">you can hide your name and message from all visitors of this channel except its admins.</string>
     <string name="Gift2HideSelf">hide my name</string>
     <string name="Gift2HideSelfInfo">hide my name and message from visitors to my profile</string>
     <string name="Gift2Upgrade">make unique for &#11088;&#65039;%d</string>
     <string name="Gift2UpgradeInfo">enable this to let %s turn your gift into a unique collectible. **learn more &gt;**</string>
+    <string name="Gift2UpgradeChannelInfo">enable this to let the admins of %s convert your gift to a unique collectible. **learn more &gt;**</string>
     <string name="Gift2UpgradeSelf">make unique for &#11088;&#65039;%d</string>
     <string name="Gift2UpgradeSelfInfo">enable this to turn your gift into a unique collectible. **learn more &gt;**</string>
     <string name="Gift2Send_one">send a gift for &#11088;&#65039;%d</string>
@@ -8249,6 +8273,9 @@
     <string name="Gift2ActionUpgradeRefundedText">this gift was downgraded because a request to refund the payment related to this gift was made, and the money was returned.</string>
     <string name="Gift2ActionInfo_one">add this gift to your profile or convert it to %d star.</string>
     <string name="Gift2ActionInfo_other">add this gift to your profile or convert it to %d stars.</string>
+    <string name="Gift2ActionInfoChannel_one">display this gift in channel\'s gifts or convert it to **%d** star.</string>
+    <string name="Gift2ActionInfoChannel_other">display this gift in channel\'s gifts or convert it to **%d** stars.</string>
+    <string name="Gift2ActionInfoChannelNoConvert">display this gift in channel\'s gifts.</string>
     <string name="Gift2ActionBotInfo">you can add this gift to your profile.</string>
     <string name="Gift2ActionSavedInfo">you added this gift to your profile.</string>
     <string name="Gift2ActionBotSavedInfo">this gift is now visible on your profile.</string>
@@ -8269,6 +8296,7 @@
     <string name="ProfileGiftsCount_one">%d gift</string>
     <string name="ProfileGiftsCount_other">%d gifts</string>
     <string name="ProfileGiftsSend">send gifts to friends</string>
+    <string name="ProfileGiftsSendChannel">send gifts to channel</string>
     <string name="Gift2TabAll">all gifts</string>
     <string name="Gift2TabInStock">in stock</string>
     <string name="Gift2TabLimited">limited</string>
@@ -8278,33 +8306,48 @@
     <string name="StarsGiftCompleted">gift sent!</string>
     <string name="StarsGiftCompletedText_one">you spent **%1$d** star from your balance.</string>
     <string name="StarsGiftCompletedText_other">you spent **%1$d** stars from your balance.</string>
+    <string name="StarsGiftCompletedChannelText_one">you sent a gift to **%2$s** for **%1$d** star.</string>
+    <string name="StarsGiftCompletedChannelText_other">you sent a gift to **%2$s** for **%1$d** stars.</string>
+    <string name="Gift2ChannelSend">send gift</string>
+    <string name="Gift2ChannelSendHint">tap here to send gift</string>
     <string name="Gift2TitleSent">sent gift</string>
     <string name="Gift2TitleProfile">gift</string>
     <string name="Gift2TitleReceived">received gift</string>
     <string name="Gift2TitleSaved">saved gift</string>
+    <string name="Gift2TitleChannel">gift</string>
     <string name="TelegramPremiumShort">premium</string>
     <string name="Gift2Info2Out_one">%2$s can add this gift to their profile or convert it to **%1$d** star.</string>
     <string name="Gift2Info2Out_other">%2$s can add this gift to their profile or convert it to **%1$d** stars.</string>
     <string name="Gift2Info2OutUpgrade">%1$s can add this gift to their profile or upgrade it to a unique collectible.</string>
     <string name="Gift2Info2OutExpired">%1$s can add this gift to their profile.</string>
-    
-    
+    <string name="Gift2Info3_one">you can keep this gift in your profile or convert it to **%1$d** star.</string>
+    <string name="Gift2Info3_other">you can keep this gift in your profile or convert it to **%1$d** stars.</string>
+    <string name="Gift2Info3Channel_one">your channel can keep this gift in channel\'s gifts or convert it to **%1$d** star.</string>
+    <string name="Gift2Info3Channel_other">your channel can keep this gift in channel\'s gifts or convert it to **%1$d** stars.</string>
     <string name="Gift2Info2Expired_one">you can add this gift of %d stars to your profile.</string>
     <string name="Gift2Info2Expired_other">you can add this gift of %d stars to your profile.</string>
+    <string name="Gift2Info2ChannelExpired_one">your channel can keep this %d star gift in channel\'s gifts.</string>
+    <string name="Gift2Info2ChannelExpired_other">your channel can keep this %d stars gift in channel\'s gifts.</string>
     <string name="Gift2Info2BotRemove">you can remove this gift from your profile.</string>
     <string name="Gift2Info2BotKeep">you can add this gift to your profile or hide it.</string>
+    <string name="Gift2Info2ChannelRemove">your channel can hide this gift from its profile.</string>
+    <string name="Gift2Info2ChannelKeep">your channel can add this gift to its profile.</string>
     <string name="Gift2Info2RemoveUpgrade">you can remove this gift from your profile or upgrade to unique collectible.</string>
     <string name="Gift2Info2KeepUpgrade">you can add this gift to your profile or upgrade it to a unique collectible.</string>
     <string name="Gift2InfoOut_one">%2$s can add this gift to their profile or convert it to **%1$d** star.</string>
     <string name="Gift2InfoOut_other">%2$s can add this gift to their profile or convert it to **%1$d** stars.</string>
     <string name="Gift2InfoConverted_one">you converted this gift to **%d** star.</string>
     <string name="Gift2InfoConverted_other">you converted this gift to **%d** stars.</string>
+    <string name="Gift2InfoChannelConverted_one">your channel converted this gift to **%d** star.</string>
+    <string name="Gift2InfoChannelConverted_other">your channel converted this gift to **%d** stars.</string>
     <string name="Gift2InfoOutConverted_one">%2$s converted this gift to **%d** star.</string>
     <string name="Gift2InfoOutConverted_other">%2$s converted this gift to **%d** stars.</string>
     <string name="Gift2InfoOutPinned">%1$s added this gift to their profile.</string>
     <string name="Gift2SenderHidden">only you can see the sender\'s name.</string>
-    
-    
+    <string name="Gift2ProfileVisible3">this gift is visible on your page. **hide &gt;**</string>
+    <string name="Gift2ProfileInvisible3">this gift is hidden from your page. **show &gt;**</string>
+    <string name="Gift2ChannelProfileVisible3">this gift is visible on your channel\'s profile. **hide &gt;**</string>
+    <string name="Gift2ChannelProfileInvisible3">this gift is hidden from visitors of your channel. **show &gt;**</string>
     <string name="Gift2More">**more about stars &gt;**</string>
     <string name="Gift2From">from</string>
     <string name="Gift2To">to</string>
@@ -8323,8 +8366,8 @@
     <string name="Gift2Availability4Value_other">%1$d of %2$s left</string>
     <string name="Gift2Availability2ValueNone_one">0 of %1$d left</string>
     <string name="Gift2Availability2ValueNone_other">0 of %1$d left</string>
-    <string name="Gift2ProfileMakeVisible">display on my page</string>
-    <string name="Gift2ProfileMakeInvisible">hide from my page</string>
+    <string name="Gift2ProfileMakeVisible">add to my profile</string>
+    <string name="Gift2ProfileMakeInvisible">hide from my profile</string>
     <string name="Gift2ToBalance_one">convert to %d star</string>
     <string name="Gift2ToBalance_other">convert to %d stars</string>
     <string name="Gift2ConvertTitle">convert gift to stars</string>
@@ -8349,9 +8392,15 @@
     <string name="Gift2MadePublic">this gift is now visible on **your profile**.</string>
     <string name="Gift2MadePrivateTitle">gift hidden</string>
     <string name="Gift2MadePrivate">gift is now hidden in **your profile**.</string>
+    <string name="Gift2ChannelMadePublicTitle">gift shown</string>
+    <string name="Gift2ChannelMadePublic">gift is now visible in in your channel\'s gifts.</string>
+    <string name="Gift2ChannelMadePrivateTitle">gift hidden</string>
+    <string name="Gift2ChannelMadePrivate">gift is now hidden from your channel\'s profile.</string>
     <string name="Gift2ConvertedTitle">converted gift</string>
     <string name="Gift2Converted_one">%d star was sent to your balance</string>
     <string name="Gift2Converted_other">%d star were sent to your balance</string>
+    <string name="Gift2ConvertedChannel_one">%d star was sent to channel\'s balance</string>
+    <string name="Gift2ConvertedChannel_other">%d stars were sent to channel\'s balance</string>
     <string name="Gift2SoldOutTitle">sold out!</string>
     
     
@@ -8634,21 +8683,22 @@
     <string name="Gift2UpgradeFeatureSoon">soon</string>
     <string name="Gift2UpgradeFeature3Text">sell or auction your gift on third-party nft marketplaces.</string>
     <string name="Gift2UpgradeFeature3TextLearn">the recipient will be able to auction the gift on third-party nft marketplaces.</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="Gift2WearTitle">wear %s</string>
+    <string name="Gift2WearSubtitle">and get these benefits</string>
+    <string name="Gift2WearFeature1Title">radiant badge</string>
+    <string name="Gift2WearFeature1Text">the glittering icon of this item will be displayed next to your name.</string>
+    <string name="Gift2WearFeature2Title">unique profile design</string>
+    <string name="Gift2WearFeature2Text">your profile page will get the color and the symbol of this item.</string>
+    <string name="Gift2WearFeature3Title">proof of ownership</string>
+    <string name="Gift2WearFeature3Text">tapping the icon of this item next to your name will show its info and owner.</string>
+    <string name="Gift2WearStart">start wearing</string>
+    <string name="Gift2ActionTransfer">transfer</string>
+    <string name="Gift2ActionWear">wear</string>
+    <string name="Gift2ActionWearOff">take off</string>
+    <string name="Gift2ActionWearDone">you put on **%s**</string>
+    <string name="Gift2ActionWearOffDone">you took off **%s**</string>
+    <string name="Gift2ActionShare">share</string>
+    <string name="Gift2ActionWearNeededPremium">subscribe to **telegram premium** to wear collectibles.</string>
     <string name="Gift2LearnMoreTitle">make unique</string>
     <string name="Gift2LearnMoreText">let %s turn your gift into a unique collectible.</string>
     <string name="Gift2UpgradeButton">upgrade for &#11088;&#65039;%d</string>
@@ -8656,6 +8706,12 @@
     <string name="Gift2AddSenderName">add sender\'s name to the gift</string>
     <string name="Gift2AddSenderNameComment">add sender\'s name and comment</string>
     <string name="Gift2AddMyNameName">add my name to the gift</string>
+    <string name="Gift2AddMyNameNameChannel">add channel\'s name to the gift</string>
+    <string name="Gift2ChannelNotify">notify about new gifts</string>
+    <string name="Gift2ChannelNotifyChecked">you will receive a message from telegram when your channel receives a gift.</string>
+    <string name="Gift2ChannelNotifyNotChecked">you will not receive a message from telegram when your channel receives a gift.</string>
+    <string name="Gift2ChannelDoesntSupportGiftsTitle">not available</string>
+    <string name="Gift2ChannelDoesntSupportGiftsText">this channel can\'t receive any star gifts.</string>
     <string name="Gift2CollectionNumber_one">collectible #%d</string>
     <string name="Gift2CollectionNumber_other">collectible #%d</string>
     <string name="Gift2Owner">owner</string>
@@ -8679,6 +8735,7 @@
     <string name="Gift2UpgradedTitle">gift upgraded</string>
     <string name="Gift2UpgradedText">your gift **%s** now has unique attributes and can be transferred to others.</string>
     <string name="Gift2UniqueTitle">gift from %s</string>
+    <string name="Gift2UniqueTitle2">gift</string>
     <string name="Gift2UniqueView">view</string>
     <string name="Gift2Unpack">unpack</string>
     <string name="Gift2UniqueRibbon">gift</string>
@@ -8689,7 +8746,10 @@
     <string name="Gift2ExportTONUnlocksAlertText_one">in %d day, you\'ll be able to send this collectible to any ton blockchain address outside telegram for sale or auction.</string>
     <string name="Gift2ExportTONUnlocksAlertText_other">in %d days, you\'ll be able to send this collectible to any ton blockchain address outside telegram for sale or auction.</string>
     <string name="Gift2ExportTONUpdateRequiredTitle">update required</string>
-    <string name="Gift2ExportTONUpdateRequiredText">please update your telegram application to the latest version.</string>
+    <string name="Gift2ExportTONUpdateRequiredText">the telegram version that enables gift transfers to the blockchain is currently under review by the play store. please wait a few days.</string>
+    <string name="Gift2ExportTONFragmentTitle">manage with fragment</string>
+    <string name="Gift2ExportTONFragmentText">you can use fragment, a third-party service, to transfer **%s** to your ton account. after that, you can manage it as an nft with any ton wallet outside telegram.\n\nyou can also move such nfts back to your telegram account via fragment.</string>
+    <string name="Gift2ExportTONFragmentOpen">open fragment</string>
     <string name="Gift2RarityHint">only %s of such collectibles have this attribute</string>
     <string name="Gift2Refunded">this gift was downgraded because a request to refund the payment related to this gift was made, and the money was returned.</string>
     <string name="Gift2MyselfSection">this is you</string>
@@ -8699,14 +8759,30 @@
     <string name="Gift2SelfInfoUpgrade">you can add this gift to your profile or turn it into a unique collectible and send to others.</string>
     <string name="Gift2SelfInfoConvert_one">add this gift to your profile or convert it to **%d star**.</string>
     <string name="Gift2SelfInfoConvert_other">add this gift to your profile or convert it to **%d stars**.</string>
-    
-    
+    <string name="Gift2SelfInfoConverted_one">you converted this gift to **%d star**.</string>
+    <string name="Gift2SelfInfoConverted_other">you converted this gift to **%d stars**.</string>
     <string name="Gift2SelfInfo">you can add this gift to your profile.</string>
     <string name="Gift2ActionUpgrade">tap \"unpack\" to turn this gift into a unique collectible.</string>
     <string name="Gift2ActionUpgradeOut">%s can turn this gift to a unique collectible.</string>
-    
-    
-    
+    <string name="Gift2TransferOption">transfer</string>
+    <string name="Gift2ViewInProfile">view in profile</string>
+    <string name="EditorMuteHint">sound is now muted, so the video will play and loop like a gif.</string>
+    <string name="YourProfilePhotoUploading">your profile photo is uploading...</string>
+    <string name="YourProfileVideoUploading">your profile video is uploading...</string>
+    <string name="YourProfilePhotoDone">your profile photo is now set.</string>
+    <string name="YourProfileVideoDone">your profile video is now set.</string>
+    <string name="Gift2FilterSortByDate">sort by date</string>
+    <string name="Gift2FilterSortByValue">sort by value</string>
+    <string name="Gift2FilterUnlimited">unlimited</string>
+    <string name="Gift2FilterLimited">limited</string>
+    <string name="Gift2FilterUnique">unique</string>
+    <string name="Gift2FilterDisplayed">displayed</string>
+    <string name="Gift2FilterHidden">hidden</string>
+    <string name="UserProfileCollectibleHeader">use a gift</string>
+    <string name="UserProfileCollectibleInfo">apply your collectible\'s unique look to your profile.</string>
+    <string name="VideoShareAddTimestamp">start at %s</string>
+    <string name="VideoStartsAt">starts at %s</string>
+    <string name="Gift2InBlockchain">this gift is in ton blockchain. **view &gt;**</string>
 
   
 
@@ -8757,6 +8833,10 @@
   <string name="ActionEditedInviteLink">un1 edited invite link %1$s to %2$s</string>
   <string name="ActionEditedInviteLinkToSame">un1 edited invite link %1$s</string>
   <string name="ActionGift2Received">you received a gift for **un2**</string>
+  <string name="ActionGiftChannel_zero">**un1** sent a gift to **un2** for %d stars</string>
+  <string name="ActionGiftChannel_two">**un1** sent a gift to **un2** for %d stars</string>
+  <string name="ActionGiftChannel_few">**un1** sent a gift to **un2** for %d stars</string>
+  <string name="ActionGiftChannel_many">**un1** sent a gift to **un2** for %d stars</string>
   <string name="ActionGiftPremiumSubtitle">for %1$s</string>
   <string name="ActionGiftPremiumTitle">telegram premium</string>
   <string name="ActionGiftPremiumTitle2_zero">%d months premium</string>
@@ -10031,6 +10111,10 @@
   <string name="Gift2ActionInfo_two">add this gift to your profile or convert it to %d stars.</string>
   <string name="Gift2ActionInfo_few">add this gift to your profile or convert it to %d stars.</string>
   <string name="Gift2ActionInfo_many">add this gift to your profile or convert it to %d stars.</string>
+  <string name="Gift2ActionInfoChannel_zero">display this gift in channel\'s gifts or convert it to **%d** stars.</string>
+  <string name="Gift2ActionInfoChannel_two">display this gift in channel\'s gifts or convert it to **%d** stars.</string>
+  <string name="Gift2ActionInfoChannel_few">display this gift in channel\'s gifts or convert it to **%d** stars.</string>
+  <string name="Gift2ActionInfoChannel_many">display this gift in channel\'s gifts or convert it to **%d** stars.</string>
   <string name="Gift2ActionOutInfo_zero">**%2$s** can add this gift to their profile or convert it to %1$d stars.</string>
   <string name="Gift2ActionOutInfo_two">**%2$s** can add this gift to their profile or convert it to %1$d stars.</string>
   <string name="Gift2ActionOutInfo_few">**%2$s** can add this gift to their profile or convert it to %1$d stars.</string>
@@ -10080,6 +10164,10 @@
   <string name="Gift2Converted_two">%d star were sent to your balance</string>
   <string name="Gift2Converted_few">%d star were sent to your balance</string>
   <string name="Gift2Converted_many">%d star were sent to your balance</string>
+  <string name="Gift2ConvertedChannel_zero">%d stars were sent to channel\'s balance</string>
+  <string name="Gift2ConvertedChannel_two">%d stars were sent to channel\'s balance</string>
+  <string name="Gift2ConvertedChannel_few">%d stars were sent to channel\'s balance</string>
+  <string name="Gift2ConvertedChannel_many">%d stars were sent to channel\'s balance</string>
   <string name="Gift2ExportTONUnlocksAlertText_zero">in %d days, you\'ll be able to send this collectible to any ton blockchain address outside telegram for sale or auction.</string>
   <string name="Gift2ExportTONUnlocksAlertText_two">in %d days, you\'ll be able to send this collectible to any ton blockchain address outside telegram for sale or auction.</string>
   <string name="Gift2ExportTONUnlocksAlertText_few">in %d days, you\'ll be able to send this collectible to any ton blockchain address outside telegram for sale or auction.</string>
@@ -10100,6 +10188,10 @@
   <string name="Gift2Info2_few">you can add this gift to your profile or convert it to **%1$d** stars within **%2$s**.</string>
   <string name="Gift2Info2_many">you can add this gift to your profile or convert it to **%1$d** stars within **%2$s**.</string>
   <string name="Gift2Info2_other">you can add this gift to your profile or convert it to **%1$d** stars within **%2$s**.</string>
+  <string name="Gift2Info2ChannelExpired_zero">your channel can keep this %d stars gift in channel\'s gifts.</string>
+  <string name="Gift2Info2ChannelExpired_two">your channel can keep this %d stars gift in channel\'s gifts.</string>
+  <string name="Gift2Info2ChannelExpired_few">your channel can keep this %d stars gift in channel\'s gifts.</string>
+  <string name="Gift2Info2ChannelExpired_many">your channel can keep this %d stars gift in channel\'s gifts.</string>
   <string name="Gift2Info2Expired_zero">you can add this gift of %d stars to your profile.</string>
   <string name="Gift2Info2Expired_two">you can add this gift of %d stars to your profile.</string>
   <string name="Gift2Info2Expired_few">you can add this gift of %d stars to your profile.</string>
@@ -10108,6 +10200,18 @@
   <string name="Gift2Info2Out_two">%2$s can add this gift to their profile or convert it to **%1$d** stars.</string>
   <string name="Gift2Info2Out_few">%2$s can add this gift to their profile or convert it to **%1$d** stars.</string>
   <string name="Gift2Info2Out_many">%2$s can add this gift to their profile or convert it to **%1$d** stars.</string>
+  <string name="Gift2Info3_zero">you can keep this gift in your profile or convert it to **%1$d** stars.</string>
+  <string name="Gift2Info3_two">you can keep this gift in your profile or convert it to **%1$d** stars.</string>
+  <string name="Gift2Info3_few">you can keep this gift in your profile or convert it to **%1$d** stars.</string>
+  <string name="Gift2Info3_many">you can keep this gift in your profile or convert it to **%1$d** stars.</string>
+  <string name="Gift2Info3Channel_zero">your channel can keep this gift in channel\'s gifts or convert it to **%1$d** stars.</string>
+  <string name="Gift2Info3Channel_two">your channel can keep this gift in channel\'s gifts or convert it to **%1$d** stars.</string>
+  <string name="Gift2Info3Channel_few">your channel can keep this gift in channel\'s gifts or convert it to **%1$d** stars.</string>
+  <string name="Gift2Info3Channel_many">your channel can keep this gift in channel\'s gifts or convert it to **%1$d** stars.</string>
+  <string name="Gift2InfoChannelConverted_zero">your channel converted this gift to **%d** stars.</string>
+  <string name="Gift2InfoChannelConverted_two">your channel converted this gift to **%d** stars.</string>
+  <string name="Gift2InfoChannelConverted_few">your channel converted this gift to **%d** stars.</string>
+  <string name="Gift2InfoChannelConverted_many">your channel converted this gift to **%d** stars.</string>
   <string name="Gift2InfoConverted_zero">you converted this gift to **%d** stars.</string>
   <string name="Gift2InfoConverted_two">you converted this gift to **%d** stars.</string>
   <string name="Gift2InfoConverted_few">you converted this gift to **%d** stars.</string>
@@ -10150,6 +10254,10 @@
   <string name="Gift2SelfInfoConvert_two">add this gift to your profile or convert it to **%d stars**.</string>
   <string name="Gift2SelfInfoConvert_few">add this gift to your profile or convert it to **%d stars**.</string>
   <string name="Gift2SelfInfoConvert_many">add this gift to your profile or convert it to **%d stars**.</string>
+  <string name="Gift2SelfInfoConverted_zero">you converted this gift to **%d stars**.</string>
+  <string name="Gift2SelfInfoConverted_two">you converted this gift to **%d stars**.</string>
+  <string name="Gift2SelfInfoConverted_few">you converted this gift to **%d stars**.</string>
+  <string name="Gift2SelfInfoConverted_many">you converted this gift to **%d stars**.</string>
   <string name="Gift2Send_zero">send a gift for &#11088;&#65039;%d</string>
   <string name="Gift2Send_two">send a gift for &#11088;&#65039;%d</string>
   <string name="Gift2Send_few">send a gift for &#11088;&#65039;%d</string>
@@ -11141,6 +11249,10 @@
   <string name="StarsCount_two">%d stars</string>
   <string name="StarsCount_few">%d stars</string>
   <string name="StarsCount_many">%d stars</string>
+  <string name="StarsGiftCompletedChannelText_zero">you sent a gift to **%2$s** for **%1$d** stars.</string>
+  <string name="StarsGiftCompletedChannelText_two">you sent a gift to **%2$s** for **%1$d** stars.</string>
+  <string name="StarsGiftCompletedChannelText_few">you sent a gift to **%2$s** for **%1$d** stars.</string>
+  <string name="StarsGiftCompletedChannelText_many">you sent a gift to **%2$s** for **%1$d** stars.</string>
   <string name="StarsGiftCompletedText_zero">you spent **%1$d** stars from your balance.</string>
   <string name="StarsGiftCompletedText_two">you spent **%1$d** stars from your balance.</string>
   <string name="StarsGiftCompletedText_few">you spent **%1$d** stars from your balance.</string>
