@@ -7077,8 +7077,8 @@
     <string name="UnlockSimilar">unlock more channels</string>
     <string name="MoreSimilarButton">show more channels</string>
     <string name="MoreSimilarText">subscribe to **telegram premium**\nto unlock up to %s similar channels.</string>
-    <string name="MoreSimilarBotsButton">show more apps</string>
-    <string name="MoreSimilarBotsText">subscribe to **telegram premium**\nto unlock up to %s similar apps.</string>
+    <string name="MoreSimilarBotsButton">show more bots</string>
+    <string name="MoreSimilarBotsText">subscribe to **telegram premium**\nto unlock up to %s similar bots.</string>
     <string name="StoryRepostCommented">commented</string>
     <string name="BoostLevel_other">level %d</string>
     <string name="BoostLevelPlus_other">level %d+</string>
