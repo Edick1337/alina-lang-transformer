@@ -1299,6 +1299,7 @@
     <string name="ReportMessagesCount">report %1$s</string>
     <string name="ReportChat">report</string>
     <string name="ReportBot">report</string>
+    <string name="ReportProfilePhoto">report</string>
     <string name="ReportChatSent">report sent.</string>
     <string name="ReportTitleSpam">report spam</string>
     <string name="ReportTitleFake">report fake</string>
@@ -5442,6 +5443,7 @@
     <string name="AccDescrCustomEmoji">custom emoji</string>
     <string name="RecentlyUsed">recently used</string>
     <string name="PopularReactions">popular</string>
+    <string name="EmojiPackCollectibles">collectibles</string>
     <string name="ReactionsLongtapHint">hold emoji to send a super reaction</string>
     <string name="EmojiLongtapHint">hold an emoji to set a timer</string>
     <string name="EmojiStatusExpireHint">your status expires %s</string>
@@ -6117,6 +6119,7 @@
     <string name="ProfileMyStoriesTab">posted</string>
     <string name="ProfileMyStoriesCount_one">%d posted story</string>
     <string name="ProfileMyStoriesCount_other">%d posted stories</string>
+    <string name="ProfileMyStories">my stories</string>
     <string name="ProfileStoriesArchive">story archive</string>
     <string name="ProfileStoriesArchiveTab">archive</string>
     <string name="ProfileStoriesArchiveHint">only you can see archived stories unless you choose to post them to your profile.</string>
@@ -8170,7 +8173,7 @@
     <string name="StarsSentText_other">you reacted with **%d** stars.</string>
     <string name="StarsSentUndo">undo</string>
     <string name="StarsReactionTitle">react with stars</string>
-    
+    <string name="StarsReactionTitle2">star reaction</string>
     <string name="StarsReactionText">choose how many stars you want to send to **%s** to support this post.</string>
     <string name="StarsReactionTextSent_one">you sent **%1$d** star to support this post.</string>
     <string name="StarsReactionTextSent_other">you sent **%1$d** stars to support this post.</string>
@@ -8292,6 +8295,8 @@
     <string name="Gift2StarsCount_one">%d star</string>
     <string name="Gift2StarsCount_other">%d stars</string>
     <string name="ProfileGifts">gifts</string>
+    <string name="ProfileGiftsNotFoundTitle">no matching gifts</string>
+    <string name="ProfileGiftsNotFoundButton">view all gifts</string>
     <string name="ProfileGiftsInfo">these gifts were sent to you by other users.\ntap on a gift to convert it to stars or change its privacy settings.</string>
     <string name="ProfileGiftsCount_one">%d gift</string>
     <string name="ProfileGiftsCount_other">%d gifts</string>
@@ -8727,6 +8732,8 @@
     <string name="Gift2AttributeOriginalDetailsNoSender">gifted to %1$s on %2$s.</string>
     <string name="Gift2AttributeOriginalDetailsNoSenderComment">gifted to %1$s on %2$s with the comment: \"%3$s\</string>
     <string name="Gift2Transfer">transfer %s</string>
+    <string name="Gift2TransferShort">transfer gift</string>
+    <string name="VideoChooseCover">choose cover</string>
     <string name="Gift2TransferText">do you want to transfer ownership of **%1$s** to **%2$s**?</string>
     <string name="Gift2TransferPriceText_one">do you want to transfer ownership of **%2$s** to **%3$s** for **%1$d star**?</string>
     <string name="Gift2TransferPriceText_other">do you want to transfer ownership of **%2$s** to **%3$s** for **%1$d stars**?</string>
@@ -8783,6 +8790,10 @@
     <string name="VideoShareAddTimestamp">start at %s</string>
     <string name="VideoStartsAt">starts at %s</string>
     <string name="Gift2InBlockchain">this gift is on the ton blockchain. **view &gt;**</string>
+    <string name="EditorSetCover">edit cover</string>
+    <string name="EditorSetCoverTitle">select frame</string>
+    <string name="EditorSetCoverGallery">choose from gallery</string>
+    <string name="EditorSetCoverSave">save cover</string>
 
   
 
@@ -10897,7 +10908,6 @@
   <string name="ProfileGiftsCount_two">%d gifts</string>
   <string name="ProfileGiftsCount_few">%d gifts</string>
   <string name="ProfileGiftsCount_many">%d gifts</string>
-  <string name="ProfileMyStories">my stories</string>
   <string name="ProfileMyStoriesCount_zero">%d posted stories</string>
   <string name="ProfileMyStoriesCount_two">%d posted stories</string>
   <string name="ProfileMyStoriesCount_few">%d posted stories</string>
