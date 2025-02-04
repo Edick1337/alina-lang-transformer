@@ -8348,7 +8348,7 @@
     <string name="Gift2InfoOutConverted_one">%2$s converted this gift to **%d** star.</string>
     <string name="Gift2InfoOutConverted_other">%2$s converted this gift to **%d** stars.</string>
     <string name="Gift2InfoOutPinned">%1$s added this gift to their profile.</string>
-    <string name="Gift2SenderHidden">only you can see the sender\'s name.</string>
+    <string name="Gift2SenderHidden">only you can see the sender\'s name and message.</string>
     <string name="Gift2ProfileVisible3">this gift is visible on your profile. **hide &gt;**</string>
     <string name="Gift2ProfileInvisible3">this gift is hidden from your page. **show &gt;**</string>
     <string name="Gift2ChannelProfileVisible3">this gift is visible on your channel\'s profile. **hide &gt;**</string>
