@@ -5315,7 +5315,7 @@
     <string name="GiftPremiumAboutThisLink">this link allows you or **anyone you choose** to activate a %1$s.</string>
     <string name="GiftPremiumAboutThisLinkEnd">**telegram premium** subscription</string>
     <string name="GiftPremiumWhatsIncluded">what\'s included</string>
-    <string name="GiftPremiumEventAdsTitle">share the **love** &#10084;&#65039;</string>
+    <string name="GiftPremiumEventAdsTitle">happy **valentine&#8217;s day**! &#128150;\n</string>
     <string name="GiftTelegramPremiumTitle">gift telegram premium</string>
     <string name="GiftTelegramPremiumOrStarsTitle">gift premium or stars</string>
     <string name="GiftTelegramPremiumDescription">give **%1$s** access to exclusive features with **telegram premium**.</string>
@@ -6808,7 +6808,7 @@
     <string name="BoostingReassignBoostTextPluralWithLink_one">to boost **%2$s**, reassign a previous boost or %3$s to a friend to get **%1$d** additional boost.</string>
     <string name="BoostingReassignBoostTextPluralWithLink_other">to boost **%2$s**, reassign a previous boost or %3$s to a friend to get **%1$d** additional boosts.</string>
     <string name="BoostingReassignBoostTextLink">**gift telegram premium**</string>
-    <string name="BoostingPremiumChristmasSubTitle">give something special to someone special.</string>
+    <string name="BoostingPremiumChristmasSubTitle">send gifts to your loved ones.</string>
     <string name="BoostingPremiumChristmasToast">you can send gifts to friends later from settings</string>
     <string name="BoostingRemoveBoostFrom">remove your boost from</string>
     <string name="BoostingAvailableIn">available in %1$s</string>
@@ -9328,7 +9328,7 @@
   <string name="BoostingGroupWillReceiveBoost_two">this group will receive %d boosts</string>
   <string name="BoostingGroupWillReceiveBoost_few">this group will receive %d boosts</string>
   <string name="BoostingGroupWillReceiveBoost_many">this group will receive %d boosts</string>
-  <string name="BoostingPremiumChristmasTitle">share the **love** &#10084;&#65039;</string>
+  <string name="BoostingPremiumChristmasTitle">happy **valentine&#8217;s day**! &#128150;</string>
   <string name="BoostingPreparedGiveawaySubscriptions">%1$d subscriptions for %2$s</string>
   <string name="BoostingPreparedGiveawaySubscriptionsPlural_zero">%1$d subscriptions for %2$s</string>
   <string name="BoostingPreparedGiveawaySubscriptionsPlural_two">%1$d subscriptions for %2$s</string>
