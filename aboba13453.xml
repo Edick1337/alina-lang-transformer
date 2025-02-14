@@ -4478,8 +4478,8 @@
     <string name="Lifetime">lifetime</string>
     <string name="GiftMonths_one">%1$d-month</string>
     <string name="GiftMonths_other">%1$d-months</string>
-    <string name="Gift2Months_one">%1$d-month</string>
-    <string name="Gift2Months_other">%1$d-months</string>
+    <string name="Gift2Months_one">%1$d month</string>
+    <string name="Gift2Months_other">%1$d months</string>
     <string name="PrepaidGiveawayMonths_one">%1$d-month</string>
     <string name="PrepaidGiveawayMonths_other">%1$d-month</string>
     <string name="BoldMonths_one">**%1$d** month</string>
@@ -8237,7 +8237,7 @@
     <string name="Gift2Premium">gift premium</string>
     <string name="Gift2PremiumInfo">give **%s** access to exclusive features with telegram premium.</string>
     <string name="Gift2PremiumInfoLink">see features &gt;</string>
-    <string name="Gift2Stars">gift stars</string>
+    <string name="Gift2Stars">send a gift</string>
     <string name="Gift2StarsInfo">give **%s** gifts that can be kept on the profile or converted to stars.</string>
     <string name="Gift2StarsSelf">buy a gift</string>
     <string name="Gift2StarsSelfInfo1">buy yourself a gift to add to your profile or reserve for later.</string>
@@ -10236,10 +10236,10 @@
   <string name="Gift2InfoOutConverted_few">%2$s converted this gift to **%d** stars.</string>
   <string name="Gift2InfoOutConverted_many">%2$s converted this gift to **%d** stars.</string>
   <string name="Gift2InfoPinned">you added this gift to your profile.</string>
-  <string name="Gift2Months_zero">%1$d-months</string>
-  <string name="Gift2Months_two">%1$d-months</string>
-  <string name="Gift2Months_few">%1$d-months</string>
-  <string name="Gift2Months_many">%1$d-months</string>
+  <string name="Gift2Months_zero">%1$d months</string>
+  <string name="Gift2Months_two">%1$d months</string>
+  <string name="Gift2Months_few">%1$d months</string>
+  <string name="Gift2Months_many">%1$d months</string>
   <string name="Gift2Notification_zero">sent a gift worth of %d stars</string>
   <string name="Gift2Notification_two">sent a gift worth of %d stars</string>
   <string name="Gift2Notification_few">sent a gift worth of %d stars</string>
