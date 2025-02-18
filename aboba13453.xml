@@ -7570,7 +7570,7 @@
     <string name="ProfileBirthday">date of birth</string>
     <string name="ProfileBirthdayToday">birthday today</string>
     <string name="PrivacyGifts">gifts</string>
-    <string name="PrivacyGiftsTitle">who can display gifts on my profile</string>
+    <string name="PrivacyGiftsTitle">automatically display gifts from</string>
     <string name="PrivacyGiftsInfo">choose whether gifts from specific senders need your approval before they&#8217;re visible to others on your profile.</string>
     <string name="PrivacyBirthday">date of birth</string>
     <string name="PrivacyBirthdayTitle">who can see my date of birth?</string>
