@@ -6496,7 +6496,7 @@
     <string name="Reposts_other">%d reposts</string>
     
     
-    <string name="LimitReachedStoriesCount">you can post **%1$d** stories in **24** hours.\nsubscribe to **telegram premium** to increase this limit to **%2$d**.</string>
+    <string name="LimitReachedStoriesCount">you can post **%1$d** story in **24** hours.\nsubscribe to **telegram premium** to increase this limit to **%2$d**.</string>
     <string name="LimitReachedStoriesCountPremium">sorry, you can\'t post more than **%1$d** stories.</string>
     <string name="LimitReachedStoriesWeekly">you can post **%1$d** stories per week.\nsubscribe to **telegram premium** to increase this limit to **%2$d**.</string>
     <string name="LimitReachedStoriesWeeklyPremium">sorry, you can\'t post more than **%1$d** stories per week.</string>
@@ -7249,7 +7249,7 @@
     <string name="MessageLockedStarsConfirmMessage1_other">**%2$s** charges **%1$d** stars per message.</string>
     <string name="MessageLockedStarsConfirmMessage2One_one">would you like to pay **%1$d** star to send one message?</string>
     <string name="MessageLockedStarsConfirmMessage2One_other">would you like to pay **%1$d** stars to send one message?</string>
-    <string name="MessageLockedStarsConfirmMessage2Many1_one">would you like to pay **%1$d** star</string>
+    <string name="MessageLockedStarsConfirmMessage2Many1_one">would you like to pay **%d** star</string>
     <string name="MessageLockedStarsConfirmMessage2Many1_other">would you like to pay **%d** stars</string>
     <string name="MessageLockedStarsConfirmMessage2Many2_one">to send %d message?</string>
     <string name="MessageLockedStarsConfirmMessage2Many2_other">to send %d messages?</string>
