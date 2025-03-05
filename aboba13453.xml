@@ -8872,7 +8872,7 @@
     <string name="PrivateMessagesChargePremiumLocked">unlock with telegram premium</string>
     <string name="PrivateMessagesExceptionsHeader">exceptions</string>
     <string name="PrivateMessagesExceptions">remove fee</string>
-    <string name="PrivateMessagesExceptionsInfo">add users or entire groups who won\'t be charged for sending messages to you.</string>
+    <string name="PrivateMessagesExceptionsInfo">add users or entire groups who won\'t have to pay to send you messages.</string>
     <string name="PaidMessageActionOut_one">you paid %d star to send a message</string>
     <string name="PaidMessageActionOut_other">you paid %d stars to send a message</string>
     <string name="PaidMessageActionIn_one">you received %1$d star from un1</string>
@@ -8891,7 +8891,7 @@
     <string name="StarsTransactionMessageFeeInfo">you receive **%s** of the price that you charge for each incoming message.</string>
     <string name="StarsTransactionMessageFeeInfoLink">**change fee &gt;**</string>
     <string name="PremiumOrStarsPrice">or &#11088;&#65039; %s</string>
-    <string name="CheckPrivacyInviteTitle">invitation settings</string>
+    <string name="CheckPrivacyInviteTitle">invite settings</string>
     <string name="CheckPrivacyInviteText">you\'ve restricted who can message you, but anyone can still invite you to groups and channels. would you like to review these settings?</string>
     <string name="CheckPrivacyCallsTitle">call settings</string>
     <string name="CheckPrivacyCallsText">you\'ve restricted who can message you, but anyone can still call you. would you like to review these settings?</string>
