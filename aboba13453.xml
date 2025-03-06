@@ -7259,8 +7259,8 @@
     <string name="MessageLockedStarsRemoveFee">%1$s must pay &#11088;&#65039; %2$s for each message to you.\n**remove fee**</string>
     <string name="RemoveMessageFeeTitle">remove fee</string>
     <string name="RemoveMessageFeeMessage">are you sure you want to allow **%s** to message you for free?</string>
-    <string name="RemoveMessageFeeRefund_one">refund already paid %d star</string>
-    <string name="RemoveMessageFeeRefund_other">refund already paid %d stars</string>
+    <string name="RemoveMessageFeeRefund_one">refund the %d star already paid</string>
+    <string name="RemoveMessageFeeRefund_other">refund the %d stars already paid</string>
     <string name="PremiumMessageHeader">unlock messaging</string>
     <string name="PremiumMessageText">**%1$s** restricted who can message them in privacy settings. subscribe to **telegram premium** to message **%2$s**.</string>
     <string name="PremiumMessageButton">subscribe to telegram premium</string>
@@ -11226,10 +11226,10 @@
   <string name="RemoveManyStickersCount_two">remove %1$d stickers</string>
   <string name="RemoveManyStickersCount_few">remove %1$d stickers</string>
   <string name="RemoveManyStickersCount_many">remove %1$d stickers</string>
-  <string name="RemoveMessageFeeRefund_zero">refund already paid %d stars</string>
-  <string name="RemoveMessageFeeRefund_two">refund already paid %d stars</string>
-  <string name="RemoveMessageFeeRefund_few">refund already paid %d stars</string>
-  <string name="RemoveMessageFeeRefund_many">refund already paid %d stars</string>
+  <string name="RemoveMessageFeeRefund_zero">refund the %d stars already paid</string>
+  <string name="RemoveMessageFeeRefund_two">refund the %d stars already paid</string>
+  <string name="RemoveMessageFeeRefund_few">refund the %d stars already paid</string>
+  <string name="RemoveMessageFeeRefund_many">refund the %d stars already paid</string>
   <string name="RemoveQuote">remove quote</string>
   <string name="RemoveReply">remove reply</string>
   <string name="RemoveStickersCount">remove %1$s</string>
