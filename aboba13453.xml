@@ -6496,8 +6496,12 @@
     <string name="Reposts_other">%d reposts</string>
     
     
-    <string name="LimitReachedStoriesCount">you can post **%1$d** story in **24** hours.\nsubscribe to **telegram premium** to increase this limit to **%2$d**.</string>
-    <string name="LimitReachedStoriesCountPremium">sorry, you can\'t post more than **%1$d** stories.</string>
+    <string name="LimitReachedStoriesCount2First_one">you can post **%d** story in **24** hours.</string>
+    <string name="LimitReachedStoriesCount2First_other">you can post **%d** stories in **24** hours.</string>
+    <string name="LimitReachedStoriesCount2Second_one">subscribe to **telegram premium** to increase this limit to **%d**.</string>
+    <string name="LimitReachedStoriesCount2Second_other">subscribe to **telegram premium** to increase this limit to **%d**.</string>
+    <string name="LimitReachedStoriesCount2Premium_one">sorry, you can&#8217;t post more than **%d** story in **24** hours.</string>
+    <string name="LimitReachedStoriesCount2Premium_other">sorry, you can&#8217;t post more than **%d** stories in **24** hours.</string>
     <string name="LimitReachedStoriesWeekly">you can post **%1$d** stories per week.\nsubscribe to **telegram premium** to increase this limit to **%2$d**.</string>
     <string name="LimitReachedStoriesWeeklyPremium">sorry, you can\'t post more than **%1$d** stories per week.</string>
     <string name="LimitReachedStoriesMonthly">you can post **%1$d** stories per month.\nsubscribe to **telegram premium** to increase this limit to **%2$d**.</string>
@@ -8360,6 +8364,7 @@
     <string name="ProfileGiftsCount_other">%d gifts</string>
     <string name="ProfileGiftsSend">send gifts to friends</string>
     <string name="ProfileGiftsSendChannel">send gifts to channel</string>
+    <string name="ProfileGiftsSendUser">send a gift to %s</string>
     <string name="Gift2TabAll">all gifts</string>
     <string name="Gift2TabInStock">in stock</string>
     <string name="Gift2TabLimited">limited</string>
@@ -8877,8 +8882,8 @@
     <string name="PaidMessageActionOut_other">you paid %d stars to send a message</string>
     <string name="PaidMessageActionIn_one">you received %1$d star from un1</string>
     <string name="PaidMessageActionIn_other">you received %1$d stars from un1</string>
-    
-    
+    <string name="PaidMessageAction_one">un1 paid %1$d star to send a message</string>
+    <string name="PaidMessageAction_other">un1 paid %1$d stars to send a message</string>
     <string name="PaidMessageActionMessages_one">%d message</string>
     <string name="PaidMessageActionMessages_other">%d messages</string>
     <string name="PaidMessageActionOutMany_one">you paid %1$d star to send %2$s</string>
@@ -8904,6 +8909,7 @@
     <string name="ContactInfoIsNotContact">not a contact</string>
     <string name="ContactInfoIsContact">contact</string>
     <string name="ContactInfoPhone">phone number</string>
+    <string name="ContactInfoPhoneFragment">anonymous</string>
     <string name="ContactInfoLocation">location</string>
     <string name="ContactInfoRegistration">registration</string>
     <string name="ContactInfoCommonGroups">common groups</string>
@@ -8921,6 +8927,7 @@
     <string name="Gift2PinnedSubtitle">now it will always be shown on top.</string>
     <string name="StarsTopUp">top up</string>
     <string name="StarsWithdraw">withdraw</string>
+    <string name="StarsStats">stats</string>
     <string name="PaidMessagesSendErrorToast1_one">price went up from &#11088;&#65039;%d</string>
     <string name="PaidMessagesSendErrorToast1_other">price went up from &#11088;&#65039;%d</string>
     <string name="PaidMessagesSendErrorToast2_one">to &#11088;&#65039;%d</string>
@@ -10612,6 +10619,20 @@
   <string name="Likes_two">%d likes</string>
   <string name="Likes_few">%d likes</string>
   <string name="Likes_many">%d likes</string>
+  <string name="LimitReachedStoriesCount">you can post **%1$d** story in **24** hours.\nsubscribe to **telegram premium** to increase this limit to **%2$d**.</string>
+  <string name="LimitReachedStoriesCount2First_zero">you can post **%d** stories in **24** hours.</string>
+  <string name="LimitReachedStoriesCount2First_two">you can post **%d** stories in **24** hours.</string>
+  <string name="LimitReachedStoriesCount2First_few">you can post **%d** stories in **24** hours.</string>
+  <string name="LimitReachedStoriesCount2First_many">you can post **%d** stories in **24** hours.</string>
+  <string name="LimitReachedStoriesCount2Premium_zero">sorry, you can&#8217;t post more than **%d** stories in **24** hours.</string>
+  <string name="LimitReachedStoriesCount2Premium_two">sorry, you can&#8217;t post more than **%d** stories in **24** hours.</string>
+  <string name="LimitReachedStoriesCount2Premium_few">sorry, you can&#8217;t post more than **%d** stories in **24** hours.</string>
+  <string name="LimitReachedStoriesCount2Premium_many">sorry, you can&#8217;t post more than **%d** stories in **24** hours.</string>
+  <string name="LimitReachedStoriesCount2Second_zero">subscribe to **telegram premium** to increase this limit to **%d**.</string>
+  <string name="LimitReachedStoriesCount2Second_two">subscribe to **telegram premium** to increase this limit to **%d**.</string>
+  <string name="LimitReachedStoriesCount2Second_few">subscribe to **telegram premium** to increase this limit to **%d**.</string>
+  <string name="LimitReachedStoriesCount2Second_many">subscribe to **telegram premium** to increase this limit to **%d**.</string>
+  <string name="LimitReachedStoriesCountPremium">sorry, you can\'t post more than **%1$d** stories.</string>
   <string name="LinkSharedToManyChats_zero">link forwarded to **%1$d chats**.</string>
   <string name="LinkSharedToManyChats_two">link forwarded to **%1$d chats**.</string>
   <string name="LinkSharedToManyChats_few">link forwarded to **%1$d chats**.</string>
@@ -10925,6 +10946,10 @@
   <string name="PaidMediaPrice_two">&#11088;&#65039;%d</string>
   <string name="PaidMediaPrice_few">&#11088;&#65039;%d</string>
   <string name="PaidMediaPrice_many">&#11088;&#65039;%d</string>
+  <string name="PaidMessageAction_zero">un1 paid %1$d stars to send a message</string>
+  <string name="PaidMessageAction_two">un1 paid %1$d stars to send a message</string>
+  <string name="PaidMessageAction_few">un1 paid %1$d stars to send a message</string>
+  <string name="PaidMessageAction_many">un1 paid %1$d stars to send a message</string>
   <string name="PaidMessageActionIn_zero">you received %1$d stars from un1</string>
   <string name="PaidMessageActionIn_two">you received %1$d stars from un1</string>
   <string name="PaidMessageActionIn_few">you received %1$d stars from un1</string>
