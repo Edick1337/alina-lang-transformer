@@ -5660,7 +5660,7 @@
     <string name="GroupCreateDiscussionDefaultName">%1$s chat</string>
     <string name="AutoDeleteGlobalAction">un1 uses a self-destruct timer for all chats.\nall new messages in this chat will be automatically deleted %1$s after they are sent.</string>
     <string name="AutoDeleteGlobalActionFromYou">you set a self-destruct timer for all chats.\nall new messages in this chat will be automatically deleted %s after they were sent.</string>
-    <string name="NeedAdminRightForSetAutoDeleteTimer">you must be an admin to enable auto-delete in this group.</string>
+    <string name="NeedAdminRightForSetAutoDeleteTimer">you must be an admin to enable auto-delete in this chat.</string>
     <string name="SetAutoDeleteTimer">set auto-delete</string>
     <string name="AutoDeleteCustom2">set custom time</string>
     <string name="CacheOtherChats">other chats</string>
