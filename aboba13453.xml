@@ -7641,7 +7641,7 @@
     <string name="BirthdayToday">&#127874; birthday today</string>
     <string name="BirthdayYesterday">birthday yesterday</string>
     <string name="BirthdayTomorrow">birthday tomorrow</string>
-    <string name="UserBirthdayHint">&#127874; %1$s&#8217;s having a birthday today. you can give %1$s **telegram premium** as a birthday gift.</string>
+    <string name="UserBirthdayHint">&#127874; you can send %1$s a gift for their birthday today.</string>
     <string name="PrivacyUserTypes">user types</string>
     <string name="PrivacyPremium">premium users</string>
     <string name="PrivacyPremiumText">all telegram premium subscribers</string>
