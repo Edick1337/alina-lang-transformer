@@ -5560,7 +5560,7 @@
     <string name="SavedViewAsMessages">view as messages</string>
     <string name="TopicViewAsTopics">view as topics</string>
     <string name="DeleteSelectedTopics">are you sure you want to delete these topics?</string>
-    <string name="DeleteSelectedTopic">are you sure you want delete %s?</string>
+    <string name="DeleteSelectedTopic">are you sure you want to delete %s?</string>
     <string name="DeleteTopics_one">delete topic</string>
     <string name="DeleteTopics_other">delete topics</string>
     <string name="Topics">topics</string>
