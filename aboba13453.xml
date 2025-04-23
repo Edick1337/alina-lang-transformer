@@ -9105,11 +9105,11 @@
     <string name="BotRestoreStorageCreatedAt">created on %s</string>
     <string name="ConferenceEncrypted">end-to-end encrypted</string>
     <string name="ConferenceEncryptedSyncing">end-to-end encrypted</string>
-    <string name="ConferenceEncryptedInfo">these four emojis represent the call\'s encryption key. they must match for all participants and change when someone joins or leaves.</string>
+    <string name="ConferenceEncryptedInfo">these emoji represent the encryption key. they must match for all participants and will change when someone joins or leaves.</string>
     <string name="ConferenceEncryptedClose">close</string>
     <string name="ConferenceChat">group call</string>
     <string name="ConferenceClosed">group chat has been ended.</string>
-    <string name="ConferenceCallWithVideo">call with video enabled</string>
+    <string name="ConferenceCallWithVideo">join with camera on</string>
     <string name="NewCall">new call</string>
     <string name="NewCallSearch">search for contacts or usernames...</string>
     <string name="VoipAudioSwitchedToBluetooth">audio switched to bluetooth.</string>
