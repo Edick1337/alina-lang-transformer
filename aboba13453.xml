@@ -7679,7 +7679,7 @@
     <string name="PrivacyGiftsTypeUnlimited">unlimited</string>
     <string name="PrivacyGiftsTypeLimited">limited-edition</string>
     <string name="PrivacyGiftsTypeUnique">unique</string>
-    <string name="PrivacyGiftsTypePremium">premium subscription</string>
+    <string name="PrivacyGiftsTypePremium">premium subscriptions</string>
     <string name="PrivacyGiftsTypeInfo">choose the types of gifts that you allow others to send you.</string>
     <string name="PrivacyBirthday">date of birth</string>
     <string name="PrivacyBirthdayTitle">who can see my date of birth?</string>
