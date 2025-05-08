@@ -8864,7 +8864,7 @@
     <string name="Gift2ActionWearDone">you put on **%s**</string>
     <string name="Gift2ActionWearOffDone">you took off **%s**</string>
     <string name="Gift2ActionShare">share</string>
-    <string name="Gift2ActionResell">resell</string>
+    <string name="Gift2ActionResell">sell</string>
     <string name="Gift2ActionUnlist">unlist</string>
     <string name="Gift2UnlistTitle">unlist %s</string>
     <string name="Gift2UnlistText">are you sure you want to unlist your gift?</string>
