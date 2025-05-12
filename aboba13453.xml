@@ -996,6 +996,8 @@
     <string name="EventLogFilterInvites">invite links</string>
     <string name="EventLogToggledSlowmodeOn">un1 set the slow mode timer to %1$s</string>
     <string name="EventLogToggledSlowmodeOff">un1 disabled the slow mode</string>
+    <string name="EventLogToggledAutotranslationOn">un1 enabled auto-translation</string>
+    <string name="EventLogToggledAutotranslationOff">un1 disabled auto-translation</string>
     <string name="EventLogStartedVoiceChat">un1 started a video chat</string>
     <string name="EventLogEndedVoiceChat">un1 ended the video chat</string>
     <string name="EventLogStartedLiveStream">un1 started a live stream</string>
@@ -7455,6 +7457,9 @@
     <string name="BusinessBotPermissionsGiftsTransfer">transfer and upgrade gifts</string>
     <string name="BusinessBotPermissionsGiftsTransferStars">transfer stars</string>
     <string name="BusinessBotPermissionsStories">manage stories</string>
+    <string name="BusinessBotPermissionsWarning">warning</string>
+    <string name="BusinessBotPermissionsGiftsWarningText">the bot **@%s** will be able to manage your gifts and stars, including giving them away to other users.</string>
+    <string name="BusinessBotPermissionsUsernamesWarningText">the bot **@%s** will be able to manage your usernames, including transferring them away to other users.</string>
     <string name="BusinessBotNotSupportedTitle">oops</string>
     <string name="BusinessBotNotSupportedMessage">this bot doesn&#8217;t support **telegram business** yet.</string>
     <string name="BusinessGreet">greeting message</string>
@@ -9177,7 +9182,8 @@
     <string name="Gift2BuyPriceText_other">do you want to buy **%2$s** for **%1$d stars** and gift it to **%3$s**?</string>
     <string name="Gift2BuyPriceSelfText_one">do you want to buy **%2$s** for **%1$d star**?</string>
     <string name="Gift2BuyPriceSelfText_other">do you want to buy **%2$s** for **%1$d stars**?</string>
-    <string name="Gift2BuyDoPrice">buy for &#11088;&#65039;%d</string>
+    <string name="Gift2BuyDoPrice2_one">buy for &#11088;&#65039;%d</string>
+    <string name="Gift2BuyDoPrice2_other">buy for &#11088;&#65039;%d</string>
     <string name="Gift2ResaleFiltersSearch">search&#8230;</string>
     <string name="Gift2ResaleFilterModel">model</string>
     <string name="Gift2ResaleFilterModels_one">%d model</string>
@@ -10588,6 +10594,11 @@
   <string name="Gift2ButtonSell_two">sell for %d stars</string>
   <string name="Gift2ButtonSell_few">sell for %d stars</string>
   <string name="Gift2ButtonSell_many">sell for %d stars</string>
+  <string name="Gift2BuyDoPrice">buy for &#11088;&#65039;%d</string>
+  <string name="Gift2BuyDoPrice2_zero">buy for &#11088;&#65039;%d</string>
+  <string name="Gift2BuyDoPrice2_two">buy for &#11088;&#65039;%d</string>
+  <string name="Gift2BuyDoPrice2_few">buy for &#11088;&#65039;%d</string>
+  <string name="Gift2BuyDoPrice2_many">buy for &#11088;&#65039;%d</string>
   <string name="Gift2BuyPriceSelfText_zero">do you want to buy **%2$s** for **%1$d stars**?</string>
   <string name="Gift2BuyPriceSelfText_two">do you want to buy **%2$s** for **%1$d stars**?</string>
   <string name="Gift2BuyPriceSelfText_few">do you want to buy **%2$s** for **%1$d stars**?</string>
