@@ -8982,8 +8982,8 @@
     <string name="PrivateMessagesExceptionsInfo">add users or entire groups who won\'t have to pay to send you messages.</string>
     <string name="PaidMessageActionOut_one">you paid %d star to send a message</string>
     <string name="PaidMessageActionOut_other">you paid %d stars to send a message</string>
-    <string name="PaidMessageActionIn_one">you received %1$d star from un1</string>
-    <string name="PaidMessageActionIn_other">you received %1$d stars from un1</string>
+    <string name="PaidMessageActionIn_one">un1 paid %1$d star to send a message</string>
+    <string name="PaidMessageActionIn_other">un1 paid %1$d stars to send a message</string>
     <string name="PaidMessageAction_one">un1 paid %1$d star to send a message</string>
     <string name="PaidMessageAction_other">un1 paid %1$d stars to send a message</string>
     <string name="PaidMessageActionMessages_one">%d message</string>
@@ -11291,10 +11291,10 @@
   <string name="PaidMessageAction_two">un1 paid %1$d stars to send a message</string>
   <string name="PaidMessageAction_few">un1 paid %1$d stars to send a message</string>
   <string name="PaidMessageAction_many">un1 paid %1$d stars to send a message</string>
-  <string name="PaidMessageActionIn_zero">you received %1$d stars from un1</string>
-  <string name="PaidMessageActionIn_two">you received %1$d stars from un1</string>
-  <string name="PaidMessageActionIn_few">you received %1$d stars from un1</string>
-  <string name="PaidMessageActionIn_many">you received %1$d stars from un1</string>
+  <string name="PaidMessageActionIn_zero">un1 paid %1$d stars to send a message</string>
+  <string name="PaidMessageActionIn_two">un1 paid %1$d stars to send a message</string>
+  <string name="PaidMessageActionIn_few">un1 paid %1$d stars to send a message</string>
+  <string name="PaidMessageActionIn_many">un1 paid %1$d stars to send a message</string>
   <string name="PaidMessageActionMany_zero">un1 paid %1$d stars to send %2$s</string>
   <string name="PaidMessageActionMany_two">un1 paid %1$d stars to send %2$s</string>
   <string name="PaidMessageActionMany_few">un1 paid %1$d stars to send %2$s</string>
