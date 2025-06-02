@@ -230,6 +230,7 @@
     <string name="ChatDeletedUndo">chat deleted.</string>
     <string name="GroupDeletedUndo">group deleted</string>
     <string name="ChannelDeletedUndo">channel deleted.</string>
+    <string name="MonoforumDeletedUndo">removed from your chat list.</string>
     <string name="ArchivePinned">archive pinned</string>
     <string name="ArchivePinnedInfo">swipe left on the archive to hide it.</string>
     <string name="ArchiveHidden">archive hidden</string>
@@ -424,6 +425,7 @@
     <string name="EditAdminRights">edit admin rights</string>
     <string name="DeleteMega">delete group</string>
     <string name="LeaveMegaMenu">leave group</string>
+    
     <string name="DeleteMegaMenu">delete group</string>
     <string name="MegaAdminsInfo">you can add admins to help you manage your group. press and hold to remove them.</string>
     <string name="DeleteGroupForAll">delete the group for all members</string>
@@ -480,6 +482,7 @@
     <string name="MegaPublicInfo">public groups can be found in search, chat history is available to everyone and anyone can join.</string>
     <string name="ChannelPrivate">private channel</string>
     <string name="MegaPrivate">private group</string>
+    <string name="MonoforumMessages">direct messages</string>
     <string name="ChannelPrivateInfo">private channels can only be joined via invite link.</string>
     <string name="MegaPrivateInfo">private groups can only be joined if you were invited or have an invite link.</string>
     <string name="ChannelLinkTitle">public link</string>
@@ -1330,6 +1333,7 @@
     <string name="ReportChatDescription">description</string>
     <string name="DescriptionMore">more</string>
     <string name="PinnedMessage">pinned message</string>
+    <string name="PinnedCall">pinned call</string>
     <string name="PreviousPinnedMessage">previous message</string>
     <string name="EditedMessage">edited</string>
     <string name="EditMessage">edit message</string>
@@ -1496,6 +1500,8 @@
     <string name="CommentsTitle">comments</string>
     <string name="Comment">comment</string>
     <string name="RepliesTitle">replies</string>
+    <string name="MonoforumTitle">%1$s messages</string>
+    <string name="MonoforumSpan">direct</string>
     <string name="NoComments">no comments here yet...</string>
     <string name="NoReplies">no replies here yet...</string>
     <string name="ViewInChat">view in chat</string>
@@ -3830,6 +3836,8 @@
     <string name="NoUsernameFound">username not found.</string>
     <string name="NoPhoneFound">there is no telegram account with this phone number.</string>
     <string name="NoFolderFound">no chat folder found.</string>
+    <string name="NoTopicsCreated">no created topics</string>
+    <string name="NoMonoforumTopicsCreated">no received messages</string>
     <string name="BotCantJoinGroups">this bot can\'t join groups.</string>
     <string name="SecretLinkPreviewAlert">enable extended link previews in secret chats? note that link previews are generated on telegram servers.</string>
     <string name="SecretChatContextBotAlert">please note that inline bots are provided by third-party developers. for the bot to work, the symbols you type after the bot\'s username are sent to its respective developer.</string>
@@ -7467,6 +7475,7 @@
     <string name="BusinessGreetSend">send greeting message</string>
     <string name="BusinessGreetCreate">create a greeting message</string>
     <string name="BusinessGreetUnsavedChanges">you have changed the business greeting message settings. apply changes?</string>
+    <string name="MessageSuggestionsUnsavedChanges">you have changed the direct messages settings. apply changes?</string>
     <string name="BusinessRecipients">recipients</string>
     <string name="BusinessRecipientsRemoveExcludeTitle">remove recipient</string>
     <string name="BusinessRecipientsRemoveExcludeMessage">are you sure you want to remove \"%s\" from excluding list?</string>
@@ -9071,6 +9080,10 @@
     <string name="SMSFee3Text">sign up for 1-week telegram premium subscription to help cover the sms costs.</string>
     <string name="SMSFeePurchaseTitle">sign up for %s</string>
     <string name="SMSFeePurchaseText">get telegram premium for 1 week</string>
+    <string name="PostSuggestionsPriceUpdated_one">un1 now accepts direct messages for %1$d star</string>
+    <string name="PostSuggestionsPriceUpdated_other">un1 now accepts direct messages for %1$d stars</string>
+    <string name="PostSuggestionsEnabledUpdated">un1 now accepts direct messages</string>
+    <string name="PostSuggestionsDisabledUpdated">un1 disabled direct messages</string>
     <string name="PaidMessagesPriceUpdated_one">un1 changed price to %1$d star per message</string>
     <string name="PaidMessagesPriceUpdated_other">un1 changed price to %1$d stars per message</string>
     <string name="PaidMessagesPriceUpdatedOut_one">you changed price to %1$d star per message</string>
@@ -9080,6 +9093,7 @@
     <string name="PaidMessagesRefundedOut_one">you refunded %1$d star to un1</string>
     <string name="PaidMessagesRefundedOut_other">you refunded %1$d stars to un1</string>
     <string name="ReplyDialogMessageAuthor">message author</string>
+    <string name="ForwardDialogYourChannel">your channel</string>
     <string name="ReplyDialogYourChats">your chats</string>
     <string name="SearchAdsAboutTitle">about these ads</string>
     <string name="SearchAdsAboutSubtitle">telegram ads are very different from ads on other platforms. ads such as this one:</string>
@@ -9208,6 +9222,52 @@
     <string name="HintViewStoriesMultiple_other">tap here to view your %d stories</string>
     <string name="CreateMultipleStories">create multiple stories</string>
     <string name="WebsiteSays">%s says</string>
+    
+    
+    
+    <string name="SuggestPostForStars">message for &#11088;&#65039;%s</string>
+    <string name="SuggestPostForFree">message</string>
+    <string name="SuggestionLockedStars">**%1$s** charges **&#11088;&#65039; %2$s** per message to its admin.</string>
+    <string name="SuggestionUnlockedStars">send a direct message to the administrator of **%1$s**.</string>
+    <string name="ChatMessageSuggestions">direct messages</string>
+    <string name="PostSuggestions">direct messages</string>
+    <string name="PostSuggestionsOff">off</string>
+    <string name="PostSuggestionsStars">&#11088;&#65039; %d</string>
+    <string name="AllowPostSuggestions">allow direct messages</string>
+    <string name="AllowPostSuggestionsHint">allow users to send messages to your channel, with the option to charge a fee for each message.</string>
+    <string name="PriceForEachSuggestion">price for each message</string>
+    <string name="Suggest2ChannelSendHint">send a message to the channel\'s admin</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="PostSuggestionsPriceInfo">you will receive %1$s of the selected fee (~%2$s$) for each incoming message.</string>
+    <string name="TopicsTitle">topics</string>
+    <string name="TopicsEnable">enable topics</string>
+    <string name="TopicsInfo">the group chat will be divided into topics created by admins and users.</string>
+    <string name="TopicsLayout">topics layout</string>
+    <string name="TopicsLayoutInfo">choose how topics appear for all members.</string>
+    <string name="TopicsLayoutList">list</string>
+    <string name="TopicsLayoutTabs">tabs</string>
+    <string name="SendInStandardQuality">send in standard quality</string>
+    <string name="SendInHighQuality">send in high quality</string>
+    <string name="ShortHighQuality">hd</string>
+    <string name="PhotoWillBeSentInSD">the photo will be sent in standard quality.</string>
+    <string name="PhotoWillBeSentInHD">the photo will be sent in high quality.</string>
+    <string name="DebugMenuUseSystemBoldFont">use bold font from system</string>
+    <string name="DebugMenuDontUseSystemBoldFont">don\'t use bold font from system</string>
+    <string name="AllChatsShort">all</string>
+    <string name="AllTopicsShort">all</string>
+    <string name="AllTopicsSide">all</string>
+    <string name="VoicePauseHint">pause to trim or replay</string>
+    <string name="RecordingTrimTitle">trim to selected range?</string>
+    <string name="RecordingTrimText">audio outside that range will be discarded, and recording will start immediately.</string>
+    <string name="MessageAuthorSentBy">sent by **%s**</string>
+    <string name="ChannelOpenDirect">direct messages</string>
 
   
 
@@ -10950,6 +11010,7 @@
   <string name="LeaveCommunities_two">leave %d communities</string>
   <string name="LeaveCommunities_few">leave %d communities</string>
   <string name="LeaveCommunities_many">leave %d communities</string>
+  <string name="LeaveonversationMenu">leave conversation</string>
   <string name="LightMode">lite mode (beta)</string>
   <string name="LightModeInfoRow">this mode turns off all visual effects in the app. it is recommended only for those devices that are low on cpu and memory.</string>
   <string name="Likes_zero">%d likes</string>
@@ -11449,6 +11510,10 @@
   <string name="Points_few">%1$d</string>
   <string name="Points_many">%1$d</string>
   <string name="PollOptions">poll options</string>
+  <string name="PostSuggestionsPriceUpdated_zero">un1 now accepts direct messages for %1$d stars</string>
+  <string name="PostSuggestionsPriceUpdated_two">un1 now accepts direct messages for %1$d stars</string>
+  <string name="PostSuggestionsPriceUpdated_few">un1 now accepts direct messages for %1$d stars</string>
+  <string name="PostSuggestionsPriceUpdated_many">un1 now accepts direct messages for %1$d stars</string>
   <string name="PremiumPreviewAppIcon2">additional app icons</string>
   <string name="PremiumPreviewReactionsDescription">additional animated reactions on messages, available only to premium subscribers.</string>
   <string name="PremiumStickerToolteip">this pack contains premium stickers like this one.</string>
