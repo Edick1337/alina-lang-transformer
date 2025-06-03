@@ -7475,7 +7475,7 @@
     <string name="BusinessGreetSend">send greeting message</string>
     <string name="BusinessGreetCreate">create a greeting message</string>
     <string name="BusinessGreetUnsavedChanges">you have changed the business greeting message settings. apply changes?</string>
-    <string name="MessageSuggestionsUnsavedChanges">you have changed the direct messages settings. apply changes?</string>
+    <string name="MessageSuggestionsUnsavedChanges">you have changed the direct message settings. apply changes?</string>
     <string name="BusinessRecipients">recipients</string>
     <string name="BusinessRecipientsRemoveExcludeTitle">remove recipient</string>
     <string name="BusinessRecipientsRemoveExcludeMessage">are you sure you want to remove \"%s\" from excluding list?</string>
@@ -9245,11 +9245,11 @@
     
     
     
-    <string name="PostSuggestionsPriceInfo">you will receive %1$s of the selected fee (~%2$s$) for each incoming message.</string>
+    <string name="PostSuggestionsPriceInfo">your channel will receive %1$s of the selected fee (~%2$s) for each incoming message.</string>
     <string name="TopicsTitle">topics</string>
     <string name="TopicsEnable">enable topics</string>
     <string name="TopicsInfo">the group chat will be divided into topics created by admins and users.</string>
-    <string name="TopicsLayout">topics layout</string>
+    <string name="TopicsLayout">topic layout</string>
     <string name="TopicsLayoutInfo">choose how topics appear for all members.</string>
     <string name="TopicsLayoutList">list</string>
     <string name="TopicsLayoutTabs">tabs</string>
