@@ -7968,8 +7968,8 @@
     <string name="FactCheckWhat">what&#8217;s this?</string>
     <string name="FactCheckDialog">fact check</string>
     <string name="FactCheckPlaceholder">add fact or context</string>
-    <string name="FactCheckToast">this clarification was provided by a fact checking agency assigned by the department of the government of your country (%s) responsible for combating misinformation.</string>
-    <string name="FactCheckFooter">this clarification was provided by a fact checking agency assigned by the department of the government of your country (%s) responsible for combating misinformation.</string>
+    <string name="FactCheckToast">this clarification was provided by telegram.</string>
+    <string name="FactCheckFooter">this clarification was provided by telegram.</string>
     <string name="FactCheckEdited">fact check updated.</string>
     <string name="FactCheckDeleted">fact check removed.</string>
     <string name="SearchThisChat">this chat</string>
