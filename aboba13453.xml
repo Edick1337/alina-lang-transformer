@@ -1,4 +1,5 @@
 <resources>
+ 
     <string name="AppName">telegram</string>
     <string name="AppNameBeta">telegram</string>
     <string name="LanguageName">english</string>
@@ -1717,7 +1718,7 @@
     <string name="NotificationActionPinnedNoTextUser">%1$s pinned a message</string>
     <string name="NotificationActionPinnedPollUser">%1$s pinned a poll %2$s</string>
     <string name="NotificationActionPinnedTodoUser">%1$s pinned a checklist %2$s</string>
-    <string name="NotificationActionPinnedQuizUser">%1$s pinned a quiz %2$s</string>
+    <string name="NotificationActionPinnedQuizUser">%1$s pinned the quiz %2$s</string>
     <string name="NotificationActionPinnedPhotoUser">%1$s pinned a photo</string>
     <string name="NotificationActionPinnedGameUser">%1$s pinned a game</string>
     <string name="NotificationActionPinnedGameScoreUser">%1$s pinned a game score</string>
@@ -5543,7 +5544,7 @@
     <string name="ReportReactionAndBan">ban and report</string>
     <string name="BanUser">ban user</string>
     <string name="BanUserMonoforum">ban user from channel</string>
-    <string name="UnbanUserMonoforum">ban user from channel</string>
+    <string name="UnbanUserMonoforum">unban user from channel</string>
     <string name="AccDescrCustomEmoji">custom emoji</string>
     <string name="RecentlyUsed">recently used</string>
     <string name="PopularReactions">popular</string>
@@ -5576,7 +5577,7 @@
     <string name="PremiumPreviewEffects">message effects</string>
     <string name="PremiumPreviewEffectsDescription">add over 500 animated effects to private messages.</string>
     <string name="PremiumPreviewTodo">checklists</string>
-    <string name="PremiumPreviewTodoDescription">plan, assign, and complete tasks &#8211;\nseamlessly and efficiently.</string>
+    <string name="PremiumPreviewTodoDescription">plan, assign and complete tasks &#8211;\nseamlessly and efficiently.</string>
     <string name="PremiumPreviewWallpaper">wallpaper for both sides</string>
     <string name="PremiumPreviewWallpaperDescription">set custom wallpapers for you and your chat partner.</string>
     <string name="PremiumPreviewProfileColor">name and profile colors</string>
@@ -7364,7 +7365,7 @@
     <string name="MessageLockedStarsRemoveFee">%1$s must pay &#11088;&#65039; %2$s for each message to you.\n**remove fee**</string>
     <string name="RemoveMessageFeeTitle">remove fee</string>
     <string name="RemoveMessageFeeMessage">are you sure you want to allow **%s** to message you for free?</string>
-    <string name="RemoveMessageFeeMessageChannel">are you sure you want to allow **%s** to message channel for free?</string>
+    <string name="RemoveMessageFeeMessageChannel">do you want to allow **%s** to message the channel for free?</string>
     <string name="RemoveMessageFeeRefund_one">refund the %d star already paid</string>
     <string name="RemoveMessageFeeRefund_other">refund the %d stars already paid</string>
     <string name="PremiumMessageHeader">unlock messaging</string>
@@ -7641,7 +7642,7 @@
     <string name="FragmentPhoneMessage">this phone number was bought on **fragment** on %1$s for **%2$s** %3$s</string>
     <string name="FragmentPhoneCopy">copy phone number</string>
     <string name="FragmentChannelUsername">the **%1$s** username was acquired on **fragment** on %2$s for **%3$s** %4$s.</string>
-    <string name="FragmentAddFunds">you can add funds to your balance via the third-party platform fragment.</string>
+    <string name="FragmentAddFunds">you can add ton to your balance via the third-party platform fragment.</string>
 
     <string name="LearnMoreArrow">learn more &gt;</string>
     <string name="Monetization">monetization</string>
@@ -8011,7 +8012,7 @@
     <string name="StarsNeededTextGift">buy **stars** to send gifts to **%s** and other contacts.</string>
     <string name="StarsNeededTextGiftChannel">buy **stars** to send gifts to **%s** and other channels.</string>
     <string name="StarsNeededTextPrivateMessage">buy **stars** to send messages to **%s** and others.</string>
-    <string name="TonNeededTextSuggestMessage">buy **ton** to suggest message to **%s** and others.</string>
+    <string name="TonNeededTextSuggestMessage">buy **ton** to suggest posts to **%s** and others.</string>
     <string name="StarsNeededTextGiftUpgrade">buy **stars** to upgrade your gifts.</string>
     <string name="StarsNeededTextGiftTransfer">buy **stars** to transfer your gifts.</string>
     <string name="StarsNeededTextLink">buy **stars** to keep your channel subscriptions.</string>
@@ -9282,7 +9283,7 @@
     <string name="CreateMultipleStories">create multiple stories</string>
     <string name="WebsiteSays">%s says</string>
     <string name="SuggestedMessageDecline">decline</string>
-    <string name="SuggestedMessageDeclineInfo">do you want to decline publishing this post from **%1$s**?</string>
+    <string name="SuggestedMessageDeclineInfo">do you want to decline this post from **%1$s**?</string>
     <string name="SuggestedMessageAcceptInfo">do you want to publish this post from **%1$s**?</string>
 
     <string name="SuggestedMessageAcceptInfoAdmin2">you will receive **%1$s** (%3$s) for publishing this post **%2$s**.</string>
@@ -9307,11 +9308,11 @@
     <string name="PriceForEachSuggestion">price for each message</string>
     <string name="Suggest2ChannelSendHint">send a message to the channel\'s admin</string>
 
-    <string name="PostSuggestionsOfferTitle">suggest a message</string>
+    <string name="PostSuggestionsOfferTitle">suggest a post</string>
     <string name="PostSuggestionsOfferChangeTitle">suggest changes</string>
     <string name="PostSuggestionsOfferChangeUpdateTerms">update terms</string>
-    <string name="PostSuggestionsOfferSubtitleStars">choose how many stars to pay to publish this message.</string>
-    <string name="PostSuggestionsOfferSubtitleTON">choose how many ton to pay to publish this message.</string>
+    <string name="PostSuggestionsOfferSubtitleStars">choose how many stars to pay to publish this post.</string>
+    <string name="PostSuggestionsOfferSubtitleTON">choose how many ton to pay to publish this post.</string>
     <string name="PostSuggestionsOfferStars">offer &#11088;&#65039;%s</string>
     <string name="PostSuggestionsOfferTON">offer %s ton</string>
     <string name="PostSuggestionsOffer">offer</string>
@@ -9327,7 +9328,7 @@
 
     <string name="PostSuggestionsAnytime">anytime</string>
     <string name="PostSuggestionsAddTime">edit time</string>
-    <string name="PostSuggestionsAddTimeHint">select the date and time you want the message to be published.</string>
+    <string name="PostSuggestionsAddTimeHint">select the date and time you want the post to be published.</string>
     <string name="PostSuggestionsAddTimeHint2">the post will remain available for at least %d hours from this date.</string>
     <string name="PostSuggestionsPriceInfo">your channel will receive %1$s of the selected fee (~%2$s) for each incoming message.</string>
 
@@ -9350,10 +9351,10 @@
 
     <string name="SuggestionAgreementReachedUser2">&#128176; you have been charged **%s**.</string>
     <string name="SuggestionAgreementReachedAdmin2">&#128176; **%s** has been charged **%s**.</string>
-    <string name="SuggestionAgreementReachedUser3">&#9203; **%s** will receive your stars once the post has been live for **%d** hours.</string>
-    <string name="SuggestionAgreementReachedAdmin3">&#9203; **%s** will receive the stars once the post has been live for **%d** hours.</string>
-    <string name="SuggestionAgreementReachedUser4">&#128257; if **%s** removes the post before it has been live for **%d** hours, your stars will be refunded.</string>
-    <string name="SuggestionAgreementReachedAdmin4">&#128257; if **%s** removes the post before it has been live for **%d** hours, stars will be refunded to user.</string>
+    <string name="SuggestionAgreementReachedUser3">&#9203; **%s** will receive your funds once the post has been live for **%d** hours.</string>
+    <string name="SuggestionAgreementReachedAdmin3">&#9203; **%s** will receive the funds once the post has been live for **%d** hours.</string>
+    <string name="SuggestionAgreementReachedUser4">&#128257; if **%s** removes the post before it has been live for **%d** hours, your funds will be refunded.</string>
+    <string name="SuggestionAgreementReachedAdmin4">&#128257; if **%s** removes the post before it has been live for **%d** hours, funds will be refunded to user.</string>
 
     <string name="SuggestionAgreementDeclinedYou">&#10060; **%s** rejected your message.</string>
     <string name="SuggestionAgreementDeclinedThis">&#10060; **%s** rejected this message.</string>
@@ -9361,11 +9362,11 @@
     <string name="SuggestionAgreementDeclinedThisComment">&#10060; **%s** rejected this message with the comment.</string>
     <string name="SuggestionAgreementNotEnoughStars">&#9888;&#65039; **transaction failed** because **%s** didn&#8217;t have enough stars.</string>
 
-    <string name="SuggestionOfferInfoTitleYou">**you** suggest to post this message.</string>
-    <string name="SuggestionOfferInfoTitle">**%s** suggest to post this message.</string>
+    <string name="SuggestionOfferInfoTitleYou">**you** suggested a post.</string>
+    <string name="SuggestionOfferInfoTitle">**%s** suggested a post.</string>
 
-    <string name="SuggestionOfferInfoTitleEditedFromYou">**you** suggest a new %1$s for this message.</string>
-    <string name="SuggestionOfferInfoTitleEditedFromX">**%1$s** suggest a new %2$s for this message.</string>
+    <string name="SuggestionOfferInfoTitleEditedFromYou">**you** suggested a new %1$s for this post.</string>
+    <string name="SuggestionOfferInfoTitleEditedFromX">**%1$s** suggested a new %2$s for this post.</string>
     <string name="SuggestionOfferInfoTitleEditedPrice">price</string>
     <string name="SuggestionOfferInfoTitleEditedTime">time</string>
     <string name="SuggestionOfferInfoTitleEditedText">text</string>
@@ -9377,7 +9378,7 @@
 
     <string name="SuggestionStarsWillBeLost">stars will be lost</string>
     <string name="SuggestionTONWillBeLost">ton will be lost</string>
-    <string name="SuggestionStarsWillBeLostInfo">you won&#8217;t receive stars for this post if you delete it now. the post must remain visible for at least** %d hours** after it was published.</string>
+    <string name="SuggestionStarsWillBeLostInfo">you won&#8217;t receive stars for this post if you delete it now. the post must remain visible for at least **%d hours** after it was published.</string>
     <string name="SuggestionTONWillBeLostInfo">you won&#8217;t receive ton for this post if you delete it now. the post must remain visible for at least** %d hours** after it was published.</string>
     <string name="SuggestionStarsWillBeLostDelete">delete anyway</string>
 
@@ -9392,7 +9393,7 @@
     <string name="SuggestedOfferRefundByUserAmountUnknown">%2$s will not receive funds because %1$s requested a refund</string>
 
     
-    <string name="SuggestedOfferCompleteAmountUnknown">%1$s has received funds for publishing post</string>
+    <string name="SuggestedOfferCompleteAmountUnknown">%1$s received payment for publishing post</string>
 
     <string name="TopicsTitle">topics</string>
     <string name="TopicsEnable">enable topics</string>
@@ -9451,16 +9452,16 @@
     <string name="TodoAddedMoreTasks_one">un1 added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more task to checklist.</string>
     <string name="TodoAddedMoreTasks_other">un1 added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist.</string>
     <string name="TodoCompleteForbidden">**%s** has restricted others from editing this checklist.</string>
-    <string name="TodoCompleteForbiddenForward">you can\'t change forwarded checklist.</string>
+    <string name="TodoCompleteForbiddenForward">you can\'t edit a forwarded checklist.</string>
     <string name="TodoPremiumRequired">only **telegram premium** subscribers can mark tasks as done.</string>
     <string name="DirectRemoveFee">remove fee</string>
     <string name="DirectChargeFee">charge fee</string>
-    <string name="DirectFee">%2$s pays **&#11088;&#65039;%1$d** for each message.</string>
+    <string name="DirectFee">%2$s pays **&#11088;&#65039;%1$d** per message.</string>
     <string name="DirectFeeNone">%1$s can send messages for free.</string>
     <string name="TodoEditTasksButton">save</string>
     <string name="TodoAddTasksButton">add</string>
     <string name="CallForbiddenInviteLinkTitle">invite via link</string>
-    <string name="CallForbiddenInviteLinkText">**%s** restricts calling them. you can send them an invite link to call instead.</string>
+    <string name="CallForbiddenInviteLinkText">**%s** limits who can call them. send them an invite link to a call instead.</string>
     <string name="CallForbiddenInviteLinkButton">send invite link</string>
     <string name="ActionGiftTonTitle">someone</string>
     <string name="TopUpViaFragment">top-up via fragment</string>
@@ -12437,25 +12438,19 @@
   <string name="Subscribers_few">%1$d subscribers</string>
   <string name="Subscribers_many">%1$d subscribers</string>
   <string name="SubscriptionsCount">%1$s subscriptions</string>
-  <string name="SuggestedOfferCompleteAmount_zero">%1$s has received %2$s for publishing post</string>
-  <string name="SuggestedOfferCompleteAmount_one">%1$s has received %2$s for publishing post</string>
-  <string name="SuggestedOfferCompleteAmount_two">%1$s has received %2$s for publishing post</string>
-  <string name="SuggestedOfferCompleteAmount_few">%1$s has received %2$s for publishing post</string>
-  <string name="SuggestedOfferCompleteAmount_many">%1$s has received %2$s for publishing post</string>
-  <string name="SuggestedOfferCompleteAmount_other">%1$s has received %2$s for publishing post</string>
-  <string name="SuggestedOfferRefundByAdminAmount_zero">%3$s have been returned to %1$s because %2$s deleted the message</string>
-  <string name="SuggestedOfferRefundByAdminAmount_one">%3$s has been returned to %1$s because %2$s deleted the message</string>
-  <string name="SuggestedOfferRefundByAdminAmount_two">%3$s have been returned to %1$s because %2$s deleted the message</string>
-  <string name="SuggestedOfferRefundByAdminAmount_few">%3$s have been returned to %1$s because %2$s deleted the message</string>
-  <string name="SuggestedOfferRefundByAdminAmount_many">%3$s have been returned to %1$s because %2$s deleted the message</string>
-  <string name="SuggestedOfferRefundByAdminAmount_other">%3$s have been returned to %1$s because %2$s deleted the message</string>
-  <string name="SuggestedOfferRefundByUserAmount_zero">%2$s will not receive %3$s because %1$s requested a refund</string>
-  <string name="SuggestedOfferRefundByUserAmount_one">%2$s will not receive %3$s because %1$s requested a refund</string>
-  <string name="SuggestedOfferRefundByUserAmount_two">%2$s will not receive %3$s because %1$s requested a refund</string>
-  <string name="SuggestedOfferRefundByUserAmount_few">%2$s will not receive %3$s because %1$s requested a refund</string>
-  <string name="SuggestedOfferRefundByUserAmount_many">%2$s will not receive %3$s because %1$s requested a refund</string>
-  <string name="SuggestedOfferRefundByUserAmount_other">%2$s will not receive %3$s because %1$s requested a refund</string>
-  <string name="SuggestionOfferInfoTitleEditedX">**%1$s** suggest a new %3$s for **%2$s** message.</string>
+  <string name="SuggestedOfferCompleteAmount_zero">%1$s received %2$s for publishing post</string>
+  <string name="SuggestedOfferCompleteAmount_one">%1$s received %2$s for publishing post</string>
+  <string name="SuggestedOfferCompleteAmount_two">%1$s received %2$s for publishing post</string>
+  <string name="SuggestedOfferCompleteAmount_few">%1$s received %2$s for publishing post</string>
+  <string name="SuggestedOfferCompleteAmount_many">%1$s received %2$s for publishing post</string>
+  <string name="SuggestedOfferCompleteAmount_other">%1$s received %2$s for publishing post</string>
+  <string name="SuggestedOfferRefundByAdminAmount_zero">%3$s refunded to %1$s because %2$s deleted the message</string>
+  <string name="SuggestedOfferRefundByAdminAmount_one">%3$s refunded to %1$s because %2$s deleted the message</string>
+  <string name="SuggestedOfferRefundByAdminAmount_two">%3$s refunded to %1$s because %2$s deleted the message</string>
+  <string name="SuggestedOfferRefundByAdminAmount_few">%3$s refunded to %1$s because %2$s deleted the message</string>
+  <string name="SuggestedOfferRefundByAdminAmount_many">%3$s refunded to %1$s because %2$s deleted the message</string>
+  <string name="SuggestedOfferRefundByAdminAmount_other">%3$s refunded to %1$s because %2$s deleted the message</string>
+  <string name="SuggestionOfferInfoTitleEditedX">**%1$s** suggested a new %3$s for **%2$s** post.</string>
   <string name="SyncContactsDeleteInfo">this will remove your contacts from the telegram servers. if \'sync contacts\' is enabled, contacts will be re-synced.</string>
   <string name="SystemRoot">system root</string>
   <string name="TaggedMessages_zero">%1$d messages</string>
@@ -12775,4 +12770,13 @@
   <string name="messages_few">%1$d messages</string>
   <string name="messages_many">%1$d messages</string>
   <string name="telegram_passport">telegram passport</string>
+
+  
+
+  <string name="SuggestedOfferRefundByUserAmount_zero">%2$s will not receive %3$s because %1$s requested a refund</string>
+  <string name="SuggestedOfferRefundByUserAmount_one">%2$s will not receive %3$s because %1$s requested a refund</string>
+  <string name="SuggestedOfferRefundByUserAmount_two">%2$s will not receive %3$s because %1$s requested a refund</string>
+  <string name="SuggestedOfferRefundByUserAmount_few">%2$s will not receive %3$s because %1$s requested a refund</string>
+  <string name="SuggestedOfferRefundByUserAmount_many">%2$s will not receive %3$s because %1$s requested a refund</string>
+  <string name="SuggestedOfferRefundByUserAmount_other">%2$s will not receive %3$s because %1$s requested a refund</string>
 </resources>
