@@ -7080,6 +7080,8 @@
     <string name="ReplyToDialog">reply in...</string>
     <string name="ReplyTo">reply to %s</string>
     <string name="ReplyToQuote">reply to quote from %s</string>
+    
+    
     <string name="PreviewQuoteUpdate">update quote</string>
     <string name="PreviewQuoteUpdateSubtitle">you can edit or remove the quote</string>
     <string name="ClearQuote">clear quote</string>
@@ -8957,6 +8959,8 @@
     <string name="Gift2ChannelDoesntSupportGiftsText">this channel can\'t receive telegram gifts.</string>
     <string name="Gift2CollectionNumber_one">collectible #%d</string>
     <string name="Gift2CollectionNumber_other">collectible #%d</string>
+    
+    
     <string name="Gift2Owner">owner</string>
     <string name="Gift2OwnerChange">change</string>
     <string name="Gift2AttributeModel">model</string>
@@ -9350,10 +9354,15 @@
 
     <string name="SuggestionAgreementReachedUser2">&#128176; you have been charged &#11088;&#65039; **%s**.</string>
     <string name="SuggestionAgreementReachedAdmin2">&#128176; **%s** has been charged &#11088;&#65039; **%s**.</string>
-    <string name="SuggestionAgreementReachedUser3">&#9203; **%s** will receive payment once the post has been live for **%d** hours.</string>
-    <string name="SuggestionAgreementReachedAdmin3">&#9203; **%s** will receive payment once the post has been live for **%d** hours.</string>
-    <string name="SuggestionAgreementReachedUser4">&#128257; if **%s** removes the post before it has been live for **%d** hours, payment will be refunded.</string>
-    <string name="SuggestionAgreementReachedAdmin4">&#128257; if **%s** removes the post before it has been live for **%d** hours, payment will be refunded.</string>
+    <string name="SuggestionAgreementReachedUser3Stars">&#9203; **%s** will receive your **stars** once the post has been live for **%d** hours.</string>
+    <string name="SuggestionAgreementReachedAdmin3Stars">&#9203; **%s** will receive the **stars** once the post has been live for **%d** hours.</string>
+    <string name="SuggestionAgreementReachedUser4Stars">&#128257; if **%s** removes the post before it has been live for **%d** hours, your **stars** will be refunded.</string>
+    <string name="SuggestionAgreementReachedAdmin4Stars">&#128257; if **%s** removes the post before it has been live for **%d** hours, **stars** will be refunded to user.</string>
+
+    <string name="SuggestionAgreementReachedUser3TON">&#9203; **%s** will receive your **ton** once the post has been live for **%d** hours.</string>
+    <string name="SuggestionAgreementReachedAdmin3TON">&#9203; **%s** will receive the **ton** once the post has been live for **%d** hours.</string>
+    <string name="SuggestionAgreementReachedUser4TON">&#128257; if **%s** removes the post before it has been live for **%d** hours, your **ton** will be refunded.</string>
+    <string name="SuggestionAgreementReachedAdmin4TON">&#128257; if **%s** removes the post before it has been live for **%d** hours, **ton** will be refunded to user.</string>
 
     <string name="SuggestionAgreementDeclinedYou">&#10060; **%s** rejected your message.</string>
     <string name="SuggestionAgreementDeclinedThis">&#10060; **%s** rejected this message.</string>
@@ -9440,16 +9449,16 @@
     <string name="TodoTaskNotCompletedOutUnknown">you marked a task as not done</string>
     <string name="TodoTaskNotCompleted">un1 marked \"%s\" as not done</string>
     <string name="TodoTaskNotCompletedOut">you marked \"%s\" as not done</string>
-    <string name="TodoAddedOneTaskOut">you added &#8220;%1$s&#8221; to checklist.</string>
-    <string name="TodoAddedTwoTaskOut">you added &#8220;%1$s&#8221; and &#8220;%2$s&#8221; to checklist.</string>
-    <string name="TodoAddedThreeTaskOut">you added &#8220;%1$s&#8221;, &#8220;%2$s&#8221; and &#8220;%3$s&#8221; to checklist.</string>
-    <string name="TodoAddedMoreTasksOut_one">you added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more task to checklist.</string>
-    <string name="TodoAddedMoreTasksOut_other">you added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist.</string>
-    <string name="TodoAddedOneTask">un1 added &#8220;%1$s&#8221; to checklist.</string>
-    <string name="TodoAddedTwoTask">un1 added &#8220;%1$s&#8221; and &#8220;%2$s&#8221; to checklist.</string>
-    <string name="TodoAddedThreeTask">un1 added &#8220;%1$s&#8221;, &#8220;%2$s&#8221; and &#8220;%3$s&#8221; to checklist.</string>
-    <string name="TodoAddedMoreTasks_one">un1 added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more task to checklist.</string>
-    <string name="TodoAddedMoreTasks_other">un1 added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist.</string>
+    <string name="TodoAddedOneTaskOut">you added &#8220;%1$s&#8221; to checklist</string>
+    <string name="TodoAddedTwoTaskOut">you added &#8220;%1$s&#8221; and &#8220;%2$s&#8221; to checklist</string>
+    <string name="TodoAddedThreeTaskOut">you added &#8220;%1$s&#8221;, &#8220;%2$s&#8221; and &#8220;%3$s&#8221; to checklist</string>
+    <string name="TodoAddedMoreTasksOut_one">you added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more task to checklist</string>
+    <string name="TodoAddedMoreTasksOut_other">you added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist</string>
+    <string name="TodoAddedOneTask">un1 added &#8220;%1$s&#8221; to checklist</string>
+    <string name="TodoAddedTwoTask">un1 added &#8220;%1$s&#8221; and &#8220;%2$s&#8221; to checklist</string>
+    <string name="TodoAddedThreeTask">un1 added &#8220;%1$s&#8221;, &#8220;%2$s&#8221; and &#8220;%3$s&#8221; to checklist</string>
+    <string name="TodoAddedMoreTasks_one">un1 added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more task to checklist</string>
+    <string name="TodoAddedMoreTasks_other">un1 added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist</string>
     <string name="TodoCompleteForbidden">**%s** has restricted others from editing this checklist.</string>
     <string name="TodoCompleteForbiddenForward">you can\'t edit a forwarded checklist.</string>
     <string name="TodoPremiumRequired">only **telegram premium** subscribers can mark tasks as done.</string>
@@ -9482,6 +9491,8 @@
     <string name="MessageTodoList">checklist</string>
     <string name="TodoCheck">check</string>
     <string name="TodoUncheck">uncheck</string>
+    
+    
 
   
 
@@ -12455,6 +12466,10 @@
   <string name="SuggestedOfferRefundByUserAmount_few">%2$s will not receive &#11088;&#65039; %3$s because %1$s requested a refund</string>
   <string name="SuggestedOfferRefundByUserAmount_many">%2$s will not receive &#11088;&#65039; %3$s because %1$s requested a refund</string>
   <string name="SuggestedOfferRefundByUserAmount_other">%2$s will not receive &#11088;&#65039; %3$s because %1$s requested a refund</string>
+  <string name="SuggestionAgreementReachedAdmin3">&#9203; **%s** will receive payment once the post has been live for **%d** hours.</string>
+  <string name="SuggestionAgreementReachedAdmin4">&#128257; if **%s** removes the post before it has been live for **%d** hours, payment will be refunded.</string>
+  <string name="SuggestionAgreementReachedUser3">&#9203; **%s** will receive payment once the post has been live for **%d** hours.</string>
+  <string name="SuggestionAgreementReachedUser4">&#128257; if **%s** removes the post before it has been live for **%d** hours, payment will be refunded.</string>
   <string name="SuggestionOfferInfoTitleEditedX">**%1$s** suggested a new %3$s for **%2$s** post.</string>
   <string name="SyncContactsDeleteInfo">this will remove your contacts from the telegram servers. if \'sync contacts\' is enabled, contacts will be re-synced.</string>
   <string name="SystemRoot">system root</string>
@@ -12498,14 +12513,14 @@
   <string name="Times_two">%1$d times</string>
   <string name="Times_few">%1$d times</string>
   <string name="Times_many">%1$d times</string>
-  <string name="TodoAddedMoreTasks_zero">un1 added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist.</string>
-  <string name="TodoAddedMoreTasks_two">un1 added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist.</string>
-  <string name="TodoAddedMoreTasks_few">un1 added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist.</string>
-  <string name="TodoAddedMoreTasks_many">un1 added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist.</string>
-  <string name="TodoAddedMoreTasksOut_zero">you added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist.</string>
-  <string name="TodoAddedMoreTasksOut_two">you added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist.</string>
-  <string name="TodoAddedMoreTasksOut_few">you added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist.</string>
-  <string name="TodoAddedMoreTasksOut_many">you added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist.</string>
+  <string name="TodoAddedMoreTasks_zero">un1 added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist</string>
+  <string name="TodoAddedMoreTasks_two">un1 added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist</string>
+  <string name="TodoAddedMoreTasks_few">un1 added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist</string>
+  <string name="TodoAddedMoreTasks_many">un1 added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist</string>
+  <string name="TodoAddedMoreTasksOut_zero">you added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist</string>
+  <string name="TodoAddedMoreTasksOut_two">you added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist</string>
+  <string name="TodoAddedMoreTasksOut_few">you added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist</string>
+  <string name="TodoAddedMoreTasksOut_many">you added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more tasks to checklist</string>
   <string name="TodoCompleted_zero">%2$d of %1$d completed</string>
   <string name="TodoCompleted_two">%2$d of %1$d completed</string>
   <string name="TodoCompleted_few">%2$d of %1$d completed</string>
