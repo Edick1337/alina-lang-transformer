@@ -7080,8 +7080,8 @@
     <string name="ReplyToDialog">reply in...</string>
     <string name="ReplyTo">reply to %s</string>
     <string name="ReplyToQuote">reply to quote from %s</string>
-    
-    
+    <string name="ReplyToTask">reply to checklist task</string>
+    <string name="ReplyToTaskIn">reply to item in %s</string>
     <string name="PreviewQuoteUpdate">update quote</string>
     <string name="PreviewQuoteUpdateSubtitle">you can edit or remove the quote</string>
     <string name="ClearQuote">clear quote</string>
@@ -8959,8 +8959,8 @@
     <string name="Gift2ChannelDoesntSupportGiftsText">this channel can\'t receive telegram gifts.</string>
     <string name="Gift2CollectionNumber_one">collectible #%d</string>
     <string name="Gift2CollectionNumber_other">collectible #%d</string>
-    
-    
+    <string name="Gift2CollectionNumberBy_one">collectible #%1$d by **%2$s**</string>
+    <string name="Gift2CollectionNumberBy_other">collectible #%1$d by **%2$s**</string>
     <string name="Gift2Owner">owner</string>
     <string name="Gift2OwnerChange">change</string>
     <string name="Gift2AttributeModel">model</string>
@@ -9491,8 +9491,10 @@
     <string name="MessageTodoList">checklist</string>
     <string name="TodoCheck">check</string>
     <string name="TodoUncheck">uncheck</string>
-    
-    
+    <string name="Gift2ReleasedBy">released by **%s**</string>
+    <string name="Gift2ActionReleasedBy">released by **%s**</string>
+    <string name="StoriesRemoveFromRecent">remove from recent</string>
+    <string name="TodoItemQuote">reply to item</string>
 
   
 
@@ -10896,6 +10898,10 @@
   <string name="Gift2CollectionNumber_two">collectible #%d</string>
   <string name="Gift2CollectionNumber_few">collectible #%d</string>
   <string name="Gift2CollectionNumber_many">collectible #%d</string>
+  <string name="Gift2CollectionNumberBy_zero">collectible #%1$d by **%2$s**</string>
+  <string name="Gift2CollectionNumberBy_two">collectible #%1$d by **%2$s**</string>
+  <string name="Gift2CollectionNumberBy_few">collectible #%1$d by **%2$s**</string>
+  <string name="Gift2CollectionNumberBy_many">collectible #%1$d by **%2$s**</string>
   <string name="Gift2ConvertStars_zero">%d stars</string>
   <string name="Gift2ConvertStars_two">%d stars</string>
   <string name="Gift2ConvertStars_few">%d stars</string>
