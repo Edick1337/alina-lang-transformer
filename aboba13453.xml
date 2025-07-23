@@ -5368,6 +5368,7 @@
     <string name="PremiumPreviewAnimatedProfilesDescription">video avatars animated in chat lists and chats to allow for additional self-expression.</string>
     <string name="SubscribeToPremium">subscribe for %s per month</string>
     <string name="SubscribeToPremiumPerYear">subscribe for %s per year</string>
+    <string name="SubscribeToPremiumPerCustom">subscribe for %1$s / %2$s</string>
     <string name="UpgradePremiumPerMonth">upgrade for %s per month</string>
     <string name="UpgradePremiumPerYear">upgrade for %s per year</string>
     <string name="SubscribeToPremiumNoPrice">subscribe</string>
@@ -5434,6 +5435,8 @@
     <string name="AboutPremiumTitle">about telegram premium</string>
     <string name="AboutPremiumDescription">while the free version of telegram already gives its users more than any other messaging application, **telegram premium** pushes its capabilities even further.</string>
     <string name="AboutPremiumDescription2">**telegram premium** is a paid option, because most premium features require additional expenses from telegram to third parties such as data center providers and server manufacturers. contributions from **telegram premium** users allow us to cover such costs and also help telegram stay free for everyone.</string>
+    <string name="PremiumTierAnnualYears_one">%d-year</string>
+    <string name="PremiumTierAnnualYears_other">%d-year</string>
     <string name="PremiumTierAnnual">annual</string>
     <string name="PremiumTierSemiannual">semiannual</string>
     <string name="PremiumTierMonthly">monthly</string>
@@ -7942,7 +7945,11 @@
     <string name="MessageShowSensitiveContentMediaTitle">18+</string>
     <string name="MessageShowSensitiveContentChannelTitle">18+</string>
     <string name="MessageShowSensitiveContentMediaText">this media may contain sensitive content suitable only for adults. do you still want to view it?</string>
+    <string name="MessageShowSensitiveContentMediaTextClosed">this media may contain sensitive content suitable only for adults.</string>
+    <string name="MessageShowSensitiveContentMediaTextClosedButton">cancel</string>
     <string name="MessageShowSensitiveContentChannelText">this chat may contain sensitive content suitable only for adults. do you still want to view it?</string>
+    <string name="MessageShowSensitiveContentChannelTextClosed">this chat may contain sensitive content suitable only for adults.</string>
+    <string name="MessageShowSensitiveContentChannelTextClosedButton">cancel</string>
     <string name="MessageShowSensitiveContentAlways">always show 18+ media</string>
     <string name="MessageShowSensitiveContentButton">view anyway</string>
     <string name="SensitiveContentSettingsToast">you can update the visibility of sensitive media in **chat settings &gt; show 18+ content**</string>
@@ -8535,6 +8542,7 @@
     <string name="Gift2TabResale">resale</string>
     <string name="Gift2TransferMine">transfer</string>
     <string name="Gift2LimitedRibbon">limited</string>
+    <string name="Gift2LimitedPremium">premium</string>
     <string name="Gift2LimitedSlider">limited</string>
     <string name="Gift2Limited1OfRibbon">1 of %s</string>
     <string name="StarsGiftCompleted">gift sent!</string>
@@ -9495,6 +9503,49 @@
     <string name="Gift2ActionReleasedBy">released by **%s**</string>
     <string name="StoriesRemoveFromRecent">remove from recent</string>
     <string name="TodoItemQuote">reply to item</string>
+    <string name="Gift2CollectionAll">all gifts</string>
+    <string name="ProfileGiftsAdd">add gifts</string>
+    <string name="AgeVerificationTitle">age verification</string>
+    <string name="AgeVerificationTextGB">to access such content, you must confirm that you are at least **18** years old as required by uk law.\n\nthis is a one-time process using your phone\'s camera. your selfie will not be stored by telegram.</string>
+    <string name="AgeVerificationButton">verify my age</string>
+    <string name="AgeVerificationFailedTitle">age check failed</string>
+    <string name="AgeVerificationFailedText">sorry, you can\'t view 18+ content.</string>
+    <string name="AgeVerificationPassedTitle">age check passed</string>
+    <string name="AgeVerificationNeedCameraPermission">telegram needs access to your camera so that you can confirm your age.</string>
+    <string name="ProfileLevelInfo">profile level reflects the\nuser\'s payment reliability.</string>
+    
+    <string name="StoriesForwardTitle">your stories</string>
+    <string name="StoriesForwardText">forward to stories</string>
+    <string name="Gift2CollectionEmptyTitle">organize your gifts</string>
+    <string name="Gift2CollectionEmptyText">add some of your gifts to this collection.</string>
+    <string name="Gift2CollectionEmptyButton">add to collection</string>
+    <string name="Gift2AddToCollection">add to collection</string>
+    <string name="Gift2NewCollection">add collection</string>
+    <string name="Gift2EditCollectionNameTitle">edit name</string>
+    <string name="Gift2NewCollectionTitle">create a new collection</string>
+    <string name="Gift2NewCollectionText">choose a name for your collection and start adding your gifts there.</string>
+    <string name="Gift2NewCollectionHint">title</string>
+    <string name="Gift2CollectionAddGiftsTitle">add gifts</string>
+    <string name="Gift2CollectionAddGiftsButton">add gifts</string>
+    <string name="Gift2RemoveFromCollection">remove from collection</string>
+    <string name="Gift2CollectionsAdd">add gifts</string>
+    <string name="Gift2CollectionsReorder">reorder</string>
+    <string name="Gift2CollectionsRename">edit name</string>
+    <string name="Gift2CollectionsDelete">delete collection</string>
+    <string name="Gift2PremiumTitle">premium gift</string>
+    <string name="Gift2PremiumSubtitle">subscribe to **telegram premium** to send these gifts and unlock access to multiple additional features.</string>
+    <string name="Gift2PremiumSubtitleMany_one">subscribe to **telegram premium** to send up to **%d** of these gifts and unlock access to multiple additional features.</string>
+    <string name="Gift2PremiumSubtitleMany_other">subscribe to **telegram premium** to send up to **%d** of these gifts and unlock access to multiple additional features.</string>
+    <string name="Gift2SentRemainsLimit_one">you can send **%d** more.</string>
+    <string name="Gift2SentRemainsLimit_other">you can send **%d** more.</string>
+    <string name="Gift2PerUserLimit_one">you\'ve already sent **%d** of these gifts, and it\'s the limit.</string>
+    <string name="Gift2PerUserLimit_other">you\'ve already sent **%d** of these gifts, and it\'s the limit.</string>
+    <string name="Gift2AddedToCollection">**%1$s** added to **%2$s**.</string>
+    <string name="Gift2AddedToCollectionMany_one">**%1$d gift** added to **%2$s**.</string>
+    <string name="Gift2AddedToCollectionMany_other">**%1$d gifts** added to **%2$s**.</string>
+    <string name="Gift2RemovedFromCollection">**%1$s** removed from **%2$s**.</string>
+    <string name="Gift2RemovedFromCollectionMany_one">**%1$d gift** removed from **%2$s**.</string>
+    <string name="Gift2RemovedFromCollectionMany_other">**%1$d gifts** removed from **%2$s**.</string>
 
   
 
@@ -10857,6 +10908,10 @@
   <string name="Gift2ActionSelfInfo_two">add this gift to your profile or convert it to %1$d stars.</string>
   <string name="Gift2ActionSelfInfo_few">add this gift to your profile or convert it to %1$d stars.</string>
   <string name="Gift2ActionSelfInfo_many">add this gift to your profile or convert it to %1$d stars.</string>
+  <string name="Gift2AddedToCollectionMany_zero">**%1$d gifts** added to **%2$s**.</string>
+  <string name="Gift2AddedToCollectionMany_two">**%1$d gifts** added to **%2$s**.</string>
+  <string name="Gift2AddedToCollectionMany_few">**%1$d gifts** added to **%2$s**.</string>
+  <string name="Gift2AddedToCollectionMany_many">**%1$d gifts** added to **%2$s**.</string>
   <string name="Gift2Availability2Value">%1$s of %2$s left</string>
   <string name="Gift2Availability2ValueNone_zero">0 of %1$d left</string>
   <string name="Gift2Availability2ValueNone_two">0 of %1$d left</string>
@@ -10984,6 +11039,14 @@
   <string name="Gift2Notification_two">sent a gift worth of %d stars</string>
   <string name="Gift2Notification_few">sent a gift worth of %d stars</string>
   <string name="Gift2Notification_many">sent a gift worth of %d stars</string>
+  <string name="Gift2PerUserLimit_zero">you\'ve already sent **%d** of these gifts, and it\'s the limit.</string>
+  <string name="Gift2PerUserLimit_two">you\'ve already sent **%d** of these gifts, and it\'s the limit.</string>
+  <string name="Gift2PerUserLimit_few">you\'ve already sent **%d** of these gifts, and it\'s the limit.</string>
+  <string name="Gift2PerUserLimit_many">you\'ve already sent **%d** of these gifts, and it\'s the limit.</string>
+  <string name="Gift2PremiumSubtitleMany_zero">subscribe to **telegram premium** to send up to **%d** of these gifts and unlock access to multiple additional features.</string>
+  <string name="Gift2PremiumSubtitleMany_two">subscribe to **telegram premium** to send up to **%d** of these gifts and unlock access to multiple additional features.</string>
+  <string name="Gift2PremiumSubtitleMany_few">subscribe to **telegram premium** to send up to **%d** of these gifts and unlock access to multiple additional features.</string>
+  <string name="Gift2PremiumSubtitleMany_many">subscribe to **telegram premium** to send up to **%d** of these gifts and unlock access to multiple additional features.</string>
   <string name="Gift2ProfileInvisible">this gift is hidden. only you can see it.</string>
   <string name="Gift2ProfileVisible">this gift is visible on your profile.</string>
   <string name="Gift2ProfileVisible2">this gift is visible to visitors of your page. **view &gt;**</string>
@@ -11001,6 +11064,10 @@
   <string name="Gift2QuantityIssuedNone_two">none of %d left</string>
   <string name="Gift2QuantityIssuedNone_few">none of %d left</string>
   <string name="Gift2QuantityIssuedNone_many">none of %d left</string>
+  <string name="Gift2RemovedFromCollectionMany_zero">**%1$d gifts** removed from **%2$s**.</string>
+  <string name="Gift2RemovedFromCollectionMany_two">**%1$d gifts** removed from **%2$s**.</string>
+  <string name="Gift2RemovedFromCollectionMany_few">**%1$d gifts** removed from **%2$s**.</string>
+  <string name="Gift2RemovedFromCollectionMany_many">**%1$d gifts** removed from **%2$s**.</string>
   <string name="Gift2ResaleCount_zero">%d for resale</string>
   <string name="Gift2ResaleCount_two">%d for resale</string>
   <string name="Gift2ResaleCount_few">%d for resale</string>
@@ -11038,6 +11105,10 @@
   <string name="Gift2SendYourBalance_few">your balance is %d stars</string>
   <string name="Gift2SendYourBalance_many">your balance is %d stars</string>
   <string name="Gift2SenderHidden">only you can see the sender\'s name and message.</string>
+  <string name="Gift2SentRemainsLimit_zero">you can send **%d** more.</string>
+  <string name="Gift2SentRemainsLimit_two">you can send **%d** more.</string>
+  <string name="Gift2SentRemainsLimit_few">you can send **%d** more.</string>
+  <string name="Gift2SentRemainsLimit_many">you can send **%d** more.</string>
   <string name="Gift2SoldOutCount_zero">all %d gifts were already sold.</string>
   <string name="Gift2SoldOutCount_two">all %d gifts were already sold.</string>
   <string name="Gift2SoldOutCount_few">all %d gifts were already sold.</string>
@@ -11748,6 +11819,10 @@
   <string name="PremiumPreviewAppIcon2">additional app icons</string>
   <string name="PremiumPreviewReactionsDescription">additional animated reactions on messages, available only to premium subscribers.</string>
   <string name="PremiumStickerToolteip">this pack contains premium stickers like this one.</string>
+  <string name="PremiumTierAnnualYears_zero">%d-year</string>
+  <string name="PremiumTierAnnualYears_two">%d-year</string>
+  <string name="PremiumTierAnnualYears_few">%d-year</string>
+  <string name="PremiumTierAnnualYears_many">%d-year</string>
   <string name="PrepaidGiveawayMonths_zero">%1$d-month</string>
   <string name="PrepaidGiveawayMonths_two">%1$d-month</string>
   <string name="PrepaidGiveawayMonths_few">%1$d-month</string>
