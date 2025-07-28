@@ -8529,7 +8529,7 @@
     <string name="ProfileGifts">gifts</string>
     <string name="ProfileGiftsNotFoundTitle">no matching gifts</string>
     <string name="ProfileGiftsNotFoundButton">view all gifts</string>
-    <string name="ProfileGiftsInfo">these gifts were sent to you by other users.\ntap on a gift to convert it to stars or change its privacy settings.</string>
+    <string name="ProfileGiftsInfo">tap on a gift to convert it to stars or change its privacy settings.</string>
     <string name="ProfileGiftsCount_one">%d gift</string>
     <string name="ProfileGiftsCount_other">%d gifts</string>
     <string name="ProfileGiftsSend">send gifts to friends</string>
