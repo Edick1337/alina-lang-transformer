@@ -9588,8 +9588,8 @@
     <string name="StarRatingTitle">rating</string>
     <string name="StarRatingAdded">added</string>
     <string name="StarRatingDeduces">deducted</string>
-    <string name="StarRatingFuture_one">rating updates in %d day from purchases.</string>
-    <string name="StarRatingFuture_other">rating updates in %d days from purchases.</string>
+    <string name="StarRatingFuture_one">the rating will update in %d day after purchases.</string>
+    <string name="StarRatingFuture_other">the rating will update in %d days after purchases.</string>
     <string name="StarRatingFuturePendingPoints_one">%d point is pending.</string>
     <string name="StarRatingFuturePendingPoints_other">%d points are pending.</string>
     <string name="StarRatingFuturePendingPointsAndLevel1_one">%d point and</string>
@@ -12339,10 +12339,10 @@
   <string name="SponsoredMessageInfoDescription4">sponsored messages are currently in test mode. once they are fully launched and allow telegram to cover its basic costs, we will start sharing ad revenue with the owners of public channels in which sponsored messages are displayed.\n\nonline ads should no longer be synonymous with abuse of user privacy. let us redefine how a tech company should operate &#8211; together.</string>
   <string name="SponsoredMessageInfoDescriptionLink">unlike other apps, telegram never uses your private data to target ads. **learn more in the privacy policy**</string>
   <string name="SponsoredMessageRecommended">recommended</string>
-  <string name="StarRatingFuture_zero">rating updates in %d days from purchases.</string>
-  <string name="StarRatingFuture_two">rating updates in %d days from purchases.</string>
-  <string name="StarRatingFuture_few">rating updates in %d days from purchases.</string>
-  <string name="StarRatingFuture_many">rating updates in %d days from purchases.</string>
+  <string name="StarRatingFuture_zero">the rating will update in %d days after purchases.</string>
+  <string name="StarRatingFuture_two">the rating will update in %d days after purchases.</string>
+  <string name="StarRatingFuture_few">the rating will update in %d days after purchases.</string>
+  <string name="StarRatingFuture_many">the rating will update in %d days after purchases.</string>
   <string name="StarRatingFuturePendingPoints_zero">%d points are pending.</string>
   <string name="StarRatingFuturePendingPoints_two">%d points are pending.</string>
   <string name="StarRatingFuturePendingPoints_few">%d points are pending.</string>
