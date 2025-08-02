@@ -9551,7 +9551,7 @@
     <string name="StoriesForwardText">forward to stories</string>
     <string name="Gift2CollectionEmptyTitle">organize your gifts</string>
     <string name="Gift2CollectionEmptyText">add some gifts to this collection.</string>
-    <string name="Gift2CollectionEmptyButton">add to collection</string>
+    <string name="Gift2CollectionEmptyButton">add gifts</string>
     <string name="Gift2AddToCollection">add to collection</string>
     <string name="Gift2NewCollection">add collection</string>
     <string name="Gift2EditCollectionNameTitle">edit name</string>
