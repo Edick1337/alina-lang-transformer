@@ -9409,8 +9409,8 @@
 
     <string name="SuggestionAgreementDeclinedYou">&#10060; **%s** rejected your message.</string>
     <string name="SuggestionAgreementDeclinedThis">&#10060; **%s** rejected this message.</string>
-    <string name="SuggestionAgreementDeclinedYouComment">&#10060; **%s** rejected your message with the comment.</string>
-    <string name="SuggestionAgreementDeclinedThisComment">&#10060; **%s** rejected this message with the comment.</string>
+    <string name="SuggestionAgreementDeclinedYouComment">&#10060; **%s** rejected your message with the comment:</string>
+    <string name="SuggestionAgreementDeclinedThisComment">&#10060; **%s** rejected this message with the comment:</string>
     <string name="SuggestionAgreementNotEnoughStars">&#9888;&#65039; **transaction failed** because **%s** didn&#8217;t have enough stars.</string>
 
     <string name="SuggestionOfferInfoTitleYou">**you** suggested a post.</string>
