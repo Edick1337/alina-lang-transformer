@@ -6329,6 +6329,8 @@
     <string name="StorySavedTitle_other">%d stories posted on your profile</string>
     <string name="StoryAddedToAlbumTitle_one">%d story saved to **%s**</string>
     <string name="StoryAddedToAlbumTitle_other">%d stories saved to **%s**</string>
+    <string name="StoryRemovedFromAlbumTitle_one">%d story removed from **%s**</string>
+    <string name="StoryRemovedFromAlbumTitle_other">%d stories removed from**%s**</string>
     <string name="StorySavedSubtitle">posted stories can be viewed by others on your profile until you remove them.</string>
     <string name="StoryArchived_one">%d story removed from your profile</string>
     <string name="StoryArchived_other">%d stories removed from your profile</string>
@@ -6642,6 +6644,10 @@
     <string name="Boosts">boosts</string>
     <string name="BoostsLevel">level %d</string>
     <string name="StarRatingLevel">level %d</string>
+    <string name="StarRatingLevelNegative">negative rating</string>
+    <string name="StarRatingLevelNegativeYou_one">a negative rating indicates that your payments are unreliable. spend **%1$d star** to fix this issue.</string>
+    <string name="StarRatingLevelNegativeYou_other">a negative rating indicates that your payments are unreliable. spend **%1$d stars** to fix this issue.</string>
+    <string name="StarRatingLevelNegativeOther">a negative rating indicates that **%1$s&#8217;s** payments are unreliable.</string>
     <string name="BoostsLevel2">level</string>
     <string name="BoostingBoostToSendMessages">boost this group to send messages</string>
     <string name="BoostingEnableStories">enable stories</string>
@@ -7704,6 +7710,7 @@
     <string name="MonetizationGraphImpressions">ad impressions</string>
     <string name="MonetizationGraphRevenue">ad rewards</string>
     <string name="MonetizationWithdraw">collect via fragment</string>
+    <string name="MonetizationSelfWithdraw">withdraw via fragment</string>
     <string name="MonetizationStarsBalance">stars balance</string>
     <string name="MonetizationStarsInfo">you can withdraw stars using fragment, or use stars to advertise your channel. you cannot withdraw less than 1000 stars. **learn more &gt;**</string>
     <string name="MonetizationStarsInfoGroup">by withdrawing stars using fragment, you accept the **terms of service**.</string>
@@ -8036,6 +8043,7 @@
     <string name="StarsNeededTextGiftUpgrade">buy **stars** to upgrade your gifts.</string>
     <string name="StarsNeededTextGiftTransfer">buy **stars** to transfer your gifts.</string>
     <string name="StarsNeededTextGiftBuyResale">buy **stars** to buy gifts.</string>
+    
     <string name="TonNeededTextGiftBuyResale">buy **ton** to buy gifts.</string>
     <string name="StarsNeededTextLink">buy **stars** to keep your channel subscriptions.</string>
     <string name="StarsNeededTextLink_subs">buy **stars** to keep your channel subscriptions.</string>
@@ -8603,8 +8611,8 @@
     <string name="Gift2InSenderMessageHidden2">only you can see the sender&#700;s name and message.</string>
     <string name="Gift2OutSenderHidden2">only %s can see the sender&#700;s name.</string>
     <string name="Gift2OutSenderMessageHidden2">only %s can see the sender&#700;s name and message.</string>
-    <string name="Gift2ProfileVisible3">this gift is visible on your profile. **hide &gt;**</string>
-    <string name="Gift2ProfileInvisible3">this gift is hidden from your page. **show &gt;**</string>
+    <string name="Gift2ProfileVisible4">this gift is visible. **hide from profile &gt;**</string>
+    <string name="Gift2ProfileInvisible4">this gift is hidden. **show on profile &gt;**</string>
     <string name="Gift2ChannelProfileVisible3">this gift is visible on your channel\'s profile. **hide &gt;**</string>
     <string name="Gift2ChannelProfileInvisible3">this gift is hidden from visitors to your channel. **show &gt;**</string>
     <string name="Gift2More">**more about stars &gt;**</string>
@@ -9129,8 +9137,9 @@
     <string name="Gift2PinnedSubtitle">now it will always be shown on top.</string>
     <string name="Gift2Unpinned">gift unpinned</string>
     <string name="StarsTopUp">top up</string>
-    <string name="StarsWithdraw">withdraw</string>
     <string name="StarsStats">stats</string>
+    <string name="TonTopUp">top up</string>
+    <string name="TonStats">stats</string>
     <string name="PaidMessagesSendErrorToast1_one">price went up from &#11088;&#65039;%d</string>
     <string name="PaidMessagesSendErrorToast1_other">price went up from &#11088;&#65039;%d</string>
     <string name="PaidMessagesSendErrorToast2_one">to &#11088;&#65039;%d</string>
@@ -9141,6 +9150,7 @@
     <string name="PaidMessagesSendErrorState2_other">to &#11088;&#65039;%d</string>
     <string name="ContactInfoUserUpdatedPhoto">user updated photo %s</string>
     <string name="ContactInfoUserUpdatedName">user updated name %s</string>
+    <string name="StarsTransactionPostsSearch">posts search</string>
     <string name="StarsTransactionPremiumGift">telegram premium</string>
     <string name="StarsTransactionPremiumGiftDuration">duration</string>
     <string name="AccountFrozenAlertTitle">your account is frozen!</string>
@@ -9590,14 +9600,18 @@
     <string name="StarRatingDeduces">deducted</string>
     <string name="StarRatingFuture_one">the rating will update in %d day after purchases.</string>
     <string name="StarRatingFuture_other">the rating will update in %d days after purchases.</string>
+    <string name="StarRatingFuturePreview1_one">this will be your rating in %d day, after</string>
+    <string name="StarRatingFuturePreview1_other">this will be your rating in %d days, after</string>
+    <string name="StarRatingFuturePreview2_one">%d point are added.</string>
+    <string name="StarRatingFuturePreview2_other">%d points are added.</string>
     <string name="StarRatingFuturePendingPoints_one">%d point is pending.</string>
     <string name="StarRatingFuturePendingPoints_other">%d points are pending.</string>
     <string name="StarRatingFuturePendingPointsAndLevel1_one">%d point and</string>
     <string name="StarRatingFuturePendingPointsAndLevel1_other">%d points and</string>
     <string name="StarRatingFuturePendingPointsAndLevel2_one">level %d are pending.</string>
     <string name="StarRatingFuturePendingPointsAndLevel2_other">level %d are pending.</string>
-    
-    
+    <string name="StarRatingFuturePendingPointsPreview">**preview &gt;**</string>
+    <string name="StarRatingFuturePendingPointsPreviewBack">**back &gt;**</string>
     <string name="StarRatingDescription">this rating reflects **%s\'s** activity\non telegram. it is based on:</string>
     <string name="StarRatingSelfDescription">this rating reflects your activity\non telegram. it is based on:</string>
     <string name="StarRatingTitle1">gifts from telegram</string>
@@ -9653,6 +9667,9 @@
     <string name="SearchPostsHeaderNews">telegram news</string>
     <string name="SearchPostsHeaderFound">public posts</string>
     <string name="SearchPosts">posts</string>
+    <string name="SearchPaidStars_one">**%d star** spent on extra search.</string>
+    <string name="SearchPaidStars_other">**%d stars** spent on extra search.</string>
+    
 
   
 
@@ -11155,8 +11172,10 @@
   <string name="Gift2PremiumSubtitleMany_few">subscribe to **telegram premium** to send up to **%d** of these gifts and unlock powerful features.</string>
   <string name="Gift2PremiumSubtitleMany_many">subscribe to **telegram premium** to send up to **%d** of these gifts and unlock powerful features.</string>
   <string name="Gift2ProfileInvisible">this gift is hidden. only you can see it.</string>
+  <string name="Gift2ProfileInvisible3">this gift is hidden from your page. **show &gt;**</string>
   <string name="Gift2ProfileVisible">this gift is visible on your profile.</string>
   <string name="Gift2ProfileVisible2">this gift is visible to visitors of your page. **view &gt;**</string>
+  <string name="Gift2ProfileVisible3">this gift is visible on your profile. **hide &gt;**</string>
   <string name="Gift2QuantityIssued1_zero">%d/</string>
   <string name="Gift2QuantityIssued1_one" />
   <string name="Gift2QuantityIssued1_two">%d/</string>
@@ -12171,6 +12190,10 @@
   <string name="SearchMessagesResultCount_two">%2$s results</string>
   <string name="SearchMessagesResultCount_few">%2$s results</string>
   <string name="SearchMessagesResultCount_many">%2$s results</string>
+  <string name="SearchPaidStars_zero">**%d stars** spent on extra search.</string>
+  <string name="SearchPaidStars_two">**%d stars** spent on extra search.</string>
+  <string name="SearchPaidStars_few">**%d stars** spent on extra search.</string>
+  <string name="SearchPaidStars_many">**%d stars** spent on extra search.</string>
   <string name="SearchPostsButtonPay_zero">search for &#11088;&#65039;%d</string>
   <string name="SearchPostsButtonPay_two">search for &#11088;&#65039;%d</string>
   <string name="SearchPostsButtonPay_few">search for &#11088;&#65039;%d</string>
@@ -12355,6 +12378,18 @@
   <string name="StarRatingFuturePendingPointsAndLevel2_two">level %d are pending.</string>
   <string name="StarRatingFuturePendingPointsAndLevel2_few">level %d are pending.</string>
   <string name="StarRatingFuturePendingPointsAndLevel2_many">level %d are pending.</string>
+  <string name="StarRatingFuturePreview1_zero">this will be your rating in %d days, after</string>
+  <string name="StarRatingFuturePreview1_two">this will be your rating in %d days, after</string>
+  <string name="StarRatingFuturePreview1_few">this will be your rating in %d days, after</string>
+  <string name="StarRatingFuturePreview1_many">this will be your rating in %d days, after</string>
+  <string name="StarRatingFuturePreview2_zero">%d points are added.</string>
+  <string name="StarRatingFuturePreview2_two">%d points are added.</string>
+  <string name="StarRatingFuturePreview2_few">%d points are added.</string>
+  <string name="StarRatingFuturePreview2_many">%d points are added.</string>
+  <string name="StarRatingLevelNegativeYou_zero">a negative rating indicates that your payments are unreliable. spend **%1$d stars** to fix this issue.</string>
+  <string name="StarRatingLevelNegativeYou_two">a negative rating indicates that your payments are unreliable. spend **%1$d stars** to fix this issue.</string>
+  <string name="StarRatingLevelNegativeYou_few">a negative rating indicates that your payments are unreliable. spend **%1$d stars** to fix this issue.</string>
+  <string name="StarRatingLevelNegativeYou_many">a negative rating indicates that your payments are unreliable. spend **%1$d stars** to fix this issue.</string>
   <string name="Stars_zero">%d stars</string>
   <string name="Stars_two">%d stars</string>
   <string name="Stars_few">%d stars</string>
@@ -12494,6 +12529,7 @@
   <string name="StarsTransactionMessageFee_two">fee for %d messages</string>
   <string name="StarsTransactionMessageFee_few">fee for %d messages</string>
   <string name="StarsTransactionMessageFee_many">fee for %d messages</string>
+  <string name="StarsWithdraw">withdraw</string>
   <string name="StartVoipChannelAlertText">do you want to start a live stream in this channel?</string>
   <string name="StartVoipChatAlertText">start a video chat in this group?</string>
   <string name="StealthMode">stealth mode</string>
@@ -12663,6 +12699,10 @@
   <string name="StoryReactionsWidgetLimit2_two">you can&#8217;t add more than %d reaction stickers to a story.</string>
   <string name="StoryReactionsWidgetLimit2_few">you can&#8217;t add more than %d reaction stickers to a story.</string>
   <string name="StoryReactionsWidgetLimit2_many">you can&#8217;t add more than %d reaction stickers to a story.</string>
+  <string name="StoryRemovedFromAlbumTitle_zero">%d stories removed from**%s**</string>
+  <string name="StoryRemovedFromAlbumTitle_two">%d stories removed from**%s**</string>
+  <string name="StoryRemovedFromAlbumTitle_few">%d stories removed from**%s**</string>
+  <string name="StoryRemovedFromAlbumTitle_many">%d stories removed from**%s**</string>
   <string name="StorySavedTitle_zero">%d stories posted on your profile</string>
   <string name="StorySavedTitle_two">%d stories posted on your profile</string>
   <string name="StorySavedTitle_few">%d stories posted on your profile</string>
