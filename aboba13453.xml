@@ -9169,7 +9169,7 @@
     <string name="SMSFeeTitle">sms fee</string>
     <string name="SMSFee1Title">high sms costs</string>
     <string name="SMSFee1Text">telecom providers in your country charge telegram very high prices for sms.</string>
-    <string name="SMSFee1TextCountry">telecom providers in your country (%s) charge telegram very high prices for sms.</string>
+    <string name="SMSFee1TextCountry">due to fake accounts and high sms costs in your country, you&#8217;ll need to cover your signup fee.</string>
     <string name="SMSFee2Title">verification required</string>
     <string name="SMSFee2Text">telegram needs to send you an sms with a verification code to confirm your phone number.</string>
     <string name="SMSFee3Title">support via **telegram premium &gt;**</string>
