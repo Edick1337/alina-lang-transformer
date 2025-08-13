@@ -3529,7 +3529,7 @@
     <string name="PrivacyFloodControlError">too many requests. please wait before changing privacy settings again.</string>
     <string name="PrivacyInvites">invites</string>
     <string name="PrivacyInvitesInfo">you can restrict which users are allowed to add you to groups and channels.</string>
-    <string name="WhoCanAddMe">who can add me to group chats?</string>
+    <string name="WhoCanAddMe">who can add me?</string>
     <string name="WhoCanAddMeInfo">you can restrict who can add you to groups and channels with granular precision.</string>
     <string name="AlwaysAllow">always allow</string>
     <string name="NeverAllow">never allow</string>
@@ -8042,9 +8042,9 @@
     <string name="TonNeededTextSuggestMessage">buy **ton** to suggest posts to **%s** and others.</string>
     <string name="StarsNeededTextGiftUpgrade">buy **stars** to upgrade your gifts.</string>
     <string name="StarsNeededTextGiftTransfer">buy **stars** to transfer your gifts.</string>
-    <string name="StarsNeededTextGiftBuyResale">buy **stars** to buy gifts.</string>
+    <string name="StarsNeededTextGiftBuyResale">buy **stars** to spend on gifts.</string>
     
-    <string name="TonNeededTextGiftBuyResale">buy **ton** to buy gifts.</string>
+    <string name="TonNeededTextGiftBuyResale">buy **ton** to spend on gifts.</string>
     <string name="StarsNeededTextLink">buy **stars** to keep your channel subscriptions.</string>
     <string name="StarsNeededTextLink_subs">buy **stars** to keep your channel subscriptions.</string>
     <string name="StarsNeededTextLink_subadvance12">buy **stars** to keep your subscriptions active for the next 12 months.</string>
