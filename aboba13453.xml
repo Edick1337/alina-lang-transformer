@@ -6330,7 +6330,7 @@
     <string name="StoryAddedToAlbumTitle_one">%d story saved to **%s**</string>
     <string name="StoryAddedToAlbumTitle_other">%d stories saved to **%s**</string>
     <string name="StoryRemovedFromAlbumTitle_one">%d story removed from **%s**</string>
-    <string name="StoryRemovedFromAlbumTitle_other">%d stories removed from**%s**</string>
+    <string name="StoryRemovedFromAlbumTitle_other">%d stories removed from **%s**</string>
     <string name="StorySavedSubtitle">posted stories can be viewed by others on your profile until you remove them.</string>
     <string name="StoryArchived_one">%d story removed from your profile</string>
     <string name="StoryArchived_other">%d stories removed from your profile</string>
@@ -12699,10 +12699,10 @@
   <string name="StoryReactionsWidgetLimit2_two">you can&#8217;t add more than %d reaction stickers to a story.</string>
   <string name="StoryReactionsWidgetLimit2_few">you can&#8217;t add more than %d reaction stickers to a story.</string>
   <string name="StoryReactionsWidgetLimit2_many">you can&#8217;t add more than %d reaction stickers to a story.</string>
-  <string name="StoryRemovedFromAlbumTitle_zero">%d stories removed from**%s**</string>
-  <string name="StoryRemovedFromAlbumTitle_two">%d stories removed from**%s**</string>
-  <string name="StoryRemovedFromAlbumTitle_few">%d stories removed from**%s**</string>
-  <string name="StoryRemovedFromAlbumTitle_many">%d stories removed from**%s**</string>
+  <string name="StoryRemovedFromAlbumTitle_zero">%d stories removed from **%s**</string>
+  <string name="StoryRemovedFromAlbumTitle_two">%d stories removed from **%s**</string>
+  <string name="StoryRemovedFromAlbumTitle_few">%d stories removed from **%s**</string>
+  <string name="StoryRemovedFromAlbumTitle_many">%d stories removed from **%s**</string>
   <string name="StorySavedTitle_zero">%d stories posted on your profile</string>
   <string name="StorySavedTitle_two">%d stories posted on your profile</string>
   <string name="StorySavedTitle_few">%d stories posted on your profile</string>
