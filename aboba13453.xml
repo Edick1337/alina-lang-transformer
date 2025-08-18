@@ -4483,7 +4483,7 @@
     <string name="OnlineCount_other">%1$d online</string>
     <string name="TelegramContacts_one">%1$d contact on telegram</string>
     <string name="TelegramContacts_other">%1$d contacts on telegram</string>
-    <string name="InviteTextNum_one">hey, i\'m using telegram to chat &#8211; and so are %1$d of our other contact. join us! download it here: %2$s</string>
+    <string name="InviteTextNum_one">hey, i\'m using telegram to chat &#8211; and so is %1$d of our other contacts. join us! download it here: %2$s</string>
     <string name="InviteTextNum_other">hey, i\'m using telegram to chat &#8211; and so are %1$d of our other contacts. join us! download it here: %2$s</string>
     <string name="PeopleJoined_one">%1$d person joined</string>
     <string name="PeopleJoined_other">%1$d people joined</string>
