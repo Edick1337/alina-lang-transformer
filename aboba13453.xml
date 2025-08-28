@@ -9150,7 +9150,7 @@
     <string name="PaidMessagesSendErrorState2_other">to &#11088;&#65039;%d</string>
     <string name="ContactInfoUserUpdatedPhoto">user updated photo %s</string>
     <string name="ContactInfoUserUpdatedName">user updated name %s</string>
-    <string name="StarsTransactionPostsSearch">posts search</string>
+    <string name="StarsTransactionPostsSearch">public post search</string>
     <string name="StarsTransactionPremiumGift">telegram premium</string>
     <string name="StarsTransactionPremiumGiftDuration">duration</string>
     <string name="AccountFrozenAlertTitle">your account is frozen!</string>
