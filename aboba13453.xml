@@ -547,6 +547,8 @@
     <string name="ActionGiftTonInbound">sent you a gift for **un2**</string>
     <string name="ActionGiftInbound">un1 sent you a gift for **un2**</string>
     <string name="ActionGiftOutbound">you have sent a gift for **un2**</string>
+    <string name="ActionPrepaidGiftInbound">un1 sent an upgrade worth **un2** for your gift</string>
+    <string name="ActionPrepaidGiftOutbound">you sent an upgrade worth **un2** for **un1**\'s gift</string>
     <string name="ActionGiftSelf">you bought a gift for **un2**</string>
     <string name="ActionGiftSomeone">someone sent you a gift!</string>
     <string name="ActionGiftChannel_one">**un1** sent a gift to **un2** for %d star</string>
@@ -1129,6 +1131,7 @@
     <string name="OpenBackground">view wallpaper</string>
     <string name="OpenTheme">view theme</string>
     <string name="OpenChannel">view channel</string>
+    <string name="OpenChannelDirect">contact channel</string>
     <string name="OpenMessage">view message</string>
     <string name="OpenBot">open bot</string>
     <string name="OpenInstantView">instant view</string>
@@ -8043,7 +8046,7 @@
     <string name="StarsNeededTextGiftUpgrade">buy **stars** to upgrade your gifts.</string>
     <string name="StarsNeededTextGiftTransfer">buy **stars** to transfer your gifts.</string>
     <string name="StarsNeededTextGiftBuyResale">buy **stars** to spend on gifts.</string>
-    
+    <string name="StarsNeededTextSearch">buy **stars** to search posts.</string>
     <string name="TonNeededTextGiftBuyResale">buy **ton** to spend on gifts.</string>
     <string name="StarsNeededTextLink">buy **stars** to keep your channel subscriptions.</string>
     <string name="StarsNeededTextLink_subs">buy **stars** to keep your channel subscriptions.</string>
@@ -8523,6 +8526,8 @@
     <string name="Gift2SendYourBalance_one">your balance is %d star</string>
     <string name="Gift2SendYourBalance_other">your balance is %d stars</string>
     <string name="Gift2ActionTitle">gift from</string>
+    <string name="Gift2ActionUpgradeTitle">upgrade from</string>
+    <string name="Gift2ActionUpgradeUnknownTitle">upgrade from unknown</string>
     <string name="Gift2ActionSelfTitle">saved gift</string>
     <string name="Gift2ActionTitleInAnonymous">%s received a gift!</string>
     <string name="Gift2ActionTitleAnonymous">you received a gift!</string>
@@ -8570,6 +8575,8 @@
     <string name="StarsGiftCompleted">gift sent!</string>
     <string name="StarsGiftCompletedText_one">you spent **%1$d** star from your balance.</string>
     <string name="StarsGiftCompletedText_other">you spent **%1$d** stars from your balance.</string>
+    <string name="StarsGiftUpgradeCompleted">gift upgrade sent!</string>
+    <string name="StarsGiftUpgradeCompletedText">%s can now upgrade this gift for free.</string>
     <string name="StarsGiftCompletedChannelText_one">you sent a gift to **%2$s** for **%1$d** star.</string>
     <string name="StarsGiftCompletedChannelText_other">you sent a gift to **%2$s** for **%1$d** stars.</string>
     <string name="Gift2ChannelSend">send gift</string>
@@ -8944,6 +8951,8 @@
     <string name="Gift2StatusUpgrade">upgrade</string>
     <string name="Gift2UpgradeTitle">upgrade gift</string>
     <string name="Gift2UpgradeText">turn your gift into a unique collectible that you can transfer or auction.</string>
+    <string name="Gift2PrepayUpgradeTitle">make unique</string>
+    <string name="Gift2PrepayUpgradeText">let %s turn your gift into a unique collectible.</string>
     <string name="Gift2UpgradeFeature1Title">unique</string>
     <string name="Gift2UpgradeFeature1Text">get a unique number, model, backdrop and a symbol for your gift.</string>
     <string name="Gift2UpgradeFeature1TextLearn">the recipient will get a unique number, model, backdrop, and symbol for the gift.</string>
@@ -8977,6 +8986,7 @@
     <string name="Gift2LearnMoreTitle">make unique</string>
     <string name="Gift2LearnMoreText">let %s turn your gift into a unique collectible.</string>
     <string name="Gift2UpgradeButton">upgrade for &#11088;&#65039;%d</string>
+    <string name="Gift2PrepayUpgradeButton">pay &#11088;&#65039;%d for upgrade</string>
     <string name="Gift2UpgradeButtonFree">upgrade for free</string>
     <string name="Gift2UpgradeButtonGift">upgrade</string>
     <string name="Gift2AddSenderName">add sender\'s name to the gift</string>
@@ -9055,6 +9065,7 @@
     <string name="Gift2FilterSortByValue">sort by value</string>
     <string name="Gift2FilterUnlimited">unlimited</string>
     <string name="Gift2FilterLimited">limited</string>
+    <string name="Gift2FilterUpgradable">upgradable</string>
     <string name="Gift2FilterUnique">unique</string>
     <string name="Gift2FilterDisplayed">displayed</string>
     <string name="Gift2FilterHidden">hidden</string>
@@ -9176,6 +9187,7 @@
     <string name="SMSFee3Text">sign up for 1-week telegram premium subscription to help cover the sms costs.</string>
     <string name="SMSFeePurchaseTitle">sign up for %s</string>
     <string name="SMSFeePurchaseText">get telegram premium for 1 week</string>
+    <string name="SMSFeeContact">having issues? **contact us**</string>
     <string name="PostSuggestionsPriceUpdated_one">un1 now accepts direct messages for %1$d star</string>
     <string name="PostSuggestionsPriceUpdated_other">un1 now accepts direct messages for %1$d stars</string>
     <string name="PostSuggestionsEnabledUpdated">un1 now accepts direct messages</string>
@@ -9210,6 +9222,7 @@
     <string name="Gift2ReplacedPinSubtitle">replacing %s</string>
     <string name="SearchAd">ad</string>
     <string name="JoinCall">join call</string>
+    <string name="ViewCollection">view collection</string>
     <string name="GroupCallLinkTitle">group call</string>
     <string name="GroupCallLinkText">you are invited to join a telegram call.</string>
     <string name="GroupCallLinkText2One">**%1$s** already joined this call.</string>
@@ -9631,6 +9644,7 @@
     <string name="StoriesAlbumMenuEditName">edit name</string>
     <string name="StoriesAlbumMenuArchive">archive</string>
     <string name="StoriesAlbumMenuPin">pin</string>
+    <string name="StoriesAlbumMenuUnpin">unpin</string>
     <string name="StoriesAlbumMenuEdit">edit</string>
     <string name="StoriesAlbumMenuReorder">reorder</string>
     <string name="StoriesAlbumMenuSelect">select</string>
@@ -9648,7 +9662,6 @@
     <string name="StoriesAlbumRenameHint">choose a new name for your album.</string>
     <string name="StoriesAlbumOrganizeTitle">organize your stories</string>
     <string name="StoriesAlbumOrganizeDescription">add some of your stories to this album.</string>
-
     <string name="SearchPostsTitle">global search</string>
     <string name="SearchPostsText">type a keyword to search for posts from public channels.</string>
     <string name="SearchPostsButton">search</string>
@@ -9669,7 +9682,63 @@
     <string name="SearchPosts">posts</string>
     <string name="SearchPaidStars_one">**%d star** spent on extra search.</string>
     <string name="SearchPaidStars_other">**%d stars** spent on extra search.</string>
-    
+    <string name="Gift2UpgradeNext">upgrade next gift</string>
+    <string name="ProfileActionsMessage">message</string>
+    <string name="ProfileActionsDiscuss">discuss</string>
+    <string name="ProfileActionsGift">gift</string>
+    <string name="ProfileActionsShare">share</string>
+    <string name="ProfileActionsCall">call</string>
+    <string name="ProfileActionsVideo">video</string>
+    <string name="ProfileActionsJoin">join</string>
+    <string name="ProfileActionsReport">report</string>
+    <string name="ProfileActionsLeave">leave</string>
+    <string name="ProfileActionsVoiceChat">video chat</string>
+    <string name="ProfileActionsLiveStream">live stream</string>
+    <string name="ProfileActionsAddStory">add story</string>
+    <string name="ProfileActionsStop">stop</string>
+    <string name="ProfileActionsEditPhoto">set profile</string>
+    <string name="ProfileActionsEditUsername">username</string>
+    <string name="ProfileActionsEditInfo">edit info</string>
+    <string name="PersonalChannel">personal channel</string>
+    <string name="ProfilePlaylistTitleMine">your playlist</string>
+    <string name="ProfilePlaylistTitle">%s\'s playlist</string>
+    <string name="ProfileTabSetAsMain">set as main tab</string>
+    <string name="ProfilePlaylistRemoveFromProfile">remove from profile</string>
+    <string name="AudioSaveTo">save to...</string>
+    <string name="AudioAddToProfile">add to profile</string>
+    <string name="AudioAddedToProfileRemove">this audio is visible on your profile. **remove &gt;**</string>
+    <string name="AudioSaveToMyProfile">to profile</string>
+    <string name="AudioSaveToMyProfileSaved">audio added to your profile.</string>
+    <string name="AudioSaveToMyProfileUnsaved">audio removed from your profile.</string>
+    <string name="AudioSaveToMusicFolder">to music folder</string>
+    <string name="AudioSaveToSavedMessages">to saved messages</string>
+    <string name="AudioSaveToSavedMessagesSaved">audio sent to saved messages.</string>
+    <string name="AudioSaveToInfo">choose where you want this audio to be saved.</string>
+    <string name="ProfileButtonMute">mute</string>
+    <string name="ProfileButtonUnmute">unmute</string>
+    <string name="GiftValue2">value</string>
+    <string name="GiftValue2LearnMore">learn more</string>
+    <string name="GiftValueAverage">this is the average sale price of **%s** on telegram and fragment over the past month.</string>
+    <string name="GiftValueLastFragment">this is the price at which **%s** was last sold on fragment.</string>
+    <string name="GiftValueLastTelegram">this is the price at which **%s** was last sold on telegram.</string>
+    <string name="GiftValueInitialSale">initial sale</string>
+    <string name="GiftValueInitialPrice">initial price</string>
+    <string name="GiftValueLastSale">last sale</string>
+    <string name="GiftValueLastPrice">last price</string>
+    <string name="GiftValueMinPrice">minimum price</string>
+    <string name="GiftValueMinPriceInfo">**%1$s** is the floor price for **%2$s** gifts listed on telegram and fragment.</string>
+    <string name="GiftValueAveragePrice">average price</string>
+    <string name="GiftValueAveragePriceInfo">**%1$s** is the average sale price of **%2$s** gifts over the past month.</string>
+    <string name="GiftValueOnSaleTelegram">for sale on telegram &gt;</string>
+    <string name="GiftValueOnSaleFragment">for sale on fragment &gt;</string>
+    <string name="GiftSkipAnimation">skip</string>
+    <string name="GiftThemesSetIn">set as theme in...</string>
+    <string name="GiftThemesSetInReuseInfo">this gift is already your theme in the chat with **%s**. remove it there and use it here instead?</string>
+    <string name="GiftThemesSetInReuseConfirm">yes</string>
+    <string name="GiftThemesSetByYou">**you** set **%s** as a new theme for this chat.</string>
+    <string name="GiftThemesSetByOther">**%1$s** set **%2$s** as a new theme for this chat.</string>
+    <string name="GiftThemesSetActionView">view</string>
+    <string name="GiftLocked">gift locked</string>
 
   
 
@@ -11172,7 +11241,7 @@
   <string name="Gift2PremiumSubtitleMany_few">subscribe to **telegram premium** to send up to **%d** of these gifts and unlock powerful features.</string>
   <string name="Gift2PremiumSubtitleMany_many">subscribe to **telegram premium** to send up to **%d** of these gifts and unlock powerful features.</string>
   <string name="Gift2ProfileInvisible">this gift is hidden. only you can see it.</string>
-  <string name="Gift2ProfileInvisible3">this gift is hidden from your page. **show &gt;**</string>
+  <string name="Gift2ProfileInvisible3">this gift is hidden from your profile. **show &gt;**</string>
   <string name="Gift2ProfileVisible">this gift is visible on your profile.</string>
   <string name="Gift2ProfileVisible2">this gift is visible to visitors of your page. **view &gt;**</string>
   <string name="Gift2ProfileVisible3">this gift is visible on your profile. **hide &gt;**</string>
