@@ -8952,7 +8952,7 @@
     <string name="Gift2UpgradeTitle">upgrade gift</string>
     <string name="Gift2UpgradeText">turn your gift into a unique collectible that you can transfer or auction.</string>
     <string name="Gift2PrepayUpgradeTitle">make unique</string>
-    <string name="Gift2PrepayUpgradeText">let %s turn your gift into a unique collectible.</string>
+    <string name="Gift2PrepayUpgradeText">let %s turn this gift into a unique collectible.</string>
     <string name="Gift2UpgradeFeature1Title">unique</string>
     <string name="Gift2UpgradeFeature1Text">get a unique number, model, backdrop and a symbol for your gift.</string>
     <string name="Gift2UpgradeFeature1TextLearn">the recipient will get a unique number, model, backdrop, and symbol for the gift.</string>
