@@ -9399,7 +9399,7 @@
     <string name="PostSuggestionsAddTime">edit time</string>
     <string name="PostSuggestionsAddTimeHint">select the date and time you want the post to be published.</string>
     <string name="PostSuggestionsAddTimeHint2">the post will remain available for at least %d hours from this date.</string>
-    <string name="PostSuggestionsPriceInfo">your channel will receive %1$s of the selected fee (~%2$s) for each incoming message.</string>
+    <string name="PostSuggestionsPriceInfo">your channel will receive %1$s of the selected fee (~%2$s$) for each incoming message.</string>
 
     <string name="SuggestAPostBelow">suggest a post below</string>
     <string name="SuggestAPostBelowHint">tap here to suggest a post for %s</string>
