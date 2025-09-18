@@ -5425,7 +5425,7 @@
     <string name="GiftPremiumWhatsIncluded">what\'s included</string>
     <string name="GiftPremiumEventAdsTitle">&#128081; snoop dogg gift drop &#127873;</string>
     <string name="GiftTelegramPremiumTitle">gift telegram premium</string>
-    <string name="GiftTelegramPremiumOrStarsTitle">gift premium or stars</string>
+    <string name="GiftTelegramPremiumOrStarsTitle">send a gift</string>
     <string name="GiftTelegramPremiumDescription">give **%1$s** access to exclusive features with **telegram premium**.</string>
     <string name="TelegramPremium">telegram premium</string>
     <string name="TelegramPremiumSubtitle">go **beyond the limits** and **unlock dozens of exclusive** features by subscribing to **telegram premium**.</string>
