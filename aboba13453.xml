@@ -9053,7 +9053,7 @@
     <string name="Gift2SelfInfoConverted_other">you converted this gift to **%d stars**.</string>
     <string name="Gift2SelfInfo">you can add this gift to your profile.</string>
     <string name="Gift2ActionUpgrade">tap \"unpack\" to turn this gift into a unique collectible.</string>
-    <string name="Gift2ActionUpgradeOut">%s can turn this gift to a unique collectible.</string>
+    <string name="Gift2ActionUpgradeOut">%s can turn this gift into a unique collectible.</string>
     <string name="Gift2TransferOption">transfer</string>
     <string name="Gift2ViewInProfile">view in profile</string>
     <string name="EditorMuteHint">sound is now muted, so the video will play and loop like a gif.</string>
