@@ -3824,7 +3824,7 @@
     <string name="ShareYouLocationUnableManually">choose manually</string>
     <string name="ShareYouLocationInline">this bot would like to know your location each time you send it a request. this can be used to provide location-specific results.</string>
     <string name="ShareYouPhoneNumberTitle">share your phone number?</string>
-    <string name="AreYouSureShareMyContactInfoBot">the bot will know your phone number. this can be useful for integration with other services.</string>
+    <string name="AreYouSureShareMyContactInfoBot">the bot will know your phone number. this can be useful for integration with other services.\n\n&#9888;&#65039; warning! never enter your telegram login codes in mini apps.</string>
     <string name="AreYouSureShareMyContactInfoWebapp">**%s** will know your phone number. this can be useful for integration with other services.</string>
     <string name="AreYouSureShareMyContactInfoBotUnblock">this will also unblock the bot.</string>
     <string name="AreYouSureShareMyContactInfoUser">do you want to share your phone number %1$s with **%2$s**?</string>
