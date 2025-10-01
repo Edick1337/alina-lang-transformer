@@ -3439,7 +3439,7 @@
     <string name="PrivacyLastSeen">last seen &amp; online</string>
     <string name="PrivacyMessagesContactsAndPremium">my contacts and premium users</string>
     <string name="PrivacyMessages">messages</string>
-    <string name="PrivacyMessagesInfo">you can restrict messages from users who are not in your contacts and don\'t have premium.\n\n**what is telegram premium?**</string>
+    <string name="PrivacyMessagesInfo">you can restrict messages from users who are not in your contacts and whom you haven\'t messaged first.\n\n**what is telegram premium?**</string>
     <string name="PrivacyVoiceMessages">voice messages</string>
     <string name="PrivacyMessagesTitle">who can send me messages?</string>
     <string name="PrivacyVoiceMessagesTitle">who can send me voice or video messages?</string>
