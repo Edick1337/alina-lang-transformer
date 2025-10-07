@@ -9012,7 +9012,7 @@
     <string name="Gift2UnlistText">are you sure you want to unlist your gift?</string>
     <string name="Gift2ActionWearNeededPremium">subscribe to **telegram premium** to wear collectibles.</string>
     <string name="Gift2LearnMoreTitle">make unique</string>
-    <string name="Gift2LearnMoreText">let %s turn your gift into a unique collectible.</string>
+    <string name="Gift2LearnMoreText">let %s turn this gift into a unique collectible.</string>
     <string name="Gift2UpgradeButton">upgrade for &#11088;&#65039;%d</string>
     <string name="Gift2UpgradeButtonDecreasesIn">price decreases in %s</string>
     <string name="Gift2PrepayUpgradeButton">pay &#11088;&#65039;%d for upgrade</string>
@@ -9757,7 +9757,7 @@
     <string name="ProfileButtonUnmute">unmute</string>
     <string name="GiftValue2">value</string>
     <string name="GiftValue2LearnMore">learn more</string>
-    <string name="GiftValueAverage">this is the average sale price of **%s** on telegram and fragment over the past month.</string>
+    <string name="GiftValueAverage">the average sale price of **%s** gifts on telegram and fragment over the past month.</string>
     <string name="GiftValueLastFragment">this is the price at which **%s** was last sold on fragment.</string>
     <string name="GiftValueLastTelegram">this is the price at which **%s** was last sold on telegram.</string>
     <string name="GiftValueInitialSale">initial sale</string>
