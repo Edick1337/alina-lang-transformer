@@ -3481,7 +3481,7 @@
     <string name="PrivacyMusic">saved music</string>
     <string name="PrivacyMusicTitle">who can see the saved music on my profile?</string>
     <string name="PrivacyMusicInfo">you can restrict who can see your saved music with granular precision.</string>
-    <string name="PrivacyMusicInfo3">you can add users or entire groups that will not see your music.</string>
+    <string name="PrivacyMusicInfo3">you can add users or entire groups that will not see your saved music.</string>
     <string name="PrivacyPhone">phone number</string>
     <string name="PrivacyPhoneTitle">who can see my phone number?</string>
     <string name="PrivacyPhoneTitle2">who can find me by my number?</string>
@@ -8583,8 +8583,8 @@
     <string name="Gift2HideSelfInfo">hide my name and message from visitors to my profile</string>
     <string name="Gift2AuctionInfo_one">%d gift is dropped at varying intervals to the top %d bidder by bid amount.</string>
     <string name="Gift2AuctionInfo_other">%d gifts are dropped at varying intervals to the top %d bidders by bid amount.</string>
-    <string name="Gift2AuctionInfo2_one">top **%d** bidder will get 1 **%s**\nthis round.</string>
-    <string name="Gift2AuctionInfo2_other">top **%d** bidders will get 1 **%s**\nthis round.</string>
+    <string name="Gift2AuctionInfo2_one">top **%d** bidder will get the **%s**\ngift this round.</string>
+    <string name="Gift2AuctionInfo2_other">top **%d** bidders will get **%s**\ngifts this round.</string>
     <string name="Gift2AuctionTableStarted">started</string>
     <string name="Gift2AuctionTableEnded">ends</string>
     <string name="Gift2AuctionEnded">auction ended.</string>
@@ -10008,7 +10008,7 @@
 
     <string name="Gift2ActiveAuctionsActiveRound">round %s of %s</string>
     <string name="Gift2ActiveAuctionsActiveRaiseBid">raise bid</string>
-    <string name="Gift2ActiveAuctionsActiveBidActive">your bid **%s** is ranked **#%d**</string>
+    <string name="Gift2ActiveAuctionsActiveBidActive">your bid of **%s** is ranked **#%d**</string>
     <string name="Gift2ActiveAuctionsActiveBidOutbid">your bid of **%s** was outbid</string>
     <string name="Gift2AuctionsItemsBought_one">%d %s item bought &gt;</string>
     <string name="Gift2AuctionsItemsBought_other">%1$d %2$s items bought &gt;</string>
@@ -10023,7 +10023,7 @@
     <string name="Gift2AuctionsBidHasBeenPlaced">your bid has been placed</string>
     <string name="Gift2AuctionsBidHasBeenIncreased">your bid has been increased</string>
     <string name="Gift2AuctionsChangeRecipient">change recipient</string>
-    <string name="Gift2AuctionsChangeRecipient2">you&#8217;ve already placed a bid on this gift for **%s.** do you want to raise your bid and change the recipient to **%s?**</string>
+    <string name="Gift2AuctionsChangeRecipient2">you&#8217;ve already placed a bid on this gift for **%s**. do you want to raise your bid and change the recipient to **%s**?</string>
 
   
 
@@ -11399,10 +11399,10 @@
   <string name="Gift2AuctionInfo_two">%d gifts are dropped at varying intervals to the top %d bidders by bid amount.</string>
   <string name="Gift2AuctionInfo_few">%d gifts are dropped at varying intervals to the top %d bidders by bid amount.</string>
   <string name="Gift2AuctionInfo_many">%d gifts are dropped at varying intervals to the top %d bidders by bid amount.</string>
-  <string name="Gift2AuctionInfo2_zero">top **%d** bidders will get 1 **%s**\nthis round.</string>
-  <string name="Gift2AuctionInfo2_two">top **%d** bidders will get 1 **%s**\nthis round.</string>
-  <string name="Gift2AuctionInfo2_few">top **%d** bidders will get 1 **%s**\nthis round.</string>
-  <string name="Gift2AuctionInfo2_many">top **%d** bidders will get 1 **%s**\nthis round.</string>
+  <string name="Gift2AuctionInfo2_zero">top **%d** bidders will get **%s**\ngifts this round.</string>
+  <string name="Gift2AuctionInfo2_two">top **%d** bidders will get **%s**\ngifts this round.</string>
+  <string name="Gift2AuctionInfo2_few">top **%d** bidders will get **%s**\ngifts this round.</string>
+  <string name="Gift2AuctionInfo2_many">top **%d** bidders will get **%s**\ngifts this round.</string>
   <string name="Gift2AuctionsAcquiredGifts_zero">%1$d bought gifts</string>
   <string name="Gift2AuctionsAcquiredGifts_two">%1$d bought gifts</string>
   <string name="Gift2AuctionsAcquiredGifts_few">%1$d bought gifts</string>
