@@ -9951,7 +9951,7 @@
     <string name="LiveStoryMessageSent">sent %s</string>
     <string name="LiveStoryAdminRole">admin</string>
     <string name="LiveStoryAlreadyStreamingTitle">already live</string>
-    <string name="LiveStoryAlreadyStreaming">you have already an active live stream.</string>
+    <string name="LiveStoryAlreadyStreaming">you already have an active live stream.</string>
     <string name="LiveStoryPricePerComment">price per comment</string>
     <string name="LiveStoryPricePerCommentFree">free</string>
     <string name="LiveStoryPricePerCommentInfo">the price a viewer must pay to send a comment.</string>
@@ -9999,10 +9999,10 @@
     <string name="Gift2ActiveAuctionsActiveAuctionTitle">active auction</string>
     <string name="Gift2ActiveAuctionsActiveAuctionsTitle">%d active auctions</string>
     <string name="Gift2ActiveAuctionsActiveStatusWinningOne">you are winning (%s).</string>
-    <string name="Gift2ActiveAuctionsActiveStatusWinning1Place">1st place.</string>
-    <string name="Gift2ActiveAuctionsActiveStatusWinning2Place">2nd place.</string>
-    <string name="Gift2ActiveAuctionsActiveStatusWinning3Place">3rd place.</string>
-    <string name="Gift2ActiveAuctionsActiveStatusWinningOtherPlace">%d place.</string>
+    <string name="Gift2ActiveAuctionsActiveStatusWinning1Place">1st place</string>
+    <string name="Gift2ActiveAuctionsActiveStatusWinning2Place">2nd place</string>
+    <string name="Gift2ActiveAuctionsActiveStatusWinning3Place">3rd place</string>
+    <string name="Gift2ActiveAuctionsActiveStatusWinningOtherPlace">%d place</string>
     <string name="Gift2ActiveAuctionsActiveStatusWinningAll">you are winning all of them.</string>
     <string name="Gift2ActiveAuctionsActiveStatusOutbid">you\'ve been outbid.</string>
 
