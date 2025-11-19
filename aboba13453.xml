@@ -8583,6 +8583,8 @@
     <string name="Gift2HideSelfInfo">hide my name and message from visitors to my profile</string>
     <string name="Gift2AuctionInfo_one">%d gift is dropped at varying intervals to the top %d bidder by bid amount.</string>
     <string name="Gift2AuctionInfo_other">%d gifts are dropped at varying intervals to the top %d bidders by bid amount.</string>
+    <string name="Gift2AuctionInfoLearnMore2_one">%d gift is dropped at varying intervals to the top %d bidder by bid amount. **learn more &gt;**</string>
+    <string name="Gift2AuctionInfoLearnMore2_other">%d gifts are dropped at varying intervals to the top %d bidders by bid amount. **learn more &gt;**</string>
     <string name="Gift2AuctionInfo2_one">top **%d** bidder will get the **%s**\ngift this round.</string>
     <string name="Gift2AuctionInfo2_other">top **%d** bidders will get **%s**\ngifts this round.</string>
     <string name="Gift2AuctionTableStarted">started</string>
@@ -8600,7 +8602,8 @@
     <string name="Gift2AuctionPlaceACustomBidHint2">custom bid...</string>
     <string name="Gift2AuctionYourBid">your bid</string>
     <string name="Gift2AuctionTapToBidMore">tap to bid more</string>
-
+    <string name="Gift2AuctionMinimumBidIncreased_one">you must bid at least **%d star**.</string>
+    <string name="Gift2AuctionMinimumBidIncreased_other">you must bid at least is **%d stars**.</string>
     <string name="Gift2AuctionBidStatusFuture">your bid will be</string>
     <string name="Gift2AuctionBidStatusOutbid">you\'ve been outbid</string>
     <string name="Gift2AuctionBidStatusWinning">you\'re winning</string>
@@ -8790,6 +8793,8 @@
     <string name="Gift2Converted_other">%d star were sent to your balance</string>
     <string name="Gift2ConvertedChannel_one">%d star was sent to channel\'s balance</string>
     <string name="Gift2ConvertedChannel_other">%d stars were sent to channel\'s balance</string>
+    <string name="Gift2SoldAuctionPreviewGifts_one">%d gift</string>
+    <string name="Gift2SoldAuctionPreviewGifts_other">%d gifts</string>
     <string name="Gift2SoldOutTitle">sold out!</string>
     <string name="Gift2SoldOutCount_one">all %d gifts were already sold.</string>
     <string name="Gift2SoldOutCount_other">all %d gifts were already sold.</string>
@@ -10003,6 +10008,10 @@
     <string name="Gift2ActiveAuctionsActiveStatusWinning2Place">2nd place</string>
     <string name="Gift2ActiveAuctionsActiveStatusWinning3Place">3rd place</string>
     <string name="Gift2ActiveAuctionsActiveStatusWinningOtherPlace">%d place</string>
+    <string name="Gift2ActiveAuctionsActiveStatusWinningOtherSt">%dst place</string>
+    <string name="Gift2ActiveAuctionsActiveStatusWinningOtherNd">%dnd place</string>
+    <string name="Gift2ActiveAuctionsActiveStatusWinningOtherRd">%drd place</string>
+    <string name="Gift2ActiveAuctionsActiveStatusWinningOtherTh">%dth place</string>
     <string name="Gift2ActiveAuctionsActiveStatusWinningAll">you are winning all of them.</string>
     <string name="Gift2ActiveAuctionsActiveStatusOutbid">you\'ve been outbid.</string>
 
@@ -11403,6 +11412,14 @@
   <string name="Gift2AuctionInfo2_two">top **%d** bidders will get **%s**\ngifts this round.</string>
   <string name="Gift2AuctionInfo2_few">top **%d** bidders will get **%s**\ngifts this round.</string>
   <string name="Gift2AuctionInfo2_many">top **%d** bidders will get **%s**\ngifts this round.</string>
+  <string name="Gift2AuctionInfoLearnMore2_zero">%d gifts are dropped at varying intervals to the top %d bidders by bid amount. **learn more &gt;**</string>
+  <string name="Gift2AuctionInfoLearnMore2_two">%d gifts are dropped at varying intervals to the top %d bidders by bid amount. **learn more &gt;**</string>
+  <string name="Gift2AuctionInfoLearnMore2_few">%d gifts are dropped at varying intervals to the top %d bidders by bid amount. **learn more &gt;**</string>
+  <string name="Gift2AuctionInfoLearnMore2_many">%d gifts are dropped at varying intervals to the top %d bidders by bid amount. **learn more &gt;**</string>
+  <string name="Gift2AuctionMinimumBidIncreased_zero">you must bid at least is **%d stars**.</string>
+  <string name="Gift2AuctionMinimumBidIncreased_two">you must bid at least is **%d stars**.</string>
+  <string name="Gift2AuctionMinimumBidIncreased_few">you must bid at least is **%d stars**.</string>
+  <string name="Gift2AuctionMinimumBidIncreased_many">you must bid at least is **%d stars**.</string>
   <string name="Gift2AuctionsAcquiredGifts_zero">%1$d bought gifts</string>
   <string name="Gift2AuctionsAcquiredGifts_two">%1$d bought gifts</string>
   <string name="Gift2AuctionsAcquiredGifts_few">%1$d bought gifts</string>
@@ -11610,6 +11627,10 @@
   <string name="Gift2SentRemainsLimit_two">you can send **%d** more.</string>
   <string name="Gift2SentRemainsLimit_few">you can send **%d** more.</string>
   <string name="Gift2SentRemainsLimit_many">you can send **%d** more.</string>
+  <string name="Gift2SoldAuctionPreviewGifts_zero">%d gifts</string>
+  <string name="Gift2SoldAuctionPreviewGifts_two">%d gifts</string>
+  <string name="Gift2SoldAuctionPreviewGifts_few">%d gifts</string>
+  <string name="Gift2SoldAuctionPreviewGifts_many">%d gifts</string>
   <string name="Gift2SoldOutCount_zero">all %d gifts were already sold.</string>
   <string name="Gift2SoldOutCount_two">all %d gifts were already sold.</string>
   <string name="Gift2SoldOutCount_few">all %d gifts were already sold.</string>
