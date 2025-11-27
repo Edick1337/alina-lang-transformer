@@ -6017,7 +6017,7 @@
     <string name="LiteOptionsAutoplayReactions">autoplay in reaction menu</string>
     <string name="LiteOptionsStickers">animated stickers</string>
     <string name="LiteOptionsEmoji">animated emoji</string>
-    <string name="LiteOptionsChat">animations in chats</string>
+    <string name="LiteOptionsChat">effects in chats</string>
     <string name="LiteOptionsBackground">wallpaper rotation</string>
     <string name="LiteOptionsTopics">side menu in topics</string>
     <string name="LiteOptionsSpoiler">animated spoiler effect</string>
