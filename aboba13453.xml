@@ -9306,7 +9306,7 @@
     <string name="AccountFrozenBottomSubtitle">tap to view details</string>
     <string name="AccountFrozenTitle">your account is frozen</string>
     <string name="AccountFrozen1Title">violation of terms</string>
-    <string name="AccountFrozen1Text">your account was frozen for breaking telegram&#8217;s terms and conditions.</string>
+    <string name="AccountFrozen1Text">your account was frozen for violating telegram&#8217;s terms of service.</string>
     <string name="AccountFrozen2Title">read-only mode</string>
     <string name="AccountFrozen2Text">you can access your account but can&#8217;t send messages or take actions.</string>
     <string name="AccountFrozen3Title">appeal before deactivation</string>
