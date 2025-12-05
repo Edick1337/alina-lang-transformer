@@ -8629,7 +8629,7 @@
     <string name="Gift2AuctionBidStatusWinning2">you\'re winning %s</string>
     <string name="Gift2AuctionLearnMore2">learn more about telegram gifts &gt;</string>
     <string name="Gift2AuctionLearnMore3">learn more about wearing gifts &gt;</string>
-    <string name="Gift2WearingHint">you can upgrade your gift for free, sell it on\nthe market, or set it as your profile cover.</string>
+    <string name="Gift2WearingHint">you can upgrade your gift for free, sell it to\nother users or set it as your profile cover.</string>
     <string name="Gift2AuctionVariants">view %1$s %2$s variants &gt;</string>
 
     <string name="Gift2AuctionBidInfoMinimumBid">minimum bid</string>
@@ -10086,7 +10086,7 @@
     <string name="PasskeyFeature1Title">create a passkey</string>
     <string name="PasskeyFeature1Subtitle">make a passkey to sign in easily and safely.</string>
     <string name="PasskeyFeature2Title">log in with face recognition</string>
-    <string name="PasskeyFeature2Subtitle">use your face, fingerprint, or screen lock to sign in.</string>
+    <string name="PasskeyFeature2Subtitle">use your face, fingerprint, or passcode to sign in.</string>
     <string name="PasskeyFeature3Title">store passkey securely</string>
     <string name="PasskeyFeature3Subtitle">your passkey is stored safely in the cloud service you choose.</string>
     <string name="PasskeyFeatureButton">create passkey</string>
@@ -10105,16 +10105,16 @@
     <string name="GiftOfferToBuyMenu">offer to buy</string>
     <string name="GiftOfferToBuyTitle">offer to buy</string>
     <string name="GiftOfferStarsToOffer">stars to offer</string>
-    <string name="GiftOfferStarsToOfferInfo">enter the number of stars you&#8217;d like to offer for **%s**.</string>
-    <string name="GiftOfferStarsToOfferInfoIsLow">the offer is too low. the minimum offer for **%2$s** is **%1$s stars**.</string>
-    <string name="GiftOfferStarsToOfferInfoIsHigh">the offer is too high. the maximum offer for **%2$s** is **%1$s star**.</string>
+    <string name="GiftOfferStarsToOfferInfo">enter the amount of stars you&#8217;d like to offer for **%s**.</string>
+    <string name="GiftOfferStarsToOfferInfoIsLow">this offer is too low. the minimum offer for **%2$s** is **%1$s stars**.</string>
+    <string name="GiftOfferStarsToOfferInfoIsHigh">this offer is too high. the maximum offer for **%2$s** is **%1$s stars**.</string>
     <string name="GiftOfferTONToOffer">ton to offer</string>
-    <string name="GiftOfferTONToOfferInfo">enter the number of ton you&#8217;d like to offer for **%s**.</string>
-    <string name="GiftOfferTONToOfferInfoIsLow">the offer is too low. the minimum offer for **%2$s** is **%1$s ton**.</string>
-    <string name="GiftOfferTONToOfferInfoIsHigh">the offer is too high. the maximum offer for **%2$s** is **%1$s ton**.</string>
+    <string name="GiftOfferTONToOfferInfo">enter the amount of ton you&#8217;d like to offer for **%s**.</string>
+    <string name="GiftOfferTONToOfferInfoIsLow">this offer is too low. the minimum offer for **%2$s** is **%1$s ton**.</string>
+    <string name="GiftOfferTONToOfferInfoIsHigh">this offer is too high. the maximum offer for **%2$s** is **%1$s ton**.</string>
     <string name="GiftOfferDuration">offer duration</string>
-    <string name="GiftOfferDurationInfoStars">choose how long **%s** can accept your offer. when the time expires, your **stars** will be refunded.</string>
-    <string name="GiftOfferDurationInfoTON">choose how long **%s** can accept your offer. when the time expires, your **ton** will be refunded.</string>
+    <string name="GiftOfferDurationInfoStars">choose how long **%s** has to accept your offer. when it expires, your **stars** will be refunded.</string>
+    <string name="GiftOfferDurationInfoTON">choose how long **%s** has to accept your offer. when it expires, your **ton** will be refunded.</string>
     <string name="GiftOfferButtonStars">offer &#11088;&#65039;%s</string>
     <string name="GiftOfferHours_one">%d hour</string>
     <string name="GiftOfferHours_other">%d hours</string>
@@ -10132,8 +10132,8 @@
     <string name="GiftOfferAmountLower">%s lower</string>
     <string name="GiftOfferAmountHigherHint">the value of this gift is **%s higher** than the offer</string>
     <string name="GiftOfferAmountLowerHint">the value of this gift is **%s lower** than the offer</string>
-    <string name="GiftOfferAmountHigherHint2">the price you are offered is **%1$s** higher\nthan the average price for %2$s</string>
-    <string name="GiftOfferAmountLowerHint2">the price you are offered is **%1$s** lower\nthan the average price for %2$s</string>
+    <string name="GiftOfferAmountHigherHint2">the price of this offer is **%1$s** higher\nthan the average price for %2$s</string>
+    <string name="GiftOfferAmountLowerHint2">the price of this offer is **%1$s** lower\nthan the average price for %2$s</string>
     <string name="GiftOfferStatusRejected">this offer was rejected.</string>
     <string name="GiftOfferStatusAccepted">this offer was accepted.</string>
     <string name="GiftOfferStatusExpired">this offer has expired.</string>
@@ -10152,20 +10152,20 @@
     <string name="GiftOfferOfferedTextStars">**%1$s** offered you **%2$s stars** for **%3$s**.</string>
     <string name="GiftOfferOfferedTextTON">**%1$s** offered you **%2$s ton** for **%3$s**.</string>
     <string name="GiftOfferSentTitle">gift offer sent</string>
-    <string name="GiftOfferSentText">you have successfully sent offer **%1$s** for **%2$s**.</string>
+    <string name="GiftOfferSentText">you successfully sent an offer for **%1$s** to **%2$s**.</string>
     <string name="GiftOfferOfferedTextStarsRejectedOut">you rejected **%1$s\'s** offer to buy your **%3$s** for **%2$s stars**.</string>
     <string name="GiftOfferOfferedTextTONRejectedOut">you rejected **%1$s\'s** offer to buy your **%3$s** for **%2$s ton**.</string>
-    <string name="GiftOfferOfferedTextStarsRejected">**%1$s** rejected your offer. **%2$s stars** for **%3$s**.</string>
-    <string name="GiftOfferOfferedTextTONRejected">**%1$s** rejected your offer. **%2$s ton** for **%3$s**.</string>
+    <string name="GiftOfferOfferedTextStarsRejected">**%1$s** rejected your offer of **%2$s stars** for **%3$s**.</string>
+    <string name="GiftOfferOfferedTextTONRejected">**%1$s** rejected your offer of **%2$s ton** for **%3$s**.</string>
 
-    <string name="FeaturePreviewGifts">unique collectibles</string>
-    <string name="FeaturePreviewGiftsDescription">telegram gifts are collectible items you can trade or showcase on your profile.</string>
+    <string name="FeaturePreviewGifts">telegram gifts</string>
+    <string name="FeaturePreviewGiftsDescription">gifts are collectible items you can trade or showcase on your profile.</string>
     <string name="GiftsFeature1Title">unique</string>
     <string name="GiftsFeature1Text">upgrade your gifts to get a unique number, model, backdrop and symbol.</string>
-    <string name="GiftsFeature2Title">tradeable</string>
-    <string name="GiftsFeature2Text">sell your gift on telegram or on third-part nft marketplace</string>
+    <string name="GiftsFeature2Title">tradable</string>
+    <string name="GiftsFeature2Text">sell your gift on telegram or on third-party nft marketplaces</string>
     <string name="GiftsFeature3Title">wearable</string>
-    <string name="GiftsFeature3Text">display gifts on your page and set them as profile covers or statuses.</string>
+    <string name="GiftsFeature3Text">display gifts on your profile and set them as your cover or status.</string>
 
     <string name="GiftPreviewModels">models</string>
     <string name="GiftPreviewBackdrops">backdrops</string>
@@ -10175,7 +10175,7 @@
     <string name="GiftPreviewBackdrop">backdrop</string>
     <string name="GiftPreviewSymbol">symbol</string>
 
-    <string name="GiftPreviewCountModels_one">this collectible features **%d** unique models</string>
+    <string name="GiftPreviewCountModels_one">this collectible features **%d** unique model</string>
     <string name="GiftPreviewCountModels_other">this collectible features **%d** unique models</string>
     <string name="GiftPreviewCountBackdrops_one">this collectible features **%d** unique backdrop</string>
     <string name="GiftPreviewCountBackdrops_other">this collectible features **%d** unique backdrops</string>
@@ -10186,7 +10186,7 @@
     <string name="GiftAuctionWearInfoHeader">wear %s</string>
     <string name="GiftAuctionWearInfoText">and get these benefits:</string>
     <string name="GiftAuctionWearInfo1Header">radiant badge</string>
-    <string name="GiftAuctionWearInfo1Text">the glittering icon of this item will be displayed next to your name.</string>
+    <string name="GiftAuctionWearInfo1Text">this gift will be displayed next to your name with a glittering icon.</string>
     <string name="GiftAuctionWearInfo2Header">unique profile design</string>
     <string name="GiftAuctionWearInfo2Text">your profile page will get the color and the symbol of this item.</string>
     <string name="GiftAuctionWearInfo3Header">proof of ownership</string>
