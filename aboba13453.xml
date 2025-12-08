@@ -10086,7 +10086,7 @@
     <string name="PasskeyFeature1Title">create a passkey</string>
     <string name="PasskeyFeature1Subtitle">make a passkey to sign in easily and safely.</string>
     <string name="PasskeyFeature2Title">log in with face recognition</string>
-    <string name="PasskeyFeature2Subtitle">use your face, fingerprint, or passcode to sign in.</string>
+    <string name="PasskeyFeature2Subtitle">use your face, fingerprint or screen lock to sign in.</string>
     <string name="PasskeyFeature3Title">store passkey securely</string>
     <string name="PasskeyFeature3Subtitle">your passkey is stored safely in the cloud service you choose.</string>
     <string name="PasskeyFeatureButton">create passkey</string>
@@ -10163,7 +10163,7 @@
     <string name="GiftsFeature1Title">unique</string>
     <string name="GiftsFeature1Text">upgrade your gifts to get a unique number, model, backdrop and symbol.</string>
     <string name="GiftsFeature2Title">tradable</string>
-    <string name="GiftsFeature2Text">sell your gift on telegram or on third-party nft marketplaces</string>
+    <string name="GiftsFeature2Text">sell your gift on telegram or on third-party nft marketplaces.</string>
     <string name="GiftsFeature3Title">wearable</string>
     <string name="GiftsFeature3Text">display gifts on your profile and set them as your cover or status.</string>
 
