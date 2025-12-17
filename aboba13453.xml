@@ -10079,7 +10079,7 @@
     <string name="PasskeyTopInfo">manage your passkey, stored safely in the cloud service you choose.</string>
     <string name="PasskeyCreatedOn">created %s</string>
     <string name="PasskeyLastUsedOn">last used %s</string>
-    <string name="PasskeyAdd">add passkey</string>
+    <string name="PasskeyAdd">create passkey</string>
     <string name="PasskeyInfo">your passkey is stored securely in your password manager. **learn more &gt;**</string>
     <string name="PasskeyFeatureTitle">protect your account</string>
     <string name="PasskeyFeatureSubtitle">log in safely and keep your account secure.</string>
