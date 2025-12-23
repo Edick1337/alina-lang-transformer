@@ -9107,9 +9107,9 @@
     <string name="Gift2PrepayUpgradeTitle">make unique</string>
     <string name="Gift2PrepayUpgradeText">let %s turn this gift into a unique collectible.</string>
     <string name="Gift2UpgradeFeature1Title">unique</string>
-    <string name="Gift2UpgradeFeature1Text">get a unique number, model, backdrop and a symbol for your gift.</string>
-    <string name="Gift2PrepayUpgradeFeature1Text">%s will get a unique number, model, backdrop, and symbol for the gift.</string>
-    <string name="Gift2UpgradeFeature1TextLearn">the recipient will get a unique number, model, backdrop, and symbol for the gift.</string>
+    <string name="Gift2UpgradeFeature1Text">get a unique number, model, backdrop and symbol for your gift.</string>
+    <string name="Gift2PrepayUpgradeFeature1Text">%s will get a unique number, model, backdrop and symbol for the gift.</string>
+    <string name="Gift2UpgradeFeature1TextLearn">the recipient will get a unique number, model, backdrop and symbol for the gift.</string>
     <string name="Gift2UpgradeFeature2Title">transferable</string>
     <string name="Gift2UpgradeFeature2Text">send your upgraded gift to any of your friends on telegram.</string>
     <string name="Gift2PrepayUpgradeFeature2Text">%s will be able to send the gift to anyone on telegram.</string>
