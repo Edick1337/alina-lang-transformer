@@ -10202,9 +10202,9 @@
     <string name="GiftAuctionWearInfo1Header">radiant badge</string>
     <string name="GiftAuctionWearInfo1Text">this gift will be displayed next to your name with a glittering icon.</string>
     <string name="GiftAuctionWearInfo2Header">unique profile design</string>
-    <string name="GiftAuctionWearInfo2Text">your profile will use the color and the symbol of this item.</string>
+    <string name="GiftAuctionWearInfo2Text">your profile will use the color and the symbol of this gift.</string>
     <string name="GiftAuctionWearInfo3Header">proof of ownership</string>
-    <string name="GiftAuctionWearInfo3Text">tapping the icon of this item next to your name will show its info and owner.</string>
+    <string name="GiftAuctionWearInfo3Text">tapping the icon of this gift next to your name will show its info and owner.</string>
 
     <string name="MainTabsContacts">contacts</string>
     <string name="MainTabsCalls">calls</string>
