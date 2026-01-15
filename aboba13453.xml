@@ -4912,9 +4912,9 @@
     <string name="AccDescrSearchByUser">filter by user</string>
     <string name="AccActionTakePicture">take a picture</string>
     <string name="AccActionRecordVideo">record video</string>
-    <string name="AccSwipeForArchive">swipe down for archive</string>
+    <string name="AccSwipeForArchive">pull down for archive</string>
     <string name="AccReleaseForArchive">release for archive</string>
-    <string name="AccSwipeForGeneral">swipe down for #general</string>
+    <string name="AccSwipeForGeneral">pull down for #general</string>
     <string name="AccReleaseForGeneral">release for #general</string>
     <string name="AccDescrVideoCompressLow">smaller size</string>
     <string name="AccDescrVideoCompressHigh">higher quality</string>
