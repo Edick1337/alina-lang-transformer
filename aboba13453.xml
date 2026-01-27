@@ -179,10 +179,15 @@
     <string name="Connecting">connecting...</string>
     <string name="Connected">connected</string>
     <string name="Ping">ping: %1$d ms</string>
+    <string name="Ping2">%1$d ms ping</string>
     <string name="Checking">checking...</string>
     <string name="Available">available</string>
     <string name="Unavailable">unavailable</string>
     <string name="ConnectingToProxy">connecting to proxy</string>
+    <string name="ConnectingToProxyWithDots">connecting to proxy...</string>
+    <string name="MenuProxyTitle">proxy</string>
+    <string name="MenuProxyConnecting">connecting</string>
+    <string name="MenuProxyConnected">connected</string>
     <string name="ConnectingConnectProxy">connect proxy</string>
     <string name="Updating">updating...</string>
     <string name="NewSecretChat">new secret chat</string>
@@ -240,6 +245,7 @@
     <string name="ChatsArchived">chats archived.</string>
     <string name="ChatArchivedInfo">swipe left on the archive to hide it.</string>
     <string name="Undo">undo</string>
+    <string name="UndoNoCaps">undo</string>
     <string name="ClearHistoryCache">delete from cache</string>
     <string name="DeleteChat">delete and leave</string>
     <string name="HideOnTop">hide</string>
@@ -270,6 +276,7 @@
     <string name="SearchMessagesIn">messages in %s</string>
     <string name="Search">search</string>
     <string name="SearchContacts">search contacts</string>
+    <string name="SearchPeopleByUsername">search people by username</string>
     <string name="SearchChats">search chats</string>
     <string name="SearchTopics">search topics</string>
     <string name="MuteNotifications">mute forever</string>
@@ -428,6 +435,8 @@
     <string name="SetAsAdmin">promote to admin</string>
     <string name="EditAdminRights">edit admin rights</string>
     <string name="DeleteMega">delete group</string>
+    <string name="DeleteMegaForAll">delete group for all</string>
+    <string name="DeleteChannelForAll2">delete channel for all</string>
     <string name="LeaveMegaMenu">leave group</string>
     <string name="LeaveConversationMenu">leave conversation</string>
     <string name="DeleteMegaMenu">delete group</string>
@@ -1220,6 +1229,7 @@
     <string name="TypeMessageIn">message in %1$s</string>
     <string name="TypeMessageForStars">message for &#11088;&#65039;%s</string>
     <string name="ShareMyPhone">share my phone number</string>
+    <string name="ShareMyPhoneNoCaps">share my phone number</string>
     <string name="ShareMyContactInfo">share my contact</string>
     <string name="AddToContacts">add to contacts</string>
     <string name="EncryptedPlaceholderTitleIncoming">%s invited you to join a secret chat.</string>
@@ -1548,6 +1558,7 @@
     <string name="NoReplies">no replies here yet...</string>
     <string name="ViewInChat">view in chat</string>
     <string name="SendAnonymously">send anonymously</string>
+    <string name="SendBotNoThread">off-thread message</string>
     <string name="DiscussionStarted">discussion started</string>
     <string name="ViewThread">view thread</string>
     <string name="ChooseDate">choose date</string>
@@ -1806,9 +1817,11 @@
     <string name="SortedByLastSeen">sorted by last seen time</string>
     <string name="AddContactByPhone">add %1$s</string>
     <string name="PhoneNumberSearch">phone number</string>
-    <string name="NoContactsYet2">you have no contacts\non telegram yet</string>
-    <string name="NoContactsYet2Sub">invite friends to try telegram or search\npeople by username.</string>
     <string name="NoContactsYet2Invite">invite friends &gt;</string>
+
+    <string name="NoContactsYet3">add contacts</string>
+    <string name="NoContactsYet3Sub">you have no contacts on telegram yet. how about adding them?</string>
+
     <string name="NewContactAlertTitle">new contact</string>
     <string name="NewContactAlertMessage">the phone number **%1$s** is not in your contacts. do you want to add it?</string>
     <string name="NewContactAlertButton">add contact</string>
@@ -2351,7 +2364,6 @@
     <string name="Languages_other">%1$d languages</string>
     <string name="ChooseLanguages">choose languages</string>
     <string name="TranslateMessagesInfo1">the &#8216;translate&#8217; button will appear when you make a single tap on a text message.</string>
-    <string name="TranslateMessagesInfo2">google may have access to the text of messages you translate.</string>
     <string name="Language">language</string>
     <string name="LanguageCustom">custom</string>
     <string name="LanguageTitle">change language?</string>
@@ -2563,6 +2575,7 @@
     <string name="DeleteProxyTitle">delete proxy</string>
     <string name="DeleteProxyConfirm">are you sure you want to delete this proxy?</string>
     <string name="DeleteProxyMultiConfirm">are you sure you want to delete these proxies?</string>
+    <string name="UseProxyTitle">proxy server</string>
     <string name="UseProxySettings">use proxy</string>
     <string name="UseProxyAddress">server</string>
     <string name="UseProxyPassword">password</string>
@@ -4089,6 +4102,7 @@
     <string name="VoipRingtoneInfo">you can customize the ringtone used when this contact calls you on telegram.</string>
     <string name="Calls">calls</string>
     <string name="DeleteAllCalls">delete all calls</string>
+    <string name="HideCallTab">hide call tab</string>
     <string name="DeleteCalls">delete calls</string>
     <string name="DeleteCallsForEveryone">delete for everyone</string>
     <string name="DeleteAllCallsText">do you want to delete all recent calls?</string>
@@ -4179,6 +4193,7 @@
     <string name="RateCallVideoDistorted">video was distorted</string>
     <string name="RateCallVideoPixelated">video was pixelated</string>
     <string name="TapToTurnCamera">tap here to turn on your camera</string>
+    <string name="TapToHideCallsTab">tap here to hide **calls** tab</string>
     <string name="VoipUnmute">unmute</string>
     <string name="VoipHoldAndTalk">or hold and speak\n</string>
     <string name="VoipTapToMute">you\'re live</string>
@@ -4322,8 +4337,8 @@
     <string name="VoipChannelTitle">live stream title</string>
     <string name="VoipGroupInviteCanSpeak">can speak</string>
     <string name="VoipGroupInviteListenOnly">listen only</string>
-    <string name="VoipGroupCopySpeakerLink">copy speaker link</string>
-    <string name="VoipGroupCopyListenLink">copy listener link</string>
+    <string name="VoipGroupCopySpeakerLinkNoCaps">copy speaker link</string>
+    <string name="VoipGroupCopyListenLinkNoCaps">copy listener link</string>
     <string name="VoipGroupYouCanNowSpeak">you can now speak.</string>
     <string name="VoipGroupYouCanNowSpeakIn">you can now speak in **%1$s**.</string>
     <string name="VoipGroupStopRecordingTitle">stop recording</string>
@@ -4384,6 +4399,7 @@
     <string name="VoipChannelChatJoined">**%1$s** joined the live stream.</string>
     <string name="VoipChatActiveChats">active video chats</string>
     <string name="VoipChatRecentCalls">recent calls</string>
+    <string name="RecentCalls">recent calls</string>
     <string name="VoipChatStartScreenCapture">share screen</string>
     <string name="VoipChatStopScreenCapture">stop sharing screen</string>
     <string name="ThisIsYou">this is you</string>
@@ -6078,7 +6094,10 @@
     <string name="AccDescrRateTranscriptionUp">rate up</string>
     <string name="AccDescrRateTranscriptionDown">rate down</string>
     <string name="PauseMusicOnMedia">pause music while playing media</string>
+    <string name="ProxyBottomSheetCheckStatus">**check status**</string>
     <string name="ProxyBottomSheetChecking">checking</string>
+    <string name="ProxyBottomSheetCheckWarning">warning</string>
+    <string name="ProxyBottomSheetCheckWarningText">this will expose your ip address to the admin of the proxy server.</string>
     <string name="LoginCantAccessThisEmail">can\'t access this email?</string>
     <string name="LoginEmailResetInTime">email will be reset in %1$s.\n*reset now via sms*</string>
     <string name="LoginEmailResetInSinglePattern">%1$s</string>
@@ -7459,7 +7478,7 @@
     <string name="MessageLockedStarsConfirmMessageDontAsk">don\'t ask me again</string>
     <string name="MessageLockedStarsConfirmMessagePay_one">pay for %d message</string>
     <string name="MessageLockedStarsConfirmMessagePay_other">pay for %d messages</string>
-    <string name="MessageLockedStarsRemoveFee">%1$s must pay &#11088;&#65039; %2$s for each message to you.\n**remove fee**</string>
+    <string name="MessageLockedStarsRemoveFeeShort">%1$s pays &#11088;&#65039; %2$s for each message to you.\n**remove fee**</string>
     <string name="RemoveMessageFeeTitle">remove fee</string>
     <string name="RemoveMessageFeeMessage">are you sure you want to allow **%s** to message you for free?</string>
     <string name="RemoveMessageFeeMessageChannel">do you want to allow **%s** to message the channel for free?</string>
@@ -9415,6 +9434,9 @@
     <string name="GroupCallCreateVoice">voice</string>
     <string name="GroupCallCreateVideo">video</string>
     <string name="GroupCallCreate2">create new call</string>
+    <string name="GroupCallShowInMainTabs">show calls tab</string>
+    <string name="GroupCallTabWasShownTitle">**calls** tab is now visible</string>
+    <string name="GroupCallTabWasHiddenTitle">**calls** tab is now hidden</string>
     <string name="GroupCalMessageDecryptionError">unsupported message</string>
     <string name="GroupCallCreateInfo_one">you can add up to %d participant to a call.</string>
     <string name="GroupCallCreateInfo_other">you can add up to %d participants to a call.</string>
@@ -9879,6 +9901,7 @@
     <string name="ProfileActionsAddStory">add story</string>
     <string name="ProfileActionsStop">stop</string>
     <string name="ProfileActionsEditPhoto">set profile</string>
+    <string name="ProfileActionsEditPhoto2">set photo</string>
     <string name="ProfileActionsEditUsername">username</string>
     <string name="ProfileActionsEditInfo">edit info</string>
     <string name="PersonalChannel">personal channel</string>
@@ -10192,6 +10215,10 @@
     <string name="GiftPreviewSymbol">symbol</string>
     <string name="GiftPreviewCountModels_one">this collectible features **%d** unique model</string>
     <string name="GiftPreviewCountModels_other">this collectible features **%d** unique models</string>
+    <string name="GiftPreviewCountModelsCrafting_one">this collectible features **%d** crafted models.</string>
+    <string name="GiftPreviewCountModelsCrafting_other">this collectible features **%d** crafted models.</string>
+    <string name="GiftPreviewCountModelsCrafting2_one">this collectible features **%d** regular models you can craft from.</string>
+    <string name="GiftPreviewCountModelsCrafting2_other">this collectible features **%d** regular models you can craft from.</string>
     <string name="GiftPreviewCountBackdrops_one">this collectible features **%d** unique backdrop</string>
     <string name="GiftPreviewCountBackdrops_other">this collectible features **%d** unique backdrops</string>
     <string name="GiftPreviewCountSymbols_one">this collectible features **%d** unique symbol</string>
@@ -10210,6 +10237,9 @@
     <string name="MainTabsCalls">calls</string>
     <string name="MainTabsChats">chats</string>
     <string name="MainTabsProfile">profile</string>
+    <string name="MainTabsSettings">settings</string>
+    <string name="SwitchThemeToDay">day mode</string>
+    <string name="SwitchThemeToNight">night mode</string>
 
     <string name="SettingsAccount">account</string>
     <string name="SettingsAccounts">accounts</string>
@@ -10229,6 +10259,10 @@
     <string name="SettingsPowerSaving">power saving</string>
     <string name="SettingsPowerSavingInfo">reduce power usage on low charge</string>
     <string name="SettingsLanguage">language</string>
+    <string name="AddAccountInfo1_one">you can add %d additional account.</string>
+    <string name="AddAccountInfo1_other">you can add %d additional accounts.</string>
+    <string name="AddAccountInfo2_one">subscribe to **telegram premium** to use up to %d account.</string>
+    <string name="AddAccountInfo2_other">subscribe to **telegram premium** to use up to %d accounts.</string>
 
     <string name="CocoonPoweredBy">translations are powered by\n**&#129370; cocoon**.</string>
     <string name="CocoonPoweredByLink">**how does it work?**</string>
@@ -10245,6 +10279,8 @@
     <string name="CocoonFooterLink">https://t.me/cocoon?direct</string>
     <string name="SummaryTitle">ai summary</string>
     <string name="SummarySubtitle">tap to see original text</string>
+    <string name="SummaryLimit">summarize large messages with ai &#8212; unlimited in telegram premium.</string>
+    <string name="SummaryLimitUpgrade">upgrade</string>
 
     <string name="StakeDiceTitle">emoji stake</string>
     <string name="StakeDiceTitleBeta">beta</string>
@@ -10259,6 +10295,25 @@
     <string name="StakeDiceActionYouLost">you lost &#128142; %s</string>
     <string name="StakeDiceActionWon">un1 won &#128142; %s</string>
     <string name="StakeDiceActionLost">un1 lost &#128142; %s</string>
+
+    <string name="AlertLeaveNewOwner">if you leave, **%s** will become its new owner in **1 week**.</string>
+    <string name="AlertLeaveAppointAnotherOwner">appoint another owner</string>
+    <string name="AlertLeaveAppointAnotherOwnerTitle">appoint another owner</string>
+
+    <string name="BotAuthTitle">log in to **%s**</string>
+    <string name="BotAuthSiteSubtitle">this site will receive your **name**,\n**username** and **profile photo**.</string>
+    <string name="BotAuthBotSubtitle">this bot will receive your **name**,\n**username** and **profile photo**.</string>
+    <string name="BotAuthBasedOnIP">based on the ip (%s)</string>
+    <string name="BotAuthInfo">this login attempt came from the device above.</string>
+    <string name="BotAuthAllowMessages">allow messages</string>
+    <string name="BotAuthAllowMessagesInfo">this will allow %s to message you.</string>
+    <string name="BotAuthPhoneNumber">phone number</string>
+    <string name="BotAuthPhoneNumberText">**%1$s** wants to access your phone number **%2$s**.\n\nallow access?</string>
+    <string name="BotAuthPhoneNumberDeny">deny</string>
+    <string name="BotAuthPhoneNumberAccept">allow</string>
+    <string name="BotAuthLogin">log in</string>
+    <string name="BotAuthLoggedInSuccess">you\'ve successfully logged into **%s**.</string>
+
 
   
 
@@ -10361,6 +10416,14 @@
   <string name="ActionUniqueGiftResaleSoldOutbound_two">you sold this gift for %d stars</string>
   <string name="ActionUniqueGiftResaleSoldOutbound_few">you sold this gift for %d stars</string>
   <string name="ActionUniqueGiftResaleSoldOutbound_many">you sold this gift for %d stars</string>
+  <string name="AddAccountInfo1_zero">you can add %d additional accounts.</string>
+  <string name="AddAccountInfo1_two">you can add %d additional accounts.</string>
+  <string name="AddAccountInfo1_few">you can add %d additional accounts.</string>
+  <string name="AddAccountInfo1_many">you can add %d additional accounts.</string>
+  <string name="AddAccountInfo2_zero">subscribe to **telegram premium** to use up to %d accounts.</string>
+  <string name="AddAccountInfo2_two">subscribe to **telegram premium** to use up to %d accounts.</string>
+  <string name="AddAccountInfo2_few">subscribe to **telegram premium** to use up to %d accounts.</string>
+  <string name="AddAccountInfo2_many">subscribe to **telegram premium** to use up to %d accounts.</string>
   <string name="AddContactChat">add contact</string>
   <string name="AddContactFullChat">add %1$s to contacts</string>
   <string name="AddEmojiMultipleInstalledInfo_zero">%1$d packs have been added to your emoji.</string>
@@ -11939,6 +12002,14 @@
   <string name="GiftPreviewCountModels_two">this collectible features **%d** unique models</string>
   <string name="GiftPreviewCountModels_few">this collectible features **%d** unique models</string>
   <string name="GiftPreviewCountModels_many">this collectible features **%d** unique models</string>
+  <string name="GiftPreviewCountModelsCrafting_zero">this collectible features **%d** crafted models.</string>
+  <string name="GiftPreviewCountModelsCrafting_two">this collectible features **%d** crafted models.</string>
+  <string name="GiftPreviewCountModelsCrafting_few">this collectible features **%d** crafted models.</string>
+  <string name="GiftPreviewCountModelsCrafting_many">this collectible features **%d** crafted models.</string>
+  <string name="GiftPreviewCountModelsCrafting2_zero">this collectible features **%d** regular models you can craft from.</string>
+  <string name="GiftPreviewCountModelsCrafting2_two">this collectible features **%d** regular models you can craft from.</string>
+  <string name="GiftPreviewCountModelsCrafting2_few">this collectible features **%d** regular models you can craft from.</string>
+  <string name="GiftPreviewCountModelsCrafting2_many">this collectible features **%d** regular models you can craft from.</string>
   <string name="GiftPreviewCountSymbols_zero">this collectible features **%d** unique symbols</string>
   <string name="GiftPreviewCountSymbols_two">this collectible features **%d** unique symbols</string>
   <string name="GiftPreviewCountSymbols_few">this collectible features **%d** unique symbols</string>
@@ -12257,6 +12328,7 @@
   <string name="MessageLockedStarsConfirmMessagePay_two">pay for %d messages</string>
   <string name="MessageLockedStarsConfirmMessagePay_few">pay for %d messages</string>
   <string name="MessageLockedStarsConfirmMessagePay_many">pay for %d messages</string>
+  <string name="MessageLockedStarsRemoveFee">%1$s must pay &#11088;&#65039; %2$s for each message to you.\n**remove fee**</string>
   <string name="MessageNotifications">message notifications</string>
   <string name="MessagePlayed_zero">%1$d played</string>
   <string name="MessagePlayed_two">%1$d played</string>
@@ -12383,6 +12455,8 @@
   <string name="NoBlockedUsers">no removed users</string>
   <string name="NoCallLog">no calls here yet...</string>
   <string name="NoContactsYet">you have no contacts on telegram yet</string>
+  <string name="NoContactsYet2">you have no contacts\non telegram yet</string>
+  <string name="NoContactsYet2Sub">invite friends to try telegram or search\npeople by username.</string>
   <string name="NoContactsYetLine1">invite friends to try telegram</string>
   <string name="NoContactsYetLine2">find people nearby to chat with</string>
   <string name="NoContactsYetLine3">search people by username</string>
@@ -13579,6 +13653,7 @@
   <string name="TranslateLanguageUK">ukrainian</string>
   <string name="TranslateLanguageUZ">uzbek</string>
   <string name="TranslateLanguageZH">chinese</string>
+  <string name="TranslateMessagesInfo2">google may have access to the text of messages you translate.</string>
   <string name="TranslateMore">translate more...</string>
   <string name="TypeScheduleMessage">schedule message</string>
   <string name="Unban">unban</string>
@@ -13714,6 +13789,8 @@
   <string name="VoipChannelStartRecordingRtmpVideoText">do you want to start recording this live stream and save the result into a video file?</string>
   <string name="VoipGroupBioEditTitle">bio</string>
   <string name="VoipGroupCancelReminder">cancel reminder</string>
+  <string name="VoipGroupCopyListenLink">copy listener link</string>
+  <string name="VoipGroupCopySpeakerLink">copy speaker link</string>
   <string name="VoipGroupEndedStartNew">video chat ended. start a new one?</string>
   <string name="VoipGroupInvitedToVoiceChat">un1 invited un2 to the video chat</string>
   <string name="VoipGroupJoinCall">join video chat</string>
