@@ -10279,7 +10279,7 @@
     <string name="CocoonFooterLink">https://t.me/cocoon?direct</string>
     <string name="SummaryTitle">ai summary</string>
     <string name="SummarySubtitle">tap to see original text</string>
-    <string name="SummaryLimit">summarize large messages with ai &#8212; unlimited in telegram premium.</string>
+    <string name="SummaryLimit">summarize large messages with ai &#8212; unlimited with telegram premium.</string>
     <string name="SummaryLimitUpgrade">upgrade</string>
 
     <string name="StakeDiceTitle">emoji stake</string>
