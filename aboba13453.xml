@@ -236,6 +236,8 @@
     <string name="ChatDeletedUndo">chat deleted.</string>
     <string name="GroupDeletedUndo">group deleted</string>
     <string name="ChannelDeletedUndo">channel deleted.</string>
+    <string name="GroupLeftUndo">you left the group.</string>
+    <string name="ChannelLeftUndo">you left the channel.</string>
     <string name="MonoforumDeletedUndo">removed from your chat list.</string>
     <string name="ArchivePinned">archive pinned</string>
     <string name="ArchivePinnedInfo">swipe left on the archive to hide it.</string>
@@ -437,6 +439,7 @@
     <string name="DeleteMega">delete group</string>
     <string name="DeleteMegaForAll">delete group for all</string>
     <string name="DeleteChannelForAll2">delete channel for all</string>
+    <string name="LeaveMega">leave group</string>
     <string name="LeaveMegaMenu">leave group</string>
     <string name="LeaveConversationMenu">leave conversation</string>
     <string name="DeleteMegaMenu">delete group</string>
@@ -581,6 +584,7 @@
     <string name="ActionUniqueGiftTransferService">**un1** transferred a gift to **un2**!</string>
     <string name="ActionUniqueGiftTransferOutbound">you transferred a gift to **un1**</string>
     <string name="ActionUniqueGiftTransferOutboundAssigned">you added %s to your profile.</string>
+    <string name="ActionUniqueGiftCrafted">you crafted a new gift!</string>
     <string name="ActionUniqueGiftResaleService_one">**un1** sent a gift to **un2** for %d star!</string>
     <string name="ActionUniqueGiftResaleService_other">**un1** sent a gift to **un2** for %d stars!</string>
     <string name="ActionUniqueGiftResaleServiceTON">**un1** sent a gift to **un2** for %s ton!</string>
@@ -1494,6 +1498,7 @@
     <string name="ViaBot">via</string>
     <string name="MessageNotFound">message doesn\'t exist</string>
     <string name="UniqueGiftNotFound">gift not found.</string>
+    <string name="UniqueGiftNotFoundBurned">gift has already been burned.</string>
     <string name="GiftAuctionNotFound">gift auction was not found</string>
     <string name="SlowModeHint">slow mode is active. you can send\nyour next message in %1$s.</string>
     <string name="TapForVideo">tap for photo, hold for video</string>
@@ -1810,7 +1815,7 @@
     <string name="NewMessageTitle">new message</string>
     <string name="InviteFriendsHelp">select contacts to invite them to telegram</string>
     <string name="InviteToTelegram">invite to telegram</string>
-    <string name="ShareTelegram">share telegram...</string>
+    <string name="ShareTelegram2">share telegram</string>
     <string name="UpdateContactsTitle">update contacts?</string>
     <string name="UpdateContactsMessage">telegram has detected many unsynced contacts, would you like to sync them now? choose \'ok\' if you\'re using your own device, sim card and google account.</string>
     <string name="SortedByName">sorted by name</string>
@@ -3765,6 +3770,8 @@
     <string name="ActionBotDocumentRentalAgreement">rental agreement</string>
     <string name="ActionBotDocumentPhone">phone number</string>
     <string name="ActionBotDocumentEmail">email address</string>
+    <string name="ActionNewCreatorPending">un1 will be the new main admin in 7 days if un2 does not return.</string>
+    <string name="ActionChangeCreator">un1 has transferred ownership of the group to un2.</string>
     <string name="UnsupportedMedia2">this message is not supported on your version of telegram. please update to the latest version.</string>
     <string name="YourVersionIsLatest">your version is up to date.</string>
     <string name="AttachPhoto">photo</string>
@@ -7841,6 +7848,7 @@
     <string name="EditProfileBio">your bio</string>
     <string name="EditProfileChannel">your channel</string>
     <string name="EditProfileChannelTitle">personal channel</string>
+    <string name="EditProfileChannelTitleAdd">add personal channel</string>
     <string name="EditProfileChannelSelect">select your channel</string>
     <string name="EditProfileChannelHide">hide channel</string>
     <string name="EditProfileChannelAdd">add</string>
@@ -8613,6 +8621,7 @@
     <string name="Gift2MessageStarsInfo">your balance is &#11088;&#65039;%s.</string>
     <string name="Gift2MessageStarsInfoTON">your balance is &#11088;&#65039;**%s**</string>
     <string name="Gift2MessageStarsInfoLink">**get more stars &gt;**</string>
+    <string name="TitleSetupProxy">set up proxy &gt;</string>
     <string name="Gift2Hide">hide my name</string>
     <string name="Gift2HideInfo">you can hide your name and message from visitors to %1$s\'s profile. %1$s will still see your name and message.</string>
     <string name="Gift2HideChannelInfo">you can hide your name and message from all visitors of this channel except its admins.</string>
@@ -8695,6 +8704,9 @@
     <string name="Gift2ActionUpgradeTitle">upgrade from</string>
     <string name="Gift2ActionUpgradeUnknownTitle">upgrade from unknown</string>
     <string name="Gift2ActionSelfTitle">saved gift</string>
+    <string name="Gift2ActionCraftedTitle">crafted gift</string>
+    <string name="Gift2ActionPurchasedTitle">purchased gift</string>
+    <string name="Gift2ActionUpgradedTitle">upgraded gift</string>
     <string name="Gift2ActionTitleInAnonymous">%s received a gift!</string>
     <string name="Gift2ActionTitleAnonymous">you received a gift!</string>
     <string name="Gift2ActionConvertRefundedText">this gift cannot be converted to stars because the payment related to it was refunded.</string>
@@ -9225,6 +9237,7 @@
     <string name="Gift2UniqueView">view</string>
     <string name="Gift2Unpack">unpack</string>
     <string name="Gift2UniqueRibbon">gift</string>
+    <string name="Gift2UniqueRibbonBurned">burned</string>
     <string name="Gift2ExportTONTitle">send via blockchain</string>
     <string name="Gift2ExportTONUnlocksIn_one">unlocks in %d day</string>
     <string name="Gift2ExportTONUnlocksIn_other">unlocks in %d days</string>
@@ -9962,6 +9975,7 @@
     <string name="GiftAuctionInfo3Text">if your bid doesn&#8217;t win after the final round, your stars will be fully refunded.</string>
     <string name="GiftTopAction">**%1$s** sent you this gift on **%2$s**</string>
     <string name="GiftSelfTopAction">you bought this gift on **%1$s**</string>
+    <string name="GiftSelfTopActionCrafted">you crafted this gift on **%1$s**</string>
     <string name="BotForumNewTopic">new chat</string>
     <string name="BotForumContinueChat">continue last thread</string>
     <string name="BotForumAskForStartNewChatTitle">new thread</string>
@@ -10296,10 +10310,6 @@
     <string name="StakeDiceActionWon">un1 won &#128142; %s</string>
     <string name="StakeDiceActionLost">un1 lost &#128142; %s</string>
 
-    <string name="AlertLeaveNewOwner">if you leave, **%s** will become its new owner in **1 week**.</string>
-    <string name="AlertLeaveAppointAnotherOwner">appoint another owner</string>
-    <string name="AlertLeaveAppointAnotherOwnerTitle">appoint another owner</string>
-
     <string name="BotAuthTitle">log in to **%s**</string>
     <string name="BotAuthSiteSubtitle">this site will receive your **name**,\n**username** and **profile photo**.</string>
     <string name="BotAuthBotSubtitle">this bot will receive your **name**,\n**username** and **profile photo**.</string>
@@ -10312,8 +10322,77 @@
     <string name="BotAuthPhoneNumberDeny">deny</string>
     <string name="BotAuthPhoneNumberAccept">allow</string>
     <string name="BotAuthLogin">log in</string>
+    <string name="BotAuthLoggedInSuccessTitle">login successful</string>
     <string name="BotAuthLoggedInSuccess">you\'ve successfully logged into **%s**.</string>
+    <string name="BotAuthLoggedInSuccessWithoutPhoneNumber">you\'re now logged in to **%s**, but you didn\'t grant access to your phone number.</string>
 
+    <string name="GalleryAccessAllowAccess">allow access to photos</string>
+    <string name="GalleryAccessAllowAccessTextNonPremium">share an unlimited number of photos\nand videos of up to 2 gb each.</string>
+    <string name="GalleryAccessAllowAccessTextPremium">share an unlimited number of photos\nand videos of up to 4 gb each.</string>
+    <string name="GalleryAccessAllowAccessButton">allow access</string>
+    <string name="GalleryAccessAllowAccessOpenCamera">open camera</string>
+    <string name="GalleryAccessAllowAccessCamera">allow access to camera</string>
+
+    <string name="GiftRarityUncommon">uncommon</string>
+    <string name="GiftRarityRare">rare</string>
+    <string name="GiftRarityEpic">epic</string>
+    <string name="GiftRarityLegendary">legendary</string>
+    <string name="GiftCraftTitle">craft gift</string>
+    <string name="GiftCraftViewAllVariants">view all craftable models &gt;</string>
+    <string name="GiftCraftButton">craft gift</string>
+    <string name="GiftCraftButtonFailed">craft new gift</string>
+    <string name="GiftCraftButtonEmpty">tap + to add your first gift</string>
+    <string name="GiftCraftSuccessChance">**%s** success chance</string>
+    <string name="GiftCraftProgressTitle">crafting</string>
+    <string name="GiftCraftProgressText">if crafting fails, all selected gifts\nwill be consumed.</string>
+    <string name="GiftCraftProgressSuccessChance">%s success chance</string>
+    <string name="GiftCraftFailedTitle">crafting failed</string>
+    <string name="GiftCraftFailedText_one">the crafting attempt was unsuccessful.\n**%d** gift was lost.</string>
+    <string name="GiftCraftFailedText_other">the crafting attempt was unsuccessful.\n**%d** gifts were lost.</string>
+    <string name="GiftCraftTextEmpty1">add up to **4** gifts to craft new</string>
+    <string name="GiftCraftTextEmpty2">**%s** gift.\n\nif crafting fails, all selected gifts\nwill be **lost**.</string>
+    <string name="GiftCraftText1">add up to **4** gifts to craft new</string>
+    <string name="GiftCraftText2">**%1$s #%2$s**.\n\nif crafting fails, all selected gifts\nwill be **lost**.</string>
+    <string name="GiftCraftSelectTitle">select gift</string>
+    <string name="GiftCraftSelectYour">your gifts</string>
+    <string name="GiftCraftSelectYourEmpty">you don\'t have other gifts\nfrom this collection.</string>
+    <string name="GiftCraftSelectResale">suitable for crafting from resale</string>
+    <string name="GiftCraftSelect_one">you need to add up to **%d gift** from\nthe same collection for crafting.</string>
+    <string name="GiftCraftSelect_other">you need to add up to **%d gifts** from\nthe same collection for crafting.</string>
+    <string name="GiftCraftInfoTitle">gift crafting</string>
+    <string name="GiftCraftInfoText">turn your gifts into rare, epic\nand legendary versions.</string>
+    <string name="GiftCraftInfoFeature1Title">get rare models</string>
+    <string name="GiftCraftInfoFeature1Text">select up to 4 gifts to craft a new exclusive model.</string>
+    <string name="GiftCraftInfoFeature2Title">maximize chances</string>
+    <string name="GiftCraftInfoFeature2Text">combine more gifts to increase your odds of success.</string>
+    <string name="GiftCraftInfoFeature3Title">affect the result</string>
+    <string name="GiftCraftInfoFeature3Text">use gifts with the same attribute to boost its chance.</string>
+    <string name="GiftCraftInfoButton">start crafting</string>
+    <string name="GiftCraftLaterTitle">try later</string>
+    <string name="GiftCraftLaterText">you will be able to craft this gift on %s.</string>
+    <string name="GiftCrafted">crafted</string>
+    <string name="GiftCraft">craft</string>
+    <string name="GiftCraftUnavailableTitle">crafting unavailable</string>
+    <string name="GiftCraftUnavailableText">these gifts currently can\'t be crafted.</string>
+    <string name="GiftCraftUnavailableTextTime">this gift will become available for crafting on **%s**.</string>
+    <string name="GiftCraftSymbolChance_one">**%1$d%%** chance the crafted gift will have **%2$s** symbol.</string>
+    <string name="GiftCraftSymbolChance_other">**%1$d%%** chance the crafted gift will have **%2$s** symbol.</string>
+    <string name="GiftCraftBackdropChance_one">**%1$d%%** chance the crafted gift will have **%2$s** background.</string>
+    <string name="GiftCraftBackdropChance_other">**%1$d%%** chance the crafted gift will have **%2$s** background.</string>
+    <string name="GiftOnSale">on sale for %s</string>
+
+    <string name="LeaveGroupTitle">leave group?</string>
+    <string name="LeaveChannelTitle">leave channel?</string>
+    <string name="LeaveGroupNewOwnerText">if you leave, **%1$s** will become the new owner of **%2$s** in **1 week**.</string>
+    <string name="LeaveChannelNewOwnerText">if you leave, **%1$s** will become the new owner of **%2$s** in **1 week**.</string>
+    <string name="AppointNewOwner">appoint another owner</string>
+    <string name="LeaveGroupAndAppoint">appoint %s and leave group</string>
+    <string name="LeaveChannelAndAppoint">appoint %s and leave channel</string>
+    <string name="GroupAdmins">group admins</string>
+    <string name="GroupMembers2">group members</string>
+    <string name="ChannelAdmins">channel admins</string>
+    <string name="ChannelSubscribers2">channel subscribers</string>
+    <string name="MembersSearch">search people</string>
 
   
 
@@ -10471,6 +10550,9 @@
   <string name="AddedSubscribersToChannel_two">**%d subscribers** added to the channel</string>
   <string name="AddedSubscribersToChannel_few">**%d subscribers** added to the channel</string>
   <string name="AddedSubscribersToChannel_many">**%d subscribers** added to the channel</string>
+  <string name="AlertLeaveAppointAnotherOwner">appoint another owner</string>
+  <string name="AlertLeaveAppointAnotherOwnerTitle">appoint another owner</string>
+  <string name="AlertLeaveNewOwner">if you leave, **%s** will become its new owner in **1 week**.</string>
   <string name="AllNMedia_zero">all %1$d media</string>
   <string name="AllNMedia_two">all %1$d media</string>
   <string name="AllNMedia_few">all %1$d media</string>
@@ -11969,6 +12051,22 @@
   <string name="GiftCollectionSharedToManyChats_two">gift collection forwarded to **%1$d chats**.</string>
   <string name="GiftCollectionSharedToManyChats_few">gift collection forwarded to **%1$d chats**.</string>
   <string name="GiftCollectionSharedToManyChats_many">gift collection forwarded to **%1$d chats**.</string>
+  <string name="GiftCraftBackdropChance_zero">**%1$d%%** chance the crafted gift will have **%2$s** background.</string>
+  <string name="GiftCraftBackdropChance_two">**%1$d%%** chance the crafted gift will have **%2$s** background.</string>
+  <string name="GiftCraftBackdropChance_few">**%1$d%%** chance the crafted gift will have **%2$s** background.</string>
+  <string name="GiftCraftBackdropChance_many">**%1$d%%** chance the crafted gift will have **%2$s** background.</string>
+  <string name="GiftCraftFailedText_zero">the crafting attempt was unsuccessful.\n**%d** gifts were lost.</string>
+  <string name="GiftCraftFailedText_two">the crafting attempt was unsuccessful.\n**%d** gifts were lost.</string>
+  <string name="GiftCraftFailedText_few">the crafting attempt was unsuccessful.\n**%d** gifts were lost.</string>
+  <string name="GiftCraftFailedText_many">the crafting attempt was unsuccessful.\n**%d** gifts were lost.</string>
+  <string name="GiftCraftSelect_zero">you need to add up to **%d gifts** from\nthe same collection for crafting.</string>
+  <string name="GiftCraftSelect_two">you need to add up to **%d gifts** from\nthe same collection for crafting.</string>
+  <string name="GiftCraftSelect_few">you need to add up to **%d gifts** from\nthe same collection for crafting.</string>
+  <string name="GiftCraftSelect_many">you need to add up to **%d gifts** from\nthe same collection for crafting.</string>
+  <string name="GiftCraftSymbolChance_zero">**%1$d%%** chance the crafted gift will have **%2$s** symbol.</string>
+  <string name="GiftCraftSymbolChance_two">**%1$d%%** chance the crafted gift will have **%2$s** symbol.</string>
+  <string name="GiftCraftSymbolChance_few">**%1$d%%** chance the crafted gift will have **%2$s** symbol.</string>
+  <string name="GiftCraftSymbolChance_many">**%1$d%%** chance the crafted gift will have **%2$s** symbol.</string>
   <string name="GiftMonths_zero">%1$d-months</string>
   <string name="GiftMonths_two">%1$d-months</string>
   <string name="GiftMonths_few">%1$d-months</string>
@@ -13020,6 +13118,7 @@
   <string name="SetBackgroundFromGallery">set wallpaper from gallery</string>
   <string name="SetProfilePhotoAvatarConstructor">set profile photo</string>
   <string name="SetProfileVideo">set as profile photo</string>
+  <string name="ShareTelegram">share telegram...</string>
   <string name="ShareVideo">share camera video</string>
   <string name="Shared_zero">%1$s shared</string>
   <string name="Shared_two">%1$s shared</string>
