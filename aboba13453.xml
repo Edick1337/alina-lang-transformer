@@ -722,6 +722,7 @@
     <string name="Gift2TransferToTONAlertText3">please come back later.</string>
     <string name="Gift2TransferToTONSetPassword">set password</string>
     <string name="EditAdminTransferReadyAlertText">this will transfer **full owner rights** for **%1$s** to **%2$s**. the new owner will be free to remove any of your admin privileges or even ban you.</string>
+    <string name="EditAdminTransferReadyAlertText2">this will transfer the full **owner rights** for **%1$s** to **%2$s**.</string>
     <string name="EditAdminTransferChangeOwner">change owner</string>
     <string name="EditAdminTransferGroupToast">**%1$s** is now the owner of the group.</string>
     <string name="EditAdminTransferChannelToast">**%1$s** is now the owner of the channel.</string>
@@ -9774,6 +9775,7 @@
     <string name="TodoCheck">check</string>
     <string name="TodoUncheck">uncheck</string>
     <string name="Gift2ReleasedBy">released by **%s**</string>
+    <string name="Gift2ReleasedBy2">by **%s**</string>
     <string name="Gift2ActionReleasedBy">released by **%s**</string>
     <string name="StoriesRemoveFromRecent">remove from recent</string>
     <string name="TodoItemQuote">reply to item</string>
@@ -10229,8 +10231,8 @@
     <string name="GiftPreviewSymbol">symbol</string>
     <string name="GiftPreviewCountModels_one">this collection features **%d** unique model</string>
     <string name="GiftPreviewCountModels_other">this collection features **%d** unique models</string>
-    <string name="GiftPreviewCountModelsCrafting_one">this collection features **%d** crafted model.</string>
-    <string name="GiftPreviewCountModelsCrafting_other">this collection features **%d** crafted models.</string>
+    <string name="GiftPreviewCountModelsCrafting_one">this collection features **%d** craftable model.</string>
+    <string name="GiftPreviewCountModelsCrafting_other">this collection features **%d** craftable models.</string>
     <string name="GiftPreviewCountModelsCrafting2_one">this collection features **%d** regular model you can craft from.</string>
     <string name="GiftPreviewCountModelsCrafting2_other">this collection features **%d** regular models you can craft from.</string>
     <string name="GiftPreviewCountBackdrops_one">this collection features **%d** unique backdrop</string>
@@ -10341,6 +10343,7 @@
     <string name="GiftCraftViewAllVariants">view all craftable models &gt;</string>
     <string name="GiftCraftButton">craft gift</string>
     <string name="GiftCraftButtonFailed">craft new gift</string>
+    <string name="GiftCraftButtonNext">craft new gift</string>
     <string name="GiftCraftButtonEmpty">tap + to add your first gift</string>
     <string name="GiftCraftSuccessChance">**%s** success chance</string>
     <string name="GiftCraftProgressTitle">crafting</string>
@@ -12100,10 +12103,10 @@
   <string name="GiftPreviewCountModels_two">this collection features **%d** unique models</string>
   <string name="GiftPreviewCountModels_few">this collection features **%d** unique models</string>
   <string name="GiftPreviewCountModels_many">this collection features **%d** unique models</string>
-  <string name="GiftPreviewCountModelsCrafting_zero">this collection features **%d** crafted models.</string>
-  <string name="GiftPreviewCountModelsCrafting_two">this collection features **%d** crafted models.</string>
-  <string name="GiftPreviewCountModelsCrafting_few">this collection features **%d** crafted models.</string>
-  <string name="GiftPreviewCountModelsCrafting_many">this collection features **%d** crafted models.</string>
+  <string name="GiftPreviewCountModelsCrafting_zero">this collection features **%d** craftable models.</string>
+  <string name="GiftPreviewCountModelsCrafting_two">this collection features **%d** craftable models.</string>
+  <string name="GiftPreviewCountModelsCrafting_few">this collection features **%d** craftable models.</string>
+  <string name="GiftPreviewCountModelsCrafting_many">this collection features **%d** craftable models.</string>
   <string name="GiftPreviewCountModelsCrafting2_zero">this collection features **%d** regular models you can craft from.</string>
   <string name="GiftPreviewCountModelsCrafting2_two">this collection features **%d** regular models you can craft from.</string>
   <string name="GiftPreviewCountModelsCrafting2_few">this collection features **%d** regular models you can craft from.</string>
