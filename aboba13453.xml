@@ -3771,7 +3771,7 @@
     <string name="ActionBotDocumentRentalAgreement">rental agreement</string>
     <string name="ActionBotDocumentPhone">phone number</string>
     <string name="ActionBotDocumentEmail">email address</string>
-    <string name="ActionNewCreatorPending">un1 will be the new main admin in 7 days if un2 does not return.</string>
+    <string name="ActionNewCreatorPending">un1 will become the new owner in 7 days if un2 does not return.</string>
     <string name="ActionChangeCreator">un1 has transferred ownership of the group to un2.</string>
     <string name="UnsupportedMedia2">this message is not supported on your version of telegram. please update to the latest version.</string>
     <string name="YourVersionIsLatest">your version is up to date.</string>
