@@ -10157,11 +10157,11 @@
     <string name="GiftOfferToBuyMenu">offer to buy</string>
     <string name="GiftOfferToBuyTitle">offer to buy</string>
     <string name="GiftOfferStarsToOffer">stars to offer</string>
-    <string name="GiftOfferStarsToOfferInfo">enter the amount of stars you&#8217;d like to offer for **%s**.</string>
+    <string name="GiftOfferStarsToOfferInfo">enter the amount of stars you\'d like to offer for **%s**.</string>
     <string name="GiftOfferStarsToOfferInfoIsLow">this offer is too low. the minimum offer for **%2$s** is **%1$s stars**.</string>
     <string name="GiftOfferStarsToOfferInfoIsHigh">this offer is too high. the maximum offer for **%2$s** is **%1$s stars**.</string>
     <string name="GiftOfferTONToOffer">ton to offer</string>
-    <string name="GiftOfferTONToOfferInfo">enter the amount of ton you&#8217;d like to offer for **%s**.</string>
+    <string name="GiftOfferTONToOfferInfo">enter the amount of ton you\'d like to offer for **%s**.</string>
     <string name="GiftOfferTONToOfferInfoIsLow">this offer is too low. the minimum offer for **%2$s** is **%1$s ton**.</string>
     <string name="GiftOfferTONToOfferInfoIsHigh">this offer is too high. the maximum offer for **%2$s** is **%1$s ton**.</string>
     <string name="GiftOfferDuration">offer duration</string>
