@@ -637,7 +637,7 @@
     <string name="ChannelHideMembers">hide members</string>
     <string name="ChannelHideMembersInfo">switch on to hide the list of members in this group. admins will remain visible.</string>
     <string name="ChannelMemberTags">allow member tags</string>
-    <string name="ChannelMemberTagsInfo">turn this on to let members of the group to add short tags next to their names.</string>
+    <string name="ChannelMemberTagsInfo">turn this on to let members of the group add short tags next to their names.</string>
     <string name="ChannelAntiSpamFalsePositiveReported">telegram moderators will review your report. thank you!</string>
     <string name="ChannelMembersInfo">only channel admins can see this list.</string>
     <string name="ChannelLinkInfo">anyone who has telegram installed will be able to join your channel by following this link.</string>
@@ -2402,7 +2402,7 @@
     <string name="TelegramFeatures">telegram features</string>
     <string name="TelegramFeaturesUrl">https://t.me/telegramtips</string>
     <string name="AddAccount">add account</string>
-    <string name="SwitchAccountHint">long tap to switch accounts</string>
+    <string name="SwitchAccountHint">hold down to switch accounts</string>
     <string name="SelectAccount">select account</string>
     <string name="TelegramFaqUrl">https://telegram.org/faq</string>
     <string name="PrivacyPolicy">privacy policy</string>
@@ -3222,6 +3222,7 @@
     <string name="TapToDownload">tap to download</string>
     <string name="OpenFile">open file</string>
     <string name="ShowInChat">show in chat</string>
+    <string name="CreateSticker">create sticker</string>
     <string name="StopDownload">stop downloading</string>
     <string name="SaveToGallery">save to gallery</string>
     <string name="Of">%1$d of %2$d</string>
@@ -5025,6 +5026,8 @@
     <string name="formatterWeekLong">EEEE</string>
     <string name="formatterDay24H">HH:mm</string>
     <string name="formatterDay12H">h:mm a</string>
+    <string name="formatterDayWithSeconds24H">HH:mm:ss</string>
+    <string name="formatterDayWithSeconds12H">h:mm:ss a</string>
     <string name="formatDateAtTime">%1$s at %2$s</string>
     <string name="formatDateSchedule">MMM d</string>
     <string name="formatDateScheduleYear">MMM d yyyy</string>
@@ -10358,6 +10361,9 @@
     <string name="BotAuthSelectEmoji">tap the emoji shown\non your other device</string>
     <string name="BotAuthSelectCode">tap the code shown\non your other device</string>
     <string name="BotAuthLoginRequestFrom">login request from **%s**</string>
+    <string name="BotAuthLoggedInFailTitle">login failed</string>
+    <string name="BotAuthLoggedInFail">please try logging in to **%s** again.</string>
+    <string name="BotAuthLoggedInFailNoDomain">link has expired.</string>
 
     <string name="GalleryAccessAllowAccess">allow access to photos</string>
     <string name="GalleryAccessAllowAccessTextNonPremium">share an unlimited number of photos\nand videos of up to 2 gb each.</string>
@@ -10383,9 +10389,9 @@
     <string name="GiftCraftFailedTitle">crafting failed</string>
     <string name="GiftCraftFailedText_one">the crafting attempt was unsuccessful.\n**%d** gift was lost.</string>
     <string name="GiftCraftFailedText_other">the crafting attempt was unsuccessful.\n**%d** gifts were lost.</string>
-    <string name="GiftCraftTextEmpty1">add up to **4** gifts to craft new</string>
+    <string name="GiftCraftTextEmpty1">add up to **4** gifts to craft a new</string>
     <string name="GiftCraftTextEmpty2">**%s** gift.\n\nif crafting fails, these gifts\nwill be **lost**.</string>
-    <string name="GiftCraftText1">add up to **4** gifts to craft new</string>
+    <string name="GiftCraftText1">add up to **4** gifts to craft a new</string>
     <string name="GiftCraftText2">**%1$s #%2$s**.\n\nif crafting fails, these gifts\nwill be **lost**.</string>
     <string name="GiftCraftSelectTitle">select gift</string>
     <string name="GiftCraftSelectYour">your gifts</string>
@@ -10443,7 +10449,7 @@
     <string name="TagInfoMemberTitle">member tag</string>
     <string name="TagInfoAdminTitle">admin tag</string>
     <string name="TagInfoOwnerTitle">owner tag</string>
-    <string name="TagInfoMemberText">this grey tag un1 is **%1$s&#8217;s** member tag.\n**%1$s** is a member of **%2$s**.</string>
+    <string name="TagInfoMemberText">this gray tag un1 is **%1$s&#8217;s** member tag.\n**%1$s** is a member of **%2$s**.</string>
     <string name="TagInfoAdminText">this green tag un1 is **%1$s&#8217;s** admin tag.\n**%1$s** is an administrator of **%2$s**.</string>
     <string name="TagInfoOwnerText">this purple tag un1 is **%1$s&#8217;s** owner tag.\n**%1$s** is the owner of **%2$s**.</string>
     <string name="AddTag">add tag</string>
@@ -10462,9 +10468,9 @@
     <string name="DisableSharingInfoHeader1">no screenshots</string>
     <string name="DisableSharingInfoText1">disable screenshots and screen\nrecordings in this chat.</string>
     <string name="DisableSharingInfoHeader2">no forwarding</string>
-    <string name="DisableSharingInfoText2">disable message forwarding to other\nchats.</string>
+    <string name="DisableSharingInfoText2">disable forwarding messages to other chats.</string>
     <string name="DisableSharingInfoHeader3">no saving</string>
-    <string name="DisableSharingInfoText3">disable copying texts and saving photos\nand videos to gallery.</string>
+    <string name="DisableSharingInfoText3">disable copying text and saving photos or videos.</string>
     <string name="DisableSharingToastDisabled">sharing disabled for this chat</string>
     <string name="DisableSharingToastEnabled">sharing enabled for this chat</string>
     <string name="DisableSharingToastDisabledPending">sharing will disabled if **%s** approves it</string>
@@ -10481,14 +10487,19 @@
     <string name="DisableSharingOfferDecline">reject</string>
 
     <string name="SharingOfferEnableHeaderOther">**%s** would like to enable sharing in this chat, which includes:</string>
-    <string name="SharingOfferEnableHeaderYou">you suggest to enable sharing in this chat, which includes:</string>
+    <string name="SharingOfferEnableHeaderYou">you suggested to enable sharing in this chat, which includes:</string>
     <string name="SharingOfferEnable1">\&gt; forwarding messages</string>
     <string name="SharingOfferEnable2">\&gt; saving photos and videos</string>
     <string name="SharingOfferEnable3">\&gt; copying messages</string>
     <string name="SharingOfferEnable4">\&gt; taking screenshots</string>
 
+    <string name="SharingOfferDisableHeaderShortOther">**%s** would like to disable sharing in this chat</string>
+    <string name="SharingOfferDisableHeaderShortYou">you suggested to disable sharing in this chat</string>
+    <string name="SharingOfferEnableHeaderShortOther">**%s** would like to enable sharing in this chat</string>
+    <string name="SharingOfferEnableHeaderShortYou">you suggested to enable sharing in this chat</string>
+
     <string name="SharingOfferDisableHeaderOther">**%s** would like to disable sharing in this chat, which includes:</string>
-    <string name="SharingOfferDisableHeaderYou">you suggest to disable sharing in this chat, which includes:</string>
+    <string name="SharingOfferDisableHeaderYou">you suggested to disable sharing in this chat, which includes:</string>
     <string name="SharingOfferDisable1">\&gt; no forwarding messages</string>
     <string name="SharingOfferDisable2">\&gt; no saving photos and videos</string>
     <string name="SharingOfferDisable3">\&gt; no copying messages</string>
@@ -10502,6 +10513,11 @@
     <string name="SharingOfferEnableConfirmText">are you sure you want to enable sharing?</string>
     <string name="SharingOfferCancelYes">yes</string>
 
+    <string name="RelativeDateFormatter">%1$s %2$s %3$s</string> 
+    <string name="RelativeDateFormatterWeek">%s,</string>
+    <string name="RelativeDateFormatterDate">%s</string>
+    <string name="RelativeDateFormatterTime">at %s</string>
+    <string name="RelativeDateAddDate">add date</string>
     <string name="RelativeDateMenuCopy">copy date</string>
     <string name="RelativeDateMenuAddToACalendar">add to calendar</string>
     <string name="RelativeDateMenuSetAReminder">set a reminder</string>
