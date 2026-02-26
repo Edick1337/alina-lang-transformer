@@ -36,7 +36,7 @@
     <string name="SentAppCode">we\'ve sent the code to the **telegram** app on your other device.</string>
     <string name="SentAppCodeWithPhone">we\'ve sent the code to the **telegram app** for %1$s on your other device.</string>
     <string name="SentAppCodeTitle">check your telegram messages</string>
-    <string name="SentFragmentCode">get the code for %1$s in the anonymous numbers section on fragment.</string>
+    <string name="SentFragmentCode">get the code for %1$s in the numbers section on fragment.</string>
     <string name="SentSmsCodeTitle">enter code</string>
     <string name="OpenFragment">open fragment</string>
     <string name="SentCallCode">we\'re calling your phone **%1$s**.\n\ndon\'t accept the call. telegram will process everything automatically.</string>
@@ -725,7 +725,7 @@
     <string name="Gift2TransferToTONAlertText3">please come back later.</string>
     <string name="Gift2TransferToTONSetPassword">set password</string>
     <string name="EditAdminTransferReadyAlertText">this will transfer **full owner rights** for **%1$s** to **%2$s**. the new owner will be free to remove any of your admin privileges or even ban you.</string>
-    <string name="EditAdminTransferReadyAlertText2">this will transfer the full **owner rights** for **%1$s** to **%2$s**.</string>
+    <string name="EditAdminTransferReadyAlertText2">this will transfer full **owner rights** for **%1$s** to **%2$s**.</string>
     <string name="EditAdminTransferChangeOwner">change owner</string>
     <string name="EditAdminTransferGroupToast">**%1$s** is now the owner of the group.</string>
     <string name="EditAdminTransferChannelToast">**%1$s** is now the owner of the channel.</string>
@@ -5694,7 +5694,7 @@
     <string name="PremiumPreviewBusinessEmojiStatus">set emoji status</string>
     <string name="PremiumPreviewBusinessEmojiStatusDescription">display the current status of your business next to your name.</string>
     <string name="PremiumPreviewSharingDisable">disable sharing</string>
-    <string name="PremiumPreviewSharingDisableDescription">disable screenshots, saving and forwarding messages in private chats.</string>
+    <string name="PremiumPreviewSharingDisableDescription">prevent forwarding, saving and copying content in private chats.</string>
     <string name="MicrophoneForVoiceMessages">microphone for voice messages</string>
     <string name="MicrophoneForVoiceMessagesBuiltIn">built-in</string>
     <string name="MicrophoneForVoiceMessagesSco">headset</string>
@@ -10420,8 +10420,8 @@
     <string name="GiftCraftBackdropChance_one">**%1$d%%** chance the crafted gift will have **%2$s** backdrop.</string>
     <string name="GiftCraftBackdropChance_other">**%1$d%%** chance the crafted gift will have **%2$s** backdrop.</string>
     <string name="GiftOnSale">on sale for %s</string>
-    <string name="GiftCraftCantChooseFirstTitle">can\'t choose first</string>
-    <string name="GiftCraftCantChooseFirst">you can\'t choose this gift as first one to craft, while it stays on blockchain.</string>
+    <string name="GiftCraftCantChooseFirstTitle">can\'t choose as first</string>
+    <string name="GiftCraftCantChooseFirst">this gift can\'t be used as the first one in crafting because it has been recorded on the blockchain.</string>
 
     <string name="LeaveGroupTitle">leave group?</string>
     <string name="LeaveChannelTitle">leave channel?</string>
@@ -10449,11 +10449,11 @@
     <string name="TagInfoMemberTitle">member tag</string>
     <string name="TagInfoAdminTitle">admin tag</string>
     <string name="TagInfoOwnerTitle">owner tag</string>
-    <string name="TagInfoMemberText">this gray tag un1 is **%1$s&#8217;s** member tag.\n**%1$s** is a member of **%2$s**.</string>
-    <string name="TagInfoAdminText">this green tag un1 is **%1$s&#8217;s** admin tag.\n**%1$s** is an administrator of **%2$s**.</string>
-    <string name="TagInfoOwnerText">this purple tag un1 is **%1$s&#8217;s** owner tag.\n**%1$s** is the owner of **%2$s**.</string>
+    <string name="TagInfoMemberText">this gray tag un1 is **%1$s**\'s member tag in **%2$s**.</string>
+    <string name="TagInfoAdminText">this green tag un1 is **%1$s**\'s admin tag in **%2$s**.</string>
+    <string name="TagInfoOwnerText">this purple tag un1 is **%1$s**\'s owner tag in **%2$s**.</string>
     <string name="AddTag">add tag</string>
-    <string name="CantEditTagAdmins">only admins can set member tags in this group.</string>
+    <string name="CantEditTagAdmins">only admins can assign member tags in this group.</string>
     <string name="TagInfoButtonAddMyTag">add my tag</string>
     <string name="TagInfoButtonEditMyTag">edit my tag</string>
     <string name="TagInfoButtonAddTag">add tag</string>
@@ -10473,8 +10473,8 @@
     <string name="DisableSharingInfoText3">disable copying text and saving photos or videos.</string>
     <string name="DisableSharingToastDisabled">sharing disabled for this chat</string>
     <string name="DisableSharingToastEnabled">sharing enabled for this chat</string>
-    <string name="DisableSharingToastDisabledPending">sharing will disabled if **%s** approves it</string>
-    <string name="DisableSharingToastEnabledPending">sharing will enabled if **%s** approves it</string>
+    <string name="DisableSharingToastDisabledPending">sharing will be disabled if **%s** approves it</string>
+    <string name="DisableSharingToastEnabledPending">sharing will be enabled if **%s** approves it</string>
     <string name="DisableSharing">disable sharing</string>
     <string name="EnableSharing">enable sharing</string>
     <string name="DisableSharingActionYou">you disabled sharing in this chat</string>
@@ -10513,10 +10513,7 @@
     <string name="SharingOfferEnableConfirmText">are you sure you want to enable sharing?</string>
     <string name="SharingOfferCancelYes">yes</string>
 
-    <string name="RelativeDateFormatter">%1$s %2$s %3$s</string> 
-    <string name="RelativeDateFormatterWeek">%s,</string>
-    <string name="RelativeDateFormatterDate">%s</string>
-    <string name="RelativeDateFormatterTime">at %s</string>
+    <string name="RelativeDateFormatterWeek2">%1$s, %2$s</string>
     <string name="RelativeDateAddDate">add date</string>
     <string name="RelativeDateMenuCopy">copy date</string>
     <string name="RelativeDateMenuAddToACalendar">add to calendar</string>
