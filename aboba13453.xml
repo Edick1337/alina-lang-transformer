@@ -692,7 +692,7 @@
     <string name="ChannelSignMessagesWithProfile">show authors\' profiles</string>
     <string name="ChannelSignMessagesInfo">add names of admins to the messages they post</string>
     <string name="EditAdmin">admin rights</string>
-    <string name="EditAdminRank">custom title</string>
+    <string name="EditAdminRank">member tag</string>
     <string name="EditAdminRankInfo">a title that members will see instead of \'%1$s\'.</string>
     <string name="EditAdminWhatCanDo">what can this admin do?</string>
     <string name="EditAdminChangeChannelInfo">change channel info</string>
@@ -1100,12 +1100,12 @@
     <string name="EventLogChangedWallpaperGroup">un1 changed group wallpaper</string>
     <string name="EventLogRemovedWallpaperGroup">un1 removed group wallpaper</string>
     <string name="EventLogEmojiNone">none</string>
-    <string name="EventLogRankSelfAdd">un1 set their tag to \"%1$s\</string>
-    <string name="EventLogRankSelfEdit">un1 changed their tag from \"%1$s\" to \"%2$s\</string>
-    <string name="EventLogRankSelfRemove">un1 removed their \"%1$s\" tag</string>
-    <string name="EventLogRankAdd">un1 set un2&#8217;s tag to \"%1$s\</string>
-    <string name="EventLogRankEdit">un1 changed un2&#8217;s tag from \"%1$s\" to \"%2$s\</string>
-    <string name="EventLogRankRemove">un1 removed un2&#8217;s \"%1$s\" tag</string>
+    <string name="EventLogRankSelfAdd">un1 set their tag to &#171;%1$s&#187;</string>
+    <string name="EventLogRankSelfEdit">un1 changed their tag from &#171;%1$s&#187; to &#171;%2$s&#187;</string>
+    <string name="EventLogRankSelfRemove">un1 removed their &#171;%1$s&#187; tag</string>
+    <string name="EventLogRankAdd">un1 set un2&#8217;s tag to &#171;%1$s&#187;</string>
+    <string name="EventLogRankEdit">un1 changed un2&#8217;s tag from &#171;%1$s&#187; to &#171;%2$s&#187;</string>
+    <string name="EventLogRankRemove">un1 removed un2&#8217;s &#171;%1$s&#187; tag</string>
     
     <string name="NewBroadcastList">new broadcast list</string>
     <string name="EnterListName">enter list name</string>
@@ -1914,7 +1914,7 @@
     <string name="SETTINGS">settings</string>
     <string name="AddSubscriber">add subscribers</string>
     <string name="AddMember">add members</string>
-    <string name="BanFromTheGroup">ban from the group</string>
+    
     <string name="DeleteAndExit">delete and leave group</string>
     <string name="DeleteAndExitButton">delete and leave group</string>
     <string name="Notifications">notifications</string>
@@ -10358,7 +10358,7 @@
     <string name="BotAuthLoggedInSuccessWithoutPhoneNumber">you\'re now logged in to **%s**, but you didn\'t grant access to your phone number.</string>
     <string name="BotAuthNotificationTitle">login request</string>
     <string name="BotAuthNotification">login request for %1$s from %2$s</string>
-    <string name="BotAuthSelectEmoji">tap the emoji shown\non your other device</string>
+    <string name="BotAuthSelectEmoji">tap the emoji shown\non your login screen</string>
     <string name="BotAuthSelectCode">tap the code shown\non your other device</string>
     <string name="BotAuthLoginRequestFrom">login request from **%s**</string>
     <string name="BotAuthLoggedInFailTitle">login failed</string>
@@ -10437,7 +10437,8 @@
     <string name="MembersSearch">search people</string>
 
     <string name="MemberTagTitle">member tag</string>
-    <string name="MemberTagInfo">share your role, title or how you&#8217;re known in this group. your tag is visible to all members.</string>
+    <string name="MemberTagSelfInfo">share your role, title or how you&#8217;re known in this group. your tag is visible to all members.</string>
+    <string name="MemberTagTheirInfo">add a short tag next to %s&#8217;s name.</string>
     <string name="MemberTagHintAdd">add member tag</string>
     <string name="MemberTagHintEdit">edit member tag</string>
     <string name="MemberTagButtonAdd">add tag</string>
@@ -10754,6 +10755,7 @@
   <string name="BackgroundDimming">wallpaper dimming</string>
   <string name="BackgroundHexColorCode">hex color code</string>
   <string name="BackgroundRestricted">background data restricted.</string>
+  <string name="BanFromTheGroup">ban from the group</string>
   <string name="Bans_zero">%1$d restrictions</string>
   <string name="Bans_two">%1$d restrictions</string>
   <string name="Bans_few">%1$d restrictions</string>
@@ -12494,6 +12496,7 @@
   <string name="MediaSelected_many">%1$d media selected</string>
   <string name="MegaDeleteAlert">deleting this group will remove all members and all messages will be lost. do you want to delete the group?</string>
   <string name="MegaDeleteInfo">you will lose all messages in this group.</string>
+  <string name="MemberTagInfo">share your role, title or how you\'re known in this group. your tag is visible to all members.</string>
   <string name="Members_zero">%1$d members</string>
   <string name="Members_two">%1$d members</string>
   <string name="Members_few">%1$d members</string>
