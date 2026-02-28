@@ -10359,7 +10359,7 @@
     <string name="BotAuthNotificationTitle">login request</string>
     <string name="BotAuthNotification">login request for %1$s from %2$s</string>
     <string name="BotAuthSelectEmoji">tap the emoji shown\non your login screen</string>
-    <string name="BotAuthSelectCode">tap the code shown\non your other device</string>
+    <string name="BotAuthSelectCode">tap the code shown\non your login screen</string>
     <string name="BotAuthLoginRequestFrom">login request from **%s**</string>
     <string name="BotAuthLoggedInFailTitle">login failed</string>
     <string name="BotAuthLoggedInFail">please try logging in to **%s** again.</string>
