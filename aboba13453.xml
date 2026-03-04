@@ -173,7 +173,7 @@
     <string name="NoChats">welcome to telegram</string>
     <string name="RecentlyViewed">recently viewed</string>
     <string name="RecentlyViewedHide">hide</string>
-    <string name="NoChatsHelp">start messaging by tapping the pencil button in the bottom right corner.</string>
+    <string name="NoChatsHelp">start messaging by tapping the chat bubble icon in the bottom right.</string>
     <string name="NoChatsContactsHelp">start messaging by tapping one of your contacts below.</string>
     <string name="WaitingForNetwork">waiting for network...</string>
     <string name="Connecting">connecting...</string>
