@@ -5183,7 +5183,7 @@
     <string name="ForwardsRestrictedInfoUser">&#1089;opying and forwarding is not allowed for this user.</string>
     <string name="ForwardsRestrictedInfoUserBecauseYou">you disabled copying and forwarding in this chat.</string>
     <string name="ForwardsRestrictedInfoUserBecauseUser">**%s** disabled copying and forwarding in this chat.</string>
-    <string name="ForwardsRestrictedInfoBot">copying and forwarding is not allowed from this bot.</string>
+    <string name="ForwardsRestrictedInfoBot">copying and forwarding is not allowed from this chat.</string>
     <string name="TopicContainsEmojiPackSingle">this topic contains **%s**</string>
     <string name="MessageContainsEmojiPackSingle">this message contains **%s** emoji.</string>
     <string name="StoryContainsEmojiPackSingle">this story contains **%s**</string>
