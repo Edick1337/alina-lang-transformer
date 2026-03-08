@@ -694,6 +694,7 @@
     <string name="EditAdmin">admin rights</string>
     <string name="EditAdminRank">member tag</string>
     <string name="EditAdminRankInfo">a title that members will see instead of \'%1$s\'.</string>
+    
     <string name="EditAdminWhatCanDo">what can this admin do?</string>
     <string name="EditAdminChangeChannelInfo">change channel info</string>
     <string name="EditAdminChangeGroupInfo">change group info</string>
@@ -1027,6 +1028,8 @@
     <string name="EventLogPromotedTitle">title: %1$s</string>
     <string name="EventLogPromotedRemovedTitle">title</string>
     <string name="EventLogPromotedPinMessages">pin messages</string>
+    
+    
     <string name="EventLogPromotedManageDirect">manage direct</string>
     <string name="EventLogFilterAll">all actions</string>
     <string name="EventLogFilterNewRestrictions">new exceptions</string>
@@ -1040,6 +1043,7 @@
     <string name="EventLogFilterPinnedMessages">pinned messages</string>
     <string name="EventLogFilterLeavingMembers">members leaving</string>
     <string name="EventLogFilterLeavingMembers2">members left the group</string>
+    
     <string name="EventLogFilterLeavingSubscribers2">subscribers left the channel</string>
     <string name="EventLogFilterSectionMembers">members and admins</string>
     <string name="EventLogFilterSectionSubscribers">subscribers and admins</string>
@@ -3796,6 +3800,9 @@
     <string name="YourVersionIsLatest">your version is up to date.</string>
     <string name="AttachPhoto">photo</string>
     <string name="AttachVideo">video</string>
+    
+    
+    
     <string name="AttachDestructingPhoto">self-destructing photo</string>
     <string name="AttachDestructingVideo">self-destructing video</string>
     <string name="AttachPhotoExpired">expired photo</string>
@@ -5005,11 +5012,14 @@
     <string name="AccDescrSpeedSlider">choose speed</string>
     <string name="AccDescrCaptureStory">capture story</string>
     
+    
+    
     <string name="formatterBoostExpired">MMM dd, yyyy</string>
     <string name="formatterGiveawayCard">dd MMM yyyy</string>
     <string name="formatterGiveawayMonthDay">MMMM dd</string>
     <string name="formatterGiveawayMonthDayYear">MMMM dd, yyyy</string>
     <string name="formatterMonthYear">MMMM yyyy</string>
+    
     <string name="formatterStats12H">MMM dd yyyy, h:mm a</string>
     <string name="formatterStats24H">MMM dd yyyy, HH:mm</string>
     <string name="formatterBannedUntil12H">MMM dd yyyy, h:mm a</string>
