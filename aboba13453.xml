@@ -9561,8 +9561,8 @@
     <string name="BoughtResoldGiftToText">%s has been notified about your gift.</string>
     <string name="Gift2OnSale">on sale</string>
     <string name="Gift2Resale">resale</string>
-    <string name="Gift2ResaleCount_one">%d for resale</string>
-    <string name="Gift2ResaleCount_other">%d for resale</string>
+    <string name="Gift2ResaleCount_one">%d listing</string>
+    <string name="Gift2ResaleCount_other">%d listings</string>
     <string name="Gift2ResaleNoCount">no results</string>
     <string name="Gift2ResaleEnable">%s is now for sale!</string>
     <string name="Gift2ResaleDisable">%s removed from sale!</string>
@@ -12113,10 +12113,10 @@
   <string name="Gift2RemovedFromCollectionMany_two">**%1$d gifts** removed from **%2$s**.</string>
   <string name="Gift2RemovedFromCollectionMany_few">**%1$d gifts** removed from **%2$s**.</string>
   <string name="Gift2RemovedFromCollectionMany_many">**%1$d gifts** removed from **%2$s**.</string>
-  <string name="Gift2ResaleCount_zero">%d for resale</string>
-  <string name="Gift2ResaleCount_two">%d for resale</string>
-  <string name="Gift2ResaleCount_few">%d for resale</string>
-  <string name="Gift2ResaleCount_many">%d for resale</string>
+  <string name="Gift2ResaleCount_zero">%d listings</string>
+  <string name="Gift2ResaleCount_two">%d listings</string>
+  <string name="Gift2ResaleCount_few">%d listings</string>
+  <string name="Gift2ResaleCount_many">%d listings</string>
   <string name="Gift2ResaleFilterBackdrops_zero">%d backdrops</string>
   <string name="Gift2ResaleFilterBackdrops_two">%d backdrops</string>
   <string name="Gift2ResaleFilterBackdrops_few">%d backdrops</string>
