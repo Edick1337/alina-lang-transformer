@@ -694,7 +694,7 @@
     <string name="EditAdmin">admin rights</string>
     <string name="EditAdminRank">member tag</string>
     <string name="EditAdminRankInfo">a title that members will see instead of \'%1$s\'.</string>
-    
+    <string name="EditMemberRankInfo">add short tag next to %1$s&#8217;s name.</string>
     <string name="EditAdminWhatCanDo">what can this admin do?</string>
     <string name="EditAdminChangeChannelInfo">change channel info</string>
     <string name="EditAdminChangeGroupInfo">change group info</string>
@@ -866,9 +866,10 @@
     <string name="NewPoll">new poll</string>
     <string name="NewQuiz">new quiz</string>
     <string name="Poll">poll</string>
-    <string name="PollQuestion">poll question</string>
+    <string name="PollQuestion2">question</string>
     <string name="QuestionHint">ask a question</string>
-    <string name="AnswerOptions">answer options</string>
+    <string name="QuestionDescriptionHint">add description (optional)</string>
+    <string name="AnswerOptions2">options</string>
     <string name="QuizAnswers">quiz answers</string>
     <string name="PollResults">poll results</string>
     <string name="PollAnonymous">anonymous voting</string>
@@ -885,7 +886,6 @@
     <string name="InvoiceCantSendSecretChat">sorry, invoices can&#8217;t be sent to secret chats.</string>
     <string name="PollMultiple">multiple answers</string>
     <string name="PollTapToSelect">tap to choose the correct answer</string>
-    <string name="QuizInfo">polls in quiz mode have one correct answer. users can\'t revoke their answers.</string>
     <string name="AddAnOption">add an option...</string>
     <string name="AddAnOptionInfo">you can add %1$s.</string>
     <string name="AddAnOptionInfoMax">you have added the maximum number of options.</string>
@@ -897,10 +897,18 @@
     <string name="QuizWellDoneInfo">you chose the right answer.</string>
     <string name="PublicPoll">poll</string>
     <string name="QuizPoll">quiz</string>
-    <string name="PollSubmitVotes">vote</string>
-    <string name="PollViewResults">view results</string>
+    <string name="PollSubmitVotesNoCaps">vote</string>
+    <string name="PollViewResultsNoCaps">view results</string>
+    <string name="PollViewVotesX">view votes (%d)</string>
+    <string name="PollViewVotesAsAdmin_one">%d vote &gt;</string>
+    <string name="PollViewVotesAsAdmin_other">%d votes &gt;</string>
+    <string name="PollViewBack">&lt; vote</string>
+    <string name="PollButtonSave">save</string>
+    <string name="PollViewVotes">view votes</string>
     <string name="AnonymousQuizPoll">anonymous quiz</string>
     <string name="StopPoll">stop poll</string>
+    <string name="StopPollDeadlineHeader">deadline</string>
+    <string name="StopPollDeadlineButton">set deadline</string>
     <string name="StopPollAlertTitle">stop poll?</string>
     <string name="StopPollAlertText">if you stop this poll now, nobody will be able to vote in it anymore. this action cannot be undone.</string>
     <string name="StopQuiz">stop quiz</string>
@@ -913,6 +921,7 @@
     <string name="Unvote">retract vote</string>
     <string name="FinalResults">final results</string>
     <string name="NoVotes">no votes</string>
+    <string name="PollResultsWillLater">results will appear after the poll ends</string>
     <string name="NoVotesQuiz">nobody answered</string>
     <string name="Vote_one">%1$d vote</string>
     <string name="Vote_other">%1$d votes</string>
@@ -1028,8 +1037,8 @@
     <string name="EventLogPromotedTitle">title: %1$s</string>
     <string name="EventLogPromotedRemovedTitle">title</string>
     <string name="EventLogPromotedPinMessages">pin messages</string>
-    
-    
+    <string name="EventLogPromotedEditRanks">edit tags</string>
+    <string name="EventLogPromotedManageTopics">manage topics</string>
     <string name="EventLogPromotedManageDirect">manage direct</string>
     <string name="EventLogFilterAll">all actions</string>
     <string name="EventLogFilterNewRestrictions">new exceptions</string>
@@ -1043,7 +1052,7 @@
     <string name="EventLogFilterPinnedMessages">pinned messages</string>
     <string name="EventLogFilterLeavingMembers">members leaving</string>
     <string name="EventLogFilterLeavingMembers2">members left the group</string>
-    
+    <string name="EventLogFilterMembersRank">members tag updates</string>
     <string name="EventLogFilterLeavingSubscribers2">subscribers left the channel</string>
     <string name="EventLogFilterSectionMembers">members and admins</string>
     <string name="EventLogFilterSectionSubscribers">subscribers and admins</string>
@@ -1239,6 +1248,8 @@
     <string name="GotAQuestion">have a question\nabout telegram?</string>
     <string name="ChatGallery">gallery</string>
     <string name="ChatLocation">location</string>
+    <string name="ChatSticker">sticker</string>
+    <string name="ChatEmoji">emoji</string>
     <string name="ChatDocument">file</string>
     <string name="NoMessages">no messages here yet...</string>
     <string name="NoScheduledMessages">no scheduled messages yet...</string>
@@ -1918,7 +1929,7 @@
     <string name="SETTINGS">settings</string>
     <string name="AddSubscriber">add subscribers</string>
     <string name="AddMember">add members</string>
-    
+    <string name="BanFromTheGroupNoCaps">ban from the group</string>
     <string name="DeleteAndExit">delete and leave group</string>
     <string name="DeleteAndExitButton">delete and leave group</string>
     <string name="Notifications">notifications</string>
@@ -2191,6 +2202,8 @@
     <string name="ApplyTheme">apply</string>
     <string name="ThemePreview">theme preview</string>
     <string name="SelectColor">select color</string>
+    <string name="SelectSticker">select sticker</string>
+    <string name="SelectEmoji">select emoji</string>
     <string name="ThemeNotFound">theme not found</string>
     <string name="ThemeNotSupported">sorry, this color theme doesn&#8217;t support your device yet.</string>
     <string name="CreateNewThemeMenu">create new theme</string>
@@ -2268,6 +2281,8 @@
     <string name="ResetCustomNotificationsAlert">are you sure you want to reset notification settings to default?</string>
     <string name="TextSizeHeader">message text size</string>
     <string name="AskAQuestion">ask a question</string>
+    <string name="QuizExplanationTitle">explanation</string>
+    <string name="AddAnExplanationHeader">explanation</string>
     <string name="AddAnExplanation">add an explanation</string>
     <string name="AddAnExplanationInfo">users will see this text after choosing the wrong answer, good for educational purposes.</string>
     <string name="EnableAnimations">enable animations</string>
@@ -3092,6 +3107,7 @@
     <string name="SharedGroupsTab2">groups</string>
     <string name="SharedLinksTab2">links</string>
     <string name="SharedMusicTab2">music</string>
+    <string name="SharedPollTab">polls</string>
     <string name="SharedVoiceTab2">voice</string>
     <string name="SharedGIFsTab2">gifs</string>
     <string name="SharedContentTitle">shared content</string>
@@ -3643,6 +3659,7 @@
     <string name="BotStatusCantRead">has no access to messages</string>
     <string name="BotInfoTitle">what can this bot do?</string>
     <string name="BotStart">start</string>
+    <string name="BotStart2">start bot</string>
     <string name="BotUnblock">restart</string>
     <string name="BotUnblockNoCaps">restart</string>
     <string name="BotRestart">restart bot</string>
@@ -3800,9 +3817,11 @@
     <string name="YourVersionIsLatest">your version is up to date.</string>
     <string name="AttachPhoto">photo</string>
     <string name="AttachVideo">video</string>
-    
-    
-    
+    <string name="AttachLivePhoto">motion photo</string>
+    <string name="LivePhotoOn">motion photo **on**</string>
+    <string name="LivePhotoOff">motion photo **off**</string>
+    <string name="LivePhotosOn">motion photos turned **on**</string>
+    <string name="LivePhotosOff">motion photos turned **off**</string>
     <string name="AttachDestructingPhoto">self-destructing photo</string>
     <string name="AttachDestructingVideo">self-destructing video</string>
     <string name="AttachPhotoExpired">expired photo</string>
@@ -4945,6 +4964,7 @@
     <string name="AccDescrPageDown">go to bottom</string>
     <string name="AccDescrMentionDown">go to next mention</string>
     <string name="AccDescrReactionMentionDown">go to next unread reactions</string>
+    <string name="AccDescrPollVotesMentionDown">go to next unread poll vote</string>
     <string name="AccDescrIVTitle">title</string>
     <string name="AccDescrIVHeading">heading</string>
     <string name="AccDescrMyLocation">my location</string>
@@ -5011,15 +5031,15 @@
     <string name="AccDescrMentionReaction">with new reaction</string>
     <string name="AccDescrSpeedSlider">choose speed</string>
     <string name="AccDescrCaptureStory">capture story</string>
-    
-    
+    <string name="AccDescrProfileMusic">profile music</string>
+    <string name="AccDescrProfileRatingLevel">profile stars rating level</string>
     
     <string name="formatterBoostExpired">MMM dd, yyyy</string>
     <string name="formatterGiveawayCard">dd MMM yyyy</string>
     <string name="formatterGiveawayMonthDay">MMMM dd</string>
     <string name="formatterGiveawayMonthDayYear">MMMM dd, yyyy</string>
     <string name="formatterMonthYear">MMMM yyyy</string>
-    
+    <string name="formatterMonthOnly">MMMM</string>
     <string name="formatterStats12H">MMM dd yyyy, h:mm a</string>
     <string name="formatterStats24H">MMM dd yyyy, HH:mm</string>
     <string name="formatterBannedUntil12H">MMM dd yyyy, h:mm a</string>
@@ -5329,6 +5349,7 @@
     <string name="SetNewPassword">set a new password</string>
     <string name="ReadAllReactions">read all reactions</string>
     <string name="ReadAllMentions">read all mentions</string>
+    <string name="ReadAllPollVotes">read all polls</string>
 
     <string name="SuggestClearDatabaseTitle">clear database</string>
     <string name="SuggestClearDatabaseMessage">your local database size is %s. it may affect the speed of the app.</string>
@@ -5705,6 +5726,8 @@
     <string name="PremiumPreviewBusinessEmojiStatusDescription">display the current status of your business next to your name.</string>
     <string name="PremiumPreviewSharingDisable">disable sharing</string>
     <string name="PremiumPreviewSharingDisableDescription">prevent forwarding, saving and copying content in private chats.</string>
+    <string name="PremiumPreviewAIEditor">ai tools</string>
+    <string name="PremiumPreviewAIEditorDescription">transform your messages and entire chats in your preferred style and language.</string>
     <string name="MicrophoneForVoiceMessages">microphone for voice messages</string>
     <string name="MicrophoneForVoiceMessagesBuiltIn">built-in</string>
     <string name="MicrophoneForVoiceMessagesSco">headset</string>
@@ -7236,6 +7259,8 @@
     <string name="ReplyToQuote">reply to quote from %s</string>
     <string name="ReplyToTask">reply to checklist task</string>
     <string name="ReplyToTaskIn">reply to item in %s</string>
+    <string name="ReplyToPoll">reply to poll option</string>
+    <string name="ReplyToPollIn">reply to poll option in %s</string>
     <string name="PreviewQuoteUpdate">update quote</string>
     <string name="PreviewQuoteUpdateSubtitle">you can edit or remove the quote</string>
     <string name="ClearQuote">clear quote</string>
@@ -8774,6 +8799,8 @@
     <string name="ProfileGiftsInfo">tap on a gift to convert it to stars or change its privacy settings.</string>
     <string name="ProfileGiftsCount_one">%d gift</string>
     <string name="ProfileGiftsCount_other">%d gifts</string>
+    <string name="ProfilePollsCount_one">%d poll</string>
+    <string name="ProfilePollsCount_other">%d polls</string>
     <string name="ProfileGiftsSend">send gifts to friends</string>
     <string name="ProfileGiftsSendChannel">send gifts to channel</string>
     <string name="ProfileGiftsSendUser">send a gift to %s</string>
@@ -9250,6 +9277,8 @@
     <string name="Gift2AttributeBackdrop">backdrop</string>
     <string name="Gift2AttributeSymbol">symbol</string>
     <string name="Gift2PriceUnique">unique</string>
+    <string name="GiftResaleFilterAllListings">all listings</string>
+    <string name="GiftResaleFilterForStarsOnly">for stars only</string>
     <string name="Gift2AttributeOriginalDetails">gifted by %1$s to %2$s on %3$s.</string>
     <string name="Gift2AttributeOriginalDetailsComment">gifted by %1$s to %2$s on %3$s with the comment: \"%4$s\</string>
     <string name="Gift2AttributeOriginalDetailsSelf">saved by %1$s on %2$s.</string>
@@ -9561,8 +9590,8 @@
     <string name="BoughtResoldGiftToText">%s has been notified about your gift.</string>
     <string name="Gift2OnSale">on sale</string>
     <string name="Gift2Resale">resale</string>
-    <string name="Gift2ResaleCount_one">%d listing</string>
-    <string name="Gift2ResaleCount_other">%d listings</string>
+    <string name="Gift2ListingsCount_one">%d listings</string>
+    <string name="Gift2ListingsCount_other">%d listings</string>
     <string name="Gift2ResaleNoCount">no results</string>
     <string name="Gift2ResaleEnable">%s is now for sale!</string>
     <string name="Gift2ResaleDisable">%s removed from sale!</string>
@@ -9800,8 +9829,11 @@
     <string name="TONBalanceTitle">ton balance</string>
     <string name="TONBalanceText">offer ton to submit post suggestions to channels on telegram</string>
     <string name="TodoMenuHint">you are viewing actions for one task.\nyou can switch to actions for the list.</string>
+    <string name="PollMenuHint">you are viewing actions for one option.\nyou can switch to actions for the poll.</string>
     <string name="TodoMenuTabTask">task</string>
     <string name="TodoMenuTabList">list</string>
+    <string name="PollMenuTabOption">option</string>
+    <string name="PollMenuTabPoll">poll</string>
     <string name="TodoEditItem">edit item</string>
     <string name="TodoDeleteItem">delete item</string>
     <string name="MessageTodo">checklist</string>
@@ -9815,6 +9847,7 @@
     <string name="Gift2ActionReleasedBy">released by **%s**</string>
     <string name="StoriesRemoveFromRecent">remove from recent</string>
     <string name="TodoItemQuote">reply to item</string>
+    <string name="PollItemQuote">reply to option</string>
     <string name="Gift2CollectionAll">all gifts</string>
     <string name="ProfileGiftsAdd">add gifts</string>
     <string name="AgeVerificationTitle">age verification</string>
@@ -9962,7 +9995,7 @@
     <string name="ProfilePlaylistRemoveFromProfile">remove from profile</string>
     <string name="AudioSaveTo">save to...</string>
     <string name="AudioAddToProfile">add to profile</string>
-    <string name="AudioAddedToProfileRemove">this audio is visible on your profile. **remove &gt;**</string>
+    <string name="AudioRemoveFromProfile">remove from profile</string>
     <string name="AudioSaveToMyProfile">to profile</string>
     <string name="AudioSaveToMyProfileSaved">audio added to your profile.</string>
     <string name="AudioSaveToMyProfileUnsaved">audio removed from your profile.</string>
@@ -10187,11 +10220,12 @@
     <string name="PasskeyNoOptionsTitle">no passkey app</string>
     <string name="PasskeyNoOptionsText">install app that supports saving passkeys on your phone or physical ledgers.</string>
 
-    <string name="StoryMusicTitle">add audiotrack</string>
+    <string name="StoryMusicTitle2">add audio</string>
     <string name="StoryMusicSelectFromFiles">select from files</string>
     <string name="StoryMusicProfileMusic">saved music</string>
     <string name="StoryMusicSearchMusic">shared audio</string>
     <string name="StoryMusicLocalMusic">local music</string>
+    <string name="StoryMusicGlobalMusic">global search</string>
 
     <string name="GiftOfferToBuyMenu">offer to buy</string>
     <string name="GiftOfferToBuyTitle">offer to buy</string>
@@ -10354,6 +10388,7 @@
     <string name="BotAuthTitle">log in to **%s**</string>
     <string name="BotAuthSiteSubtitle">this site will receive your **name**,\n**username** and **profile photo**.</string>
     <string name="BotAuthBotSubtitle">this bot will receive your **name**,\n**username** and **profile photo**.</string>
+    <string name="BotAuthAppSubtitle">this app will receive your **name**,\n**username** and **profile photo**.</string>
     <string name="BotAuthBasedOnIP">based on the ip (%s)</string>
     <string name="BotAuthInfo">this login attempt came from the device above.</string>
     <string name="BotAuthAllowMessages">allow messages</string>
@@ -10494,28 +10529,28 @@
     <string name="EnableSharingActionOther">%s enabled sharing in this chat</string>
     <string name="DisableSharingActionStillDisabled">sharing in this chat is still disabled</string>
     <string name="DisableSharingActionStillEnabled">sharing in this chat is still enabled</string>
+    <string name="PollAddingActionYou">you added \"%s\" to the poll</string>
+    <string name="PollAddingActionOther">%1$s added \"%2$s\" to the poll</string>
+    <string name="PollRemovedActionYou">you removed \"%s\" from the poll</string>
+    <string name="PollRemovedActionOther">%1$s removed \"%2$s\" from the poll</string>
     <string name="DisableSharingOfferAccept">accept</string>
     <string name="DisableSharingOfferDecline">reject</string>
-
     <string name="SharingOfferEnableHeaderOther">**%s** would like to enable sharing in this chat, which includes:</string>
     <string name="SharingOfferEnableHeaderYou">you suggested to enable sharing in this chat, which includes:</string>
     <string name="SharingOfferEnable1">\&gt; forwarding messages</string>
     <string name="SharingOfferEnable2">\&gt; saving photos and videos</string>
     <string name="SharingOfferEnable3">\&gt; copying messages</string>
     <string name="SharingOfferEnable4">\&gt; taking screenshots</string>
-
     <string name="SharingOfferDisableHeaderShortOther">**%s** would like to disable sharing in this chat</string>
     <string name="SharingOfferDisableHeaderShortYou">you suggested to disable sharing in this chat</string>
     <string name="SharingOfferEnableHeaderShortOther">**%s** would like to enable sharing in this chat</string>
     <string name="SharingOfferEnableHeaderShortYou">you suggested to enable sharing in this chat</string>
-
     <string name="SharingOfferDisableHeaderOther">**%s** would like to disable sharing in this chat, which includes:</string>
     <string name="SharingOfferDisableHeaderYou">you suggested to disable sharing in this chat, which includes:</string>
     <string name="SharingOfferDisable1">\&gt; no forwarding messages</string>
     <string name="SharingOfferDisable2">\&gt; no saving photos and videos</string>
     <string name="SharingOfferDisable3">\&gt; no copying messages</string>
     <string name="SharingOfferDisable4">\&gt; no screenshots</string>
-
     <string name="SharingOfferDisableCancelTitle">disable sharing</string>
     <string name="SharingOfferDisableCancelText">are you sure you want to keep sharing disabled?</string>
     <string name="SharingOfferDisableConfirmText">are you sure you want to disable sharing?</string>
@@ -10523,14 +10558,86 @@
     <string name="SharingOfferEnableCancelText">are you sure you want to keep sharing enabled?</string>
     <string name="SharingOfferEnableConfirmText">are you sure you want to enable sharing?</string>
     <string name="SharingOfferCancelYes">yes</string>
-
     <string name="RelativeDateFormatterWeek2">%1$s, %2$s</string>
     <string name="RelativeDateAddDate">add date</string>
     <string name="RelativeDateMenuCopy">copy date</string>
     <string name="RelativeDateMenuAddToACalendar">add to calendar</string>
     <string name="RelativeDateMenuSetAReminder">set a reminder</string>
     <string name="RelativeDateCopied">date copied to clipboard</string>
+    <string name="GiftResaleStarsOnly">show listings for stars only</string>
 
+    <string name="PollV2ShowWhoVoted">show who voted</string>
+    <string name="PollV2ShowWhoVotedInfo">display voter name on each option</string>
+    <string name="PollV2AllowMultipleAnswers">allow multiple answers</string>
+    <string name="PollV2AllowMultipleAnswersInfo">voters can select more than one option</string>
+    <string name="PollV2AllowAddingOptions">allow adding options</string>
+    <string name="PollV2AllowAddingOptionsInfo">participants can suggest new options</string>
+    <string name="PollV2AllowRevoting">allow revoting</string>
+    <string name="PollV2AllowRevotingInfo">voters can change their vote</string>
+    <string name="PollV2ShuffleOptions">shuffle options</string>
+    <string name="PollV2ShuffleOptionsInfo">answers appear in random order for each voter</string>
+    <string name="PollV2SetCorrectAnswer">set correct answer</string>
+    <string name="PollV2SetCorrectAnswerInfo">mark one option as the right answer</string>
+    <string name="PollV2LimitDuration">limit duration</string>
+    <string name="PollV2LimitDurationInfo">automatically close the poll at a set time</string>
+    <string name="PollV2PollEnds">poll ends</string>
+    <string name="PollV2PollDuration">poll duration</string>
+    <string name="PollV2PollDurationOptionCustom">custom</string>
+    <string name="PollV2HideResults">hide results</string>
+    <string name="PollV2HideResultsInfo">if you switch this on, results will appear only after the poll closes.</string>
+    <string name="PollCustomDeadlineClosesIn">closes in %s</string>
+    <string name="PollCustomDeadlineClosesInFmt">%1$s %2$s %3$s</string>
+    <string name="PollEndsIn">ends in %s</string>
+    <string name="PollAddAnOption">add an option</string>
+    <string name="PollAddAnOptionHint">option...</string>
+    <string name="PollAddedByAtTime">added by **%1$s** %2$s</string>
+
+    <string name="PollVotesCount_one">%d vote</string>
+    <string name="PollVotesCount_other">%d votes</string>
+
+    <string name="ActionManagedBotCreated">you created un1 bot for un2 to manage</string>
+    <string name="CreateManagedBotTitle">create bot</string>
+    <string name="CreateManagedBotText">**%s** would like you to create\nand manage a chatbot on your behalf.</string>
+    <string name="CreateManagedBotName">bot name</string>
+    <string name="CreateManagedBotNameInfo">tap to edit bot name.</string>
+    <string name="CreateManagedBotUsername">username</string>
+    <string name="CreateManagedBotUsernameInfo">tap to edit bot name.</string>
+    <string name="CreateManagedBotButton">create</string>
+    <string name="CreateManagedBotCreatedTitle">%s created!</string>
+    <string name="CreateManagedBotCreatedText">**%s** will manage this bot for you.</string>
+    <string name="CreateManagedBotUnsupported">**%s** doesn&#8217;t support bot management mode.</string>
+    <string name="ProfileBotManagedBy">created and managed by **@%s**</string>
+    <string name="ManagedBotChatInfo">**%1$s** is ready!\n\ntap **start** below to test your new chatbot. its behavior is defined by **%2$s**.</string>
+    <string name="CreateManagedBotLimitTitle">bot limit exceeded</string>
+    <string name="CreateManagedBotLimitTextPremium">subscribe to **premium** to create up to %1$d bots, or delete one of your %2$d bots via @botfather</string>
+    <string name="CreateManagedBotLimitText">you can create up to %d bots, or delete your current ones via @botfather</string>
+    <string name="UnverifiedApp">unverified app</string>
+
+    <string name="AIEditor">ai editor</string>
+    <string name="AIEditorHint">rewrite, translate, or correct your text using ai.</string>
+    <string name="AIEditorTabTranslate">translate</string>
+    <string name="AIEditorTabStyle">style</string>
+    <string name="AIEditorTabFix">fix</string>
+    <string name="AIEditorApply">apply</string>
+    <string name="AIEditorLimitButton">increase limit</string>
+    <string name="AIEditorLimitTitle">daily limit reached</string>
+    <string name="AIEditorLimitText">get **telegram premium** for **50x** more ai text transformation per day.</string>
+    <string name="AIEditorChooseStyle">choose a style</string>
+    <string name="AIEditorOriginalText">original text</string>
+    <string name="AIEditorFrom">from %s</string>
+    <string name="AIEditorFromOther">from %s</string>
+    <string name="AIEditorTo">to %s</string>
+    <string name="AIEditorToOther">to %s</string>
+    <string name="AIEditorOriginal">original</string>
+    <string name="AIEditorResult">result</string>
+    
+    
+    <string name="AIEditorEmojify">emojify</string>
+    
+    
+    
+    
+    
 
   
 
@@ -10727,6 +10834,7 @@
   <string name="Answer_two">%1$d answers</string>
   <string name="Answer_few">%1$d answers</string>
   <string name="Answer_many">%1$d answers</string>
+  <string name="AnswerOptions">answer options</string>
   <string name="Appearance">appearance</string>
   <string name="ApplyBackgroundForThisChat">apply for this chat</string>
   <string name="ArchiveStories_zero">archive stories</string>
@@ -10739,6 +10847,7 @@
   <string name="AreYouSureDeleteThisChatWithGroup">are you sure you want to delete the chat **%1$s**?</string>
   <string name="AttachBotsHelp">scroll down for bots</string>
   <string name="AttachDestructingVoice">self-destructing voice message</string>
+  <string name="AudioAddedToProfileRemove">this audio is visible on your profile. **remove &gt;**</string>
   <string name="AudioAutodownload">voice messages</string>
   <string name="AudioSpeedMedium">audio will play at 1.5x speed.</string>
   <string name="AudioTitle">shared music</string>
@@ -12074,6 +12183,10 @@
   <string name="Gift2InfoOutConverted_few">%2$s converted this gift to **%d** stars.</string>
   <string name="Gift2InfoOutConverted_many">%2$s converted this gift to **%d** stars.</string>
   <string name="Gift2InfoPinned">you added this gift to your profile.</string>
+  <string name="Gift2ListingsCount_zero">%d listings</string>
+  <string name="Gift2ListingsCount_two">%d listings</string>
+  <string name="Gift2ListingsCount_few">%d listings</string>
+  <string name="Gift2ListingsCount_many">%d listings</string>
   <string name="Gift2Months_zero">%1$d months</string>
   <string name="Gift2Months_two">%1$d months</string>
   <string name="Gift2Months_few">%1$d months</string>
@@ -12114,9 +12227,11 @@
   <string name="Gift2RemovedFromCollectionMany_few">**%1$d gifts** removed from **%2$s**.</string>
   <string name="Gift2RemovedFromCollectionMany_many">**%1$d gifts** removed from **%2$s**.</string>
   <string name="Gift2ResaleCount_zero">%d listings</string>
+  <string name="Gift2ResaleCount_one">%d listing</string>
   <string name="Gift2ResaleCount_two">%d listings</string>
   <string name="Gift2ResaleCount_few">%d listings</string>
   <string name="Gift2ResaleCount_many">%d listings</string>
+  <string name="Gift2ResaleCount_other">%d listings</string>
   <string name="Gift2ResaleFilterBackdrops_zero">%d backdrops</string>
   <string name="Gift2ResaleFilterBackdrops_two">%d backdrops</string>
   <string name="Gift2ResaleFilterBackdrops_few">%d backdrops</string>
@@ -12957,6 +13072,17 @@
   <string name="Points_few">%1$d</string>
   <string name="Points_many">%1$d</string>
   <string name="PollOptions">poll options</string>
+  <string name="PollQuestion">poll question</string>
+  <string name="PollSubmitVotes">vote</string>
+  <string name="PollViewResults">view results</string>
+  <string name="PollViewVotesAsAdmin_zero">%d votes &gt;</string>
+  <string name="PollViewVotesAsAdmin_two">%d votes &gt;</string>
+  <string name="PollViewVotesAsAdmin_few">%d votes &gt;</string>
+  <string name="PollViewVotesAsAdmin_many">%d votes &gt;</string>
+  <string name="PollVotesCount_zero">%d votes</string>
+  <string name="PollVotesCount_two">%d votes</string>
+  <string name="PollVotesCount_few">%d votes</string>
+  <string name="PollVotesCount_many">%d votes</string>
   <string name="PostSuggestionsPriceInfo">your channel will receive %1$s of the selected fee (~%2$s$) for each incoming message.</string>
   <string name="PostSuggestionsPriceUpdated_zero">un1 now accepts direct messages for %1$d stars</string>
   <string name="PostSuggestionsPriceUpdated_two">un1 now accepts direct messages for %1$d stars</string>
@@ -13051,6 +13177,10 @@
   <string name="ProfileMyStoriesCount_two">%d posted stories</string>
   <string name="ProfileMyStoriesCount_few">%d posted stories</string>
   <string name="ProfileMyStoriesCount_many">%d posted stories</string>
+  <string name="ProfilePollsCount_zero">%d polls</string>
+  <string name="ProfilePollsCount_two">%d polls</string>
+  <string name="ProfilePollsCount_few">%d polls</string>
+  <string name="ProfilePollsCount_many">%d polls</string>
   <string name="ProfileStoriesArchiveCount_zero">%d archived stories</string>
   <string name="ProfileStoriesArchiveCount_two">%d archived stories</string>
   <string name="ProfileStoriesArchiveCount_few">%d archived stories</string>
@@ -13075,6 +13205,7 @@
   <string name="QRCodePermissionNoCamera">telegram needs access to your camera so that you can scan qr codes.</string>
   <string name="Question">question</string>
   <string name="QuickReplyCustom">custom message...</string>
+  <string name="QuizInfo">polls in quiz mode have one correct answer. users can\'t revoke their answers.</string>
   <string name="ReEnterYourPasscode">re-enter your new passcode</string>
   <string name="Reacted_zero">%1$s reacted</string>
   <string name="Reacted_two">%1$s reacted</string>
@@ -13663,6 +13794,7 @@
   <string name="StoryLiveBlockList_two">**%d people** will never see your live stories.</string>
   <string name="StoryLiveBlockList_few">**%d people** will never see your live stories.</string>
   <string name="StoryLiveBlockList_many">**%d people** will never see your live stories.</string>
+  <string name="StoryMusicTitle">add audiotrack</string>
   <string name="StoryNotification1_zero">posted %d stories</string>
   <string name="StoryNotification1_two">posted %d stories</string>
   <string name="StoryNotification1_few">posted %d stories</string>
