@@ -5349,7 +5349,7 @@
     <string name="SetNewPassword">set a new password</string>
     <string name="ReadAllReactions">read all reactions</string>
     <string name="ReadAllMentions">read all mentions</string>
-    <string name="ReadAllPollVotes">read all polls</string>
+    <string name="ReadAllPollVotes">read all votes</string>
 
     <string name="SuggestClearDatabaseTitle">clear database</string>
     <string name="SuggestClearDatabaseMessage">your local database size is %s. it may affect the speed of the app.</string>
@@ -9590,7 +9590,7 @@
     <string name="BoughtResoldGiftToText">%s has been notified about your gift.</string>
     <string name="Gift2OnSale">on sale</string>
     <string name="Gift2Resale">resale</string>
-    <string name="Gift2ListingsCount_one">%d listings</string>
+    <string name="Gift2ListingsCount_one">%d listing</string>
     <string name="Gift2ListingsCount_other">%d listings</string>
     <string name="Gift2ResaleNoCount">no results</string>
     <string name="Gift2ResaleEnable">%s is now for sale!</string>
@@ -10575,7 +10575,7 @@
     <string name="PollV2AllowRevoting">allow revoting</string>
     <string name="PollV2AllowRevotingInfo">voters can change their vote</string>
     <string name="PollV2ShuffleOptions">shuffle options</string>
-    <string name="PollV2ShuffleOptionsInfo">answers appear in random order for each voter</string>
+    <string name="PollV2ShuffleOptionsInfo">answers appear in a random order for each voter</string>
     <string name="PollV2SetCorrectAnswer">set correct answer</string>
     <string name="PollV2SetCorrectAnswerInfo">mark one option as the right answer</string>
     <string name="PollV2LimitDuration">limit duration</string>
@@ -10601,7 +10601,7 @@
     <string name="CreateManagedBotName">bot name</string>
     <string name="CreateManagedBotNameInfo">tap to edit bot name.</string>
     <string name="CreateManagedBotUsername">username</string>
-    <string name="CreateManagedBotUsernameInfo">tap to edit bot name.</string>
+    <string name="CreateManagedBotUsernameInfo">tap to edit bot username.</string>
     <string name="CreateManagedBotButton">create</string>
     <string name="CreateManagedBotCreatedTitle">%s created!</string>
     <string name="CreateManagedBotCreatedText">**%s** will manage this bot for you.</string>
@@ -10614,14 +10614,14 @@
     <string name="UnverifiedApp">unverified app</string>
 
     <string name="AIEditor">ai editor</string>
-    <string name="AIEditorHint">rewrite, translate, or correct your text using ai.</string>
+    <string name="AIEditorHint">rewrite, translate and correct your text using ai.</string>
     <string name="AIEditorTabTranslate">translate</string>
     <string name="AIEditorTabStyle">style</string>
     <string name="AIEditorTabFix">fix</string>
     <string name="AIEditorApply">apply</string>
     <string name="AIEditorLimitButton">increase limit</string>
     <string name="AIEditorLimitTitle">daily limit reached</string>
-    <string name="AIEditorLimitText">get **telegram premium** for **50x** more ai text transformation per day.</string>
+    <string name="AIEditorLimitText">get **telegram premium** for **50x** more text edits per day.</string>
     <string name="AIEditorChooseStyle">choose a style</string>
     <string name="AIEditorOriginalText">original text</string>
     <string name="AIEditorFrom">from %s</string>
