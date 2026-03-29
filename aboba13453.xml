@@ -1129,6 +1129,7 @@
     <string name="NoAudioFilesInfo">your music library is empty.</string>
     <string name="NoAudioFound">no results found</string>
     <string name="NoAudioFoundInfo">there are no matches with **%1$s** in your music library.</string>
+    <string name="NoAudioFoundInfo2">there are no matches with **%1$s**.</string>
     <string name="NoAudioFoundPlayerInfo">there are no matches for **%1$s**.</string>
     <string name="AttachMusic">music</string>
     <string name="AudioUnknownArtist">unknown artist</string>
@@ -3156,6 +3157,7 @@
     <string name="StopLiveLocationAlertAllText">do you want to stop sharing your live location?</string>
     <string name="SendLiveLocationInfo">updated in real time as you move</string>
     <string name="SendSelectedLocation">send selected location</string>
+    <string name="AttachSelectedLocation">attach selected location</string>
     <string name="SetThisLocation">set this location</string>
     <string name="UnknownLocation">unknown location</string>
     <string name="ShareLocation">location</string>
@@ -7194,6 +7196,7 @@
     <string name="PremiumNeededForBoosting">only **telegram premium** subscribers can boost channels. do you want to subscribe to **telegram premium**?</string>
     <string name="PremiumNeededForBoostingGroup">only **telegram premium** subscribers can boost groups. do you want to subscribe to **telegram premium**?</string>
     <string name="Replace">replace</string>
+    <string name="ReplaceAttachedPollMedia">replace</string>
     <string name="ReplaceBoostChannelDescription">you currently boost **%1$s**. do you want to boost **%2$s** instead?</string>
     <string name="CantBoostTooOften">can\'t boost too often!</string>
     <string name="CantBoostTooOftenDescription">you can only change the channel you boost once a day. you will be able to boost in **%s.**</string>
@@ -8509,6 +8512,7 @@
     <string name="StoryEditCoverInfo">choose a frame from this story to show on your profile.</string>
     <string name="StoryEditCoverMenu">edit cover</string>
     <string name="StoryCoverSave">save cover</string>
+    <string name="ProfileUnofficialSecurityRisk">%s uses an unofficial telegram client &#8212; messages to this user may be less secure.</string>
     <string name="WebBookmarks">bookmarks</string>
     <string name="WebHistory">history</string>
     <string name="WebNoHistory">no history yet</string>
@@ -9996,6 +10000,10 @@
     <string name="AudioSaveTo">save to...</string>
     <string name="AudioAddToProfile">add to profile</string>
     <string name="AudioRemoveFromProfile">remove from profile</string>
+    <string name="StoryAudioAddToSavedMessages">add to saved messages</string>
+    <string name="StoryAudioAddToSavedMessagesToast">saved in **saved messages**.</string>
+    <string name="StoryAudioAddToProfile">add to profile</string>
+    <string name="StoryAudioAddToProfileToast">added to profile.</string>
     <string name="AudioSaveToMyProfile">to profile</string>
     <string name="AudioSaveToMyProfileSaved">audio added to your profile.</string>
     <string name="AudioSaveToMyProfileUnsaved">audio removed from your profile.</string>
@@ -10226,6 +10234,10 @@
     <string name="StoryMusicSearchMusic">shared audio</string>
     <string name="StoryMusicLocalMusic">local music</string>
     <string name="StoryMusicGlobalMusic">global search</string>
+    <string name="AudioSearchLocal">local music</string>
+    <string name="AudioSearchChats">shared music</string>
+    <string name="AudioSearchProfile">profile music</string>
+    <string name="AudioSearchGlobal">global search</string>
 
     <string name="GiftOfferToBuyMenu">offer to buy</string>
     <string name="GiftOfferToBuyTitle">offer to buy</string>
@@ -10584,13 +10596,19 @@
     <string name="PollV2PollDuration">poll duration</string>
     <string name="PollV2PollDurationOptionCustom">custom</string>
     <string name="PollV2HideResults">hide results</string>
-    <string name="PollV2HideResultsInfo">if you switch this on, results will appear only after the poll closes.</string>
+    <string name="PollV2HideResultsInfo">when enabled, results will not be visible until the poll closes.</string>
     <string name="PollCustomDeadlineClosesIn">closes in %s</string>
     <string name="PollCustomDeadlineClosesInFmt">%1$s %2$s %3$s</string>
     <string name="PollEndsIn">ends in %s</string>
+    <string name="PollResultsIn">results in %s</string>
     <string name="PollAddAnOption">add an option</string>
     <string name="PollAddAnOptionHint">option...</string>
     <string name="PollAddedByAtTime">added by **%1$s** %2$s</string>
+    <string name="DiscardPollOptionWithMediaAlertTitle">delete poll option?</string>
+    <string name="DiscardPollOptionWithMediaMessage">this poll option has a media attachment. do you want to delete it?</string>
+    <string name="DiscardQuizOptionWithMediaAlertTitle">delete quiz answer?</string>
+    <string name="DiscardQuizOptionWithMediaMessage">this quiz answer has a media attachment. do you want to delete it?</string>
+    <string name="PollAddTextOrRemoveMedia">add text or remove media first</string>
 
     <string name="PollVotesCount_one">%d vote</string>
     <string name="PollVotesCount_other">%d votes</string>
@@ -10630,12 +10648,9 @@
     <string name="AIEditorToOther">to %s</string>
     <string name="AIEditorOriginal">original</string>
     <string name="AIEditorResult">result</string>
-    
+    <string name="AIEditorToneNeutral">neutral</string>
     
     <string name="AIEditorEmojify">emojify</string>
-    
-    
-    
     
     
 
@@ -14003,6 +14018,40 @@
   <string name="TranslateLanguageFA">persian</string>
   <string name="TranslateLanguageFI">finnish</string>
   <string name="TranslateLanguageFR">french</string>
+  <string name="TranslateLanguageGenitiveAR">arabic</string>
+  <string name="TranslateLanguageGenitiveBE">belarusian</string>
+  <string name="TranslateLanguageGenitiveCA">catalan</string>
+  <string name="TranslateLanguageGenitiveDE">german</string>
+  <string name="TranslateLanguageGenitiveEN">english</string>
+  <string name="TranslateLanguageGenitiveEO">esperanto</string>
+  <string name="TranslateLanguageGenitiveES">spanish</string>
+  <string name="TranslateLanguageGenitiveFA">persian</string>
+  <string name="TranslateLanguageGenitiveFI">finnish</string>
+  <string name="TranslateLanguageGenitiveFR">french</string>
+  <string name="TranslateLanguageGenitiveHE">hebrew</string>
+  <string name="TranslateLanguageGenitiveHR">croatian</string>
+  <string name="TranslateLanguageGenitiveHU">hungarian</string>
+  <string name="TranslateLanguageGenitiveID">indonesian</string>
+  <string name="TranslateLanguageGenitiveIT">italian</string>
+  <string name="TranslateLanguageGenitiveJA">japanese</string>
+  <string name="TranslateLanguageGenitiveKO">korean</string>
+  <string name="TranslateLanguageGenitiveKZ">kazakh</string>
+  <string name="TranslateLanguageGenitiveML">malayalam</string>
+  <string name="TranslateLanguageGenitiveMS">malay</string>
+  <string name="TranslateLanguageGenitiveNL">dutch</string>
+  <string name="TranslateLanguageGenitiveNO">norwegian</string>
+  <string name="TranslateLanguageGenitivePO">polish</string>
+  <string name="TranslateLanguageGenitivePT">portuguese</string>
+  <string name="TranslateLanguageGenitiveRO">romanian</string>
+  <string name="TranslateLanguageGenitiveRU">russian</string>
+  <string name="TranslateLanguageGenitiveSK">slovak</string>
+  <string name="TranslateLanguageGenitiveSR">serbian</string>
+  <string name="TranslateLanguageGenitiveSV">swedish</string>
+  <string name="TranslateLanguageGenitiveTA">tamil</string>
+  <string name="TranslateLanguageGenitiveTR">turkish</string>
+  <string name="TranslateLanguageGenitiveUK">ukrainian</string>
+  <string name="TranslateLanguageGenitiveUZ">uzbek</string>
+  <string name="TranslateLanguageGenitiveZH">chinese</string>
   <string name="TranslateLanguageHE">hebrew</string>
   <string name="TranslateLanguageHR">croatian</string>
   <string name="TranslateLanguageHU">hungarian</string>
@@ -14010,6 +14059,7 @@
   <string name="TranslateLanguageIT">italian</string>
   <string name="TranslateLanguageJA">japanese</string>
   <string name="TranslateLanguageKO">korean</string>
+  <string name="TranslateLanguageKZ">kazakh</string>
   <string name="TranslateLanguageML">malayalam</string>
   <string name="TranslateLanguageMS">malay</string>
   <string name="TranslateLanguageNL">dutch</string>
