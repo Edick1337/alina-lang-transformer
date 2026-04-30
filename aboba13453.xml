@@ -186,6 +186,7 @@
     <string name="ConnectingToProxy">connecting to proxy</string>
     <string name="ConnectingToProxyWithDots">connecting to proxy...</string>
     <string name="MenuProxyTitle">proxy</string>
+    <string name="MenuProxyDisabled">disabled</string>
     <string name="MenuProxyConnecting">connecting</string>
     <string name="MenuProxyConnected">connected</string>
     <string name="ConnectingConnectProxy">connect proxy</string>
@@ -197,6 +198,7 @@
     <string name="EncryptedChatStartedOutgoing">%s joined your secret chat</string>
     <string name="EncryptedChatStartedIncoming">you joined the secret chat</string>
     <string name="ClearHistory">clear history</string>
+    <string name="ClearAllHistory">clear all history</string>
     <string name="ClearRecentHistory">clear history</string>
     <string name="AlertClearHistory">clear history</string>
     <string name="EnableAutoDelete">enable auto-delete</string>
@@ -755,6 +757,7 @@
     <string name="UserRestrictionsChangeInfo">change chat info</string>
     <string name="UserRestrictionsPinMessages">pin messages</string>
     <string name="UserRestrictionsEditTags">edit own tags</string>
+    <string name="UserRestrictionsSendReactions">send reactions</string>
     <string name="UserRestrictionsInviteUsers">add users</string>
     <string name="UserRestrictionsNoRead">can\'t read</string>
     <string name="UserRestrictionsNoSend">can\'t send messages</string>
@@ -772,6 +775,7 @@
     <string name="UserRestrictionsNoChangeInfo">can\'t change info</string>
     <string name="UserRestrictionsNoPinMessages">no pinning</string>
     <string name="UserRestrictionsNoEditTags">no tags</string>
+    <string name="UserRestrictionsNoSendReactions">no reactions</string>
     <string name="UserRestrictionsNoInviteUsers">can\'t add users</string>
     <string name="UserRestrictionsDuration">duration</string>
     <string name="UserRestrictionsUntilForever">forever</string>
@@ -918,10 +922,12 @@
     <string name="CancelPollAlertText">are you sure you want to discard this poll?</string>
     <string name="CancelTodoAlertTitle">discard checklist</string>
     <string name="CancelTodoAlertText">are you sure you want to discard this checklist?</string>
+    <string name="SendReactionsIsRestrictedInThisChat">you cannot send reactions in this chat.</string>
     <string name="Unvote">retract vote</string>
     <string name="FinalResults">final results</string>
     <string name="NoVotes">no votes</string>
     <string name="PollResultsWillLater">results will appear after the poll ends</string>
+    <string name="PollStatsWillLater">poll stats are not available now</string>
     <string name="NoVotesQuiz">nobody answered</string>
     <string name="Vote_one">%1$d vote</string>
     <string name="Vote_other">%1$d votes</string>
@@ -1015,6 +1021,7 @@
     <string name="EventLogRestrictedInviteUsers">add users</string>
     <string name="EventLogRestrictedPinMessages">pin messages</string>
     <string name="EventLogRestrictedEditRank">edit tags</string>
+    <string name="EventLogRestrictedSendReactions">send reactions</string>
     <string name="EventLogRestrictedSendPolls">send polls</string>
     <string name="EventLogRestrictedSendMessages">send messages</string>
     <string name="EventLogRestrictedSendEmbed">embed links</string>
@@ -1230,6 +1237,7 @@
     <string name="RevenueSharingAdsInfo4Subtitle2Bot">anyone can create an ad to display in this bot &#8212; with minimal budgets. check out the **telegram ad platform** for details. %1$s</string>
     <string name="PromoteUrl">https://ads.telegram.org</string>
     <string name="InstantViewReference">reference</string>
+    <string name="InstantViewReferences">references</string>
     <string name="IsSendingGame">%1$s is playing a game...</string>
     <string name="IsSelectingLocation">%1$s is selecting location to share...</string>
     <string name="IsSelectingContact">%1$s is selecting contact to share...</string>
@@ -1327,8 +1335,10 @@
     <string name="ReportSpamAlert">are you sure you want to report spam from this user?</string>
     <string name="ReportSpamAlertGroup">are you sure you want to report this group for spam?</string>
     <string name="ReportSpamAlertChannel">are you sure you want to report this channel for spam?</string>
-    <string name="ReportReaction">report reaction</string>
+    <string name="ReportReaction2">report reaction</string>
+    <string name="DeleteReactionMenu">delete reaction</string>
     <string name="ReportAlertReaction">are you sure you want to report reactions from this user?</string>
+    <string name="DeleteAlertReaction">are you sure you want to delete reaction from this user?</string>
     <string name="NobodyLikesSpam1">sorry, you can only send messages to mutual contacts at the moment.</string>
     <string name="NobodyLikesSpam2">sorry, you can only add mutual contacts to groups at the moment.</string>
     <string name="NobodyLikesSpam3">sorry, you are currently restricted from posting in this group.</string>
@@ -1362,8 +1372,15 @@
     <string name="TranslationFailedAlert2">translation failed.</string>
     <string name="DeleteAllFrom">delete all from %1$s</string>
     <string name="DeleteAllFromUsers">delete all from users</string>
+    <string name="DeleteAllMessagesFrom">delete all messages from %1$s</string>
+    <string name="DeleteAllMessagesFromUsers">delete all messages from users</string>
+    <string name="DeleteAllReactionsFrom">delete all reactions from %1$s</string>
+    <string name="DeleteAllReactionsFromUsers">delete all reactions from users</string>
     <string name="DeleteOptionsTitle_one">delete %1$d message?</string>
     <string name="DeleteOptionsTitle_other">delete %1$d messages?</string>
+    <string name="DeleteReactionOptionsTitle_one">delete %d reaction?</string>
+    <string name="DeleteReactionOptionsTitle_other">delete %d reactions?</string>
+    <string name="DeleteReactionOptionsTitleAll">delete all reactions?</string>
     <string name="DeleteAdditionalActions">additional actions</string>
     <string name="DeleteToggleBanUsers">fully ban users</string>
     <string name="DeleteToggleBanUser">fully ban this user</string>
@@ -1371,6 +1388,7 @@
     <string name="DeleteToggleRestrictUser">partially restrict this user</string>
     <string name="DeleteProceedBtn">proceed</string>
     <string name="MessagesDeleted">messages deleted</string>
+    <string name="ReactionsDeleted">reactions deleted</string>
     <string name="UsersReported_one">%1$d user reported for spam.</string>
     <string name="UsersReported_other">%1$d users reported for spam.</string>
     <string name="UsersBanned_one">%1$d user banned.</string>
@@ -1398,6 +1416,7 @@
     <string name="ReportBot">report</string>
     <string name="ReportProfilePhoto">report</string>
     <string name="ReportChatSent">report sent.</string>
+    <string name="ReactionDeleteSent">reaction deleted</string>
     <string name="ReportTitleSpam">report spam</string>
     <string name="ReportTitleFake">report fake</string>
     <string name="ReportTitlePornography">report pornography</string>
@@ -1435,6 +1454,7 @@
     <string name="AddShortcut">add to home screen</string>
     <string name="SearchMembers">search members</string>
     <string name="ChatYourSelf">forward here to save</string>
+    <string name="SavedMessagesViewAsChatsHint">tap to view as chats &gt;</string>
     <string name="SavedMessages">saved messages</string>
     <string name="SavedMessagesInfo">forward here to save</string>
     <string name="SavedMessagesInfoQuote">quote here to save.</string>
@@ -1544,6 +1564,14 @@
     <string name="MessageScheduleToday">today</string>
     <string name="Schedule">schedule</string>
     <string name="ScheduleMessage">schedule message</string>
+    <string name="ScheduleNotifyOnChannel">subscribers will be notified</string>
+    <string name="ScheduleNotifyOffChannel">subscribers will receive a silent notification</string>
+    <string name="ScheduleNotifyOnGroup">members will be notified</string>
+    <string name="ScheduleNotifyOffGroup">members will receive a silent notification</string>
+    <string name="ScheduleNotifyOnChat">%s will be notified</string>
+    <string name="ScheduleNotifyOffChat">%s will receive a silent notification</string>
+    <string name="ScheduleNotifyOnSelf">you will be notified</string>
+    <string name="ScheduleNotifyOffSelf">you will receive a silent notification</string>
     <string name="ScheduledMessages">scheduled messages</string>
     <string name="ScheduleWhenOnline">send when %1$s comes online</string>
     <string name="Reminders">reminders</string>
@@ -5679,7 +5707,8 @@
     <string name="NoReactions">no reactions</string>
     <string name="OnlyAllowThisReactions">only allow these reactions</string>
     <string name="ReactionsAll">all</string>
-    <string name="ReportReactionAndBan">ban and report</string>
+    <string name="ReportReactionAndBan2">ban and report reaction</string>
+    <string name="DeleteReaction">delete reaction</string>
     <string name="BanUser">ban user</string>
     <string name="BanUserMonoforum">ban user from channel</string>
     <string name="UnbanUserMonoforum">unban user from channel</string>
@@ -6008,6 +6037,9 @@
     <string name="AccDescrSendAs">send as %1$s</string>
     <string name="SessionsSettingsInfo">review the list of devices where you are logged in to your telegram account.</string>
     <string name="SendMediaPermissionPhotos">photos</string>
+    <string name="TapAndHoldToDeleteReaction">tap and hold to delete reaction.</string>
+    <string name="RestrictUserDeleteAllMessages">delete all messages</string>
+    <string name="RestrictUserDeleteAllReactions">delete all reactions</string>
     <string name="SendMediaPermissionVideos">videos</string>
     <string name="SendMediaPermissionStickersGifs">stickers &amp; gifs</string>
     <string name="SendMediaPermissionMusic">music</string>
@@ -7664,21 +7696,24 @@
     <string name="BusinessHoursProfileOpensInDays_other">opens in %d days</string>
     <string name="BusinessHoursProfileSwitchLocal">local time</string>
     <string name="BusinessHoursProfileSwitchMy">my time</string>
-    <string name="BusinessBots">chat automation</string>
-    <string name="BusinessBotsInfo">add a bot to reply to messages on your behalf.</string>
-    <string name="BusinessBotsInfoLink">https://telegram.org/blog/telegram-business#chatbots-for-business</string>
+    <string name="BusinessBots2">chat automation</string>
+    <string name="BusinessBots2Info">add a bot to answer messages on your behalf.</string>
     <string name="BusinessBotLink">bot username or link</string>
     <string name="BusinessBotNotFound">chatbot not found</string>
-    <string name="BusinessBotLinkInfo">choose a bot to manage your chats automatically.</string>
-    <string name="BusinessBotChats">chats the bot can access</string>
+    <string name="BusinessBotLinkInfo2">choose a bot to manage your chats automatically.</string>
+    <string name="BusinessBotChats2">chats the bot can access</string>
     <string name="BusinessBotUnsavedChanges">you have changed the business bot settings. apply changes?</string>
-    <string name="BusinessChatsAllPrivateExcept">all private chats except...</string>
-    <string name="BusinessChatsOnlySelected">only selected chats</string>
+    <string name="BusinessBotNoAddedTitle">no bot added</string>
+    <string name="BusinessBotNoAddedText">you haven&#8217;t added a bot to manage your account. leave anyway?</string>
+    <string name="BusinessBotNoAddedButton">leave</string>
+    <string name="BusinessBotDone">%s now manages your account.</string>
+    <string name="BusinessChatsAllPrivateExcept2">all private chats except&#8230;</string>
+    <string name="BusinessChatsOnlySelected2">only selected chats</string>
     <string name="BusinessChatsExcluded">excluded chats</string>
-    <string name="BusinessChatsExcludedAdd">exclude chats</string>
-    <string name="BusinessBotChatsInfo">select chats or entire chat categories which the bot will have access to.</string>
+    <string name="BusinessChatsExcludedAdd2">add</string>
+    <string name="BusinessBotChatsInfo2">select the chats the bot won&#8217;t access.</string>
     <string name="BusinessChatsIncluded">included chats</string>
-    <string name="BusinessChatsIncludedAdd">select chats</string>
+    <string name="BusinessChatsIncludedAdd2">add</string>
     <string name="BusinessBotPermissions">bot permissions</string>
     <string name="BusinessBotPermissionsMessagesSection">manage messages</string>
     <string name="BusinessBotPermissionsMessagesRead">read messages</string>
@@ -7913,14 +7948,20 @@
     <string name="EditProfileBio">your bio</string>
     <string name="EditProfileChannel">your channel</string>
     <string name="EditProfileChannelTitle">personal channel</string>
-    <string name="EditProfileChannelTitleAdd">add personal channel</string>
+    <string name="EditProfileChannelAdd">add</string>
     <string name="EditProfileChannelSelect">select your channel</string>
     <string name="EditProfileChannelHide">hide channel</string>
-    <string name="EditProfileChannelAdd">add</string>
     <string name="EditProfileChannelStartNew">start a channel</string>
     <string name="EditProfileChannelSet">personal channel added.</string>
-    <string name="EditProfileBioHint">write about yourself...</string>
-    <string name="EditProfileBioInfo">you can add a few lines about yourself. choose who can see your bio in **settings**.</string>
+    <string name="EditProfileBioHint2">bio</string>
+    <string name="EditProfileBioInfo2">a few words about you.</string>
+    <string name="EditProfileBioInfoEveryone">everyone can see your bio. **change &gt;**</string>
+    <string name="EditProfileBioInfoEveryoneExcept">everyone (except %d) can see your bio. **change &gt;**</string>
+    <string name="EditProfileBioInfoContacts">your contacts can see your bio. **change &gt;**</string>
+    <string name="EditProfileBioInfoContactsExtra">your contacts (%s) can see your bio. **change &gt;**</string>
+    <string name="EditProfileBioInfoNobody">nobody can see your bio. **change &gt;**</string>
+    <string name="EditProfileBioInfoNobodyExcept">nobody (except %d) can see your bio. **change &gt;**</string>
+    <string name="EditProfileBioInfoUnknown">choose who can see your bio in **settings**.</string>
     <string name="EditProfileBirthday">your birthday</string>
     <string name="EditProfileBirthdayText">birthday</string>
     <string name="EditProfileBirthdayRemove">remove birthday</string>
@@ -7931,6 +7972,8 @@
     <string name="EditProfileBirthdayButton">save</string>
     <string name="EditProfileHours">change opening hours</string>
     <string name="EditProfileLocation">change location</string>
+    <string name="EditProfileChatAutomation">chat automation</string>
+    <string name="EditProfileChatAutomationInfo">add a bot to answer messages on your behalf.</string>
     <string name="ProfileChannel">channel</string>
     <string name="ProfileBirthdayValue">%1$s</string>
     <string name="ProfileBirthdayValueYear_other">%2$s (%1$d years old)</string>
@@ -9466,8 +9509,12 @@
     <string name="SMSFee2Text">telegram needs to send you an sms with a verification code to confirm your phone number.</string>
     <string name="SMSFee3Title">support via **telegram premium &gt;**</string>
     <string name="SMSFee3Text">sign up for 1-week telegram premium subscription to help cover the sms costs.</string>
+    <string name="SMSFee3TextDays_one">sign up for %d day of telegram premium subscription to help cover the sms costs.</string>
+    <string name="SMSFee3TextDays_other">sign up for %d days of telegram premium subscription to help cover the sms costs.</string>
     <string name="SMSFeePurchaseTitle">sign up for %s</string>
     <string name="SMSFeePurchaseText">get telegram premium for 1 week</string>
+    <string name="SMSFeePurchaseTextDays_one">get telegram premium for %d day</string>
+    <string name="SMSFeePurchaseTextDays_other">get telegram premium for %d days</string>
     <string name="SMSFeeContact">having issues? **contact us**</string>
     <string name="PostSuggestionsPriceUpdated_one">un1 now accepts direct messages for %1$d star</string>
     <string name="PostSuggestionsPriceUpdated_other">un1 now accepts direct messages for %1$d stars</string>
@@ -9510,6 +9557,7 @@
     <string name="GroupCallLinkText2Two">**%1$s** and **%2$s** already joined this call.</string>
     <string name="GroupCallLinkText2Many_one">**%2$s**, **%3$s** and **%1$d** more person already joined this call.</string>
     <string name="GroupCallLinkText2Many_other">**%2$s**, **%3$s** and **%1$d** more people already joined this call.</string>
+    <string name="GroupCallLinkMicrophone">turn on the microphone</string>
     <string name="GroupCallLinkJoin">join group call</string>
     <string name="GroupCallCreateTitle">start group call</string>
     <string name="GroupCallCreateText">this call is no longer active. you can start a new one.</string>
@@ -9953,6 +10001,8 @@
     <string name="StoriesAlbumRenameHint">choose a new name for your album.</string>
     <string name="StoriesAlbumOrganizeTitle">organize your stories</string>
     <string name="StoriesAlbumOrganizeDescription">add some of your stories to this album.</string>
+    <string name="SearchCountriesTitle">global search</string>
+    <string name="SearchCountriesSelect">select</string>
     <string name="SearchPostsTitle">global search</string>
     <string name="SearchPostsText">type a keyword to search for posts from public channels.</string>
     <string name="SearchPostsButton">search</string>
@@ -10592,6 +10642,16 @@
     <string name="PollV2SetCorrectAnswerInfo">mark one option as the right answer</string>
     <string name="PollV2LimitDuration">limit duration</string>
     <string name="PollV2LimitDurationInfo">automatically close the poll at a set time</string>
+    <string name="PollV2RestrictToSubscribers">restrict to subscribers</string>
+    <string name="PollV2RestrictToSubscribersInfo">only subscribers who joined\n24+ hours ago can vote</string>
+    <string name="PollV2LimitByCountry">limit by country</string>
+    <string name="PollV2LimitByCountryInfo">only users from selected\ncountries can vote</string>
+    <string name="PollV2AllowedCountries">allowed countries</string>
+    <string name="PollV2MenuViewStats">view stats</string>
+    <string name="PollV2StatsVoteTimeline">vote timeline</string>
+    <string name="PollV2StatsPollStats">poll stats</string>
+    <string name="EmojiSearchBackToSearch">back to search</string>
+
     <string name="PollV2PollEnds">poll ends</string>
     <string name="PollV2PollDuration">poll duration</string>
     <string name="PollV2PollDurationOptionCustom">custom</string>
@@ -10609,7 +10669,16 @@
     <string name="DiscardQuizOptionWithMediaAlertTitle">delete quiz answer?</string>
     <string name="DiscardQuizOptionWithMediaMessage">this quiz answer has a media attachment. do you want to delete it?</string>
     <string name="PollAddTextOrRemoveMedia">add text or remove media first</string>
+    <string name="PollV2ToastOnlySubscribersCanVote">only subscribers of **%1$s** can vote.</string>
+    <string name="PollV2ToastOnlySubscribersJoined24hCanVote">only subscribers who joined more than **24 hours** ago can vote.</string>
+    <string name="PollV2ToastOnlySubscribersFromCountriesCanVoteOne">only subscribers from **%1$s** can vote.</string>
+    <string name="PollV2ToastOnlySubscribersFromCountriesCanVoteOther">only subscribers from **%1$s** and **%2$s** can vote.</string>
+    <string name="PollV2ToastOnlyUsersFromCountriesCanVoteOne">only users from **%1$s** can vote.</string>
+    <string name="PollV2ToastOnlyUsersFromCountriesCanVoteOther">only users from **%1$s** and **%2$s** can vote.</string>
 
+    <string name="PollV2AllowedCountriesListOther">%1$s and %2$s</string>
+    <string name="PollV2AllowedCountriesListMany">%d countries</string>
+    <string name="PollV2SearchHint">search countries</string>
     <string name="PollVotesCount_one">%d vote</string>
     <string name="PollVotesCount_other">%d votes</string>
 
@@ -10627,9 +10696,11 @@
     <string name="ProfileBotManagedBy">created and managed by **@%s**</string>
     <string name="ManagedBotChatInfo">**%1$s** is ready!\n\ntap **start** below to test your new chatbot. its behavior is defined by **%2$s**.</string>
     <string name="CreateManagedBotLimitTitle">bot limit exceeded</string>
+    <string name="CreateManagedBotLimitTextTime">you can create another bot in %s.</string>
     <string name="CreateManagedBotLimitTextPremium">subscribe to **premium** to create up to %1$d bots, or delete one of your %2$d bots via @botfather</string>
     <string name="CreateManagedBotLimitText">you can create up to %d bots, or delete your current ones via @botfather</string>
     <string name="UnverifiedApp">unverified app</string>
+    <string name="StickerOrEmojiSearchResult">search result</string>
 
     <string name="AIEditor">ai editor</string>
     <string name="AIEditorHint">rewrite, translate and correct your text using ai.</string>
@@ -10648,14 +10719,55 @@
     <string name="AIEditorToOther">to %s</string>
     <string name="AIEditorOriginal">original</string>
     <string name="AIEditorResult">result</string>
+    <string name="AIEditorBefore">before</string>
+    <string name="AIEditorAfter">after</string>
+    <string name="AIEditorAnotherExample">another example</string>
     <string name="AIEditorToneNeutral">neutral</string>
-    
     <string name="AIEditorEmojify">emojify</string>
-    
-    
+    <string name="TranslateCopy">copy translation</string>
+    <string name="TranslateEntireChat">translate entire chat</string>
+    <string name="AIEditorToneCreatedTitle">%s style created</string>
+    <string name="AIEditorToneCreatedText">press and hold the style to edit or share the link.</string>
+    <string name="AIEditorToneAddedTitle">style added</string>
+    <string name="AIEditorToneAddedText">tap \'ai\' &gt; \'%s\' when typing your next long message.</string>
+    <string name="AIEditorStyleNewCreate">create</string>
+    <string name="AIEditorEditStyle">edit style</string>
+    <string name="AIEditorShareStyle">share style</string>
+    <string name="AIEditorAddStyle">add style</string>
+    <string name="AIEditorStyleDone">done</string>
+    <string name="AIEditorNewStyle">new style</string>
+    <string name="AIEditorDeleteStyle">delete style</string>
+    <string name="AIEditorRemoveStyle">remove style</string>
+    <string name="AIEditorDeleteStyleText">are you sure you want to delete this style? it will be removed for everyone who installed it.</string>
+    <string name="AIEditorStyleText">add this style to instantly\nrewrite your messages.</string>
+    <string name="AIEditorUsedBy_one">used by %d person.</string>
+    <string name="AIEditorUsedBy_other">used by %d people.</string>
+    <string name="AIEditorCreatedBy">created by **%s**.</string>
+    <string name="AIEditorStyleTitleHint">style name (for example: \"pirate\")</string>
+    <string name="AIEditorStylePromptHint">instructions (for example \"write in bold, nautical tone, light slang (aye, matey), vivid sea imagery, playful swagger, rhythmic phrasing, adventurous mood\")</string>
+    <string name="AIEditorStyleAddLink">add a link to my account</string>
+    <string name="AIEditorStyleCreate">create</string>
+    <string name="AIEditorStyleEdit">save</string>
+    <string name="AIEditorStyleLimitTitle">limit reached</string>
+    <string name="AIEditorStyleLimitTextPremium">you can save up to %1$d styles, or subscribe to **telegram premium** for %2$d styles.</string>
+    <string name="AIEditorStyleLimitText">you can save up to %1$d styles.</string>
+    <string name="AIEditorStyleSharedTo">sent ai style link to **%s**.</string>
+    <string name="AIEditorStyleSharedToSavedMessages">sent ai style link to **saved messages**</string>
+    <string name="AIEditorStyleSharedToManyChats_one">sent ai style link to **a chat**.</string>
+    <string name="AIEditorStyleSharedToManyChats_other">sent ai style link to **%1$d chats**.</string>
+
+    <string name="GuestBotFor">for</string>
 
   
 
+  <string name="AIEditorStyleSharedToManyChats_zero">sent ai style link to **%1$d chats**.</string>
+  <string name="AIEditorStyleSharedToManyChats_two">sent ai style link to **%1$d chats**.</string>
+  <string name="AIEditorStyleSharedToManyChats_few">sent ai style link to **%1$d chats**.</string>
+  <string name="AIEditorStyleSharedToManyChats_many">sent ai style link to **%1$d chats**.</string>
+  <string name="AIEditorUsedBy_zero">used by %d people.</string>
+  <string name="AIEditorUsedBy_two">used by %d people.</string>
+  <string name="AIEditorUsedBy_few">used by %d people.</string>
+  <string name="AIEditorUsedBy_many">used by %d people.</string>
   <string name="AccDescrLiteBatteryLevelAnnounce">%s%%</string>
   <string name="AccDescrMentionCount_zero">%1$d mentions</string>
   <string name="AccDescrMentionCount_two">%1$d mentions</string>
@@ -11472,9 +11584,19 @@
   <string name="BrowserSettingsHistoryPages_many">%d pages</string>
   <string name="BrowserSettingsNeverOpenInRemove">remove</string>
   <string name="BuiltInThemes">built-in themes</string>
+  <string name="BusinessBotChats">chats the bot can access</string>
+  <string name="BusinessBotChatsInfo">select chats or entire chat categories which the bot will have access to.</string>
+  <string name="BusinessBotLinkInfo">choose a bot to manage your chats automatically.</string>
   <string name="BusinessBotPermissionsInfo">the bot can only reply on your behalf in chats that were active during the last 24h.</string>
   <string name="BusinessBotPermissionsReply">reply to messages</string>
   <string name="BusinessBotRemove">remove bot</string>
+  <string name="BusinessBots">chat automation</string>
+  <string name="BusinessBotsInfo">add a bot to reply to messages on your behalf.</string>
+  <string name="BusinessBotsInfoLink">https://telegram.org/blog/telegram-business#chatbots-for-business</string>
+  <string name="BusinessChatsAllPrivateExcept">all private chats except...</string>
+  <string name="BusinessChatsExcludedAdd">exclude chats</string>
+  <string name="BusinessChatsIncludedAdd">select chats</string>
+  <string name="BusinessChatsOnlySelected">only selected chats</string>
   <string name="BusinessHoursProfileInYourTime">%s in your time</string>
   <string name="BusinessHoursProfileOpensInDays_zero">opens in %d days</string>
   <string name="BusinessHoursProfileOpensInDays_two">opens in %d days</string>
@@ -11751,6 +11873,10 @@
   <string name="DeleteOptionsTitle_two">delete %1$d messages?</string>
   <string name="DeleteOptionsTitle_few">delete %1$d messages?</string>
   <string name="DeleteOptionsTitle_many">delete %1$d messages?</string>
+  <string name="DeleteReactionOptionsTitle_zero">delete %d reactions?</string>
+  <string name="DeleteReactionOptionsTitle_two">delete %d reactions?</string>
+  <string name="DeleteReactionOptionsTitle_few">delete %d reactions?</string>
+  <string name="DeleteReactionOptionsTitle_many">delete %d reactions?</string>
   <string name="DeleteStoriesSubtitle_zero">are you sure you want to delete %d stories?</string>
   <string name="DeleteStoriesSubtitle_two">are you sure you want to delete %d stories?</string>
   <string name="DeleteStoriesSubtitle_few">are you sure you want to delete %d stories?</string>
@@ -11779,7 +11905,10 @@
   <string name="DoNoSetTheme">do not set theme</string>
   <string name="DocumentsTitle">shared files</string>
   <string name="DontAskAgain">don\'t ask again</string>
+  <string name="EditProfileBioHint">write about yourself...</string>
+  <string name="EditProfileBioInfo">you can add a few lines about yourself. choose who can see your bio in **settings**.</string>
   <string name="EditProfileBirthdayInfoRemove">**remove birthday**.</string>
+  <string name="EditProfileChannelTitleAdd">add personal channel</string>
   <string name="EditProfileColor">edit profile color</string>
   <string name="EditProfileInfo">profile info</string>
   <string name="EmailPasswordConfirmText">please follow these steps to complete two-step verification setup:\n\n1. check your email (don\'t forget the spam folder)\n%1$s\n\n2. click on the validation link.</string>
@@ -13291,6 +13420,8 @@
   <string name="Replies_two">%1$d replies</string>
   <string name="Replies_few">%1$d replies</string>
   <string name="Replies_many">%1$d replies</string>
+  <string name="ReportReaction">report reaction</string>
+  <string name="ReportReactionAndBan">ban and report</string>
   <string name="ReportSpam">report spam</string>
   <string name="ReportSpamAndLeave">report spam and leave</string>
   <string name="ReportSpamLocation">group unrelated to location?</string>
@@ -13331,6 +13462,14 @@
   <string name="RevokeLinks_few">revoke %d links</string>
   <string name="RevokeLinks_many">revoke %d links</string>
   <string name="RoamingUsage">roaming data usage</string>
+  <string name="SMSFee3TextDays_zero">sign up for %d days of telegram premium subscription to help cover the sms costs.</string>
+  <string name="SMSFee3TextDays_two">sign up for %d days of telegram premium subscription to help cover the sms costs.</string>
+  <string name="SMSFee3TextDays_few">sign up for %d days of telegram premium subscription to help cover the sms costs.</string>
+  <string name="SMSFee3TextDays_many">sign up for %d days of telegram premium subscription to help cover the sms costs.</string>
+  <string name="SMSFeePurchaseTextDays_zero">get telegram premium for %d days</string>
+  <string name="SMSFeePurchaseTextDays_two">get telegram premium for %d days</string>
+  <string name="SMSFeePurchaseTextDays_few">get telegram premium for %d days</string>
+  <string name="SMSFeePurchaseTextDays_many">get telegram premium for %d days</string>
   <string name="SavedDialogsTabCount_zero">%d chats</string>
   <string name="SavedDialogsTabCount_two">%d chats</string>
   <string name="SavedDialogsTabCount_few">%d chats</string>
