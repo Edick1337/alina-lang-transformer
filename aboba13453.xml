@@ -1338,13 +1338,14 @@
     <string name="ReportReaction2">report reaction</string>
     <string name="DeleteReactionMenu">delete reaction</string>
     <string name="ReportAlertReaction">are you sure you want to report reactions from this user?</string>
-    <string name="DeleteAlertReaction">are you sure you want to delete reaction from this user?</string>
+    <string name="DeleteAlertReaction">are you sure you want to delete the reaction from this user?</string>
     <string name="NobodyLikesSpam1">sorry, you can only send messages to mutual contacts at the moment.</string>
     <string name="NobodyLikesSpam2">sorry, you can only add mutual contacts to groups at the moment.</string>
     <string name="NobodyLikesSpam3">sorry, you are currently restricted from posting in this group.</string>
     <string name="MoreInfo">learn more</string>
     <string name="ShareSendTo">send to...</string>
     <string name="ShareSendToNewTopic">send to new topic</string>
+    <string name="ShareSendToOffTopic">send to off topic</string>
     <string name="ShareComment">add a comment...</string>
     <string name="TapHereGifs">tap here to access saved gifs</string>
     <string name="TapHereEmoji">tap %1$s to access more emoji.</string>
@@ -1373,9 +1374,9 @@
     <string name="DeleteAllFrom">delete all from %1$s</string>
     <string name="DeleteAllFromUsers">delete all from users</string>
     <string name="DeleteAllMessagesFrom">delete all messages from %1$s</string>
-    <string name="DeleteAllMessagesFromUsers">delete all messages from users</string>
+    <string name="DeleteAllMessagesFromUsers">delete all their messages</string>
     <string name="DeleteAllReactionsFrom">delete all reactions from %1$s</string>
-    <string name="DeleteAllReactionsFromUsers">delete all reactions from users</string>
+    <string name="DeleteAllReactionsFromUsers">delete all their reactions</string>
     <string name="DeleteOptionsTitle_one">delete %1$d message?</string>
     <string name="DeleteOptionsTitle_other">delete %1$d messages?</string>
     <string name="DeleteReactionOptionsTitle_one">delete %d reaction?</string>
@@ -4913,6 +4914,10 @@
     <string name="AccDescrSentDate">sent %s</string>
     <string name="AccDescrReceivedDate">received %s</string>
     <string name="AccDescrScheduledDate">scheduled for %s</string>
+    <string name="AccDescrPostedDate">posted %s</string>
+    <string name="AccDescrLivePhoto">live photo</string>
+    <string name="AccDescrRoundVideo">video message</string>
+    <string name="AccDescrStoryPinned">pinned</string>
     <string name="AccDescrGoBack">go back</string>
     <string name="AccDescrOpenMenu">open navigation menu</string>
     <string name="AccDescrOpenMenu2">open menu</string>
@@ -4977,6 +4982,15 @@
     <string name="AccDescrCameraFlashOff">flash, off</string>
     <string name="AccDescrCameraFlashAuto">flash, auto</string>
     <string name="AccDescrCameraFlashOn">flash, on</string>
+    <string name="AccDescrDualCameraOn">dual camera, on</string>
+    <string name="AccDescrDualCameraOff">dual camera, off</string>
+    <string name="AccDescrCollage">collage</string>
+    <string name="AccDescrCollageClose">close collage</string>
+    <string name="AccDescrCameraGallery">gallery</string>
+    <string name="AccDescrTakePhoto">take photo</string>
+    <string name="AccDescrStartRecording">start recording</string>
+    <string name="AccDescrStopRecording">stop recording</string>
+    <string name="AccDescrLockRecording">lock recording</string>
     <string name="AccDescrStickerSet">sticker set</string>
     <string name="AccDescrGIFs">gifs</string>
     <string name="AccDescrStickers">stickers</string>
@@ -4997,6 +5011,21 @@
     <string name="AccDescrPollVotesMentionDown">go to next unread poll vote</string>
     <string name="AccDescrIVTitle">title</string>
     <string name="AccDescrIVHeading">heading</string>
+    <string name="AccDescrIVBlockquote">quote</string>
+    <string name="AccDescrIVPullquote">pull quote</string>
+    <string name="AccDescrIVKicker">kicker</string>
+    <string name="AccDescrIVFooter">footer</string>
+    <string name="AccDescrIVCode">code</string>
+    <string name="AccDescrIVDetails">details</string>
+    <string name="AccDescrIVExpanded">expanded</string>
+    <string name="AccDescrIVCollapsed">collapsed</string>
+    <string name="AccDescrIVRelatedArticle">related article</string>
+    <string name="AccDescrIVRelatedArticles">related articles</string>
+    <string name="AccDescrIVEmbed">embedded content</string>
+    <string name="AccDescrIVEmbedPost">embedded post</string>
+    <string name="AccDescrIVTable">table</string>
+    <string name="AccDescrIVSlideshow">slideshow</string>
+    <string name="AccDescrIVAudio">audio</string>
     <string name="AccDescrMyLocation">my location</string>
     <string name="AccDescrLocationNotify">notify when people sharing location are in range.</string>
     <string name="AccDescrVideoQuality">video quality</string>
@@ -6037,7 +6066,8 @@
     <string name="AccDescrSendAs">send as %1$s</string>
     <string name="SessionsSettingsInfo">review the list of devices where you are logged in to your telegram account.</string>
     <string name="SendMediaPermissionPhotos">photos</string>
-    <string name="TapAndHoldToDeleteReaction">tap and hold to delete reaction.</string>
+    <string name="TapAndHoldToDeleteReaction">hold down to delete reaction.</string>
+    <string name="PollV2YouCanAddXCountriesOnly">you can add **%d** countries only</string>
     <string name="RestrictUserDeleteAllMessages">delete all messages</string>
     <string name="RestrictUserDeleteAllReactions">delete all reactions</string>
     <string name="SendMediaPermissionVideos">videos</string>
@@ -7711,7 +7741,7 @@
     <string name="BusinessChatsOnlySelected2">only selected chats</string>
     <string name="BusinessChatsExcluded">excluded chats</string>
     <string name="BusinessChatsExcludedAdd2">add</string>
-    <string name="BusinessBotChatsInfo2">select the chats the bot won&#8217;t access.</string>
+    <string name="BusinessBotChatsInfo2">select the chats the bot won\'t access.</string>
     <string name="BusinessChatsIncluded">included chats</string>
     <string name="BusinessChatsIncludedAdd2">add</string>
     <string name="BusinessBotPermissions">bot permissions</string>
@@ -9509,8 +9539,8 @@
     <string name="SMSFee2Text">telegram needs to send you an sms with a verification code to confirm your phone number.</string>
     <string name="SMSFee3Title">support via **telegram premium &gt;**</string>
     <string name="SMSFee3Text">sign up for 1-week telegram premium subscription to help cover the sms costs.</string>
-    <string name="SMSFee3TextDays_one">sign up for %d day of telegram premium subscription to help cover the sms costs.</string>
-    <string name="SMSFee3TextDays_other">sign up for %d days of telegram premium subscription to help cover the sms costs.</string>
+    <string name="SMSFee3TextDays_one">sign up for %d day of telegram premium to help cover the sms costs.</string>
+    <string name="SMSFee3TextDays_other">sign up for %d days of telegram premium to help cover the sms costs.</string>
     <string name="SMSFeePurchaseTitle">sign up for %s</string>
     <string name="SMSFeePurchaseText">get telegram premium for 1 week</string>
     <string name="SMSFeePurchaseTextDays_one">get telegram premium for %d day</string>
@@ -10110,6 +10140,8 @@
     <string name="BotForumAskForStartNewChatTitle">new thread</string>
     <string name="BotForumAskForStartNewChat">type any message to create a new thread.</string>
     <string name="BotForumAskForStartNewChatForward">forward here to create a new thread.</string>
+    <string name="BotForumAskForStartOffNewChatTitle">off-thread</string>
+    <string name="BotForumAskForStartOffNewChatForward">forward here to send off-thread message.</string>
     <string name="TypeMessageAskBot">ask %1$s</string>
     <string name="AddNotes">add notes...</string>
     <string name="AddNotesInfo">notes are only visible to you.</string>
@@ -10678,6 +10710,8 @@
 
     <string name="PollV2AllowedCountriesListOther">%1$s and %2$s</string>
     <string name="PollV2AllowedCountriesListMany">%d countries</string>
+    <string name="PollV2AllowedCountriesListManyP_one">%1$d country</string>
+    <string name="PollV2AllowedCountriesListManyP_other">%1$d countries</string>
     <string name="PollV2SearchHint">search countries</string>
     <string name="PollVotesCount_one">%d vote</string>
     <string name="PollVotesCount_other">%d votes</string>
@@ -10727,7 +10761,7 @@
     <string name="TranslateCopy">copy translation</string>
     <string name="TranslateEntireChat">translate entire chat</string>
     <string name="AIEditorToneCreatedTitle">%s style created</string>
-    <string name="AIEditorToneCreatedText">press and hold the style to edit or share the link.</string>
+    <string name="AIEditorToneCreatedText">press and hold the style to edit or share it.</string>
     <string name="AIEditorToneAddedTitle">style added</string>
     <string name="AIEditorToneAddedText">tap \'ai\' &gt; \'%s\' when typing your next long message.</string>
     <string name="AIEditorStyleNewCreate">create</string>
@@ -10749,21 +10783,21 @@
     <string name="AIEditorStyleCreate">create</string>
     <string name="AIEditorStyleEdit">save</string>
     <string name="AIEditorStyleLimitTitle">limit reached</string>
-    <string name="AIEditorStyleLimitTextPremium">you can save up to %1$d styles, or subscribe to **telegram premium** for %2$d styles.</string>
+    <string name="AIEditorStyleLimitTextPremium">subscribe to **telegram premium** to save up to %2$d styles.</string>
     <string name="AIEditorStyleLimitText">you can save up to %1$d styles.</string>
-    <string name="AIEditorStyleSharedTo">sent ai style link to **%s**.</string>
-    <string name="AIEditorStyleSharedToSavedMessages">sent ai style link to **saved messages**</string>
-    <string name="AIEditorStyleSharedToManyChats_one">sent ai style link to **a chat**.</string>
-    <string name="AIEditorStyleSharedToManyChats_other">sent ai style link to **%1$d chats**.</string>
+    <string name="AIEditorStyleSharedTo">ai style link sent to **%s**.</string>
+    <string name="AIEditorStyleSharedToSavedMessages">ai style link sent to **saved messages**</string>
+    <string name="AIEditorStyleSharedToManyChats_one">ai style link sent to **a chat**.</string>
+    <string name="AIEditorStyleSharedToManyChats_other">ai style link sent to **%1$d chats**.</string>
 
     <string name="GuestBotFor">for</string>
 
   
 
-  <string name="AIEditorStyleSharedToManyChats_zero">sent ai style link to **%1$d chats**.</string>
-  <string name="AIEditorStyleSharedToManyChats_two">sent ai style link to **%1$d chats**.</string>
-  <string name="AIEditorStyleSharedToManyChats_few">sent ai style link to **%1$d chats**.</string>
-  <string name="AIEditorStyleSharedToManyChats_many">sent ai style link to **%1$d chats**.</string>
+  <string name="AIEditorStyleSharedToManyChats_zero">ai style link sent to **%1$d chats**.</string>
+  <string name="AIEditorStyleSharedToManyChats_two">ai style link sent to **%1$d chats**.</string>
+  <string name="AIEditorStyleSharedToManyChats_few">ai style link sent to **%1$d chats**.</string>
+  <string name="AIEditorStyleSharedToManyChats_many">ai style link sent to **%1$d chats**.</string>
   <string name="AIEditorUsedBy_zero">used by %d people.</string>
   <string name="AIEditorUsedBy_two">used by %d people.</string>
   <string name="AIEditorUsedBy_few">used by %d people.</string>
@@ -13218,6 +13252,10 @@
   <string name="PollOptions">poll options</string>
   <string name="PollQuestion">poll question</string>
   <string name="PollSubmitVotes">vote</string>
+  <string name="PollV2AllowedCountriesListManyP_zero">%1$d countries</string>
+  <string name="PollV2AllowedCountriesListManyP_two">%1$d countries</string>
+  <string name="PollV2AllowedCountriesListManyP_few">%1$d countries</string>
+  <string name="PollV2AllowedCountriesListManyP_many">%1$d countries</string>
   <string name="PollViewResults">view results</string>
   <string name="PollViewVotesAsAdmin_zero">%d votes &gt;</string>
   <string name="PollViewVotesAsAdmin_two">%d votes &gt;</string>
@@ -13462,10 +13500,10 @@
   <string name="RevokeLinks_few">revoke %d links</string>
   <string name="RevokeLinks_many">revoke %d links</string>
   <string name="RoamingUsage">roaming data usage</string>
-  <string name="SMSFee3TextDays_zero">sign up for %d days of telegram premium subscription to help cover the sms costs.</string>
-  <string name="SMSFee3TextDays_two">sign up for %d days of telegram premium subscription to help cover the sms costs.</string>
-  <string name="SMSFee3TextDays_few">sign up for %d days of telegram premium subscription to help cover the sms costs.</string>
-  <string name="SMSFee3TextDays_many">sign up for %d days of telegram premium subscription to help cover the sms costs.</string>
+  <string name="SMSFee3TextDays_zero">sign up for %d days of telegram premium to help cover the sms costs.</string>
+  <string name="SMSFee3TextDays_two">sign up for %d days of telegram premium to help cover the sms costs.</string>
+  <string name="SMSFee3TextDays_few">sign up for %d days of telegram premium to help cover the sms costs.</string>
+  <string name="SMSFee3TextDays_many">sign up for %d days of telegram premium to help cover the sms costs.</string>
   <string name="SMSFeePurchaseTextDays_zero">get telegram premium for %d days</string>
   <string name="SMSFeePurchaseTextDays_two">get telegram premium for %d days</string>
   <string name="SMSFeePurchaseTextDays_few">get telegram premium for %d days</string>
