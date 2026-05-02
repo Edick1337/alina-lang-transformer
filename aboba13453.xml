@@ -6067,7 +6067,7 @@
     <string name="SessionsSettingsInfo">review the list of devices where you are logged in to your telegram account.</string>
     <string name="SendMediaPermissionPhotos">photos</string>
     <string name="TapAndHoldToDeleteReaction">hold down to delete reaction.</string>
-    <string name="PollV2YouCanAddXCountriesOnly">you can add **%d** countries only</string>
+    <string name="PollV2YouCanAddXCountriesOnly">you can only add up to **%d** countries</string>
     <string name="RestrictUserDeleteAllMessages">delete all messages</string>
     <string name="RestrictUserDeleteAllReactions">delete all reactions</string>
     <string name="SendMediaPermissionVideos">videos</string>
@@ -10141,7 +10141,7 @@
     <string name="BotForumAskForStartNewChat">type any message to create a new thread.</string>
     <string name="BotForumAskForStartNewChatForward">forward here to create a new thread.</string>
     <string name="BotForumAskForStartOffNewChatTitle">off-thread</string>
-    <string name="BotForumAskForStartOffNewChatForward">forward here to send off-thread message.</string>
+    <string name="BotForumAskForStartOffNewChatForward">forward here to send off-thread.</string>
     <string name="TypeMessageAskBot">ask %1$s</string>
     <string name="AddNotes">add notes...</string>
     <string name="AddNotesInfo">notes are only visible to you.</string>
