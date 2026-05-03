@@ -10778,7 +10778,7 @@
     <string name="AIEditorUsedBy_other">used by %d people.</string>
     <string name="AIEditorCreatedBy">created by **%s**.</string>
     <string name="AIEditorStyleTitleHint">style name (for example: \"pirate\")</string>
-    <string name="AIEditorStylePromptHint">instructions (for example \"write in bold, nautical tone, light slang (aye, matey), vivid sea imagery, playful swagger, rhythmic phrasing, adventurous mood\")</string>
+    <string name="AIEditorStylePromptHint">instructions (for example, \"write like a swashbuckling pirate. use arr, ye, matey, and talk about treasure and the sea\")</string>
     <string name="AIEditorStyleAddLink">add a link to my account</string>
     <string name="AIEditorStyleCreate">create</string>
     <string name="AIEditorStyleEdit">save</string>
