@@ -1344,8 +1344,8 @@
     <string name="NobodyLikesSpam3">sorry, you are currently restricted from posting in this group.</string>
     <string name="MoreInfo">learn more</string>
     <string name="ShareSendTo">send to...</string>
-    <string name="ShareSendToNewTopic">send to new topic</string>
-    <string name="ShareSendToOffTopic">send to off topic</string>
+    <string name="ShareSendToNewTopic">new topic</string>
+    <string name="ShareSendToOffTopic">off-topic</string>
     <string name="ShareComment">add a comment...</string>
     <string name="TapHereGifs">tap here to access saved gifs</string>
     <string name="TapHereEmoji">tap %1$s to access more emoji.</string>
