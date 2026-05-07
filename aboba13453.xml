@@ -1625,7 +1625,7 @@
     <string name="NoReplies">no replies here yet...</string>
     <string name="ViewInChat">view in chat</string>
     <string name="SendAnonymously">send anonymously</string>
-    <string name="SendBotNoThread">off-thread message</string>
+    <string name="SendBotNoThread">off-topic message</string>
     <string name="DiscussionStarted">discussion started</string>
     <string name="ViewThread">view thread</string>
     <string name="ChooseDate">choose date</string>
@@ -10140,8 +10140,8 @@
     <string name="BotForumAskForStartNewChatTitle">new thread</string>
     <string name="BotForumAskForStartNewChat">type any message to create a new thread.</string>
     <string name="BotForumAskForStartNewChatForward">forward here to create a new thread.</string>
-    <string name="BotForumAskForStartOffNewChatTitle">off-thread</string>
-    <string name="BotForumAskForStartOffNewChatForward">forward here to send off-thread.</string>
+    <string name="BotForumAskForStartOffNewChatTitle">off-topic</string>
+    <string name="BotForumAskForStartOffNewChatForward">forward to main chat</string>
     <string name="TypeMessageAskBot">ask %1$s</string>
     <string name="AddNotes">add notes...</string>
     <string name="AddNotesInfo">notes are only visible to you.</string>
