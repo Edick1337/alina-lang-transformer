@@ -1201,6 +1201,7 @@
     <string name="OpenChannelDirect">contact channel</string>
     <string name="OpenMessage">view message</string>
     <string name="OpenBot">open bot</string>
+    <string name="OpenAIStyle">view style</string>
     <string name="OpenInstantView">instant view</string>
     <string name="OpenLocalInstantView">instant view</string>
     <string name="SponsoredMessage">ad</string>
@@ -1339,6 +1340,7 @@
     <string name="DeleteReactionMenu">delete reaction</string>
     <string name="ReportAlertReaction">are you sure you want to report reactions from this user?</string>
     <string name="DeleteAlertReaction">are you sure you want to delete the reaction from this user?</string>
+    <string name="DeleteAlertReactionAll">delete all user reactions</string>
     <string name="NobodyLikesSpam1">sorry, you can only send messages to mutual contacts at the moment.</string>
     <string name="NobodyLikesSpam2">sorry, you can only add mutual contacts to groups at the moment.</string>
     <string name="NobodyLikesSpam3">sorry, you are currently restricted from posting in this group.</string>
@@ -1346,6 +1348,18 @@
     <string name="ShareSendTo">send to...</string>
     <string name="ShareSendToNewTopic">new topic</string>
     <string name="ShareSendToOffTopic">off-topic</string>
+    <string name="ShareSendPhoto">send photo</string>
+    <string name="ShareSendVideo">send video</string>
+    <string name="ShareSendPhotos_one">send %1$d photo</string>
+    <string name="ShareSendPhotos_other">send %1$d photos</string>
+    <string name="ShareSendVideos_one">send %1$d video</string>
+    <string name="ShareSendVideos_other">send %1$d videos</string>
+    <string name="ShareSendItems_one">send %1$d media</string>
+    <string name="ShareSendItems_other">send %1$d media</string>
+    <string name="ShareSendToChats">to %s</string>
+    <string name="ShareSendToMany_one">to %1$d chat</string>
+    <string name="ShareSendToMany_other">to %1$d chats</string>
+    <string name="ShareTapToEditMedia">tap here to edit media</string>
     <string name="ShareComment">add a comment...</string>
     <string name="TapHereGifs">tap here to access saved gifs</string>
     <string name="TapHereEmoji">tap %1$s to access more emoji.</string>
@@ -1382,6 +1396,7 @@
     <string name="DeleteReactionOptionsTitle_one">delete %d reaction?</string>
     <string name="DeleteReactionOptionsTitle_other">delete %d reactions?</string>
     <string name="DeleteReactionOptionsTitleAll">delete all reactions?</string>
+    <string name="DeleteMessagesOptionsTitleAll">delete all messages?</string>
     <string name="DeleteAdditionalActions">additional actions</string>
     <string name="DeleteToggleBanUsers">fully ban users</string>
     <string name="DeleteToggleBanUser">fully ban this user</string>
@@ -3368,6 +3383,7 @@
     <string name="MainGroupProfilePhotoSetHint">this is the main group photo now.</string>
     <string name="MainGroupProfileVideoSetHint">this is the main group photo now.</string>
     <string name="PhotoSavedHint">photo saved to gallery.</string>
+    <string name="LivePhotoSavedHint">motion photo saved to gallery</string>
     <string name="VideoSavedHint">video saved to gallery.</string>
     <string name="PhotoSavedToDownloadsHintLinked">photo saved to **downloads**.</string>
     <string name="VideoSavedToDownloadsHintLinked">video saved to **downloads**.</string>
@@ -3379,6 +3395,8 @@
     <string name="FilesSavedHintLinked_other">%1$d files saved to **downloads**.</string>
     <string name="PhotosSavedHint_one">photo saved to gallery.</string>
     <string name="PhotosSavedHint_other">%1$d photos saved to gallery.</string>
+    <string name="LivePhotosSavedHint_one">motion photo saved to gallery</string>
+    <string name="LivePhotosSavedHint_other">%1$d motion photos saved to gallery</string>
     <string name="VideosSavedHint_one">video saved to gallery.</string>
     <string name="VideosSavedHint_other">%1$d videos saved to gallery.</string>
     <string name="AudiosSavedHint_one">file saved to music.</string>
@@ -6777,6 +6795,7 @@
     <string name="StealthModeCooldownHint">please wait until **stealth mode** is ready to use again.</string>
     <string name="StoryViewLocation">view location &gt;</string>
     <string name="StoryViewMessage">view message &gt;</string>
+    <string name="LocationsShowAll">show all</string>
     <string name="StoryViewGift">show gift &gt;</string>
     <string name="AccDescrLike">like</string>
     <string name="ReactionLongTapHint">long tap for more reactions.</string>
@@ -8704,6 +8723,8 @@
     <string name="StarGiftReasonRemovedDescription">removed description</string>
     <string name="StarGiftReasonSale">gift sale</string>
     <string name="StarGiftReasonPurchase">gift purchase</string>
+    <string name="StarGiftReasonOffer">gift offer</string>
+    <string name="StarGiftReasonOfferRefund">gift offer refund</string>
     <string name="StarGiftUpgradeGiftFrom">gift from</string>
     <string name="StarGiftTransactionGiftTransfer">gift transfer</string>
     <string name="StarGiftTransactionGiftTransferRefund">refunded gift transfer</string>
@@ -8711,6 +8732,8 @@
     <string name="StarGiftTransactionGiftSaleRefund">refunded gift sale</string>
     <string name="StarGiftTransactionGiftPurchase">gift purchase</string>
     <string name="StarGiftTransactionGiftPurchaseRefund">refunded gift purchase</string>
+    <string name="StarGiftTransactionGiftOffer">gift offer</string>
+    <string name="StarGiftTransactionGiftOfferRefund">refunded gift offer</string>
     <string name="StarSubscriptionPurchase">monthly subscription fee</string>
     <string name="StarMySubscriptions">my subscriptions</string>
     <string name="StarMySubscriptionsExpand">show more</string>
@@ -10473,6 +10496,7 @@
     <string name="StakeDicePlaceholder">your stake</string>
     <string name="StakeDiceButton">save and roll</string>
     <string name="StakeDiceToast">your stake: &#128142;</string>
+    <string name="StakeDiceToastChange">change</string>
     <string name="StakeDiceToastButton">send</string>
     <string name="StakeDiceActionYouWon">you won &#128142; %s</string>
     <string name="StakeDiceActionYouLost">you lost &#128142; %s</string>
@@ -12750,6 +12774,10 @@
   <string name="LiteOptionsBlur">night theme blur</string>
   <string name="LitePowerSaver">save power on low battery</string>
   <string name="LitePowerSaverInfo">automatically switch to low power usage when your system is in battery saving mode.</string>
+  <string name="LivePhotosSavedHint_zero">%1$d motion photos saved to gallery</string>
+  <string name="LivePhotosSavedHint_two">%1$d motion photos saved to gallery</string>
+  <string name="LivePhotosSavedHint_few">%1$d motion photos saved to gallery</string>
+  <string name="LivePhotosSavedHint_many">%1$d motion photos saved to gallery</string>
   <string name="LiveStoryTopPanelWatching_zero">%d watching</string>
   <string name="LiveStoryTopPanelWatching_two">%d watching</string>
   <string name="LiveStoryTopPanelWatching_few">%d watching</string>
@@ -13583,6 +13611,22 @@
   <string name="SetBackgroundFromGallery">set wallpaper from gallery</string>
   <string name="SetProfilePhotoAvatarConstructor">set profile photo</string>
   <string name="SetProfileVideo">set as profile photo</string>
+  <string name="ShareSendItems_zero">send %1$d media</string>
+  <string name="ShareSendItems_two">send %1$d media</string>
+  <string name="ShareSendItems_few">send %1$d media</string>
+  <string name="ShareSendItems_many">send %1$d media</string>
+  <string name="ShareSendPhotos_zero">send %1$d photos</string>
+  <string name="ShareSendPhotos_two">send %1$d photos</string>
+  <string name="ShareSendPhotos_few">send %1$d photos</string>
+  <string name="ShareSendPhotos_many">send %1$d photos</string>
+  <string name="ShareSendToMany_zero">to %1$d chats</string>
+  <string name="ShareSendToMany_two">to %1$d chats</string>
+  <string name="ShareSendToMany_few">to %1$d chats</string>
+  <string name="ShareSendToMany_many">to %1$d chats</string>
+  <string name="ShareSendVideos_zero">send %1$d videos</string>
+  <string name="ShareSendVideos_two">send %1$d videos</string>
+  <string name="ShareSendVideos_few">send %1$d videos</string>
+  <string name="ShareSendVideos_many">send %1$d videos</string>
   <string name="ShareTelegram">share telegram...</string>
   <string name="ShareVideo">share camera video</string>
   <string name="Shared_zero">%1$s shared</string>
