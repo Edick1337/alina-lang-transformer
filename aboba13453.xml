@@ -5317,8 +5317,8 @@
     <string name="AcceptSecretChats">accept secret chats</string>
     <string name="AcceptSecretChatsDescription">use this device for secret chats</string>
     <string name="TerminateSession">terminate session</string>
-    <string name="AuthAnotherClientInfo4">link *telegram desktop* or *telegram web* by scanning a qr code.</string>
-    <string name="LinkDesktopDevice">link desktop device</string>
+    <string name="AuthAnotherClientInfo4">log into *telegram desktop* or *telegram web* by scanning a qr code.</string>
+    <string name="LinkDesktopDevice">add device</string>
     <string name="TerminateOldSessionHeader">automatically terminate old sessions</string>
     <string name="IfInactiveFor">if inactive for</string>
     <string name="AuthAnotherClientInfo5">go to *getdesktop.telegram.org* or *web.telegram.org* to get a qr code</string>
@@ -10758,7 +10758,7 @@
     <string name="CreateManagedBotLimitTextPremium">subscribe to **premium** to create up to %1$d bots, or delete one of your %2$d bots via @botfather</string>
     <string name="CreateManagedBotLimitText">you can create up to %d bots, or delete your current ones via @botfather</string>
     <string name="UnverifiedApp">unverified app</string>
-    <string name="StickerOrEmojiSearchResult">search result</string>
+    <string name="StickerOrEmojiSearchResult">search results</string>
 
     <string name="AIEditor">ai editor</string>
     <string name="AIEditorHint">rewrite, translate and correct your text using ai.</string>
