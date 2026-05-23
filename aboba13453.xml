@@ -7773,7 +7773,7 @@
     <string name="BusinessBotPermissionsProfileSection">manage profile</string>
     <string name="BusinessBotPermissionsProfileName">edit name</string>
     <string name="BusinessBotPermissionsProfileBio">edit bio</string>
-    <string name="BusinessBotPermissionsProfilePicture">edit profile picture</string>
+    <string name="BusinessBotPermissionsProfilePicture">edit profile photo</string>
     <string name="BusinessBotPermissionsProfileUsername">edit username</string>
     <string name="BusinessBotPermissionsGiftsSection">manage gifts and stars</string>
     <string name="BusinessBotPermissionsGiftsView">view gifts and stars</string>
