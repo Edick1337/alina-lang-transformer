@@ -710,6 +710,8 @@
     <string name="EditAdminGroupDeleteMessages">delete messages</string>
     <string name="EditAdminAddAdmins">add new admins</string>
     <string name="EditAdminSendAnonymously">remain anonymous</string>
+    <string name="EditAdminProcessJoinRequests">process join requests</string>
+    <string name="EditAdminProcessJoinRequestsInfo">allow this bot to approve new members using its own interfaces, such as captchas.</string>
     <string name="EditAdminRemoveAdmin">dismiss admin</string>
     <string name="EditAdminGroupTransfer">transfer group ownership</string>
     <string name="EditAdminChannelTransfer">transfer channel ownership</string>
@@ -1259,6 +1261,7 @@
     <string name="ChatGallery">gallery</string>
     <string name="ChatLocation">location</string>
     <string name="ChatSticker">sticker</string>
+    <string name="ChatLink">link</string>
     <string name="ChatEmoji">emoji</string>
     <string name="ChatDocument">file</string>
     <string name="NoMessages">no messages here yet...</string>
@@ -3006,6 +3009,7 @@
     <string name="TerminateSessionText">are you sure you want to terminate this session?</string>
     <string name="ClearOtherSessionsHelp">logs out all devices except for this one.</string>
     <string name="AreYouSureSessionsTitle">terminate sessions</string>
+    <string name="AlsoTerminateChatbot">also terminate %s</string>
     <string name="AreYouSureSessionTitle">terminate session</string>
     <string name="Terminate">terminate</string>
     <string name="AreYouSureSessions">are you sure you want to terminate all other sessions?</string>
@@ -3890,6 +3894,8 @@
     <string name="AttachOnceRound">one-time video message</string>
     <string name="AttachGame">game</string>
     <string name="FromYou">you</string>
+    <string name="NoNewCarMessages">no new messages</string>
+    <string name="NoCarMusic">no music in your chats</string>
     <string name="ActionTakeScreenshootYou">you took a screenshot!</string>
     <string name="ActionTakeScreenshoot">un1 took a screenshot!</string>
     <string name="Album">album</string>
@@ -3928,6 +3934,8 @@
     <string name="EmailLoginChangeMessage">this email address will be used every time you log in to your telegram account from a new device.</string>
     <string name="ChangeEmail">change email</string>
     <string name="FloodWait">too many attempts, please try again later.</string>
+    <string name="GuardBotTimeoutTitle">join request</string>
+    <string name="GuardBotTimeout">the admin bot cannot process the join request now. try again later.</string>
     <string name="FloodWaitTime">too many attempts, please try again in %1$s</string>
     <string name="InvalidCode">invalid code, please try again.</string>
     <string name="PhoneNumberFlood">sorry, you have deleted and re-created your account too many times recently. please wait for a few days before signing up again.</string>
@@ -5230,7 +5238,10 @@
     <string name="EditCurrentTheme">edit current theme</string>
     <string name="CreateNewTheme">create a new theme</string>
     <string name="ApproveNewMembers">request admin approval</string>
+    <string name="ApproveNewMembers2">approve new members</string>
+    <string name="ApproveNewMembersUnavailablePublicGroup">this option is unavailable because anyone can join and send messages through the public group link.</string>
     <string name="ApproveNewMembersDescription">turn this on if you want users to join only after they are approved by an admin.</string>
+    <string name="ApproveNewMembersDescription2">require admin approval for people joining through this link.</string>
     <string name="ApproveNewMembersDescriptionFrozen">you can\'t enable admin approval for links that require a monthly fee.</string>
     <string name="NoMemberRequests">no join requests</string>
     <string name="RequestToJoinMembersTwo">%1$s, %2$s</string>
@@ -5281,7 +5292,9 @@
     <string name="LinkNameHint">link name (optional)</string>
     <string name="LinkNameHelp">only admins will see this name.</string>
     <string name="CreateLinkHeader">create</string>
+    <string name="CreateLinkHeaderNoCaps">create</string>
     <string name="SaveLinkHeader">save</string>
+    <string name="SaveLinkHeaderNoCaps">save</string>
     <string name="UserAcceptedToGroupAction">un1 was accepted into the group</string>
     <string name="UserAcceptedToGroupPush">%1$s was accepted into the group</string>
     <string name="UserAcceptedToGroupPushWithGroup">%2$s|%1$s was accepted into the group</string>
@@ -5310,6 +5323,14 @@
     <string name="ChannelSettingsJoinToSendInfo">turn this on if you expect users to join your group before being able to send messages.</string>
     <string name="ChannelSettingsJoinRequest">approve new members</string>
     <string name="ChannelSettingsJoinRequestInfo">turn this on if you want users to join only after they are approved by an admin.</string>
+
+    <string name="ChannelSettingsJoinRequestInfo2">admin must approve anyone who wants to join the channel.</string>
+    <string name="ChannelSettingsJoinRequestInfoManagedBy">admin must approve anyone who wants to join the channel. managed by **%s**</string>
+    <string name="GroupPublicSettingsJoinRequestInfo2">admin must approve anyone who wants to send a message in the group.</string>
+    <string name="GroupPrivateSettingsJoinRequestInfo2">admin must approve anyone who wants to join the group.</string>
+    <string name="GroupPublicSettingsJoinRequestInfoManagedBy">admin must approve anyone who wants to send a message in the group. managed by **%s**</string>
+    <string name="GroupPrivateSettingsJoinRequestInfoManagedBy">admin must approve anyone who wants to join the group. managed by **%s**</string>
+
     <string name="Allow">allow</string>
     <string name="Application">application</string>
     <string name="Location">location based on the ip address</string>
@@ -6472,6 +6493,8 @@
     <string name="ProfileStoriesCountZero">no stories</string>
     <string name="StoriesSelected_one">%d selected</string>
     <string name="StoriesSelected_other">%d selected</string>
+    <string name="MessagesSelected_one">%d selected</string>
+    <string name="MessagesSelected_other">%d selected</string>
     <string name="StoryLive">live</string>
     <string name="StoryPhoto">photo</string>
     <string name="StoryVideo">video</string>
@@ -7229,9 +7252,11 @@
     <string name="BoostingGiveawayMsgPrizes_other">**%1$d** %2$s</string>
     <string name="StoryReactionsWidgetLimit2_other">you can&#8217;t add more than %d reaction stickers to a story.</string>
     <string name="UnconfirmedAuthTitle">someone just got access to your messages!</string>
+    <string name="UnconfirmedAuthTitleBot">a bot just got access to your messages!</string>
     <string name="UnconfirmedAuthConfirm">yes, it\'s me</string>
     <string name="UnconfirmedAuthDeny">no, it&#8217;s not me!</string>
     <string name="UnconfirmedAuthSingle">we detected a new login to your account from %s. is it you?</string>
+    <string name="UnconfirmedAuthSingleBot">%1$s connected to your account from %2$s. was this you?</string>
     <string name="UnconfirmedAuthMultiple_one">we detected %d new login to your account. is it you?</string>
     <string name="UnconfirmedAuthMultiple_other">we detected %d new logins to your account. is it you?</string>
     <string name="UnconfirmedAuthMultipleFrom_one">we detected %d new login to your account from %s. is it you?</string>
@@ -7242,6 +7267,7 @@
     <string name="UnconfirmedAuthDeniedMessageMultiple">we have terminated the login attempts from: %s</string>
     <string name="UnconfirmedAuthDeniedWarning">never send your login code to anyone or you can lose your telegram account!</string>
     <string name="UnconfirmedAuthConfirmed">new login allowed</string>
+    <string name="UnconfirmedAuthConfirmedBot">new bot allowed</string>
     <string name="UnconfirmedAuthConfirmedMessage">you can check the list of your active logins in **settings &gt; devices**.</string>
     <string name="ChannelManageMessages">manage messages</string>
     <string name="ChannelManageStories">manage stories</string>
@@ -7756,6 +7782,8 @@
     <string name="BusinessBotNoAddedText">you haven&#8217;t added a bot to manage your account. leave anyway?</string>
     <string name="BusinessBotNoAddedButton">leave</string>
     <string name="BusinessBotDone">%s now manages your account.</string>
+    <string name="BusinessBotUpdated">updated %s&#8217;s settings.</string>
+    <string name="BusinessBotUpdate">update</string>
     <string name="BusinessChatsAllPrivateExcept2">all private chats except&#8230;</string>
     <string name="BusinessChatsOnlySelected2">only selected chats</string>
     <string name="BusinessChatsExcluded">excluded chats</string>
@@ -8023,6 +8051,12 @@
     <string name="EditProfileLocation">change location</string>
     <string name="EditProfileChatAutomation">chat automation</string>
     <string name="EditProfileChatAutomationInfo">add a bot to answer messages on your behalf.</string>
+    <string name="SessionBot">chat automation bot</string>
+    <string name="SessionBotConnectedOn">connected on %s</string>
+    <string name="SessionBotConnectedFrom">connected from</string>
+    <string name="SessionBotDevice">device</string>
+    <string name="SessionBotLocation">location</string>
+    <string name="SessionBotDate">date</string>
     <string name="ProfileChannel">channel</string>
     <string name="ProfileBirthdayValue">%1$s</string>
     <string name="ProfileBirthdayValueYear_other">%2$s (%1$d years old)</string>
@@ -8489,7 +8523,9 @@
     <string name="WebRecentClearText">do you want to clear your recent search terms?</string>
     <string name="SearchEngine">search engine</string>
     <string name="OpenInTelegramBrowser">open in telegram</string>
+    <string name="OpenInTelegramBrowser2">open in-app</string>
     <string name="OpenInSystemBrowser">open in...</string>
+    <string name="OpenInSystemBrowser2">open in browser</string>
     <string name="AppsTab">apps</string>
     <string name="ProfileBotOpenApp">open app</string>
     <string name="ProfileBotOpenAppInfo">by launching this mini app, you agree to the **terms of service for mini apps**.</string>
@@ -8539,8 +8575,9 @@
     <string name="AppsClearSearch">app history</string>
     <string name="AppsClearSearchAlert">do you want to remove %s from your recent app history?</string>
     <string name="WebBookmark">bookmark</string>
+    <string name="WebBookmarkAdd">add bookmark</string>
     <string name="WebBookmarkedToast">link added to bookmarks in **saved messages**.</string>
-    
+    <string name="SearchEngine1Name">google</string>
     
     
     
@@ -8585,12 +8622,20 @@
     <string name="BrowserSettingsHistoryPages_one">%d page</string>
     <string name="BrowserSettingsHistoryPages_other">%d pages</string>
     <string name="BrowserSettingsHistoryClearText">are you sure you want to clear all browser history after %s?</string>
-    <string name="BrowserSettingsNeverOpenInTitle">never open in the in-app browser</string>
+    <string name="BrowserSettingsNeverOpenInTitle2">don&#8217;t open in-app</string>
+    <string name="BrowserSettingsAlwaysOpenInTitle2">open in-app</string>
     <string name="BrowserSettingsNeverOpenInAdd">add website</string>
-    <string name="BrowserSettingsNeverOpenInClearList">clear list</string>
-    <string name="BrowserSettingsNeverOpenInInfo">telegram will always open links from these websites in an external browser app.</string>
+    <string name="BrowserSettingsNeverOpenInClearList2">delete all exceptions</string>
+    <string name="BrowserSettingsNeverOpenInInfo2">these sites will always be opened in external browser.</string>
+    <string name="BrowserSettingsAlwaysOpenInInfo2">these sites will still be opened in-app.</string>
+    <string name="WebBrowserDeleteAllExceptionsTitle">delete all exceptions</string>
+    <string name="WebBrowserDeleteAllExceptionsMessage">are you sure you want to delete all website exceptions?</string>
+    <string name="WebBrowserShowCloseButton">show close button</string>
+    <string name="WebBrowserShowCloseButtonInfo">add a close button when viewing websites.</string>
     <string name="BrowserSettingsAddTitle">add website</string>
+    <string name="BrowserSettingsAddTitleExternal">add website</string>
     <string name="BrowserSettingsAddText">enter a domain that you don&#8217;t want to be opened in the in-app browser.</string>
+    <string name="BrowserSettingsAddTextExternal">enter a domain that you want to be opened in the in-app browser.</string>
     <string name="BrowserSettingsAddHint">enter url</string>
     <string name="InappBrowser">in-app browser</string>
     <string name="InappBrowserInfo">open external links within the app</string>
@@ -8599,6 +8644,8 @@
     <string name="BrowserExternalTitle">open in browser</string>
     <string name="BrowserExternalText">do you want to open this link in your default browser?</string>
     <string name="BrowserExternalCheck">always open links from **%s** in browser</string>
+    <string name="BrowserAlwaysOpenExternal">always open this site in browser</string>
+    <string name="BrowserAlwaysOpenInApp">always open this site in-app</string>
     <string name="BrowserExternalRestricted">telegram will now open links from this website in the external browser. you can change this in **settings**.</string>
     <string name="StoryEditCover">edit cover</string>
     <string name="StoryEditCoverInfo">choose a frame from this story to show on your profile.</string>
@@ -10706,6 +10753,9 @@
     <string name="PollV2MenuViewStats">view stats</string>
     <string name="PollV2StatsVoteTimeline">vote timeline</string>
     <string name="PollV2StatsPollStats">poll stats</string>
+    <string name="PollV2AddLinkTitle">add link</string>
+    <string name="PollV2AddLinkMessage">attach a link to this option.</string>
+    <string name="PollV2AddLinkUrlHint">url</string>
     <string name="EmojiSearchBackToSearch">back to search</string>
 
     <string name="PollV2PollEnds">poll ends</string>
@@ -10759,6 +10809,7 @@
     <string name="CreateManagedBotLimitText">you can create up to %d bots, or delete your current ones via @botfather</string>
     <string name="UnverifiedApp">unverified app</string>
     <string name="StickerOrEmojiSearchResult">search results</string>
+    <string name="StickerOrEmojiGlobalSearchResult">global search result</string>
 
     <string name="AIEditor">ai editor</string>
     <string name="AIEditorHint">rewrite, translate and correct your text using ai.</string>
@@ -10813,8 +10864,45 @@
     <string name="AIEditorStyleSharedToSavedMessages">ai style link sent to **saved messages**</string>
     <string name="AIEditorStyleSharedToManyChats_one">ai style link sent to **a chat**.</string>
     <string name="AIEditorStyleSharedToManyChats_other">ai style link sent to **%1$d chats**.</string>
+    <string name="AIEditorStyleNotFound">ai style not found.</string>
+
+    <string name="WebBrowserExceptionsLimitTitle">limit reached</string>
+    <string name="WebBrowserExceptionsLimitMessage">you have reached the maximum number of website exceptions. please remove some existing ones to add new ones.</string>
+
+    <string name="ApproveNewMembersTitle">approve new members</string>
+    <string name="ApprovalRequired">approval required</string>
+    <string name="ApproveNewMembersMessageChannel">new subscribers will now need approval from **%1$s** before they can join this channel.</string>
+    <string name="ApproveNewMembersMessageGroup">new members will now need approval from **%1$s** before they can send messages in this group.</string>
+    <string name="ApproveNewMembersDisabledMessageGroup">new members will no longer need approval from **%1$s** before they can send messages in this group.</string>
+    <string name="ApproveNewMembersDisabledMessageChannel">new subscribers will no longer need approval from **%1$s** before they can join this channel.</string>
+    <string name="ApproveNewMembersEnable">enable</string>
+    <string name="ApproveNewMembersDisable">disable</string>
+    <string name="ApproveNewMembersApplyToLinksTitle">apply to existing invite links</string>
+    <string name="ApproveNewMembersEnableForLinks_one">also enable **approve new members** for **%1$d existing invite link** in this group?</string>
+    <string name="ApproveNewMembersEnableForLinks_other">also enable **approve new members** for **%1$d existing invite links** in this group?</string>
+    <string name="ApproveNewMembersDisableForLinks_one">also disable **approve new members** for **%1$d existing invite link** in this group?</string>
+    <string name="ApproveNewMembersDisableForLinks_other">also disable **approve new members** for **%1$d existing invite links** in this group?</string>
+    <string name="ApproveNewMembersEnableForLinksChannel_one">also enable **approve new members** for **%1$d existing invite link** in this channel?</string>
+    <string name="ApproveNewMembersEnableForLinksChannel_other">also enable **approve new members** for **%1$d existing invite links** in this channel?</string>
+    <string name="ApproveNewMembersDisableForLinksChannel_one">also disable **approve new members** for **%1$d existing invite link** in this channel?</string>
+    <string name="ApproveNewMembersDisableForLinksChannel_other">also disable **approve new members** for **%1$d existing invite links** in this channel?</string>
+    <string name="ApproveNewMembersApplyToLinksDontApply">don\'t apply</string>
+    <string name="ApproveNewMembersApplyToLinksApply">apply</string>
+    <string name="GuardBotReplaceTitle">replace bot</string>
+    <string name="GuardBotReplaceMessage">**%1$s** is currently processing join requests. switch to **%2$s** instead?</string>
+    <string name="GuardBotReplaceUseNew">use %1$s</string>
+    <string name="GuardBotReplaceKeepCurrent">keep %1$s</string>
+    <string name="GuardBotJoinRequestApproved">your request to join **%1$s** has been approved</string>
+    <string name="GuardBotJoinRequestDeclined">your request to join **%1$s** has been declined</string>
+    <string name="GuardBotJoinRequestQueued">your request to join **%1$s** has been sent to the admins</string>
+    <string name="BotCantReadChatTooltip">this bot can\'t read the chat &#8212; only the message where it was mentioned.</string>
 
     <string name="GuestBotFor">for</string>
+
+    <string name="WearAuthTitle">use telegram with wear os</string>
+    <string name="WearAuthText">connect your account to wear os device\nto use it separately from your watch.</string>
+    <string name="WearAuthEmojis">compare emojis on your watch</string>
+    <string name="WearAuthEmojisLogIn">log in</string>
 
   
 
@@ -11022,6 +11110,22 @@
   <string name="AnswerOptions">answer options</string>
   <string name="Appearance">appearance</string>
   <string name="ApplyBackgroundForThisChat">apply for this chat</string>
+  <string name="ApproveNewMembersDisableForLinks_zero">also disable **approve new members** for **%1$d existing invite links** in this group?</string>
+  <string name="ApproveNewMembersDisableForLinks_two">also disable **approve new members** for **%1$d existing invite links** in this group?</string>
+  <string name="ApproveNewMembersDisableForLinks_few">also disable **approve new members** for **%1$d existing invite links** in this group?</string>
+  <string name="ApproveNewMembersDisableForLinks_many">also disable **approve new members** for **%1$d existing invite links** in this group?</string>
+  <string name="ApproveNewMembersDisableForLinksChannel_zero">also disable **approve new members** for **%1$d existing invite links** in this channel?</string>
+  <string name="ApproveNewMembersDisableForLinksChannel_two">also disable **approve new members** for **%1$d existing invite links** in this channel?</string>
+  <string name="ApproveNewMembersDisableForLinksChannel_few">also disable **approve new members** for **%1$d existing invite links** in this channel?</string>
+  <string name="ApproveNewMembersDisableForLinksChannel_many">also disable **approve new members** for **%1$d existing invite links** in this channel?</string>
+  <string name="ApproveNewMembersEnableForLinks_zero">also enable **approve new members** for **%1$d existing invite links** in this group?</string>
+  <string name="ApproveNewMembersEnableForLinks_two">also enable **approve new members** for **%1$d existing invite links** in this group?</string>
+  <string name="ApproveNewMembersEnableForLinks_few">also enable **approve new members** for **%1$d existing invite links** in this group?</string>
+  <string name="ApproveNewMembersEnableForLinks_many">also enable **approve new members** for **%1$d existing invite links** in this group?</string>
+  <string name="ApproveNewMembersEnableForLinksChannel_zero">also enable **approve new members** for **%1$d existing invite links** in this channel?</string>
+  <string name="ApproveNewMembersEnableForLinksChannel_two">also enable **approve new members** for **%1$d existing invite links** in this channel?</string>
+  <string name="ApproveNewMembersEnableForLinksChannel_few">also enable **approve new members** for **%1$d existing invite links** in this channel?</string>
+  <string name="ApproveNewMembersEnableForLinksChannel_many">also enable **approve new members** for **%1$d existing invite links** in this channel?</string>
   <string name="ArchiveStories_zero">archive stories</string>
   <string name="ArchiveStories_two">archive stories</string>
   <string name="ArchiveStories_few">archive stories</string>
@@ -11640,7 +11744,10 @@
   <string name="BrowserSettingsHistoryPages_two">%d pages</string>
   <string name="BrowserSettingsHistoryPages_few">%d pages</string>
   <string name="BrowserSettingsHistoryPages_many">%d pages</string>
+  <string name="BrowserSettingsNeverOpenInClearList">clear list</string>
+  <string name="BrowserSettingsNeverOpenInInfo">telegram will always open links from these websites in an external browser app.</string>
   <string name="BrowserSettingsNeverOpenInRemove">remove</string>
+  <string name="BrowserSettingsNeverOpenInTitle">never open in the in-app browser</string>
   <string name="BuiltInThemes">built-in themes</string>
   <string name="BusinessBotChats">chats the bot can access</string>
   <string name="BusinessBotChatsInfo">select chats or entire chat categories which the bot will have access to.</string>
@@ -12927,6 +13034,10 @@
   <string name="MessagesDeletedUndo_two">messages for %1$s days deleted</string>
   <string name="MessagesDeletedUndo_few">messages for %1$s days deleted</string>
   <string name="MessagesDeletedUndo_many">messages for %1$s days deleted</string>
+  <string name="MessagesSelected_zero">%d selected</string>
+  <string name="MessagesSelected_two">%d selected</string>
+  <string name="MessagesSelected_few">%d selected</string>
+  <string name="MessagesSelected_many">%d selected</string>
   <string name="MessagesUnpinned_zero">%1$d messages unpinned.</string>
   <string name="MessagesUnpinned_two">%1$d messages unpinned.</string>
   <string name="MessagesUnpinned_few">%1$d messages unpinned.</string>
