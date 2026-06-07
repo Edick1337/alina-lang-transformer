@@ -5324,12 +5324,12 @@
     <string name="ChannelSettingsJoinRequest">approve new members</string>
     <string name="ChannelSettingsJoinRequestInfo">turn this on if you want users to join only after they are approved by an admin.</string>
 
-    <string name="ChannelSettingsJoinRequestInfo2">admin must approve anyone who wants to join the channel.</string>
-    <string name="ChannelSettingsJoinRequestInfoManagedBy">admin must approve anyone who wants to join the channel. managed by **%s**</string>
-    <string name="GroupPublicSettingsJoinRequestInfo2">admin must approve anyone who wants to send a message in the group.</string>
-    <string name="GroupPrivateSettingsJoinRequestInfo2">admin must approve anyone who wants to join the group.</string>
-    <string name="GroupPublicSettingsJoinRequestInfoManagedBy">admin must approve anyone who wants to send a message in the group. managed by **%s**</string>
-    <string name="GroupPrivateSettingsJoinRequestInfoManagedBy">admin must approve anyone who wants to join the group. managed by **%s**</string>
+    <string name="ChannelSettingsJoinRequestInfo2">an admin must approve users who want to join the channel.</string>
+    <string name="ChannelSettingsJoinRequestInfoManagedBy">an admin must approve users who want to join the channel. managed by **%s**</string>
+    <string name="GroupPublicSettingsJoinRequestInfo2">an admin must approve users who want to send messages in the group.</string>
+    <string name="GroupPrivateSettingsJoinRequestInfo2">an admin must approve users who want to join the group.</string>
+    <string name="GroupPublicSettingsJoinRequestInfoManagedBy">an admin must approve users who want to send messages in the group. managed by **%s**</string>
+    <string name="GroupPrivateSettingsJoinRequestInfoManagedBy">am admin must approve users who want to join the group. managed by **%s**</string>
 
     <string name="Allow">allow</string>
     <string name="Application">application</string>
