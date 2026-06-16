@@ -2591,7 +2591,7 @@
   <string name="BotAuthTitle">log in to **%s**</string>
   <string name="BotBalance">balance</string>
   <string name="BotBalanceStars">stars</string>
-  <string name="BotBalanceTON">toncoin</string>
+  <string name="BotBalanceTON">gram</string>
   <string name="BotCantAddToAttachMenu">this bot can\'t be added to the attachment menu.</string>
   <string name="BotCantJoinGroups">this bot can\'t join groups.</string>
   <string name="BotCantOpenAttachMenuBot">this bot can\'t be opened in chats with bots.</string>
@@ -2675,7 +2675,7 @@
   <string name="BotMonetizationInfoFeature3Name">flexible withdrawals</string>
   <string name="BotMonetizationInfoFeature3Text">you can withdraw your ton any time.</string>
   <string name="BotMonetizationInfoTONLink">https://telegram.org/privacy</string>
-  <string name="BotMonetizationInfoTONText">**ton** is a blockchain platform and cryptocurrency that telegram uses for its high speed and low commissions on transactions.</string>
+  <string name="BotMonetizationInfoTONText">**gram** is the cryptocurrency of the ton blockchain platform, which telegram uses for its high speed and low commissions on transactions.</string>
   <string name="BotMonetizationInfoTONTitle">what is &#128142; ton?</string>
   <string name="BotMonetizationInfoTitle">earn from your bot</string>
   <string name="BotMonetizationOverview">proceeds overview</string>
@@ -2792,7 +2792,7 @@
   <string name="BotStartAppPermission">do you want to start app **%1$s** from bot **%2$s**?\n\nit will be able to access your **ip address** and basic device info.</string>
   <string name="BotStartButton">start bot</string>
   <string name="BotStatsStars">stars</string>
-  <string name="BotStatsTON">toncoin</string>
+  <string name="BotStatsTON">gram</string>
   <string name="BotStatusCantRead">has no access to messages</string>
   <string name="BotStatusRead">has access to messages</string>
   <string name="BotStop">block bot</string>
@@ -8093,7 +8093,7 @@
   <string name="MonetizationInfoFeature3Name">flexible withdrawals</string>
   <string name="MonetizationInfoFeature3Text">you can collect your ton any time.</string>
   <string name="MonetizationInfoTONLink">https://telegram.org/blog/monetization-for-channels</string>
-  <string name="MonetizationInfoTONText">**ton** is a blockchain platform and cryptocurrency that telegram uses for its high speed and low commissions on transactions.</string>
+  <string name="MonetizationInfoTONText">**gram** is the cryptocurrency of the ton blockchain platform, which telegram uses for its high speed and low commissions on transactions.</string>
   <string name="MonetizationInfoTONTitle">what is &#128142; ton?</string>
   <string name="MonetizationInfoTitle">earn from your channel</string>
   <string name="MonetizationMoreTransactions_zero">show %d more transactions</string>
@@ -10688,7 +10688,7 @@
   <string name="ResellGiftInfoMin_other">minimum price is **%d** stars.</string>
   <string name="ResellGiftInfoMinTON">minimum price is %s ton</string>
   <string name="ResellGiftInfoTON">you will receive **%s** ton.</string>
-  <string name="ResellGiftPriceHintOnlyTON">if the buyer pays you in ton, there\'s no risk of refunds, unlike star payments.</string>
+  <string name="ResellGiftPriceHintOnlyTON">if the buyer pays you in grams there\'s no risk of refunds, unlike star payments.</string>
   <string name="ResellGiftPriceOnlyTON">only accept ton</string>
   <string name="ResellGiftPriceTitle">enter price in stars</string>
   <string name="ResellGiftPriceTitleTON">enter price in ton</string>
@@ -12965,7 +12965,7 @@
   <string name="SyncContactsOn">contacts from this device will be added to this account.</string>
   <string name="SystemRoot">system root</string>
   <string name="SystemTones">system tones</string>
-  <string name="TONBalanceText">offer ton to submit post suggestions to channels on telegram</string>
+  <string name="TONBalanceText">use grams to buy gifts and suggest posts to channels.</string>
   <string name="TONBalanceTitle">ton balance</string>
   <string name="TagAdded">tag added</string>
   <string name="TagEdited">tag edited</string>
