@@ -8633,8 +8633,8 @@
     <string name="BrowserSettingsAlwaysOpenInInfo2">these sites will still be opened in-app.</string>
     <string name="WebBrowserDeleteAllExceptionsTitle">delete all exceptions</string>
     <string name="WebBrowserDeleteAllExceptionsMessage">are you sure you want to delete all website exceptions?</string>
-    <string name="WebBrowserShowCloseButton">show close button</string>
-    <string name="WebBrowserShowCloseButtonInfo">add a close button when viewing websites.</string>
+    <string name="WebBrowserShowCloseButton">windowed mode</string>
+    <string name="WebBrowserShowCloseButtonInfo">open external browser inside of telegram.</string>
     <string name="BrowserSettingsAddTitle">add website</string>
     <string name="BrowserSettingsAddTitleExternal">add website</string>
     <string name="BrowserSettingsAddText">enter a domain that you don&#8217;t want to be opened in the in-app browser.</string>
