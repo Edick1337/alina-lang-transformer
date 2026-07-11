@@ -3690,7 +3690,7 @@
     <string name="GroupsAndChannelsHelp">choose who can add you to groups and channels.</string>
     <string name="InviteToGroupError">sorry, you can\'t add this user to groups because of their privacy settings.</string>
     <string name="InviteToChannelError">sorry, you can\'t add this user to channels because of their privacy settings.</string>
-    <string name="InviteToCommunityError">sorry, you can\'t add this user to community because of user\'s privacy settings.</string>
+    <string name="InviteToCommunityError">sorry, you can\'t add this user to community because of their privacy settings.</string>
     <string name="CreateGroupError">sorry, you can\'t create a group with these users because of their privacy settings.</string>
     <string name="PrivacyCallsP2PHelp">disabling peer-to-peer will relay all calls through telegram servers to avoid revealing your ip address, but may decrease audio and video quality.</string>
     <string name="SyncContactsDelete">delete synced contacts</string>
@@ -5836,7 +5836,7 @@
     <string name="PremiumPreviewSharingDisableDescription">prevent forwarding, saving and copying content in private chats.</string>
     <string name="PremiumPreviewAIEditor">ai tools</string>
     <string name="PremiumPreviewAIEditorDescription">transform your messages and entire chats in your preferred style and language.</string>
-    <string name="PremiumPreviewRichEditor">rich formatting</string>
+    <string name="PremiumPreviewRichEditor">formatting tools</string>
     <string name="PremiumPreviewRichEditorDescription">add headers, tables, lists, ai and inline media to messages.</string>
     <string name="MicrophoneForVoiceMessages">microphone for voice messages</string>
     <string name="MicrophoneForVoiceMessagesBuiltIn">built-in</string>
@@ -10940,8 +10940,8 @@
     <string name="CommunityCreateCommunity">create community</string>
     <string name="CommunityNoChatsToAdd">you have no chats to add to community.</string>
     <string name="CommunityCommunityCreated">community created!</string>
-    <string name="CommunityCommunityJoinedGroup">you joined this group to community!</string>
-    <string name="CommunityCommunityJoinedChannel">you joined this channel to community!</string>
+    <string name="CommunityCommunityJoinedGroup">you added this group to a community!</string>
+    <string name="CommunityCommunityJoinedChannel">you added this channel to a community!</string>
     <string name="CommunityCommunityPending">your request to join community has been sent to the admins</string>
     <string name="CommunityAddToExistingCommunity">add to an existing community</string>
     <string name="CommunityNewCommunityTitle">new community</string>
@@ -10962,7 +10962,7 @@
     <string name="CommunityAdministratorsTitle">administrators</string>
     <string name="CommunityAddAdmin">add admin</string>
     <string name="CommunityAdminRightEditCommunityName">edit community name</string>
-    <string name="CommunityAdminRightEditGroupList">edit group list</string>
+    <string name="CommunityAdminRightEditGroupList">edit chat list</string>
     <string name="CommunityAdminRightBanMembers">ban members</string>
     <string name="CommunityWithChats_one">community with %1$d chat</string>
     <string name="CommunityWithChats_other">community with %1$d chats</string>
@@ -10982,7 +10982,7 @@
     <string name="CommunityPendingRequestsRow_other">%1$d pending requests</string>
     <string name="CommunityPendingRequest">pending request</string>
     <string name="CommunityYouAreAdminTitle">you are a community admin</string>
-    <string name="CommunityYouAreAdminMessage">you can now edit **%1$s** info and use other admin tools.</string>
+    <string name="CommunityYouAreAdminMessage">you can now edit the info of **%1$s** and use other admin tools.</string>
     <string name="CommunityYouAreAdminContinue">continue</string>
     <string name="CommunityYouAreAdminNoThanks">no, thanks</string>
     <string name="CommunityMakeAdminTitle">make community admin</string>
@@ -11010,7 +11010,7 @@
     <string name="CommunityInviteOnlyGroupInfo">this group is invite-only.\nonly its members can view it.</string>
     <string name="CommunityInviteOnlyChannelInfo">this channel is invite-only.\nonly its members can view it.</string>
     <string name="CommunityInviteOnlyGroupMessageOwner">message group owner</string>
-    <string name="CommunityInviteOnlyChannelMessageOwner">message channels owner</string>
+    <string name="CommunityInviteOnlyChannelMessageOwner">message channel owner</string>
     <string name="CommunityAddToCommunityTitle">add to community</string>
     <string name="CommunityAddToCommunityGroupMessage">if this group is approved by a community admin, its members will be able to join or request to join other chats in the community.</string>
     <string name="CommunityAddToCommunityChannelMessage">if this channel is approved by a community admin, its subscribers will be able to join or request to join other chats in the community.</string>
@@ -11030,9 +11030,9 @@
     <string name="CommunityMenuViewChannel">view channel</string>
     <string name="CommunityMenuViewBot">view bot</string>
     <string name="CommunityMenuRemoveFromCommunity">remove from community</string>
-    <string name="CommunityMenuRemoveGroupFromCommunityConfirm">are you sure you want to remove this group from community?</string>
-    <string name="CommunityMenuRemoveChannelFromCommunityConfirm">are you sure you want to remove this channel from community?</string>
-    <string name="CommunityMenuRemoveBotFromCommunityConfirm">are you sure you want to remove this bot from community?</string>
+    <string name="CommunityMenuRemoveGroupFromCommunityConfirm">are you sure you want to remove this group from the community?</string>
+    <string name="CommunityMenuRemoveChannelFromCommunityConfirm">are you sure you want to remove this channel from the community?</string>
+    <string name="CommunityMenuRemoveBotFromCommunityConfirm">are you sure you want to remove this bot from the community?</string>
     <string name="CommunityRequestApprovedToast">you approved the request to add **%1$s** to the community.</string>
     <string name="CommunityRequestDeclinedToast">you declined the request to add **%1$s** to the community.</string>
     <string name="CommunityHiddenStatus">hidden</string>
@@ -11042,23 +11042,23 @@
     <string name="CommunityServiceMessageGroupAdded">**%1$s** added this group to the **%2$s** community.</string>
     <string name="CommunityServiceMessageGroupYouAdded">**you** added this group to the **%1$s** community.</string>
     <string name="CommunityServiceMessageGroupAddedUnknown">this group was added to the **%1$s** community.</string>
-    <string name="CommunityServiceMessageGroupRemoved">**%1$s** removed this group from community</string>
-    <string name="CommunityServiceMessageGroupYouRemoved">**you** removed this group from community</string>
-    <string name="CommunityServiceMessageGroupRemovedUnknown">this group was removed from community</string>
+    <string name="CommunityServiceMessageGroupRemoved">**%1$s** removed this group from the community</string>
+    <string name="CommunityServiceMessageGroupYouRemoved">**you** removed this group from the community</string>
+    <string name="CommunityServiceMessageGroupRemovedUnknown">this group was removed from the community</string>
 
     <string name="CommunityServiceMessageChannelAdded">**%1$s** added this channel to the **%2$s** community.</string>
     <string name="CommunityServiceMessageChannelYouAdded">**you** added this channel to the **%1$s** community.</string>
     <string name="CommunityServiceMessageChannelAddedUnknown">this channel was added to the **%1$s** community.</string>
-    <string name="CommunityServiceMessageChannelRemoved">**%1$s** removed this channel from community</string>
-    <string name="CommunityServiceMessageChannelYouRemoved">**you** removed this channel from community</string>
-    <string name="CommunityServiceMessageChannelRemovedUnknown">this channel was removed from community</string>
+    <string name="CommunityServiceMessageChannelRemoved">**%1$s** removed this channel from the community</string>
+    <string name="CommunityServiceMessageChannelYouRemoved">**you** removed this channel from the community</string>
+    <string name="CommunityServiceMessageChannelRemovedUnknown">this channel was removed from the community</string>
 
     <string name="CommunityServiceMessageBotAdded">**%1$s** added this bot to the **%2$s** community.</string>
     <string name="CommunityServiceMessageBotYouAdded">**you** added this bot to the **%1$s** community.</string>
     <string name="CommunityServiceMessageBotAddedUnknown">this bot was added to the **%1$s** community.</string>
-    <string name="CommunityServiceMessageBotRemoved">**%1$s** removed this bot from community</string>
-    <string name="CommunityServiceMessageBotYouRemoved">**you** removed this bot from community</string>
-    <string name="CommunityServiceMessageBotRemovedUnknown">this bot was removed from community</string>
+    <string name="CommunityServiceMessageBotRemoved">**%1$s** removed this bot from the community</string>
+    <string name="CommunityServiceMessageBotYouRemoved">**you** removed this bot from the community</string>
+    <string name="CommunityServiceMessageBotRemovedUnknown">this bot was removed from the community</string>
 
     <string name="CommunityServiceMessageView">view</string>
     <string name="CommunityUngroupChats">ungroup chats</string>
@@ -11069,12 +11069,12 @@
     <string name="CommunityBanFromCommunityInfo_other">user will be removed from **%1$d chats &gt;**</string>
     <string name="CommunityBanWarningTitle">warning</string>
     <string name="CommunityBanUserTitle">ban user</string>
-    <string name="CommunityBanWarningMessage_one">banning **%2$s** will also remove **%1$d** their chat from the community.</string>
-    <string name="CommunityBanWarningMessage_other">banning **%2$s** will also remove **%1$d** their chats from the community.</string>
+    <string name="CommunityBanWarningMessage_one">banning **%2$s** will also remove their **%1$d** chat from the community.</string>
+    <string name="CommunityBanWarningMessage_other">banning **%2$s** will also remove their **%1$d** chats from the community.</string>
     <string name="CommunityBanWillRemoveFromChats_one">**%2$s** will be removed from **%1$d** community chat.</string>
     <string name="CommunityBanWillRemoveFromChats_other">**%2$s** will be removed from **%1$d** community chats.</string>
     <string name="CommunityHiddenGroupUnavailable">you can\'t join or view this group until an admin invites you.</string>
-    <string name="CommunityHiddenChannelUnavailable">you can\'t join or view this group until an admin invites you.</string>
+    <string name="CommunityHiddenChannelUnavailable">you can\'t join or view this channel until an admin invites you.</string>
 
     <string name="ArticleEditor">rich editor</string>
     <string name="ArticleHeading1">heading 1</string>
@@ -12200,10 +12200,10 @@
   <string name="CommunityBanFromCommunityInfo_two">user will be removed from **%1$d chats &gt;**</string>
   <string name="CommunityBanFromCommunityInfo_few">user will be removed from **%1$d chats &gt;**</string>
   <string name="CommunityBanFromCommunityInfo_many">user will be removed from **%1$d chats &gt;**</string>
-  <string name="CommunityBanWarningMessage_zero">banning **%2$s** will also remove **%1$d** their chats from the community.</string>
-  <string name="CommunityBanWarningMessage_two">banning **%2$s** will also remove **%1$d** their chats from the community.</string>
-  <string name="CommunityBanWarningMessage_few">banning **%2$s** will also remove **%1$d** their chats from the community.</string>
-  <string name="CommunityBanWarningMessage_many">banning **%2$s** will also remove **%1$d** their chats from the community.</string>
+  <string name="CommunityBanWarningMessage_zero">banning **%2$s** will also remove their **%1$d** chats from the community.</string>
+  <string name="CommunityBanWarningMessage_two">banning **%2$s** will also remove their **%1$d** chats from the community.</string>
+  <string name="CommunityBanWarningMessage_few">banning **%2$s** will also remove their **%1$d** chats from the community.</string>
+  <string name="CommunityBanWarningMessage_many">banning **%2$s** will also remove their **%1$d** chats from the community.</string>
   <string name="CommunityBanWillRemoveFromChats_zero">**%2$s** will be removed from **%1$d** community chats.</string>
   <string name="CommunityBanWillRemoveFromChats_two">**%2$s** will be removed from **%1$d** community chats.</string>
   <string name="CommunityBanWillRemoveFromChats_few">**%2$s** will be removed from **%1$d** community chats.</string>
