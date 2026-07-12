@@ -5837,7 +5837,7 @@
     <string name="PremiumPreviewAIEditor">ai tools</string>
     <string name="PremiumPreviewAIEditorDescription">transform your messages and entire chats in your preferred style and language.</string>
     <string name="PremiumPreviewRichEditor">formatting tools</string>
-    <string name="PremiumPreviewRichEditorDescription">add headers, tables, lists, ai and inline media to messages.</string>
+    <string name="PremiumPreviewRichEditorDescription">add headers, tables, inline media and ai content to messages.</string>
     <string name="MicrophoneForVoiceMessages">microphone for voice messages</string>
     <string name="MicrophoneForVoiceMessagesBuiltIn">built-in</string>
     <string name="MicrophoneForVoiceMessagesSco">headset</string>
