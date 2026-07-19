@@ -9964,7 +9964,7 @@
     <string name="TodoTaskNotCompletedOutUnknown">you marked a task as not done</string>
     <string name="TodoTaskNotCompleted">un1 marked \"%s\" as not done</string>
     <string name="TodoTaskNotCompletedOut">you marked \"%s\" as not done</string>
-    <string name="TodoAddedOneTaskOut">you added &#8220;%1$s&#8221; to checklist</string>
+    <string name="TodoAddedOneTaskOut">you added \"%1$s\" to checklist</string>
     <string name="TodoAddedTwoTaskOut">you added &#8220;%1$s&#8221; and &#8220;%2$s&#8221; to checklist</string>
     <string name="TodoAddedThreeTaskOut">you added &#8220;%1$s&#8221;, &#8220;%2$s&#8221; and &#8220;%3$s&#8221; to checklist</string>
     <string name="TodoAddedMoreTasksOut_one">you added &#8220;%2$s&#8221;, &#8220;%3$s&#8221;, &#8220;%4$s&#8221; and %1$d more task to checklist</string>
