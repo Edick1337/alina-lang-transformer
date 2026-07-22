@@ -9623,7 +9623,7 @@
     <string name="SMSFee2Title">verification required</string>
     <string name="SMSFee2Text">telegram needs to send you an sms with a verification code to confirm your phone number.</string>
     <string name="SMSFee3Title">support via **telegram premium &gt;**</string>
-    <string name="SMSFee3Text">sign up for 1-week telegram premium subscription to help cover the sms costs.</string>
+    <string name="SMSFee3Text">sign up for 1 week of telegram premium to help cover the sms costs.</string>
     <string name="SMSFee3TextDays_one">sign up for %d day of telegram premium to help cover the sms costs.</string>
     <string name="SMSFee3TextDays_other">sign up for %d days of telegram premium to help cover the sms costs.</string>
     <string name="SMSFeePurchaseTitle">sign up for %s</string>
