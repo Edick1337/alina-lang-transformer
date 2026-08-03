@@ -6783,7 +6783,7 @@
     <string name="StoryPremiumWidgets2_other">subscribe to **telegram premium** to add up to %d reaction stickers to a story.</string>
     <string name="CaptionPremiumTitle">maximum length reached</string>
     <string name="CaptionPremiumSubtitle_other">increase this limit **%1$dx** to **%2$s** characters by subscribing to __telegram premium__.</string>
-    <string name="ExpiredViewsStubPremiumDescription">to unlock viewer lists for expired and posted stories, subscribe to **telegram premium**.</string>
+    <string name="ExpiredViewsStubPremiumDescription">to unlock future viewer lists for expired and posted stories, subscribe to **telegram premium**.</string>
     <string name="LearnMore">learn more</string>
     <string name="SaveStoryToGalleryPremiumHint">**subscribe to premium** to save other people\'s stories that are not protected.</string>
     <string name="PremiumPreviewStories">stories</string>
@@ -6869,7 +6869,7 @@
     <string name="StoryShownBackToToast">%s will be able to see your stories again.</string>
     <string name="SearchImagesType">type to search.</string>
     <string name="NoViews">no views</string>
-    <string name="StoryViewsPremiumHint">to unlock viewer lists for expired and posted stories, subscribe to **telegram premium**.</string>
+    <string name="StoryViewsPremiumHint">to unlock future viewer lists for expired and posted stories, subscribe to **telegram premium**.</string>
     <string name="Likes_one">%d like</string>
     <string name="Likes_other">%d likes</string>
     <string name="Reposts_one">%d repost</string>
@@ -9616,7 +9616,7 @@
     <string name="AccountFrozen3Text">appeal via **@spambot** before %s, or your account will be deleted.</string>
     <string name="AccountFrozenButtonAppeal">submit an appeal</string>
     <string name="AccountFrozenButtonUnderstood">understood</string>
-    <string name="SMSFeeTitle">sms fee</string>
+    <string name="SMSFeeTitle">one-time sms fee</string>
     <string name="SMSFee1Title">high sms costs</string>
     <string name="SMSFee1Text">telecom providers in your country charge telegram very high prices for sms.</string>
     <string name="SMSFee1TextCountry">due to fake accounts and high sms costs in your country, you&#8217;ll need to cover your signup fee.</string>
