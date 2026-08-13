@@ -122,6 +122,8 @@
     <string name="PaymentInvoiceLinkInvalid">invalid invoice</string>
     <string name="PaymentInvoiceSubscriptionLinkAlreadyPaid">already subscribed!</string>
     <string name="PaymentInvoice">invoice</string>
+    <string name="PaymentInvoiceDisabledStarsText">not enough stars</string>
+    <string name="StarsPurchaseUnavailable">purchasing stars is not available at this time.</string>
     <string name="PaymentTestInvoice">test invoice</string>
     <string name="PaymentCheckoutPay">pay %1$s</string>
     <string name="PaymentCheckoutMethod">payment method</string>
@@ -250,6 +252,7 @@
     <string name="ChatArchivedInfo">swipe left on the archive to hide it.</string>
     <string name="Undo">undo</string>
     <string name="UndoNoCaps">undo</string>
+    <string name="Redo">redo</string>
     <string name="ClearHistoryCache">delete from cache</string>
     <string name="DeleteChat">delete and leave</string>
     <string name="HideOnTop">hide</string>
@@ -326,6 +329,9 @@
     <string name="Mono">mono</string>
     <string name="Strike">strikethrough</string>
     <string name="Underline">underline</string>
+    <string name="Highlight">highlight</string>
+    <string name="Subscript">subscript</string>
+    <string name="Superscript">superscript</string>
     <string name="Regular">regular</string>
     <string name="FormattedDate">date</string>
     <string name="ContactsPermissionAlert">**telegram** needs access to your contacts so that you can connect with your friends across all your devices. your contacts will be continuously synced with telegram\'s heavily encrypted cloud servers.</string>
@@ -704,6 +710,7 @@
     <string name="EditAdminChangeGroupInfo">change group info</string>
     <string name="EditAdminPostMessages">post messages</string>
     <string name="EditAdminManageDirect">manage direct messages</string>
+    <string name="EditAdminManageWelcomeMessages">manage welcome messages</string>
     <string name="EditAdminEditMessages">edit messages of others</string>
     <string name="EditAdminDeleteMessages">delete messages of others</string>
     <string name="EditAdminPostStories">post stories</string>
@@ -1051,6 +1058,7 @@
     <string name="EventLogPromotedEditRanks">edit tags</string>
     <string name="EventLogPromotedManageTopics">manage topics</string>
     <string name="EventLogPromotedManageDirect">manage direct</string>
+    <string name="EventLogPromotedManageWelcomeMessages">manage welcome messages</string>
     <string name="EventLogFilterAll">all actions</string>
     <string name="EventLogFilterNewRestrictions">new exceptions</string>
     <string name="EventLogFilterNewAdmins">admin rights</string>
@@ -3734,6 +3742,7 @@
     <string name="BotWebViewToSLink">https://telegram.org/tos/mini-apps</string>
     <string name="BotWebViewReloadPage">reload page</string>
     <string name="BotWebViewDeleteBot">remove from menu</string>
+    <string name="BotWebViewReportBot">report</string>
     <string name="BotWebViewRequestAllow">allow</string>
     <string name="BotWebViewRequestDontAllow">don\'t allow</string>
     <string name="BotWebViewChangesMayNotBeSaved">changes that you made may not be saved.</string>
@@ -3778,6 +3787,19 @@
     <string name="WaitMore">wait more</string>
     <string name="Continue">continue</string>
     <string name="CreateLink">create link</string>
+    <string name="RichEditorCreateLinkButton">create link button</string>
+    <string name="RichEditorEditLinkButton">edit link button</string>
+    <string name="RichEditorCreateCopyButton">create copy button</string>
+    <string name="RichEditorEditCopyButton">edit copy button</string>
+    <string name="RichEditorCreateProfileButton">create profile button</string>
+    <string name="RichEditorEditProfileButton">edit profile button</string>
+    <string name="RichEditorButtonText">button text</string>
+    <string name="RichEditorButtonURL">button url</string>
+    <string name="RichEditorButtonCopyText">button copy text</string>
+    <string name="RichEditorChangeUser">change user</string>
+    <string name="RichEditorUserProfile">user profile</string>
+    <string name="RichEditorButton">button</string>
+    <string name="RichEditorAddButton">add button</string>
     <string name="Crop">crop</string>
     <string name="StoryCrop">crop</string>
     <string name="UpdateApp">update app</string>
@@ -4983,6 +5005,17 @@
     <string name="AccDescrBotKeyboard">bot keyboard</string>
     <string name="AccDescrVoiceMessage">record voice message</string>
     <string name="AccDescrVideoMessage">record video message</string>
+    <string name="AccDescrRemoveRoundVideo">remove video message</string>
+    <string name="AccDescrCodeBlock">code block</string>
+    <string name="AccDescrCodeBlockLanguage">code block, %1$s</string>
+    <string name="AccDescrExpanded">expanded</string>
+    <string name="AccDescrCollapsed">collapsed</string>
+    <string name="AccDescrCheckbox">checkbox</string>
+    <string name="AccDescrChecked">checked</string>
+    <string name="AccDescrNotChecked">not checked</string>
+    <string name="AccDescrWithAdminTag">with admin tag: %1$s</string>
+    <string name="AccDescrWithMemberTag">with member tag: %1$s</string>
+    <string name="AccDescrLiked">liked</string>
     <string name="AccDescrOpenChat">open chat</string>
     <string name="AccDescrProfilePicture">profile photo</string>
     <string name="AccDescrChangeProfilePicture">change profile photo</string>
@@ -5055,9 +5088,13 @@
     <string name="AccDescrIVEmbed">embedded content</string>
     <string name="AccDescrIVEmbedPost">embedded post</string>
     <string name="AccDescrIVTable">table</string>
+    <string name="AccDescrIVButtons">buttons</string>
     <string name="AccDescrIVFormula">formula</string>
     <string name="AccDescrIVSlideshow">slideshow</string>
     <string name="AccDescrIVAudio">audio</string>
+    <string name="AccDescrIVTextStyle">text style</string>
+    <string name="AccDescrIVListStyle">list style</string>
+    <string name="AccDescrIVInsertDate">insert date</string>
     <string name="AccDescrMyLocation">my location</string>
     <string name="AccDescrLocationNotify">notify when people sharing location are in range.</string>
     <string name="AccDescrVideoQuality">video quality</string>
@@ -10237,6 +10274,7 @@
     <string name="EphemeralMessageVisibleToYou">only visible to you</string>
     <string name="EphemeralMessageVisibleToOther">only visible to @%s</string>
     <string name="EphemeralMessageMenuHint">only you see this message. it will disappear after you log in again.</string>
+    <string name="EphemeralWelcomeMessageMenuHint">this version of the message is only visible to you.</string>
     <string name="AddContactShareNumber">share my phone number</string>
     <string name="AddContactShareNumberInfo">turn this off to prevent %s from seeing your phone number.</string>
     <string name="UserSuggestBirthday">suggest date of birth</string>
@@ -11113,13 +11151,14 @@
     <string name="ArticleConversionTitle">remove formatting</string>
     <string name="ArticleConversionText">this message uses rich formatting, which requires **telegram premium**.</string>
     <string name="ArticleConversionSubscribe">subscribe to premium</string>
-    <string name="ArticleConversionSendPlain">send without formatting</string>
+    <string name="ArticleConversionConvert">remove formatting</string>
     <string name="ArticleHintQuote">enter quote</string>
     <string name="ArticleLatexEquation">latex equation</string>
     <string name="ArticleLatexError">error</string>
     <string name="ArticleCommandList">list</string>
     <string name="ArticleCommandOrderedList">ordered list</string>
     <string name="ArticleCommandToggle">toggle</string>
+    <string name="ArticleTableTitleHint">add title</string>
     <string name="ArticleCommandTable">table</string>
     <string name="ArticleCommandMath">math</string>
     <string name="ArticleCommandDivider">divider</string>
@@ -11130,6 +11169,7 @@
     <string name="ArticleAlignment">alignment</string>
     <string name="ArticleRemoveHighlight">remove highlight</string>
     <string name="ArticleHighlightCell">highlight cell</string>
+    <string name="ArticleHighlightCells">highlight cells</string>
     <string name="ArticleHighlightColumn">highlight column</string>
     <string name="ArticleHighlightRow">highlight row</string>
     <string name="ArticleMergeCells">merge cells</string>
@@ -11140,11 +11180,31 @@
     <string name="ArticleInsertBelow">insert below</string>
     <string name="ArticleDeleteColumn">delete column</string>
     <string name="ArticleDeleteRow">delete row</string>
+    <string name="ArticleTableBordered">bordered</string>
+    <string name="ArticleTableCompact">compact</string>
     <string name="ArticleDeleteTable">delete table</string>
     <string name="ArticleAICreate">create with ai</string>
     <string name="ArticleAIPrompt">write a prompt...</string>
     <string name="ArticleAIGenerate">generate</string>
     <string name="ArticleAIAddToPage">add to page</string>
+
+    <string name="WelcomeMessage">welcome message</string>
+    <string name="WelcomeMessageOff">off</string>
+    <string name="WelcomeMessageEmptyTitle">create a welcome\nmessage</string>
+    <string name="WelcomeMessageEmptySubtitle">automatically greet new\nmembers when they join.</string>
+    <string name="WelcomeMessageHint">new members will see this messages\nwhen they join</string>
+    <string name="WelcomeMessageHint2">tap it to delete it</string>
+    <string name="WelcomeMessageEnter">add a message</string>
+    <string name="WelcomeMessagesLimit_one">limit of **%d** message reached.</string>
+    <string name="WelcomeMessagesLimit_other">limit of **%d** messages reached.</string>
+    <string name="WelcomeMessageRevert">revert</string>
+    <string name="WelcomeMessageRevertInfo">restores the message to\nits original content</string>
+
+    <string name="UnsupportedBlockTitle">unsupported block</string>
+    <string name="UnsupportedBlockMessage">update telegram to view this part of the message</string>
+    <string name="UnsupportedMessageTitle">unsupported message</string>
+    <string name="UnsupportedMessageMessage">update telegram to view this message</string>
+    <string name="UnsupportedUpdate">update</string>
 
   
 
@@ -11376,6 +11436,7 @@
   <string name="AreYouSureBlockContact">are you sure you want to block this contact?</string>
   <string name="AreYouSureDeleteMessages">are you sure you want to delete %1$s?</string>
   <string name="AreYouSureDeleteThisChatWithGroup">are you sure you want to delete the chat **%1$s**?</string>
+  <string name="ArticleConversionSendPlain">send without formatting</string>
   <string name="AttachBotsHelp">scroll down for bots</string>
   <string name="AttachDestructingVoice">self-destructing voice message</string>
   <string name="AudioAddedToProfileRemove">this audio is visible on your profile. **remove &gt;**</string>
@@ -14863,6 +14924,10 @@
   <string name="Weeks_two">%1$d weeks</string>
   <string name="Weeks_few">%1$d weeks</string>
   <string name="Weeks_many">%1$d weeks</string>
+  <string name="WelcomeMessagesLimit_zero">limit of **%d** messages reached.</string>
+  <string name="WelcomeMessagesLimit_two">limit of **%d** messages reached.</string>
+  <string name="WelcomeMessagesLimit_few">limit of **%d** messages reached.</string>
+  <string name="WelcomeMessagesLimit_many">limit of **%d** messages reached.</string>
   <string name="WhoCanAddMembers">who can add members?</string>
   <string name="WhoCanAddMembersAdmins">only admins</string>
   <string name="WhoCanAddMembersAllMembers">all members</string>
