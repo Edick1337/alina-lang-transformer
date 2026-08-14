@@ -11192,7 +11192,7 @@
     <string name="WelcomeMessageOff">off</string>
     <string name="WelcomeMessageEmptyTitle">create a welcome\nmessage</string>
     <string name="WelcomeMessageEmptySubtitle">automatically greet new\nmembers when they join.</string>
-    <string name="WelcomeMessageHint">new members will see this messages\nwhen they join</string>
+    <string name="WelcomeMessageHint">new members will see these messages when they join</string>
     <string name="WelcomeMessageHint2">tap it to delete it</string>
     <string name="WelcomeMessageEnter">add a message</string>
     <string name="WelcomeMessagesLimit_one">limit of **%d** message reached.</string>
