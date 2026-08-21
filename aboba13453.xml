@@ -1232,7 +1232,7 @@
     <string name="SponsoredMessageAlertLearnMoreUrl">https://ads.telegram.org</string>
     <string name="RevenueSharingAdsAlertSubtitle">telegram ads are very different from ads on other platforms. ads such as this one:</string>
     <string name="RevenueSharingAdsInfo1Title">respect your privacy</string>
-    <string name="RevenueSharingAdsInfo1Subtitle">ads on telegram do not use your personal information and are based on the channel in which you see them.</string>
+    <string name="RevenueSharingAdsInfo1Subtitle">we don\'t use the contents of your private chats or contacts lists for ad targeting or other commercial purposes.</string>
     <string name="RevenueSharingAdsInfo2Title">help the channel creator</string>
     <string name="RevenueSharingAdsInfo2Subtitle">50% of the revenue from telegram ads goes to the owner of the channel where they are displayed.</string>
     <string name="RevenueSharingAdsInfo3Title">can be removed</string>
@@ -1240,11 +1240,11 @@
     <string name="RevenueSharingAdsInfo3SubtitleBot">you can turn off ads by subscribing to **telegram premium**.</string>
     <string name="RevenueSharingAdsInfo4Title">can i launch an ad?</string>
     <string name="RevenueSharingAdsInfo4TitleBot">can i launch an ad?</string>
-    <string name="RevenueSharingAdsInfo4Subtitle2">anyone can create an ad to display in this channel &#8212; with minimal budgets. check out the **telegram ad platform** for details. %1$s</string>
+    <string name="RevenueSharingAdsInfo4Subtitle2">anyone can post ads on telegram &#8212; with minimal budgets. check out the **telegram ad platform** for details. %1$s</string>
     <string name="RevenueSharingAdsInfo4SubtitleLearnMore">**learn more &gt;**</string>
     <string name="RevenueSharingAdsAlertButton">understood</string>
     <string name="RevenueSharingAdsInfo1TitleBot">respect your privacy</string>
-    <string name="RevenueSharingAdsInfo1SubtitleBot">ads on telegram do not use your personal information and are based on the bot in which you see them.</string>
+    <string name="RevenueSharingAdsInfo1SubtitleBot">we don\'t use the contents of your private chats or contacts lists for ad targeting or other commercial purposes.</string>
     <string name="RevenueSharingAdsInfo2TitleBot">help the bot creator</string>
     <string name="RevenueSharingAdsInfo2SubtitleBot">50% of the revenue from telegram ads goes to the owner of the bot where they are displayed.</string>
     <string name="RevenueSharingAdsInfo4Subtitle2Bot">anyone can create an ad to display in this bot &#8212; with minimal budgets. check out the **telegram ad platform** for details. %1$s</string>
@@ -11136,7 +11136,7 @@
     <string name="ArticleListChecklist">checklist</string>
     <string name="ArticleListBulleted">bulleted</string>
     <string name="ArticleListNumbered">numbered</string>
-    <string name="ArticleListTodo">to-do</string>
+    <string name="ArticleListTodo">checklist</string>
     <string name="ArticleSaveDraftTitle">save this draft?</string>
     <string name="ArticleDeleteDraft">delete draft</string>
     <string name="ArticleDeleteDraftTitle">delete this draft?</string>
