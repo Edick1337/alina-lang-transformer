@@ -3795,7 +3795,7 @@
     <string name="RichEditorEditProfileButton">edit profile button</string>
     <string name="RichEditorButtonText">button text</string>
     <string name="RichEditorButtonURL">button url</string>
-    <string name="RichEditorButtonCopyText">button copy text</string>
+    <string name="RichEditorButtonCopyText">text to copy</string>
     <string name="RichEditorChangeUser">change user</string>
     <string name="RichEditorUserProfile">user profile</string>
     <string name="RichEditorButton">button</string>
