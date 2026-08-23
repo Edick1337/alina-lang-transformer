@@ -710,7 +710,9 @@
     <string name="EditAdminChangeGroupInfo">change group info</string>
     <string name="EditAdminPostMessages">post messages</string>
     <string name="EditAdminManageDirect">manage direct messages</string>
-    <string name="EditAdminManageWelcomeMessages">manage welcome messages</string>
+    <string name="EditAdminUserManageWelcomeMessages">manage welcome messages</string>
+    <string name="EditAdminBotChannelSendWelcomeMessages">send welcome messages</string>
+    <string name="EditAdminBotGroupSendWelcomeMessages">send welcome messages</string>
     <string name="EditAdminEditMessages">edit messages of others</string>
     <string name="EditAdminDeleteMessages">delete messages of others</string>
     <string name="EditAdminPostStories">post stories</string>
@@ -3815,6 +3817,9 @@
     <string name="Enable">enable</string>
     <string name="ReportFalsePositive">report false positive</string>
     
+    <string name="ActionJoinedFromCommunityYou">you joined the group via un1 community</string>
+    <string name="ActionJoinedFromCommunityYouChannel">you joined the channel via un1 community</string>
+    <string name="ActionJoinedFromCommunityUser">un2 joined the group via un1 community</string>
     <string name="ActionInviteYou">you joined the group via invite link</string>
     <string name="ActionDeletedInviteLinkClickable">un1 deleted invite link un2</string>
     <string name="ActionEditedInviteLinkClickable">un1 edited invite link un2 to un3</string>
@@ -6657,6 +6662,7 @@
     <string name="ShowInChats">show in chats</string>
     <string name="ForwardedStory">forwarded story</string>
     <string name="ForwardedStoryFrom">from **%s**</string>
+    <string name="UniqueGiftFrom">from **%s**</string>
     <string name="StoryPeriodHint">choose how long the story will be visible.</string>
     <string name="StoryPeriodKeep">keep always</string>
     <string name="TimerPeriodHint">choose how long the media will be kept after opening.</string>
@@ -10255,6 +10261,7 @@
     <string name="GiftAuctionInfo3Header">missed bidders</string>
     <string name="GiftAuctionInfo3Text">if your bid doesn&#8217;t win after the final round, your stars will be fully refunded.</string>
     <string name="GiftTopAction">**%1$s** sent you this gift on **%2$s**</string>
+    <string name="GiftTopActionFromTo">**%1$s** sent this gift to **%2$s** on **%3$s**</string>
     <string name="GiftSelfTopAction">you bought this gift on **%1$s**</string>
     <string name="GiftSelfTopActionCrafted">you crafted this gift on **%1$s**</string>
     <string name="BotForumNewTopic">new chat</string>
@@ -11199,6 +11206,14 @@
     <string name="WelcomeMessagesLimit_other">limit of **%d** messages reached.</string>
     <string name="WelcomeMessageRevert">revert</string>
     <string name="WelcomeMessageRevertInfo">restores the message to\nits original content</string>
+
+    <string name="GiftMessageHint">your message...</string>
+    <string name="GiftMessagePreviewInChat">preview in chat</string>
+    <string name="GiftMessageMakeMessagePublic">make message public</string>
+    <string name="GiftMessageSendNow">send now</string>
+    <string name="GiftMessageAddHint">add message...</string>
+    <string name="GiftMessageAddTitle">add message</string>
+    <string name="GiftMessageAddDescription">you can add a message for **%1$s** or send **%2$s** right away.</string>
 
     <string name="UnsupportedBlockTitle">unsupported block</string>
     <string name="UnsupportedBlockMessage">update telegram to view this part of the message</string>
@@ -12405,6 +12420,7 @@
   <string name="DoNoSetTheme">do not set theme</string>
   <string name="DocumentsTitle">shared files</string>
   <string name="DontAskAgain">don\'t ask again</string>
+  <string name="EditAdminManageWelcomeMessages">manage welcome messages</string>
   <string name="EditProfileBioHint">write about yourself...</string>
   <string name="EditProfileBioInfo">you can add a few lines about yourself. choose who can see your bio in **settings**.</string>
   <string name="EditProfileBirthdayInfoRemove">**remove birthday**.</string>
