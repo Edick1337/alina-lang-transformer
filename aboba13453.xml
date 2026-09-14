@@ -10855,7 +10855,7 @@
 
     <string name="ActionManagedBotCreated">you created un1 bot for un2 to manage</string>
     <string name="CreateManagedBotTitle">create bot</string>
-    <string name="CreateManagedBotText">**%s** would like you to create\nand manage a chatbot on your behalf.</string>
+    <string name="CreateManagedBotText">**%s** would like to create\nand manage a chatbot on your behalf.</string>
     <string name="CreateManagedBotName">bot name</string>
     <string name="CreateManagedBotNameInfo">tap to edit bot name.</string>
     <string name="CreateManagedBotUsername">username</string>
