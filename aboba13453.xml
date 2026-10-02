@@ -8145,7 +8145,7 @@
     <string name="PrivacyBirthdayTooOftenMessage">sorry, you can&#8217;t change your birthday so often.</string>
     <string name="GiftsBirthdaySetup">add your birthday</string>
     <string name="BirthdaySetupTitle">add your birthday! &#127874;</string>
-    <string name="BirthdaySetupMessage">let your contacts know when you&#8217;re celebrating</string>
+    <string name="BirthdaySetupMessage">let your contacts know when to celebrate.</string>
     <string name="BirthdaySetupLater">you can always set your birthday in profile settings.</string>
     <string name="BirthdayTodaySingleTitle">it&#8217;s %s&#8217;s **birthday** today! &#127874;</string>
     <string name="BirthdayTodaySingleMessage2">send them a gift.</string>
