@@ -2686,14 +2686,14 @@
     <string name="UseProxyUsername">username</string>
     <string name="UseProxySocks5">socks5 proxy</string>
     <string name="UseProxyTelegram">mtproto proxy</string>
+    <string name="UseProxyWeb">web proxy</string>
     <string name="UseProxyTelegramError">the proxy you are using is not configured correctly and will be disabled. please find another one.</string>
     <string name="UseProxySponsor">proxy sponsor</string>
     <string name="UseProxySponsorInfo">this channel is shown by your proxy server. to remove this channel from your chat list, disable the proxy in telegram settings &gt; data and storage.</string>
     <string name="UseProxyInfo">socks5 proxy settings.</string>
     <string name="UseProxyTelegramInfo">mtproto proxy settings.</string>
     <string name="UseProxyTelegramInfo2">this proxy may display a sponsored channel in your chat list. this doesn\'t reveal any of your telegram traffic.</string>
-    <string name="UseProxyForCalls">use proxy for calls</string>
-    <string name="UseProxyForCallsInfo">proxy servers may degrade the quality of your calls.</string>
+    <string name="UseProxyWebInfo">web proxy uses an https page inside a private webview. enter a hostname without a scheme or path and a 16-byte mtproxy secret. this proof of concept requires a current android system webview and is intended for foreground testing.</string>
     <string name="ConnectingToProxyEnable">enable</string>
     <string name="LowDiskSpaceTitle">attention</string>
     <string name="LowDiskSpaceMessage">your device is almost out of disk space. to free some space, you can set up telegram to cache only recent media.</string>
@@ -11220,6 +11220,20 @@
     <string name="UnsupportedMessageTitle">unsupported message</string>
     <string name="UnsupportedMessageMessage">update telegram to view this message</string>
     <string name="UnsupportedUpdate">update</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
   
 
@@ -14807,6 +14821,8 @@
   <string name="UploadItems">upload %1$s</string>
   <string name="UsbActive">usb transfer active</string>
   <string name="UseFileManger">use another app</string>
+  <string name="UseProxyForCalls">use proxy for calls</string>
+  <string name="UseProxyForCallsInfo">proxy servers may degrade the quality of your calls.</string>
   <string name="UserBioEmpty">none</string>
   <string name="UserColorApplyPremium">subscribe to **telegram premium** to choose a custom color for your name.</string>
   <string name="UserColorPreviewTitle">color preview</string>
