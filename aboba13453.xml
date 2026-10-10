@@ -8071,7 +8071,7 @@
     <string name="MonetizationTransactionPending">pending</string>
     <string name="MonetizationTransactionNotCompleted">not completed</string>
     <string name="MonetizationTransactionDetailWithdraw">collecting rewards</string>
-    <string name="MonetizationTransactionDetailWithdrawButton">view in blockchain explorer</string>
+    <string name="MonetizationTransactionDetailWithdrawButton">view in explorer</string>
     <string name="MonetizationTransactionDetailProceed">rewards from ads displayed in</string>
     <string name="MonetizationTransactionDetailRefund">refunded back</string>
     <string name="MonetizationGraphImpressions">ad impressions</string>
@@ -8475,7 +8475,7 @@
     <string name="StarsTransactionFloodskipNumber_one">%d</string>
     <string name="StarsTransactionFloodskipNumber_other">%d</string>
     <string name="StarsTransactionTONDate">gram transaction date</string>
-    <string name="StarsTransactionViewInBlockchainExplorer">view in blockchain explorer</string>
+    <string name="StarsTransactionViewInBlockchainExplorer">view in explorer</string>
     <string name="StarsTransactionTOS">review the **terms of service** for stars.</string>
     <string name="StarsNotAvailableTitle">not available</string>
     <string name="StarsNotAvailableText">sorry, purchasing stars is not available in your country.</string>
@@ -10068,7 +10068,7 @@
     <string name="MyTON">my grams</string>
     <string name="GramEarnings">gram earnings</string>
     <string name="GramEarningsTitle">gram earnings</string>
-    <string name="GramEarningsText">your gram from gifts,\nads and fragment</string>
+    <string name="GramEarningsText">your gram from gifts,\nads and fragment.</string>
     <string name="GramEarningsHint">you can withdraw your grams using fragment.</string>
     <string name="TodoMenuHint">you are viewing actions for one task.\nyou can switch to actions for the list.</string>
     <string name="PollMenuHint">you are viewing actions for one option.\nyou can switch to actions for the poll.</string>
