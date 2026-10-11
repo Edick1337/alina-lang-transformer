@@ -11498,7 +11498,7 @@
     <string name="WalletBinaryData">binary data</string>
     <string name="WalletBinaryDataWarning">you are signing blindly. sign only from trusted sources.</string>
     <string name="WalletSigningDataCopied">data copied to clipboard</string>
-    <string name="WalletCollectibleNumber">collectible number</string>
+    <string name="WalletCollectibleNumber">anonymous number</string>
     <string name="WalletCollectibleUsername">collectible username</string>
     <string name="WalletCollectibleGift">collectible gift</string>
     <string name="WalletIncomingCollectibleAmount">+1 item</string>
