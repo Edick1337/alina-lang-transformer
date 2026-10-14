@@ -3961,7 +3961,7 @@
     <string name="WrongCodeTitle">wrong code</string>
     <string name="FreshChangePhoneForbiddenTitle">unable to terminate</string>
     <string name="FreshChangePhoneForbidden">for security reasons, you can\'t change your phone number from a device that you\'ve just connected. please use an earlier connection or wait for a few hours.</string>
-    <string name="EmailNotAllowed">this email domain is not allowed.</string>
+    <string name="EmailNotAllowed">this email can\'t be used.</string>
     <string name="EmailTokenInvalid">invalid email token.</string>
     <string name="EmailAddressInvalid">invalid email address.</string>
     <string name="EmailLogin">login email</string>
@@ -11292,7 +11292,7 @@
     <string name="WalletTonConnectRequestAppExpired">%s\'s transaction request expired</string>
     <string name="WalletSendGrams">send grams</string>
     <string name="WalletInsufficientFunds">insufficient funds.</string>
-    <string name="WalletTitle">wallet</string>
+    <string name="WalletTitle">money</string>
     <string name="WalletAuthorizeTransactionPasscode">enter your current telegram passcode to authorize transaction.</string>
     <string name="WalletConfirmWithFingerprint">confirm with fingerprint</string>
     <string name="WalletConfirmWithPasscode">confirm with passcode</string>
