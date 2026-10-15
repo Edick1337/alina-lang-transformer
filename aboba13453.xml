@@ -8791,8 +8791,8 @@
     <string name="StarsSubscriptionUntilExpires">expires</string>
     <string name="StarsSubscriptionUntilExpired">expired</string>
     <string name="StarsSubscriptionCancelledText">you have canceled your subscription.</string>
-    <string name="StarsSubscriptionBotCancelledText">bot has cancelled your subscription.</string>
-    <string name="StarsSubscriptionBusinessCancelledText">business has cancelled your subscription.</string>
+    <string name="StarsSubscriptionBotCancelledText">bot has canceled your subscription.</string>
+    <string name="StarsSubscriptionBusinessCancelledText">business has canceled your subscription.</string>
     <string name="StarsSubscriptionRenew">renew subscription</string>
     <string name="StarsSubscriptionAgain">subscribe again</string>
     <string name="StarsSubscriptionCancel">cancel subscription</string>
@@ -9637,7 +9637,7 @@
     <string name="ContactInfoIsNotContact">not a contact</string>
     <string name="ContactInfoIsContact">contact</string>
     <string name="ContactInfoPhone">phone number</string>
-    <string name="ContactInfoPhoneFragment">anonymous</string>
+    <string name="ContactInfoPhoneFragment">collectible</string>
     <string name="ContactInfoLocation">location</string>
     <string name="ContactInfoRegistration">registration</string>
     <string name="ContactInfoCommonGroups">common groups</string>
@@ -11455,7 +11455,7 @@
     <string name="WalletActionReceivedGramsSomeone">someone sent you **%1$s**</string>
     <string name="WalletTransferWorth">%1$s (%2$s)</string>
     <string name="WalletCollectibleModelBackdrop">%1$s on %2$s</string>
-    <string name="WalletConnectToApp">connect wallet to %1$s</string>
+    <string name="WalletConnectToApp">connect money to %1$s</string>
     <string name="WalletAppRequestsTransfer">%1$s requests a transfer</string>
     <string name="WalletTransferToMultiple">to %1$s +%2$d</string>
     <string name="WalletTransferTo">to %1$s</string>
