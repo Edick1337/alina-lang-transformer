@@ -3451,6 +3451,7 @@
     <string name="PleaseEnterCurrentPasswordTransfer">please enter your password to complete the transfer.</string>
     <string name="PleaseEnterCurrentPasswordWithdraw">please enter your password to collect.</string>
     <string name="PleaseEnterCurrentPasswordGiftTransfer">please enter your password to send **%s** to fragment.</string>
+    <string name="PleaseEnterCurrentPasswordGiftWallet">please enter your password to move **%s** to your wallet.</string>
     <string name="PleaseEnterNewFirstPassword">enter a new password</string>
     <string name="PleaseReEnterPassword">re-enter your password</string>
     <string name="NewPassword">new password</string>
@@ -3721,6 +3722,11 @@
     <string name="SendingGif">sending gif...</string>
     
     <string name="Bot">bot</string>
+    <string name="BotTypeAgent">agent</string>
+    <string name="BotTypeGame">game</string>
+    <string name="BotTypeApp">app</string>
+    <string name="BotTypeAI">ai</string>
+    <string name="BotTypeNonBinary">non-binary</string>
     <string name="BotShare">share</string>
     <string name="BotSettings">settings</string>
     <string name="BotHelp">help</string>
@@ -9540,6 +9546,29 @@
     <string name="Gift2UniqueRibbon">gift</string>
     <string name="Gift2UniqueRibbonBurned">burned</string>
     <string name="Gift2ExportTONTitle">send via blockchain</string>
+    <string name="Gift2TransferToMyWallet">transfer to my wallet</string>
+    <string name="Gift2TransferToMyWalletTitle">transfer to wallet</string>
+    <string name="Gift2TransferToMyWalletText">do you want to transfer **%s** to your wallet? it will stay displayed on your profile.</string>
+    <string name="Gift2TransferToMyWalletSent">**%s** is on its way to your wallet.</string>
+    <string name="Gift2TransferToMyProfile">transfer to my profile</string>
+    <string name="Gift2AddToProfile">add to profile</string>
+    <string name="Gift2RemoveFromProfile">remove from profile</string>
+    <string name="Gift2TransferToMyProfileText">do you want to transfer **%s** from your wallet to your telegram profile?</string>
+    <string name="Gift2MoveToMyWallet">move to my wallet</string>
+    <string name="Gift2MoveToMyWalletText">transfer this gift to your blockchain wallet?</string>
+    <string name="Gift2MoveAppearIn">it will appear in</string>
+    <string name="Gift2KeepOnProfile">keep showing on my profile</string>
+    <string name="Gift2MoveToMyGifts">move to my gifts</string>
+    <string name="Gift2MoveToMyGiftsText">transfer this collectible off-chain to your telegram account?</string>
+    <string name="Gift2MoveToMyGiftsInfo">you can move it back onchain again at any time.</string>
+    <string name="Gift2Move">move</string>
+    <string name="Gift2ShowOnProfile">show on profile</string>
+    <string name="Gift2AlsoShowInMyGifts">also show in my gifts</string>
+    <string name="Gift2HideFromProfile">hide from profile</string>
+    <string name="Gift2MovedToWallet">gift moved to your wallet.</string>
+    <string name="Gift2MovedToProfile">gift moved to your profile.</string>
+    <string name="Gift2SendViaFragment">send via fragment</string>
+    <string name="Gift2WearWalletHidden">show this gift on your profile to wear it.</string>
     <string name="Gift2ExportTONUnlocksIn_one">unlocks in %d day</string>
     <string name="Gift2ExportTONUnlocksIn_other">unlocks in %d days</string>
     <string name="Gift2ExportTONUnlocksAlertTitle">unlocking in progress</string>
@@ -11268,6 +11297,14 @@
     <string name="RoundVideoCompositionEnabled">round video styling</string>
     <string name="RoundVideoCompositionInfo">disable styling to record a plain square without outside-circle blur, dimming or telegram overlays.</string>
 
+    <string name="AudioRecorderSettings">voice messages</string>
+    <string name="AudioRecorderGeneral">recorder</string>
+    <string name="AudioRecorderUseNewRecorder">use new recorder</string>
+    <string name="AudioRecorderNoiseSuppression">noise suppression</string>
+    <string name="AudioRecorderNoiseSuppressionOff">off</string>
+    <string name="AudioRecorderNoiseSuppressionRNNoise">rnnoise</string>
+    <string name="AudioRecorderGeneralInfo">rnnoise removes background noise may affect music or very quiet speech.</string>
+
     
     <string name="WalletUseDevicePasscode">use device pin or password</string>
     <string name="WalletTouchFingerprint">touch the fingerprint sensor to unlock your wallet.</string>
@@ -11299,6 +11336,10 @@
     <string name="WalletLock">lock money</string>
     <string name="WalletLockInfo">required when sending funds or confirming other sensitive actions.</string>
     <string name="WalletSendMoney">send money</string>
+    <string name="WalletOpenMyMoney">open my money</string>
+    <string name="WalletProfileOwnsGrams">%1$s owns %2$s on the ton blockchain.</string>
+    <string name="WalletProfileOwnsNoGrams">%1$s doesn\'t own any grams yet.</string>
+    <string name="WalletPublicBalanceNote">your balance is public due to\nblockchain transparency.</string>
     <string name="WalletCurrencyUSD">us dollar</string>
     <string name="WalletBackupDisabled">backup disabled</string>
     <string name="WalletBackupDisabledInfo">your secret phrase is now the only way to restore your wallet</string>
@@ -11326,6 +11367,9 @@
     <string name="WalletOutgoingTransfer">outgoing transfer</string>
     <string name="WalletIncomingTransferNft">incoming collectible</string>
     <string name="WalletOutgoingTransferNft">outgoing collectible</string>
+    <string name="WalletTransactionTelegram">telegram</string>
+    <string name="WalletMovedFromProfile">moved from profile</string>
+    <string name="WalletMovedToProfile">moved to profile</string>
     <string name="WalletTransferStatusFailed">failed</string>
     <string name="WalletTransferStatusSent">sent</string>
     <string name="WalletTransferStatusReceived">received</string>
@@ -11414,6 +11458,7 @@
     <string name="WalletDisableBackupInfo">the only way to recover your funds will be to manually enter your secret phrase.</string>
     <string name="WalletDisable">disable</string>
     <string name="WalletNotEnoughGram">not enough gram</string>
+    <string name="WalletNotEnoughGramToTransferGift">you need at least %s to transfer the gift.</string>
     <string name="WalletNotNow">not now</string>
     <string name="WalletTopUp">top up</string>
     <string name="WalletDisableBackupConfirmInfo">your distributed encrypted backup will be deleted. your wallet will switch to the new secret phrase. this secret phrase will be the only way to recover this wallet.</string>
@@ -11516,14 +11561,71 @@
     <string name="WalletTonConnectManifestLoadFailed">could not load dapp manifest: %1$s</string>
     <string name="WalletTonConnectSessionClosed">ton connect session is closed</string>
     <string name="WalletTransactionSimulationFailed">transaction simulation failed</string>
-    
-    
+    <string name="WalletCard3D">3d card</string>
+    <string name="WalletCard2D">2d card</string>
     <string name="NotificationGramTransfer">%1$s sent you %2$s</string>
     <string name="NotificationGramTransferComment">%1$s sent you %2$s: %3$s</string>
     <string name="NotificationGramTransferUnknown">you received %2$s</string>
     <string name="NotificationGramTransferUnknownComment">you received %2$s: %3$s</string>
     <string name="NotificationWalletTonConnectRequest">you have a ton connect request</string>
     <string name="NotificationWalletTonConnectRequestDapp">you have a ton connect request from %1$s</string>
+
+    <string name="CreateManagedBotUsernameSuffixesInfo">must end in \'bot\' &#8211; or %1$s with **telegram premium**.</string>
+    <string name="CreateManagedBotUsernameSuffixesOr">%1$s or %2$s</string>
+    <string name="CreateManagedBotUsernameSuffixesComma">%1$s, %2$s</string>
+    <string name="CreateManagedBotUsernamePremiumRequired">usernames ending in \'%1$s\' require telegram premium. **subscribe &#8250;**</string>
+    <string name="CreateManagedBotUsernamePremiumRequiredGeneric">this username requires telegram premium. **subscribe &#8250;**</string>
+    <string name="CreateManagedBotUsernameOwnerLimit">you can only have %1$d usernames ending in %2$s across all your bots.</string>
+    <string name="CreateManagedBotUsernameBotLimit">this bot already has a premium username. remove it before adding another.</string>
+    <string name="CreateManagedBotUsernameSuffixMissing">the username must end in %1$s.</string>
+    <string name="CreateManagedBotUsernameCheckFailed">couldn\'t check this username. please try again.</string>
+    <string name="WalletSearchGifts">search gifts</string>
+    <string name="WalletGiftOnCard">on card</string>
+    <string name="WalletGiftAddToCard">add to card</string>
+    <string name="WalletGiftRemoveFromCard">remove from card</string>
+    <string name="WalletGiftApplyColor">apply color</string>
+    <string name="WalletGiftRemoveColor">remove color</string>
+    <string name="WalletGiftColorOnly">only %1$s and %2$s can be used to change the color of your card.</string>
+    <string name="WalletGiftColorOnlyOne">only %1$s can be used to change the color of your card.</string>
+    <string name="WalletGiftDragHint">drag this collectible on a card to decorate it.</string>
+    <string name="WalletGiftDragHere">drag this collectible here.</string>
+    <string name="QrNoPaidRemoveFee">remove message fee</string>
+    <string name="QrNoPaidFree">free</string>
+    <string name="QrNoPaidExpiresIn">expires in %1$s</string>
+    <string name="QrNoPaidNoTimeLimit">no time limit</string>
+    <string name="QrNoPaidToastExpires">this code will expire in 1 minute</string>
+    <string name="QrNoPaidToastNoTimeLimit">code stays free, no time limit</string>
+    <string name="QrNoPaidToastFeeRestored">message fee restored</string>
+    <string name="QrNoPaidToastExpired">code expired, fee is back</string>
+    <string name="QrNoPaidToastNewCode">new code created</string>
+    <string name="QrNoPaidMenuReset">reset code</string>
+    <string name="QrNoPaidMenuDisableTimer">disable timer</string>
+    <string name="QrNoPaidMenuDisableTimerInfo">stays free, no time limit</string>
+    <string name="QrNoPaidMenuEnableTimer">enable timer</string>
+    <string name="QrNoPaidMenuEnableTimerInfo">expires in 1 minute</string>
+    <string name="QrNoPaidMenuRestoreFee">restore message fee</string>
+    <string name="QrGift">gift</string>
+    <string name="QrProfileColors">profile colors</string>
+    <string name="QrCollectibles">collectibles</string>
+    <string name="QrNoCollectibles">you don\'t have collectible gifts yet.</string>
+    <string name="QrThemePremiumOnly">emoji and gifts require premium</string>
+    <string name="QrChatNoCollectibles">there are no collectible gifts here yet.</string>
+    <string name="QrLoadingGifts">loading gifts&#8230;</string>
+    <string name="QrNoPaidRemoveStarsFee">remove &#9733;%1$s fee</string>
+    <string name="QrCreatingLink">creating link&#8230;</string>
+    <string name="QrScanQr">scan qr</string>
+    <string name="QrPremiumSubscribe">subscribe</string>
+    <string name="QrPremiumEmojiToast">subscribe to premium to use all emoji.</string>
+    <string name="QrPremiumGiftsToast">subscribe to premium to use\ngifts in your qr code.</string>
+    <string name="QrEmojiPresets">presets</string>
+    <string name="QrNoGiftsTitle">no gifts yet</string>
+    <string name="QrNoGiftsInfo">use any collectible gift you own\nto style your qr code.</string>
+    <string name="QrBrowseGifts">browse gifts</string>
+    <string name="QrSavedToGallery">qr code saved to gallery</string>
+    <string name="Gift2BrowseCollectiblesInfo">display gifts on your profile. upgrade limited editions into tradable collectibles.</string>
+    <string name="NoPaidMessagesTokenUsed">un1 used your qr code and can message you for free</string>
+    <string name="NoPaidMessagesTokenUsedOut">you used the qr code of un1 and can message them for free</string>
+    <string name="NoPaidMessagesTokenImported">you can now message **%1$s** for free.</string>
 
   
 
