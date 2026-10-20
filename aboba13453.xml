@@ -9548,7 +9548,7 @@
     <string name="Gift2ExportTONTitle">send via blockchain</string>
     <string name="Gift2TransferToMyWallet">transfer to my wallet</string>
     <string name="Gift2TransferToMyWalletTitle">transfer to wallet</string>
-    <string name="Gift2TransferToMyWalletText">do you want to transfer **%s** to your wallet? it will stay displayed on your profile.</string>
+    <string name="Gift2TransferToMyWalletText">do you want to transfer **%s** to your wallet? it will stay visible on your profile.</string>
     <string name="Gift2TransferToMyWalletSent">**%s** is on its way to your wallet.</string>
     <string name="Gift2TransferToMyProfile">transfer to my profile</string>
     <string name="Gift2AddToProfile">add to profile</string>
@@ -11338,7 +11338,7 @@
     <string name="WalletSendMoney">send money</string>
     <string name="WalletOpenMyMoney">open my money</string>
     <string name="WalletProfileOwnsGrams">%1$s owns %2$s on the ton blockchain.</string>
-    <string name="WalletProfileOwnsNoGrams">%1$s doesn\'t own any grams yet.</string>
+    <string name="WalletProfileOwnsNoGrams">%1$s doesn\'t have any grams yet.</string>
     <string name="WalletPublicBalanceNote">your balance is public due to\nblockchain transparency.</string>
     <string name="WalletCurrencyUSD">us dollar</string>
     <string name="WalletBackupDisabled">backup disabled</string>
@@ -11389,9 +11389,9 @@
     <string name="WalletBuyWithCashOrCrypto">buy with cash or crypto</string>
     <string name="WalletHowItWorks">how it works</string>
     <string name="WalletHowItWorksInfo">only you control your funds &#8212;\nno one else has access.</string>
-    <string name="WalletSendInstantly">send money instantly</string>
+    <string name="WalletSendInstantly">instant transfers</string>
     <string name="WalletSendInstantlyInfo">send grams in any chat, just like sharing a photo.</string>
-    <string name="WalletNoFees">no fees</string>
+    <string name="WalletNoFees">zero fees</string>
     <string name="WalletNoFeesInfo">the first 5 transfers each day are free. the rest cost almost nothing.</string>
     <string name="WalletBlockchainVerified">blockchain verified</string>
     <string name="WalletBlockchainVerifiedInfo">all transactions are recorded and verifiable on a public ledger.</string>
@@ -11616,7 +11616,7 @@
     <string name="QrScanQr">scan qr</string>
     <string name="QrPremiumSubscribe">subscribe</string>
     <string name="QrPremiumEmojiToast">subscribe to premium to use all emoji.</string>
-    <string name="QrPremiumGiftsToast">subscribe to premium to use\ngifts in your qr code.</string>
+    <string name="QrPremiumGiftsToast">get premium to put\ngifts on your qr code.</string>
     <string name="QrEmojiPresets">presets</string>
     <string name="QrNoGiftsTitle">no gifts yet</string>
     <string name="QrNoGiftsInfo">use any collectible gift you own\nto style your qr code.</string>
@@ -11624,7 +11624,7 @@
     <string name="QrSavedToGallery">qr code saved to gallery</string>
     <string name="Gift2BrowseCollectiblesInfo">display gifts on your profile. upgrade limited editions into tradable collectibles.</string>
     <string name="NoPaidMessagesTokenUsed">un1 used your qr code and can message you for free</string>
-    <string name="NoPaidMessagesTokenUsedOut">you used the qr code of un1 and can message them for free</string>
+    <string name="NoPaidMessagesTokenUsedOut">you used un1\'s qr code and can message them for free</string>
     <string name="NoPaidMessagesTokenImported">you can now message **%1$s** for free.</string>
 
   
