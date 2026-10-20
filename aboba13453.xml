@@ -11303,7 +11303,7 @@
     <string name="AudioRecorderNoiseSuppression">noise suppression</string>
     <string name="AudioRecorderNoiseSuppressionOff">off</string>
     <string name="AudioRecorderNoiseSuppressionRNNoise">rnnoise</string>
-    <string name="AudioRecorderGeneralInfo">rnnoise removes background noise may affect music or very quiet speech.</string>
+    <string name="AudioRecorderGeneralInfo">rnnoise removes background noise and may affect music or very quiet speech.</string>
 
     
     <string name="WalletUseDevicePasscode">use device pin or password</string>
