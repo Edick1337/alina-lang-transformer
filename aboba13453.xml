@@ -9565,6 +9565,9 @@
     <string name="Gift2ShowOnProfile">show on profile</string>
     <string name="Gift2AlsoShowInMyGifts">also show in my gifts</string>
     <string name="Gift2HideFromProfile">hide from profile</string>
+    <string name="Gift2DeleteOption">delete gift</string>
+    <string name="Gift2DeleteText">do you want to delete this gift?\n\nit will disappear from your profile and can\'t be restored.</string>
+    <string name="Gift2Deleted">gift deleted</string>
     <string name="Gift2MovedToWallet">gift moved to your wallet.</string>
     <string name="Gift2MovedToProfile">gift moved to your profile.</string>
     <string name="Gift2SendViaFragment">send via fragment</string>
@@ -11589,6 +11592,36 @@
     <string name="WalletGiftColorOnlyOne">only %1$s can be used to change the color of your card.</string>
     <string name="WalletGiftDragHint">drag this collectible on a card to decorate it.</string>
     <string name="WalletGiftDragHere">drag this collectible here.</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <string name="QrNoPaidRemoveFee">remove message fee</string>
     <string name="QrNoPaidFree">free</string>
     <string name="QrNoPaidExpiresIn">expires in %1$s</string>
