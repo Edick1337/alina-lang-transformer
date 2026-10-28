@@ -5455,7 +5455,7 @@
     <string name="DoubleTapSetting">quick reaction</string>
     <string name="DoubleTapPreviewRational">double tap this message for a quick reaction.</string>
     <string name="ActionReactionsChanged">un1 changed chat reactions\nfrom: %1$s \nto: %2$s</string>
-    <string name="ActionReactionsChangedList">un1 changed chat reactions:\n %1$s</string>
+    <string name="ActionReactionsChangedList">un1 changed chat reactions:\n%1$s</string>
     <string name="NobodyViewed">nobody viewed</string>
     <string name="QrCode">qr code</string>
 
