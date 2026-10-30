@@ -3726,7 +3726,7 @@
     <string name="BotTypeGame">game</string>
     <string name="BotTypeApp">app</string>
     <string name="BotTypeAI">ai</string>
-    <string name="BotTypeNonBinary">gay</string>
+    <string name="BotTypeNonBinary">non-binary</string>
     <string name="BotShare">share</string>
     <string name="BotSettings">settings</string>
     <string name="BotHelp">help</string>
