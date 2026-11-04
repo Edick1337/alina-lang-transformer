@@ -3207,13 +3207,14 @@
     <string name="Directions">directions</string>
     <string name="GetDirections">get directions</string>
     <string name="NoPlacesFound">no places found</string>
-    <string name="NoPlacesFoundInfo">there are no matches with **%1$s** near you.</string>
     <string name="SendLocation">send my current location</string>
     <string name="SendLiveLocation">share my live location for...</string>
     <string name="SendLiveLocationMenu">share my live location</string>
     <string name="StopLiveLocation">stop sharing location</string>
     <string name="SharingLiveLocation">sharing location...</string>
     <string name="SharingLiveLocationAdd">tap to add more time</string>
+    <string name="LiveLocationPausedTitle">live location paused</string>
+    <string name="LiveLocationPausedText">open telegram to continue sharing your location.</string>
     <string name="StopLiveLocationAlertToTitle">stop location sharing</string>
     <string name="StopLiveLocationAlertToUserText">do you want to stop sharing your live location with **%1$s**?</string>
     <string name="StopLiveLocationAlertToGroupText">do you want to stop sharing your live location with **%1$s**?</string>
@@ -3226,9 +3227,7 @@
     <string name="ShareLocation">location</string>
     <string name="SharedPlace">place</string>
     <string name="AccurateTo">accurate to %1$s</string>
-    <string name="NearbyVenue">or choose a venue</string>
     <string name="LocationOnMap">location on a map</string>
-    <string name="TapToSendLocation">tap to send this location</string>
     <string name="LiveLocations">live locations</string>
     <string name="LiveLocationContext">live location</string>
     <string name="SendLiveLocationFor15m">for 15 minutes</string>
@@ -3250,7 +3249,6 @@
     <string name="LiveLocationAlertGroup">choose for how long people in this chat will see your accurate location, including when the app is closed.</string>
     <string name="GpsDisabledAlertText">please enable your gps to access location-based features.</string>
     <string name="ChatSetThisLocation">set this location</string>
-    <string name="PlacesInThisArea">places in this area</string>
     <string name="OpenInMaps">open in maps</string>
     <string name="LocationNotifiation">proximity alert</string>
     <string name="LocationNotifiationButtonUser">notify when %1$s is within %2$s</string>
@@ -3576,6 +3574,7 @@
     <string name="OutgoingCalls">outgoing calls</string>
     <string name="IncomingCalls">incoming calls</string>
     <string name="IncomingCallsSystemSetting">internal call notifications</string>
+    <string name="InternalNotificationsSystemSetting">internal notifications</string>
     <string name="IncomingCallsSystemSettingDescription">you can change your ringtone in telegram &gt; settings &gt; notifications and sounds.</string>
     
     
@@ -3933,6 +3932,7 @@
     <string name="AttachOnceAudio">one-time voice message</string>
     <string name="AttachOnceRound">one-time video message</string>
     <string name="AttachGame">game</string>
+    <string name="AttachWidget">widget</string>
     <string name="FromYou">you</string>
     <string name="NoNewCarMessages">no new messages</string>
     <string name="NoCarMusic">no music in your chats</string>
@@ -4326,10 +4326,6 @@
     <string name="TranscriptionReportSent">thank you for your feedback.</string>
     <string name="VoipQuickReplies">respond with text</string>
     <string name="VoipQuickRepliesExplain">these options can be used as quick responses to incoming calls. change them to say anything you like.</string>
-    <string name="QuickReplyDefault1">can\'t talk now. what\'s up?</string>
-    <string name="QuickReplyDefault2">i\'ll call you right back.</string>
-    <string name="QuickReplyDefault3">i\'ll call you later.</string>
-    <string name="QuickReplyDefault4">can\'t talk now. call me later?</string>
     <string name="AllowCustomQuickReply">allow custom</string>
     <string name="VoipInCallBrandingWithName">telegram call to %s</string>
     <string name="VoipInVideoCallBrandingWithName">telegram video call to %s</string>
@@ -6355,6 +6351,7 @@
     <string name="AccDescrRateTranscriptionUp">rate up</string>
     <string name="AccDescrRateTranscriptionDown">rate down</string>
     <string name="PauseMusicOnMedia">pause music while playing media</string>
+    <string name="CompactMode">compact mode</string>
     <string name="ProxyBottomSheetCheckStatus">**check status**</string>
     <string name="ProxyBottomSheetChecking">checking</string>
     <string name="ProxyBottomSheetCheckWarning">warning</string>
@@ -8671,7 +8668,7 @@
     <string name="WebBookmark">bookmark</string>
     <string name="WebBookmarkAdd">add bookmark</string>
     <string name="WebBookmarkedToast">link added to bookmarks in **saved messages**.</string>
-    <string name="SearchEngine1Name">google</string>
+    
     
     
     
@@ -10030,6 +10027,7 @@
     <string name="TopicsLayoutInfo">choose how topics appear for all members.</string>
     <string name="TopicsLayoutList">list</string>
     <string name="TopicsLayoutTabs">tabs</string>
+    <string name="TopicsSidebar">sidebar</string>
     <string name="SendInStandardQuality">send in standard quality</string>
     <string name="SendInHighQuality">send in high quality</string>
     <string name="ShortHighQuality">hd</string>
@@ -10040,6 +10038,8 @@
     <string name="AllChatsShort">all</string>
     <string name="AllTopicsShort">all</string>
     <string name="AllTopicsSide">all</string>
+    <string name="TopicsPanelAllMessages">all messages</string>
+    <string name="TopicsPanelDirectMessages">direct messages</string>
     <string name="VoicePauseHint">pause to trim or replay</string>
     <string name="RecordingTrimTitle">trim to selected range?</string>
     <string name="RecordingTrimText">audio outside that range will be discarded, and recording will start immediately.</string>
@@ -11083,6 +11083,7 @@
     <string name="CommunitySectionHiddenChats">hidden chats</string>
     <string name="CommunitySectionChatsYouCanRequestToJoin">chats you can request to join</string>
     <string name="CommunityAddAChatToCommunity">add a chat to community</string>
+    <string name="CommunityAddAChatToCommunityHeader">add a chat to community</string>
     <string name="CommunityMenuAddChat">add chat to community</string>
     <string name="CommunityMenuSettings">settings</string>
     <string name="CommunityMenuShowAsOneChat">show as one chat</string>
@@ -11299,6 +11300,19 @@
     <string name="RoundVideoComposition">composition</string>
     <string name="RoundVideoCompositionEnabled">round video styling</string>
     <string name="RoundVideoCompositionInfo">disable styling to record a plain square without outside-circle blur, dimming or telegram overlays.</string>
+
+    <string name="HeaderSettings">header</string>
+    <string name="HeaderDoneButtonColor">done button color</string>
+    <string name="HeaderDoneButtonColorGlass">white</string>
+    <string name="HeaderDoneButtonColorAccent">blue</string>
+    <string name="HeaderDoneButtonColorInfo">a white button appears only when there is something to save. a blue button is always shown and is dimmed until then.</string>
+    <string name="HeaderDoneButtonShape">done button shape</string>
+    <string name="HeaderDoneButtonShapeIcon">round with a check</string>
+    <string name="HeaderDoneButtonShapeText">text</string>
+    <string name="HeaderDoneButtonPreview">preview</string>
+    <string name="HeaderDoneButtonPreviewChanges">has changes</string>
+    <string name="HeaderDoneButtonPreviewInfo">toggle to see how the button in the header above reacts to changes.</string>
+    <string name="Apply">apply</string>
 
     <string name="AudioRecorderSettings">voice messages</string>
     <string name="AudioRecorderGeneral">recorder</string>
@@ -11560,6 +11574,8 @@
     <string name="WalletAddressNoLinkedAccount">this address has no linked\ntelegram account.</string>
     <string name="WalletTapToSetAmount">tap to set amount</string>
     <string name="WalletTonConnectRequestUnavailable">this ton connect request is unavailable or has already been answered</string>
+    <string name="WalletWidgetNoWallet">your wallet is not available on this device.</string>
+    <string name="WalletWidgetRequestExpired">this request has expired.</string>
     <string name="WalletTonConnectSessionResponseEmpty">empty ton connect session response</string>
     <string name="WalletTonConnectManifestLoadFailed">could not load dapp manifest: %1$s</string>
     <string name="WalletTonConnectSessionClosed">ton connect session is closed</string>
@@ -11592,36 +11608,36 @@
     <string name="WalletGiftColorOnlyOne">only %1$s can be used to change the color of your card.</string>
     <string name="WalletGiftDragHint">drag this collectible on a card to decorate it.</string>
     <string name="WalletGiftDragHere">drag this collectible here.</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="NewsTitle">news</string>
+    <string name="NewsForYou">for you</string>
+    <string name="NewsInterests">what are you interested in?</string>
+    <string name="NewsEmpty">no news yet</string>
+    <string name="NewsCaughtUpTitle">you\'re all caught up!</string>
+    <string name="NewsCaughtUpSubtitle">the world can wait. go live a little.</string>
+    <string name="NewsCaughtUpTitleScroll">nothing left to scroll.</string>
+    <string name="NewsCaughtUpSubtitleScroll">go make some news of your own.</string>
+    <string name="NewsCaughtUpTitleHeadlines">no more headlines!</string>
+    <string name="NewsCaughtUpSubtitleHeadlines">your brain deserves a little vacation.</string>
+    <string name="NewsAddedEmpty">posts from channels you add will appear here.</string>
+    <string name="NewsSaveInterests">save interests</string>
+    <string name="NewsInterestsSaved">interests saved</string>
+    <string name="NewsInterestsError">could not save your interests. please try again.</string>
+    <string name="ChannelAddToNews">add to news</string>
+    <string name="ChannelAddedToNews">added to news</string>
+    <string name="ChannelAddedToChats">added to chats</string>
+    <string name="ChannelAddToChats">add to chats</string>
+    <string name="ChannelRemoveFromChats">remove from chats</string>
+    <string name="ChannelRemoveFromNews">remove from news</string>
+    <string name="ChannelNotify">notify</string>
+    <string name="ChannelDoNotNotify">do not notify</string>
+    <string name="ChannelAddedToNewsBulletin">**%1$s** added to **news**.</string>
+    <string name="ChannelAddedToChatsBulletin">**%1$s** added to **chats**.</string>
+    <string name="ChannelRemovedFromNewsBulletin">**%1$s** removed from **news**.</string>
+    <string name="ChannelRemovedFromChatsBulletin">**%1$s** removed from **chats**.</string>
+    <string name="ChannelNotifyBulletin">notifications enabled for **%1$s**.</string>
+    <string name="ChannelDoNotNotifyBulletin">notifications disabled for **%1$s**.</string>
+    <string name="ChannelArchivedBulletin">**%1$s** archived.</string>
+    <string name="ChannelUnarchivedBulletin">**%1$s** unarchived.</string>
     <string name="QrNoPaidRemoveFee">remove message fee</string>
     <string name="QrNoPaidFree">free</string>
     <string name="QrNoPaidExpiresIn">expires in %1$s</string>
@@ -11659,6 +11675,46 @@
     <string name="NoPaidMessagesTokenUsed">un1 used your qr code and can message you for free</string>
     <string name="NoPaidMessagesTokenUsedOut">you used un1\'s qr code and can message them for free</string>
     <string name="NoPaidMessagesTokenImported">you can now message **%1$s** for free.</string>
+    <string name="AgentAddApiKey">add your ai api key</string>
+    <string name="AgentChooseProvider">choose ai provider</string>
+    <string name="AgentSubscriptionInfo">this chatbot works only if you have an active subscription for an ai service.</string>
+    <string name="AgentConnectApiKey">connect api key</string>
+    <string name="AgentProviderHeader">provider</string>
+    <string name="AgentProviderInfo">select the ai provider you have an account with.</string>
+    <string name="AgentHundredsOfModels">hundreds of models</string>
+    <string name="AgentApiKey">api key</string>
+    <string name="AgentApiKeyHeader">api key</string>
+    <string name="AgentApiKeyPlaceholder">paste your new api key</string>
+    <string name="AgentApiKeyInvalid">invalid api key</string>
+    <string name="AgentApiKeyHint">get your api key or api token in your **ai provider&#8217;s settings**.</string>
+    <string name="AgentConnectProvider">connect %1$s</string>
+    <string name="AgentConnecting">connecting&#8230;</string>
+    <string name="AgentProviderUnavailable">the ai provider didn&#8217;t respond. please try again later.</string>
+    <string name="AgentNotAvailable">ai agents are not available yet.</string>
+    <string name="AgentAddAnotherProvider">add another provider</string>
+    <string name="AgentTapHoldToDelete">tap and hold to delete.</string>
+    <string name="AgentProviderConnected">%1$s connected!</string>
+    <string name="AgentProviderConnectedText">you can now use %1$s.</string>
+    <string name="AgentStart">start</string>
+    <string name="WidgetStopped">widget stopped</string>
+    <string name="WidgetLoading">loading widget&#8230;</string>
+    <string name="WidgetLoadFailed">widget failed to load</string>
+    <string name="WidgetOpenLinkTitle">open link</string>
+    <string name="WidgetOpenLinkText">this widget wants to open:\n%1$s</string>
+    <string name="WidgetTextCopied">copied: %1$s</string>
+    <string name="NewContactPhoneNotOnTelegram">this phone number is not on telegram. **invite &gt;**</string>
+    <string name="NewContactPhoneInContacts">this phone number is already in your contacts. **view &gt;**</string>
+    <string name="NewContactPhoneOnTelegram">this phone number is on telegram.</string>
+    <string name="StoryPrivacyGroupNoContacts">all group members that are not in your contact list.</string>
+    <string name="StoryPrivacyGroupNonContacts_one">%1$d member is not in your contact list</string>
+    <string name="StoryPrivacyGroupNonContacts_other">%1$d members are not in your contact list</string>
+    <string name="StoryPrivacyGroupAddContacts_one">add %1$d contact</string>
+    <string name="StoryPrivacyGroupAddContacts_other">add %1$d contacts</string>
+    <string name="ForwardHideSenderNamePremium">subscribe to **telegram premium** to forward formatted messages without the sender&#8217;s name.</string>
+    <string name="StoryEditWaitUpload">wait until current upload is complete</string>
+    <string name="UnsupportedContent">unsupported content</string>
+    <string name="LocationPoweredBy">powered by</string>
+    <string name="SettingsExperimental">experimental</string>
 
   
 
@@ -13901,6 +13957,7 @@
   <string name="NearbyPeopleGreetingsMessage">%1$s is %2$s</string>
   <string name="NearbyPlaces">or choose a place</string>
   <string name="NearbyStartGroup">start group</string>
+  <string name="NearbyVenue">or choose a venue</string>
   <string name="NetworkUsageMobile">mobile</string>
   <string name="NetworkUsageRoaming">roaming</string>
   <string name="NetworkUsageWiFi">wi-fi</string>
@@ -13934,6 +13991,7 @@
   <string name="NoOtherSessionsInfo">you can log in to telegram from other mobile, tablet and desktop devices, using the same phone number. all your data will be instantly synchronized.</string>
   <string name="NoOtherWebSessions">no active logins.</string>
   <string name="NoOtherWebSessionsInfo">you can log in on websites that support signing in with telegram.</string>
+  <string name="NoPlacesFoundInfo">there are no matches with **%1$s** near you.</string>
   <string name="NoPublicStoriesTitle">no public stories</string>
   <string name="NoRecentGIFs">no recent gifs</string>
   <string name="NoRecentPhotos">no recent photos</string>
@@ -14174,6 +14232,7 @@
   <string name="PinnedMessagesCount_few">%1$d pinned messages</string>
   <string name="PinnedMessagesCount_many">%1$d pinned messages</string>
   <string name="PinnedPoll">pinned poll</string>
+  <string name="PlacesInThisArea">places in this area</string>
   <string name="PlayEmojiInKeyboard">emoji panel animations</string>
   <string name="PleaseEnterFirstPassword">enter a password</string>
   <string name="PleaseEnterPassword">enter your new password</string>
@@ -14320,6 +14379,10 @@
   <string name="QRCodePermissionNoCamera">telegram needs access to your camera so that you can scan qr codes.</string>
   <string name="Question">question</string>
   <string name="QuickReplyCustom">custom message...</string>
+  <string name="QuickReplyDefault1">can\'t talk now. what\'s up?</string>
+  <string name="QuickReplyDefault2">i\'ll call you right back.</string>
+  <string name="QuickReplyDefault3">i\'ll call you later.</string>
+  <string name="QuickReplyDefault4">can\'t talk now. call me later?</string>
   <string name="QuizInfo">polls in quiz mode have one correct answer. users can\'t revoke their answers.</string>
   <string name="ReEnterYourPasscode">re-enter your new passcode</string>
   <string name="Reacted_zero">%1$s reacted</string>
@@ -14979,6 +15042,14 @@
   <string name="StoryPrivacyEveryoneExclude_two">everyone (-%d)</string>
   <string name="StoryPrivacyEveryoneExclude_few">everyone (-%d)</string>
   <string name="StoryPrivacyEveryoneExclude_many">everyone (-%d)</string>
+  <string name="StoryPrivacyGroupAddContacts_zero">add %1$d contacts</string>
+  <string name="StoryPrivacyGroupAddContacts_two">add %1$d contacts</string>
+  <string name="StoryPrivacyGroupAddContacts_few">add %1$d contacts</string>
+  <string name="StoryPrivacyGroupAddContacts_many">add %1$d contacts</string>
+  <string name="StoryPrivacyGroupNonContacts_zero">%1$d members are not in your contact list</string>
+  <string name="StoryPrivacyGroupNonContacts_two">%1$d members are not in your contact list</string>
+  <string name="StoryPrivacyGroupNonContacts_few">%1$d members are not in your contact list</string>
+  <string name="StoryPrivacyGroupNonContacts_many">%1$d members are not in your contact list</string>
   <string name="StoryPrivacyOptionExcludePeople_zero">except %d people</string>
   <string name="StoryPrivacyOptionExcludePeople_two">except %d people</string>
   <string name="StoryPrivacyOptionExcludePeople_few">except %d people</string>
@@ -15055,6 +15126,7 @@
   <string name="TaggedMessages_few">%1$d messages</string>
   <string name="TaggedMessages_many">%1$d messages</string>
   <string name="TapOnThePencil">tap on the pencil to start a new chat</string>
+  <string name="TapToSendLocation">tap to send this location</string>
   <string name="TapToViewAsList">tap to view as a list.</string>
   <string name="TelegramContacts_zero">%1$d contacts on telegram</string>
   <string name="TelegramContacts_two">%1$d contacts on telegram</string>
