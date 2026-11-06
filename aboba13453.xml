@@ -9509,7 +9509,7 @@
     <string name="Gift2Host">telegram</string>
     <string name="Gift2HostAddress">owner</string>
     <string name="Gift2CantDoTitle">action locked</string>
-    <string name="Gift2CantDoText">transfer this gift to your telegram account on fragment to unlock this action.</string>
+    <string name="Gift2CantDoText">move this gift from your wallet to your profile to unlock this action.</string>
     <string name="Gift2OwnerChange">change</string>
     <string name="Gift2AttributeModel">model</string>
     <string name="Gift2AttributeBackdrop">backdrop</string>
