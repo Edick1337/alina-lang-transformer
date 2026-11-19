@@ -396,6 +396,7 @@
     <string name="NoSuchChannels">no such channels</string>
     <string name="NoSuchChannelsInfo">you don\'t have channels that meet the requirements for this bot</string>
     <string name="CreateGroupForThis">create a new group for this</string>
+    <string name="CreateGroupWith">create group with %1$s</string>
     <string name="NoSuchGroups">no such groups</string>
     <string name="NoSuchGroupsInfo">you don\'t have groups that meet the requirements for this bot</string>
     <string name="NoSuchUsers">no such users</string>
@@ -508,6 +509,10 @@
     <string name="MegaPublicInfo">public groups can be found in search, chat history is available to everyone and anyone can join.</string>
     <string name="ChannelPrivate">private channel</string>
     <string name="MegaPrivate">private group</string>
+    <string name="MakeChannelPrivateTitle">make channel private?</string>
+    <string name="MakeChannelPrivateText">your channel&#8217;s public link **%1$s** will be removed, and this username will become available to anyone. continue?</string>
+    <string name="MakeGroupPrivateTitle">make group private?</string>
+    <string name="MakeGroupPrivateText">your group&#8217;s public link **%1$s** will be removed, and this username will become available to anyone. continue?</string>
     <string name="MonoforumMessages">direct messages</string>
     <string name="ChannelPrivateInfo">private channels can only be joined via invite link.</string>
     <string name="MegaPrivateInfo">private groups can only be joined if you were invited or have an invite link.</string>
@@ -3079,6 +3084,11 @@
     <string name="FilterAddingChatsInfo">please wait a few moments while\nwe fill this folder for you...</string>
     <string name="FilterNoChatsToDisplay">folder is empty</string>
     <string name="FilterNoChatsToDisplayInfo">no chats currently belong to this folder.</string>
+    <string name="FilterShowUnread">show unread</string>
+    <string name="FilterShowAllChats">show all chats</string>
+    <string name="FilterUnreadOnlyShown">only unread chats shown</string>
+    <string name="FilterNoUnreadChats">no unread chats</string>
+    <string name="FilterNoUnreadChatsInfo">you have read all chats here.</string>
     <string name="FilterNoChatsToForward">no chats found</string>
     <string name="FilterNoChatsToForwardInfo">no chats in this folder to forward to.</string>
     <string name="FilterNew">new folder</string>
@@ -5983,6 +5993,8 @@
     <string name="TopicNotificationsExceptions_other">**%d topics** are listed as exceptions.</string>
     <string name="TopicProfileStatus">in %s</string>
     <string name="TopicClosed">topic closed</string>
+    <string name="TopicsFilterOpen">open</string>
+    <string name="TopicsFilterClosed">closed</string>
     <string name="TopicHidden">general topic hidden</string>
     <string name="TopicHidden2">%s hid the general topic</string>
     <string name="TopicShown">general topic was unhidden</string>
@@ -8619,6 +8631,9 @@
     <string name="OpenInSystemBrowser2">open in browser</string>
     <string name="AppsTab">apps</string>
     <string name="ProfileBotOpenApp">open app</string>
+    <string name="BotProfileViewInfo">view info</string>
+    <string name="BotProfileOpenChat">open chat</string>
+    <string name="BotProfileStopBot">stop bot</string>
     <string name="ProfileBotOpenAppInfo">by launching this mini app, you agree to the **terms of service for mini apps**.</string>
     <string name="ProfileBotOpenAppInfoLink">https://telegram.org/tos/mini-apps</string>
     <string name="ProfileBotOpenAppInfoOwner">by publishing this mini app, you agree to the **telegram terms of service for developers**.</string>
@@ -9517,6 +9532,201 @@
     <string name="Gift2PriceUnique">unique</string>
     <string name="GiftResaleFilterAllListings">all listings</string>
     <string name="GiftResaleFilterForStarsOnly">for stars only</string>
+    <string name="GiftResaleFilterForStars">for stars</string>
+    <string name="GiftResaleFilterForTon">for grams</string>
+    <string name="GiftResaleFilterFromFragment">from fragment</string>
+    <string name="GiftOnchainBuyTitle">buy %s</string>
+    <string name="GiftOnchainBuyText">buy **%1$s** on fragment for **%2$s**? it will be paid from your wallet, and the gift will stay in your wallet and appear on your profile.</string>
+    <string name="GiftOnchainBuySent">purchase sent. %s will appear in your wallet shortly.</string>
+    <string name="GiftOnchainBought">%s is now in your wallet!</string>
+    <string name="GiftOnchainBuySentTo">purchase sent. %1$s will go to %2$s shortly.</string>
+    <string name="GiftOnchainBoughtTo">%1$s was bought for %2$s!</string>
+    <string name="GiftOnchainFailed">the transaction for %s failed.</string>
+    <string name="GiftOnchainNotEnoughToBuy">you need at least %s in your wallet to buy this gift.</string>
+    <string name="GiftOnchainNotEnoughForFee">you need at least %s in your wallet to pay the network fee for this action.</string>
+    <string name="GiftOnchainSellTitle">sell on fragment</string>
+    <string name="GiftOnchainSellMenu">sell</string>
+    <string name="GiftOnchainTransferUnlistFirst">this gift is on sale. remove it from sale first to transfer it.</string>
+    <string name="GiftOnchainSellFixed">sell at fixed price</string>
+    <string name="GiftOnchainSellFixedConfirmText">put **%1$s** on sale at a fixed price for **%2$s**?</string>
+    <string name="GiftOnchainSellText">list **%1$s** on fragment for **%2$s**? starting the sale costs **%3$s** from your wallet for the contract fees. the proceeds will go straight to your wallet.</string>
+    <string name="GiftOnchainSellButton">list for sale</string>
+    <string name="GiftOnchainSellPriceHeader">price in grams</string>
+    <string name="GiftOnchainSellPriceButton">list for %s gram</string>
+    <string name="GiftOnchainSellPriceHigh">the price is too high. the maximum price is **%s gram**.</string>
+    <string name="GiftOnchainSellPriceLow">the price is too low. the minimum price is **%s gram**.</string>
+    <string name="GiftOnchainSellHint">the buyer pays this price on fragment, the proceeds go straight to your wallet.</string>
+    <string name="GiftOnchainSellHintBuyerPays">the buyer pays this price, the proceeds go straight to your wallet.</string>
+    <string name="GiftOnchainSellNoteFixed">the buyer pays this price, the proceeds go straight to your wallet. the gift goes on sale once the sale contract receives it.</string>
+    <string name="GiftOnchainChangePriceButton">change to %s gram</string>
+    <string name="GiftOnchainChangePriceConfirmText">change the price of **%1$s** to **%2$s**?</string>
+    <string name="GiftOnchainChangePriceSent">changing the price of %s&#8230;</string>
+    <string name="GiftOnchainPriceChanged">%1$s is now for sale for %2$s.</string>
+    <string name="GiftOnchainSellSent">listing %s on fragment&#8230;</string>
+    <string name="GiftOnchainSellSentFixed">putting %s on sale&#8230;</string>
+    <string name="GiftOnchainListed">%s is now for sale on fragment!</string>
+    <string name="GiftOnchainListedFixed">%s is now for sale!</string>
+    <string name="GiftOnchainUnlistText">remove this gift from sale on fragment? it will stay in your wallet. the cancellation costs **%s** from your wallet for the contract fees.</string>
+    <string name="GiftOnchainUnlistSent">removing %s from sale&#8230;</string>
+    <string name="GiftOnchainUnlisted">%s is no longer for sale.</string>
+    <string name="GiftOnchainChangePriceText">to change the price, unlist the gift first and then list it again with the new price.</string>
+    <string name="GiftOnchainErrorTitle">fragment</string>
+    <string name="GiftOnchainErrorTitleFixed">fixed price sale</string>
+    <string name="GiftOnchainErrorPriceChanged">the price of this gift on fragment has changed. please check the new price and try again.</string>
+    <string name="GiftOnchainErrorPriceChangedFixed">the price of this gift has changed. please check the new price and try again.</string>
+    <string name="GiftOnchainErrorSaleDisabled">sales on fragment are currently unavailable.</string>
+    <string name="GiftOnchainErrorSaleDisabledFixed">fixed price sales are currently unavailable.</string>
+    <string name="GiftOnchainErrorNotForSale">this gift is no longer for sale on fragment.</string>
+    <string name="GiftOnchainErrorNotForSaleFixed">this gift is no longer for sale.</string>
+    <string name="GiftOnchainErrorPriceInvalid">this price is outside the allowed range.</string>
+    <string name="GiftOnchainErrorPriceInvalidRange">the price must be between %1$s and %2$s.</string>
+    <string name="GiftOnchainErrorNotMinted">only gifts recorded on the blockchain can be sold on fragment.</string>
+    <string name="GiftOnchainErrorNotMintedFixed">only gifts recorded on the blockchain can be sold at a fixed price.</string>
+    <string name="GiftOnchainErrorSaleActive">this gift is already for sale on fragment.</string>
+    <string name="GiftOnchainErrorSaleActiveFixed">this gift is already for sale.</string>
+    <string name="GiftOnchainErrorSaleInactive">this gift is not for sale on fragment.</string>
+    <string name="GiftOnchainErrorSaleInactiveFixed">this gift is not for sale.</string>
+    <string name="GiftOnchainErrorNotOwner">this gift is not in your wallet.</string>
+    <string name="GiftOnchainErrorNotOwnerFixed">this sale was started from another wallet.</string>
+    <string name="GiftOnchainErrorSelfPurchase">you can&#8217;t buy your own gift on fragment.</string>
+    <string name="GiftOnchainErrorSelfPurchaseFixed">you can&#8217;t buy your own gift.</string>
+    <string name="GiftOnchainErrorWalletCreating">your wallet is still being created. please try again in a moment.</string>
+    <string name="GiftOnchainErrorTransactionFailed">couldn&#8217;t prepare the transaction. please try again.</string>
+    <string name="GiftOnchainErrorSendFailed">the transaction wasn&#8217;t sent. please try again.</string>
+    <string name="GiftOnchainErrorOfferNotActive">this offer is no longer active.</string>
+    <string name="GiftErrorAlreadyTransferred">this gift has already been transferred.</string>
+    <string name="GiftOnchainErrorWalletUnavailable">gifts on fragment are bought and sold with your wallet. set up your wallet to continue.</string>
+    <string name="GiftOnchainErrorWalletUnavailableFixed">on-chain gifts are bought and sold with your wallet. set up your wallet to continue.</string>
+    <string name="GiftOnchainWalletTitle">wallet</string>
+    <string name="GiftOnchainOpenWallet">open my money</string>
+    <string name="GiftOnchainBuyConfirmTitle">confirm purchase</string>
+    <string name="GiftOnchainBuyConfirmText">buy **%1$s** on fragment for **%2$s**?</string>
+    <string name="GiftOnchainBuyConfirmTextFixed">buy **%1$s** for **%2$s**?</string>
+    <string name="GiftOnchainBuyConfirmButton">buy</string>
+    <string name="GiftOnchainSellConfirmText">put **%1$s** on sale on fragment for **%2$s**?</string>
+    <string name="GiftOnchainUnlistConfirmText">the gift will be removed from sale on fragment and stay in your wallet.</string>
+    <string name="GiftOnchainUnlistConfirmTextFixed">the gift will be removed from sale and stay in your wallet.</string>
+    <string name="GiftOnchainRowPrice">price</string>
+    <string name="GiftOnchainRowYouReceive">you receive</string>
+    <string name="GiftOnchainRowContractFee">contract fee</string>
+    <string name="GiftOnchainRowSeller">seller</string>
+    <string name="GiftOnchainRowNetworkFee">network fee</string>
+    <string name="GiftOnchainRowBuyer">buyer</string>
+    <string name="GiftOnchainOnSaleFor">on sale for %s</string>
+    <string name="GiftOnchainErrorUnsupported">this transaction can&#8217;t be signed by this version of telegram. please update the app.</string>
+    <string name="GiftOnchainOfferErrorTitle">offer</string>
+    <string name="GiftOnchainGramAmount">%s gram</string>
+    <string name="GiftOnchainNetworkFee">network fee: %s.</string>
+    <string name="GiftOnchainOfferBalance">balance: %s &gt;</string>
+    <string name="GiftOnchainOfferGramsToOffer">grams to offer</string>
+    <string name="GiftOnchainOfferGramsInfo">enter the number of grams you&#8217;d like to offer for **%s**.</string>
+    <string name="GiftOnchainOfferGramsLow">the offer is too low. the minimum offer for **%2$s** is **%1$s gram**.</string>
+    <string name="GiftOnchainOfferGramsHigh">the offer is too high. the maximum offer for **%2$s** is **%1$s gram**.</string>
+    <string name="GiftOnchainOfferInsufficient">insufficient funds. deposit funds &gt;</string>
+    <string name="GiftOnchainOfferDurationInfo">choose how long the owner has to accept your offer. when it expires, your grams will be automatically refunded.</string>
+    <string name="GiftOnchainOfferButton">offer %s gram</string>
+    <string name="GiftOnchainOfferConfirmTitle">confirm offer</string>
+    <string name="GiftOnchainOfferConfirmTextUser">do you want to make this offer to **%1$s** for **%2$s**?</string>
+    <string name="GiftOnchainOfferConfirmText">do you want to make this offer for **%1$s**?</string>
+    <string name="GiftOnchainOfferRowYourOffer">your offer</string>
+    <string name="GiftOnchainOfferRowPlatformFee">platform fee</string>
+    <string name="GiftOnchainOfferRowYouPay">you pay</string>
+    <string name="GiftOnchainOfferRowExpires">offer expires</string>
+    <string name="GiftOnchainOfferRefundNote">if the seller declines your offer or it expires, your grams will be automatically returned to you.</string>
+    <string name="GiftOnchainOfferSentTitle">offer sent</string>
+    <string name="GiftOnchainOfferSentText">**%1$s** held until %2$s.</string>
+    <string name="GiftOnchainOfferOut">you offered **%1$s** for **%2$s**.</string>
+    <string name="GiftOnchainOfferIn">you were offered **%1$s** (%2$s) for **%3$s**.</string>
+    <string name="GiftOnchainOfferInNoUsd">you were offered **%1$s** for **%2$s**.</string>
+    <string name="GiftOnchainOfferExpiresIn">the offer expires in\n**%s**</string>
+    <string name="GiftOnchainOfferStatusWithdrawn">the offer was withdrawn.</string>
+    <string name="GiftOnchainOfferStatusDeclined">the offer was declined.</string>
+    <string name="GiftOnchainOfferStatusExpired">the offer has expired.</string>
+    <string name="GiftOnchainOfferStatusAccepted">the offer was accepted.</string>
+    <string name="GiftOnchainOfferStatusSettled">the sale is being completed&#8230;</string>
+    <string name="GiftOnchainOfferStatusCancelling">the offer is being withdrawn&#8230;</string>
+    <string name="GiftOnchainOfferStatusExpiring">the offer is expiring&#8230;</string>
+    <string name="GiftOnchainOfferWithdraw">withdraw</string>
+    <string name="GiftOnchainOfferDecline">decline</string>
+    <string name="GiftOnchainOfferAccept">accept</string>
+    <string name="GiftOnchainOfferReview">review</string>
+    <string name="GiftOnchainOfferRibbonSold">sold</string>
+    <string name="GiftOnchainOfferNoteYouDeclined">you declined the offer</string>
+    <string name="GiftOnchainOfferNoteYouAccepted">you accepted the offer</string>
+    <string name="GiftOnchainOfferNoteYouSold">you sold **%1$s** for **%2$s**</string>
+    <string name="GiftOnchainOfferNoteDeclined">your offer of **%1$s** for **%2$s** was declined</string>
+    <string name="GiftOnchainOfferNoteAccepted">your offer of **%1$s** for **%2$s** was accepted</string>
+    <string name="GiftOnchainOfferNoteWithdrawn">you withdrew your offer of **%1$s** for **%2$s**</string>
+    <string name="GiftOnchainOfferSummaryYouDeclined">you declined the offer of **%1$s** for **%2$s**</string>
+    <string name="GiftOnchainOfferSummaryWithdrawn">the offer of **%1$s** for **%2$s** was withdrawn</string>
+    <string name="GiftOnchainOfferSummaryExpired">the offer of **%1$s** for **%2$s** has expired</string>
+    <string name="GiftOnchainOfferSummaryYourExpired">your offer of **%1$s** for **%2$s** has expired</string>
+    <string name="GiftOnchainOfferNoteRefunded">**%s** was returned to your wallet</string>
+    <string name="GiftOnchainOfferNoteFine">the early withdrawal fee was **%s**</string>
+    <string name="GiftOnchainOfferWithdrawTitle">withdraw offer?</string>
+    <string name="GiftOnchainOfferWithdrawFee">withdrawing early costs about **%1$s**.\n\nabout **%2$s** will be returned to you.</string>
+    <string name="GiftOnchainOfferWithdrawFree">about **%s** will be returned to you.</string>
+    <string name="GiftOnchainOfferWithdrawFor">withdraw for %s</string>
+    <string name="GiftOnchainOfferWithdrawSent">withdrawing your offer&#8230;</string>
+    <string name="GiftOnchainOfferDeclineTitle">decline offer</string>
+    <string name="GiftOnchainOfferDeclineText">decline the offer of **%1$s** for **%2$s**? the grams will be returned to the buyer.</string>
+    <string name="GiftOnchainOfferDeclined">offer declined.</string>
+    <string name="GiftOnchainOfferAcceptSent">you&#8217;ve accepted this offer. the sale is being completed.</string>
+    <string name="GiftOnchainOfferSellTitle">confirm sale</string>
+    <string name="GiftOnchainOfferSellText">sell **%1$s**\nfor **%2$s**?</string>
+    <string name="GiftOnchainOfferSellButton">sell</string>
+    <string name="GiftOnchainOfferSellSent">selling %s&#8230;</string>
+    <string name="GiftOnchainOfferSold">you sold %s!</string>
+    <string name="GiftOnchainOfferAcceptedToast">you accepted the offer for %s. the sale completes once the gift reaches the buyer.</string>
+    <string name="GiftOnchainOfferUnlistFirst">this gift is on sale. remove it from sale first to accept the offer.</string>
+    <string name="GiftOnchainOfferErrorAlreadyActive">you already have an active offer for this gift. to change it, withdraw it first.</string>
+    <string name="GiftOnchainOfferErrorTryAgain">couldn&#8217;t prepare the offer. please try again.</string>
+    <string name="GiftOnchainOfferFailed">the offer for %s wasn&#8217;t made: the transaction failed.</string>
+    <string name="GiftOnchainOfferWithdrawFailed">the offer for %s wasn&#8217;t withdrawn: the transaction failed.</string>
+    <string name="GiftOnchainOfferSellFailed">%s wasn&#8217;t sold: the transaction failed.</string>
+    <string name="GiftOnchainErrorBuyForSelfOnly">a gift listed on fragment can only be bought for yourself.</string>
+    <string name="GiftOnchainErrorBuyRecipient">this gift can&#8217;t be bought for this recipient.</string>
+    <string name="WalletOnchainGiftBoughtFor">bought for %s</string>
+    <string name="WalletOnchainGiftPutOnSale">put on sale</string>
+    <string name="WalletOnchainGiftRemovedFromSale">removed from sale</string>
+    <string name="WalletOnchainGiftPutOnSaleFor">put on sale for %s</string>
+    <string name="WalletOnchainGiftRepriced">repriced to %s</string>
+    <string name="WalletOnchainGiftStatusPriceChanged">repriced</string>
+    <string name="WalletOnchainGiftRowStatus">status</string>
+    <string name="WalletOnchainGiftTitle">gift market</string>
+    <string name="WalletOnchainGiftStatusPurchased">purchased</string>
+    <string name="WalletOnchainGiftStatusPutOnSale">put on sale</string>
+    <string name="WalletOnchainGiftStatusRemovedFromSale">removed from sale</string>
+    <string name="WalletOnchainGiftSoldFor">sold for %s</string>
+    <string name="WalletOnchainGiftOfferAcceptedFor">offer accepted for %s</string>
+    <string name="WalletOnchainGiftOfferSent">offer sent</string>
+    <string name="WalletOnchainGiftOfferCancelled">offer cancelled</string>
+    <string name="WalletOnchainGiftOfferDeclined">offer declined</string>
+    <string name="WalletOnchainGiftOfferExpired">offer expired</string>
+    <string name="WalletOnchainGiftStatusSold">sold</string>
+    <string name="WalletOnchainGiftStatusOfferAccepted">offer accepted</string>
+    <string name="GiftOnchainRowSellerShare">seller&#8217;s share</string>
+    <string name="GiftOnchainRowExpiration">expiration</string>
+    <string name="GiftOnchainRowOldPrice">old price</string>
+    <string name="GiftOnchainRowNewPrice">new price</string>
+    <string name="GiftOnchainRowCancellationFee">cancellation fee</string>
+    <string name="GramEarningsWithdrawTitle">withdraw %s</string>
+    <string name="GramEarningsWithdrawText">the grams will go to your self-custodial wallet (&#9881; settings &#8594; &#128142; money).</string>
+    <string name="GramEarningsTextWallet">your gram from gifts and ads.</string>
+    <string name="GramEarningsWithdrawButton">withdraw</string>
+    <string name="GramEarningsWithdrawSent">%s sent</string>
+    <string name="GramEarningsWithdrawSentText">check &#9881; settings &gt; &#128142; money</string>
+    <string name="GramEarningsWithdrawNoPassword">to withdraw grams, set up a two-step verification password in privacy and security first.</string>
+    <string name="GramEarningsWithdrawUnavailable">withdrawing to your wallet is not available yet. you can withdraw your grams using fragment.</string>
+    <string name="GramEarningsWithdrawDisabled">withdrawing gram earnings is not available for your account right now.</string>
+    <string name="GramEarningsWithdrawTryAgain">your password couldn\'t be confirmed. please try again.</string>
+    <string name="GramEarningsUseArrived">the grams from gram earnings are in your wallet. you can buy the gift now.</string>
+    <string name="GramEarningsWithdrawNothing">you have no grams to withdraw yet.</string>
+    <string name="GramEarningsUseTitle">use gram earnings?</string>
+    <string name="GramEarningsUseText">**%1$s** will be moved from gram earnings to your balance and used to buy this gift.</string>
+    <string name="GramEarningsUseMoving">moving grams from gram earnings to your wallet&#8230;</string>
+    <string name="GramEarningsUseLate">the grams from gram earnings are on their way to your wallet. buy the gift once they arrive.</string>
+    <string name="GramEarningsWithdrawOnlyTon">only grams can be withdrawn to your wallet.</string>
     <string name="Gift2AttributeOriginalDetails">gifted by %1$s to %2$s on %3$s.</string>
     <string name="Gift2AttributeOriginalDetailsComment">gifted by %1$s to %2$s on %3$s with the comment: \"%4$s\</string>
     <string name="Gift2AttributeOriginalDetailsSelf">saved by %1$s on %2$s.</string>
@@ -9748,6 +9958,8 @@
     <string name="ReplyDialogMessageAuthor">message author</string>
     <string name="ForwardDialogYourChannel">your channel</string>
     <string name="ReplyDialogYourChats">your chats</string>
+    <string name="ReplyDialogChannelDirect">message the channel</string>
+    <string name="ReplyDialogChannelDirectHint">send a direct message to the channel</string>
     <string name="SearchAdsAboutTitle">about these ads</string>
     <string name="SearchAdsAboutSubtitle">telegram ads are very different from ads on other platforms. ads such as this one:</string>
     <string name="SearchAdsAbout1Title">respect your privacy</string>
@@ -10931,6 +11143,18 @@
     <string name="ProfileBotManagedBy">created and managed by **@%s**</string>
     <string name="ManagedBotChatInfo">**%1$s** is ready!\n\ntap **start** below to test your new chatbot. its behavior is defined by **%2$s**.</string>
     <string name="CreateManagedBotLimitTitle">bot limit exceeded</string>
+    <string name="BotInviteToBot">invite to bot</string>
+    <string name="BotInviteDone">**%1$s** was invited to **%2$s**.</string>
+    <string name="BotInviteDoneMany_one">%1$d user was invited to **%2$s**.</string>
+    <string name="BotInviteDoneMany_other">%1$d users were invited to **%2$s**.</string>
+    <string name="BotInviteErrorAlreadyStarted">**%1$s** already has a chat with **%2$s**.</string>
+    <string name="BotInviteErrorAlreadyStartedMany">these users already have a chat with **%s**.</string>
+    <string name="BotInviteErrorFailed">sorry, you can\'t invite these users to **%s**.</string>
+    <string name="BotInviteErrorNotOwner">only the owner of **%s** can invite users to it.</string>
+    <string name="ActionBotInvite">un1 invited you to this bot</string>
+    <string name="ActionBotInviteUnknown">you were invited to this bot</string>
+    <string name="ProfileBotInvitedBy">invited by: **%s**</string>
+    <string name="ProfileBotCurrentOwner">current bot owner: **%s**</string>
     <string name="CreateManagedBotLimitTextTime">you can create another bot in %s.</string>
     <string name="CreateManagedBotLimitTextPremium">subscribe to **premium** to create up to %1$d bots, or delete one of your %2$d bots via @botfather</string>
     <string name="CreateManagedBotLimitText">you can create up to %d bots, or delete your current ones via @botfather</string>
@@ -11327,6 +11551,7 @@
     <string name="WalletTouchFingerprint">touch the fingerprint sensor to unlock your wallet.</string>
     <string name="WalletFingerprintRetry">fingerprint not recognized. try again.</string>
     <string name="WalletUnlock">unlock wallet</string>
+    
     <string name="WalletAddressCopied">wallet address copied to clipboard</string>
     <string name="WalletCollectible">collectible</string>
     <string name="WalletDepositFunds">deposit funds</string>
@@ -11515,6 +11740,7 @@
     <string name="WalletActionSentGramsShort">you sent **%1$s**</string>
     <string name="WalletActionReceivedGrams">un1 sent you **%1$s**</string>
     <string name="WalletActionReceivedGramsSomeone">someone sent you **%1$s**</string>
+    <string name="WalletActionReceivedGramsOnramp">you topped up **%1$s** via %2$s</string>
     <string name="WalletTransferWorth">%1$s (%2$s)</string>
     <string name="WalletCollectibleModelBackdrop">%1$s on %2$s</string>
     <string name="WalletConnectToApp">connect money to %1$s</string>
@@ -11586,6 +11812,7 @@
     <string name="NotificationGramTransferComment">%1$s sent you %2$s: %3$s</string>
     <string name="NotificationGramTransferUnknown">you received %2$s</string>
     <string name="NotificationGramTransferUnknownComment">you received %2$s: %3$s</string>
+    <string name="NotificationGramTransferOnramp">you topped up %1$s via %2$s</string>
     <string name="NotificationWalletTonConnectRequest">you have a ton connect request</string>
     <string name="NotificationWalletTonConnectRequestDapp">you have a ton connect request from %1$s</string>
 
@@ -11610,6 +11837,15 @@
     <string name="WalletGiftDragHere">drag this collectible here.</string>
     <string name="NewsTitle">news</string>
     <string name="NewsForYou">for you</string>
+    <string name="NewsReloadFeed">reload feed</string>
+    <string name="NewsInteresting">interesting</string>
+    <string name="NewsNotInterested">not interested</string>
+    <string name="NewsInterestingDone">you will see more posts like this.</string>
+    <string name="NewsNotInterestedDone">you will see fewer posts like this.</string>
+    <string name="NewsCompact">compact</string>
+    <string name="NewsExpanded">expanded</string>
+    <string name="NewsExpandPost">expand</string>
+    <string name="NewsCollapsePost">collapse</string>
     <string name="NewsInterests">what are you interested in?</string>
     <string name="NewsEmpty">no news yet</string>
     <string name="NewsCaughtUpTitle">you\'re all caught up!</string>
@@ -11696,6 +11932,17 @@
     <string name="AgentProviderConnected">%1$s connected!</string>
     <string name="AgentProviderConnectedText">you can now use %1$s.</string>
     <string name="AgentStart">start</string>
+    <string name="AgentModel">model</string>
+    <string name="AgentModelSearch">search models</string>
+    <string name="AgentModelsEmpty">no models found.</string>
+    <string name="AgentEffortTitle">reasoning effort</string>
+    <string name="AgentEffortFast">fast</string>
+    <string name="AgentEffortMedium">medium</string>
+    <string name="AgentEffortExpert">expert</string>
+    <string name="AgentEffortUltra">ultra</string>
+    <string name="AgentEffort">effort</string>
+    <string name="AgentModelsRecent">recent</string>
+    <string name="AgentModelsAll">all models</string>
     <string name="WidgetStopped">widget stopped</string>
     <string name="WidgetLoading">loading widget&#8230;</string>
     <string name="WidgetLoadFailed">widget failed to load</string>
@@ -11715,6 +11962,54 @@
     <string name="UnsupportedContent">unsupported content</string>
     <string name="LocationPoweredBy">powered by</string>
     <string name="SettingsExperimental">experimental</string>
+    <string name="FpnvConsentTitle">log in with sim card</string>
+    <string name="FpnvConsentText">telegram can confirm the phone number of this sim card with your carrier and log you in without a code.</string>
+    <string name="FpnvConsentContinue">continue</string>
+    <string name="FpnvConsentCarrier">carrier</string>
+    <string name="FpnvConsentSimSlot">sim slot</string>
+    <string name="FpnvConsentSimSlotValue">sim %1$d</string>
+    <string name="FpnvConsentPhoneNumber">phone number</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
   
 
@@ -12507,6 +12802,10 @@
   <string name="BotEmojiStatusSetRequestForMinute_few">%d minutes</string>
   <string name="BotEmojiStatusSetRequestForMinute_many">%d minutes</string>
   <string name="BotInvite">add to group</string>
+  <string name="BotInviteDoneMany_zero">%1$d users were invited to **%2$s**.</string>
+  <string name="BotInviteDoneMany_two">%1$d users were invited to **%2$s**.</string>
+  <string name="BotInviteDoneMany_few">%1$d users were invited to **%2$s**.</string>
+  <string name="BotInviteDoneMany_many">%1$d users were invited to **%2$s**.</string>
   <string name="BotMessagePreview">message preview</string>
   <string name="BotMoreTabs_zero">%2$s &amp; %1$d others</string>
   <string name="BotMoreTabs_two">%2$s &amp; %1$d others</string>
@@ -13490,6 +13789,10 @@
   <string name="GiftOfferHours_many">%d hours</string>
   <string name="GiftOfferOfferedTextStars">**%1$s** offered you **%2$s stars** for **%3$s**.</string>
   <string name="GiftOfferOfferedTextTON">**%1$s** offered you **%2$s grams** for **%3$s**.</string>
+  <string name="GiftOnchainOfferOwnerReceives">the owner will receive **%1$s gram** after the %2$s fee.</string>
+  <string name="GiftOnchainOfferOwnerReceivesNoFee">the owner will receive **%1$s gram**.</string>
+  <string name="GiftOnchainSellReceive">you will receive **%1$s gram** after the %2$s fee.</string>
+  <string name="GiftOnchainSellReceiveNoFee">you will receive **%1$s gram**.</string>
   <string name="GiftPremiumGiftsSent_zero">gifts sent!</string>
   <string name="GiftPremiumGiftsSent_two">gifts sent!</string>
   <string name="GiftPremiumGiftsSent_few">gifts sent!</string>
