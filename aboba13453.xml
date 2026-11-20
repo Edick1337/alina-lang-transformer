@@ -9597,7 +9597,7 @@
     <string name="GiftErrorAlreadyTransferred">this gift has already been transferred.</string>
     <string name="GiftOnchainErrorWalletUnavailable">gifts on fragment are bought and sold with your wallet. set up your wallet to continue.</string>
     <string name="GiftOnchainErrorWalletUnavailableFixed">on-chain gifts are bought and sold with your wallet. set up your wallet to continue.</string>
-    <string name="GiftOnchainWalletTitle">wallet</string>
+    <string name="GiftOnchainWalletTitle">money</string>
     <string name="GiftOnchainOpenWallet">open my money</string>
     <string name="GiftOnchainBuyConfirmTitle">confirm purchase</string>
     <string name="GiftOnchainBuyConfirmText">buy **%1$s** on fragment for **%2$s**?</string>
