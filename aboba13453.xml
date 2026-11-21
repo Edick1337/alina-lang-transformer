@@ -5616,20 +5616,20 @@
     <string name="BotRemoveInlineFromMenu">remove **%1$s** from suggestions?</string>
     <string name="BotWebViewRequestGeolocationPermission">allow **%1$s** to access your location?\n\nthe developer of **%1$s** will be able to access your location when this web app is open.</string>
     <string name="BotWebViewRequestGeolocationPermissionWithHint">allow **%1$s** to access your location?\n\nthe developer of **%1$s** will be able to access your location when this web app is open.\n\ngo to settings &gt; permissions and turn **location** on to share location data.</string>
-    <string name="WebViewRequestGeolocationPermission">allow **%1$s** to access to your location?\n\n**%1$s** will be able to access your location when this website is open.</string>
-    <string name="WebViewRequestGeolocationPermissionWithHint">allow **%1$s** to access to your location?\n\n**%1$s** will be able to access your location when this website is open.\n\ngo to settings &gt; permissions and turn **location** on to share location data.</string>
+    <string name="WebViewRequestGeolocationPermission">allow **%1$s** to access your location?\n\n**%1$s** will be able to access your location when this website is open.</string>
+    <string name="WebViewRequestGeolocationPermissionWithHint">allow **%1$s** to access your location?\n\n**%1$s** will be able to access your location when this website is open.\n\ngo to settings &gt; permissions and turn **location** on to share location data.</string>
     <string name="BotWebViewRequestMicrophonePermission">allow **%1$s** to access your microphone?\n\nthe developer of **%1$s** will be able to access your microphone when this web app is open.</string>
-    <string name="BotWebViewRequestMicrophonePermissionWithHint">allow **%1$s** to access to your microphone?\n\nthe developer of **%1$s** will be able to access your microphone when this web app is open.\n\nenable microphone access in settings &gt; permissions &gt; microphone.</string>
-    <string name="WebViewRequestMicrophonePermission">allow **%1$s** to access to your microphone?\n\n**%1$s** will be able to access your microphone when this website is open.</string>
-    <string name="WebViewRequestMicrophonePermissionWithHint">allow **%1$s** to access to your microphone?\n\n**%1$s** will be able to access your microphone when this website is open.\n\nenable microphone access in settings &gt; permissions &gt; microphone.</string>
+    <string name="BotWebViewRequestMicrophonePermissionWithHint">allow **%1$s** to access your microphone?\n\nthe developer of **%1$s** will be able to access your microphone when this web app is open.\n\nenable microphone access in settings &gt; permissions &gt; microphone.</string>
+    <string name="WebViewRequestMicrophonePermission">allow **%1$s** to access your microphone?\n\n**%1$s** will be able to access your microphone when this website is open.</string>
+    <string name="WebViewRequestMicrophonePermissionWithHint">allow **%1$s** to access your microphone?\n\n**%1$s** will be able to access your microphone when this website is open.\n\nenable microphone access in settings &gt; permissions &gt; microphone.</string>
     <string name="BotWebViewRequestCameraPermission">allow **%1$s** to access your camera?\n\nthe developer of **%1$s** will be able to access your camera when this web app is open.</string>
     <string name="BotWebViewRequestCameraPermissionWithHint">allow **%1$s** to access your camera?\n\nthe developer of **%1$s** will be able to access your camera when this web app is open.\n\nenable camera access in settings &gt; permissions &gt; camera.</string>
-    <string name="WebViewRequestCameraPermission">allow **%1$s** to access to your camera?\n\n**%1$s** will be able to access your camera when this website is open.</string>
-    <string name="WebViewRequestCameraPermissionWithHint">allow **%1$s** to access to your camera?\n\n**%1$s** will be able to access your camera when this website is open.\n\nenable camera access in settings &gt; permissions &gt; camera.</string>
-    <string name="BotWebViewRequestCameraMicPermission">allow **%1$s** to access to your camera and microphone?\n\nthe developer of **%1$s** will be able to access your camera and microphone when this web app is open.</string>
-    <string name="BotWebViewRequestCameraMicPermissionWithHint">allow **%1$s** to access to your camera and microphone?\n\nthe developer of **%1$s** will be able to access your camera and microphone when this web app is open.\n\nenable camera access in settings &gt; permissions &gt; camera.</string>
-    <string name="WebViewRequestCameraMicPermission">allow **%1$s** to access to your camera and microphone?\n\n**%1$s** will be able to access your camera and microphone when this website is open.</string>
-    <string name="WebViewRequestCameraMicPermissionWithHint">allow **%1$s** to access to your camera and microphone?\n\n**%1$s** will be able to access your camera and microphone when this website is open.\n\nenable camera access in settings &gt; permissions &gt; camera.</string>
+    <string name="WebViewRequestCameraPermission">allow **%1$s** to access your camera?\n\n**%1$s** will be able to access your camera when this website is open.</string>
+    <string name="WebViewRequestCameraPermissionWithHint">allow **%1$s** to access your camera?\n\n**%1$s** will be able to access your camera when this website is open.\n\nenable camera access in settings &gt; permissions &gt; camera.</string>
+    <string name="BotWebViewRequestCameraMicPermission">allow **%1$s** to access your camera and microphone?\n\nthe developer of **%1$s** will be able to access your camera and microphone when this web app is open.</string>
+    <string name="BotWebViewRequestCameraMicPermissionWithHint">allow **%1$s** to access your camera and microphone?\n\nthe developer of **%1$s** will be able to access your camera and microphone when this web app is open.\n\nenable camera access in settings &gt; permissions &gt; camera.</string>
+    <string name="WebViewRequestCameraMicPermission">allow **%1$s** to access your camera and microphone?\n\n**%1$s** will be able to access your camera and microphone when this website is open.</string>
+    <string name="WebViewRequestCameraMicPermissionWithHint">allow **%1$s** to access your camera and microphone?\n\n**%1$s** will be able to access your camera and microphone when this website is open.\n\nenable camera access in settings &gt; permissions &gt; camera.</string>
     <string name="ErrorRingtoneDurationTooLong">maximum length is %s seconds.</string>
     <string name="ErrorRingtoneSizeTooBig">size must be under %s kb.</string>
     <string name="ErrorRingtoneInvalidFormat">file must be in mp3 or ogg format.</string>
@@ -9600,7 +9600,7 @@
     <string name="GiftOnchainWalletTitle">money</string>
     <string name="GiftOnchainOpenWallet">open my money</string>
     <string name="GiftOnchainBuyConfirmTitle">confirm purchase</string>
-    <string name="GiftOnchainBuyConfirmText">buy **%1$s** on fragment for **%2$s**?</string>
+    <string name="GiftOnchainBuyConfirmText">buy **%1$s** for **%2$s**?</string>
     <string name="GiftOnchainBuyConfirmTextFixed">buy **%1$s** for **%2$s**?</string>
     <string name="GiftOnchainBuyConfirmButton">buy</string>
     <string name="GiftOnchainSellConfirmText">put **%1$s** on sale on fragment for **%2$s**?</string>
@@ -11970,46 +11970,45 @@
     <string name="FpnvConsentSimSlotValue">sim %1$d</string>
     <string name="FpnvConsentPhoneNumber">phone number</string>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <string name="SpeechToTextTitle">speech to text</string>
+    <string name="SpeechToTextSettingsSubtitle">voice message transcription and dictation</string>
+    <string name="SpeechToTextSettings">settings</string>
+    <string name="SpeechToTextAutoDetect">auto-detect</string>
+    <string name="SpeechToTextOnDevice">on-device transcription</string>
+    <string name="SpeechToTextOnDeviceInfo">voice messages are transcribed on this phone. private: nothing leaves it.</string>
+    <string name="SpeechToTextLearnMore">**learn more** &gt;</string>
+    <string name="SpeechToTextLanguages">languages</string>
+    <string name="SpeechToTextGoogleFallback">fallback to google</string>
+    <string name="SpeechToTextGoogleFallbackInfo">for other languages, the app can use system speech recognition. this might send your voice data to google or other vendor servers.</string>
+    <string name="SpeechToTextDeleteModels">delete all models</string>
+    <string name="SpeechToTextDeleteTranscriptions">delete all local transcriptions</string>
+    <string name="SpeechToTextTranscriptionsDeleted_one">%1$d local transcription deleted</string>
+    <string name="SpeechToTextTranscriptionsDeleted_other">%1$d local transcriptions deleted</string>
+    <string name="SpeechToTextDownload">download</string>
+    <string name="SpeechToTextUpdate">update</string>
+    <string name="SpeechToTextPrivacyTitle">private by design</string>
+    <string name="SpeechToTextPrivacySubtitle">voice messages turn into text\nright here, on your phone.</string>
+    <string name="SpeechToTextPrivacyOnPhone">recognized on your phone</string>
+    <string name="SpeechToTextPrivacyOnPhoneText">speech turns into text right on this phone, even offline.</string>
+    <string name="SpeechToTextPrivacyNothingLeaves">nothing leaves the phone</string>
+    <string name="SpeechToTextPrivacyNothingLeavesText">your voice and its text are never sent to a server for this.</string>
+    <string name="SpeechToTextPrivacyCompact">compact languages</string>
+    <string name="SpeechToTextPrivacyCompactText">about 30 mb per language. keep only the ones you need.</string>
+    <string name="SpeechToTextPrivacyDemo">hey! running ten minutes late, see you at the caf&#233; near the station</string>
+    <string name="SpeechToTextListening">listening&#8230;</string>
+    <string name="SpeechToTextDownloadingModel">downloading model&#8230;</string>
+    <string name="SpeechToTextDownloadingModels">downloading models&#8230; %1$d / %2$d mb</string>
+    <string name="SpeechToTextDownloadProgress">%1$d / %2$d mb</string>
+    <string name="SpeechToTextDetecting">detecting&#8230;</string>
+    <string name="SpeechToTextNoText">no text recognized</string>
+    <string name="SpeechToTextEnhance">enhance</string>
+    <string name="SpeechToTextEnhancing">enhancing&#8230;</string>
+    <string name="SpeechToTextApplyingStyle">%1$s&#8230;</string>
+    <string name="SpeechToTextAllStyles">all styles</string>
+    <string name="SpeechToTextSendAsText">send as text</string>
+    <string name="SpeechToTextLiveCaptions">live captions</string>
+    <string name="SpeechToTextLiveCaptionsOn">enabled</string>
+    <string name="SpeechToTextLiveCaptionsOff">disabled</string>
 
   
 
@@ -13789,7 +13788,6 @@
   <string name="GiftOfferHours_many">%d hours</string>
   <string name="GiftOfferOfferedTextStars">**%1$s** offered you **%2$s stars** for **%3$s**.</string>
   <string name="GiftOfferOfferedTextTON">**%1$s** offered you **%2$s grams** for **%3$s**.</string>
-  <string name="GiftOnchainOfferOwnerReceives">the owner will receive **%1$s gram** after the %2$s fee.</string>
   <string name="GiftOnchainOfferOwnerReceivesNoFee">the owner will receive **%1$s gram**.</string>
   <string name="GiftOnchainSellReceive">you will receive **%1$s gram** after the %2$s fee.</string>
   <string name="GiftOnchainSellReceiveNoFee">you will receive **%1$s gram**.</string>
@@ -15009,6 +15007,10 @@
   <string name="SmsSubscribeTitle">premium for free</string>
   <string name="SmsToS">terms of service</string>
   <string name="SmsTotalSent">total sms sent</string>
+  <string name="SpeechToTextTranscriptionsDeleted_zero">%1$d local transcriptions deleted</string>
+  <string name="SpeechToTextTranscriptionsDeleted_two">%1$d local transcriptions deleted</string>
+  <string name="SpeechToTextTranscriptionsDeleted_few">%1$d local transcriptions deleted</string>
+  <string name="SpeechToTextTranscriptionsDeleted_many">%1$d local transcriptions deleted</string>
   <string name="SponsoredMessageAlertText">unlike other apps, telegram never uses your private data to target ads. no user data is mined or analyzed to display ads, and every user viewing a channel on telegram sees the same sponsored message. we believe that everyone has the right to privacy, and technological platforms should respect that.</string>
   <string name="SponsoredMessageAlertTitle">sponsored messages</string>
   <string name="SponsoredMessageInfoDescription1">unlike other apps, telegram never uses your private data to target ads. sponsored messages on telegram are based solely on the topic of the public channels in which they are shown. this means that no user data is mined or analyzed to display ads, and every user viewing a channel on telegram sees the same sponsored messages.</string>
