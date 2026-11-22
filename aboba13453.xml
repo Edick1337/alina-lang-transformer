@@ -11975,7 +11975,7 @@
     <string name="SpeechToTextSettings">settings</string>
     <string name="SpeechToTextAutoDetect">auto-detect</string>
     <string name="SpeechToTextOnDevice">on-device transcription</string>
-    <string name="SpeechToTextOnDeviceInfo">voice messages are transcribed on this phone. private: nothing leaves it.</string>
+    <string name="SpeechToTextOnDeviceInfo">voice messages are transcribed on this device. private: nothing leaves it.</string>
     <string name="SpeechToTextLearnMore">**learn more** &gt;</string>
     <string name="SpeechToTextLanguages">languages</string>
     <string name="SpeechToTextGoogleFallback">fallback to google</string>
@@ -11987,10 +11987,10 @@
     <string name="SpeechToTextDownload">download</string>
     <string name="SpeechToTextUpdate">update</string>
     <string name="SpeechToTextPrivacyTitle">private by design</string>
-    <string name="SpeechToTextPrivacySubtitle">voice messages turn into text\nright here, on your phone.</string>
-    <string name="SpeechToTextPrivacyOnPhone">recognized on your phone</string>
-    <string name="SpeechToTextPrivacyOnPhoneText">speech turns into text right on this phone, even offline.</string>
-    <string name="SpeechToTextPrivacyNothingLeaves">nothing leaves the phone</string>
+    <string name="SpeechToTextPrivacySubtitle">voice messages turn into text\nright here, on your device.</string>
+    <string name="SpeechToTextPrivacyOnPhone">recognized on your device</string>
+    <string name="SpeechToTextPrivacyOnPhoneText">speech turns into text right on this device, even offline.</string>
+    <string name="SpeechToTextPrivacyNothingLeaves">nothing leaves the device</string>
     <string name="SpeechToTextPrivacyNothingLeavesText">your voice and its text are never sent to a server for this.</string>
     <string name="SpeechToTextPrivacyCompact">compact languages</string>
     <string name="SpeechToTextPrivacyCompactText">about 30 mb per language. keep only the ones you need.</string>
