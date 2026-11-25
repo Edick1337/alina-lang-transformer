@@ -9700,7 +9700,7 @@
     <string name="WalletOnchainGiftSoldFor">sold for %s</string>
     <string name="WalletOnchainGiftOfferAcceptedFor">offer accepted for %s</string>
     <string name="WalletOnchainGiftOfferSent">offer sent</string>
-    <string name="WalletOnchainGiftOfferCancelled">offer cancelled</string>
+    <string name="WalletOnchainGiftOfferCancelled">offer canceled</string>
     <string name="WalletOnchainGiftOfferDeclined">offer declined</string>
     <string name="WalletOnchainGiftOfferExpired">offer expired</string>
     <string name="WalletOnchainGiftStatusSold">sold</string>
@@ -9712,7 +9712,7 @@
     <string name="GiftOnchainRowCancellationFee">cancellation fee</string>
     <string name="GramEarningsWithdrawTitle">withdraw %s</string>
     <string name="GramEarningsWithdrawText">the grams will go to your self-custodial wallet (&#9881; settings &#8594; &#128142; money).</string>
-    <string name="GramEarningsTextWallet">your gram from gifts and ads.</string>
+    <string name="GramEarningsTextWallet">your grams from gifts and ads.</string>
     <string name="GramEarningsWithdrawButton">withdraw</string>
     <string name="GramEarningsWithdrawSent">%s sent</string>
     <string name="GramEarningsWithdrawSentText">check &#9881; settings &gt; &#128142; money</string>
@@ -11975,7 +11975,7 @@
     <string name="SpeechToTextSettings">settings</string>
     <string name="SpeechToTextAutoDetect">auto-detect</string>
     <string name="SpeechToTextOnDevice">on-device transcription</string>
-    <string name="SpeechToTextOnDeviceInfo">voice messages are transcribed on this device. private: nothing leaves it.</string>
+    <string name="SpeechToTextOnDeviceInfo">voice messages are transcribed privately &#8211; nothing leaves this device.</string>
     <string name="SpeechToTextLearnMore">**learn more** &gt;</string>
     <string name="SpeechToTextLanguages">languages</string>
     <string name="SpeechToTextGoogleFallback">fallback to google</string>
@@ -11991,7 +11991,7 @@
     <string name="SpeechToTextPrivacyOnPhone">recognized on your device</string>
     <string name="SpeechToTextPrivacyOnPhoneText">speech turns into text right on this device, even offline.</string>
     <string name="SpeechToTextPrivacyNothingLeaves">nothing leaves the device</string>
-    <string name="SpeechToTextPrivacyNothingLeavesText">your voice and its text are never sent to a server for this.</string>
+    <string name="SpeechToTextPrivacyNothingLeavesText">your voice and its text are never sent to any server.</string>
     <string name="SpeechToTextPrivacyCompact">compact languages</string>
     <string name="SpeechToTextPrivacyCompactText">about 30 mb per language. keep only the ones you need.</string>
     <string name="SpeechToTextPrivacyDemo">hey! running ten minutes late, see you at the caf&#233; near the station</string>
